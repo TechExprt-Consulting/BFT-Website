@@ -89,7 +89,7 @@ const About = () => {
                 to sustain, is a skillful and strategic navigation through the
                 ever-shifting market terrain.
               </p><br/><br/>
-              <p style={{fontSize:"20px"}}>Businesses who have adapted to the technological changes and a strategic vision, often gain a competitive advantage and withstand the test of time. We leverage our expertise in technology, AI, market research, data analysis, strategy and marketing communications to help our clients optimize their business models and propelling their revenues and growth plans.</p>
+              <p style={{fontSize:"20px"}}>Businesses who have ahdapted to the technological changes and a strategic vision, often gain a competitive advantage and withstand the test of time. We leverage our expertise in technology, AI, market research, data analysis, strategy and marketing communications to help our clients optimize their business models and propelling their revenues and growth plans.</p>
               
             </div>
           </div>
