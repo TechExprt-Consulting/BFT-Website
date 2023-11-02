@@ -3,7 +3,11 @@ import "./Service.css";
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-
+import Accordion from "@mui/material/Accordion";
+import AccordionSummary from "@mui/material/AccordionSummary";
+import AccordionDetails from "@mui/material/AccordionDetails";
+import Typography from "@mui/material/Typography";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 const Digital = () => {
   return (
     <div className="mil-wrapper">
@@ -16,10 +20,10 @@ const Digital = () => {
           alt="background"
           className="mil-background-image"
         />
-        <div
+        {/* <div
           className="mil-deco mil-deco-accent"
           style={{ top: "47%", right: "10%", transform: "rotate(90deg)" }}
-        ></div>
+        ></div> */}
         <div className="mil-banner-content">
           <div className="container mil-relative">
             <ul className="mil-breadcrumbs mil-mb-30">
@@ -33,7 +37,14 @@ const Digital = () => {
                 <Link to="/Salesforce">Digital Marketing</Link>
               </li>
             </ul>
+            <div className="d-flex">
+            <div className="d-flex row">
             <h2 className="mil-uppercase">Digital Marketing</h2>
+            
+            <p className="col-md-8 conten">When developing your digital marketing strategies, we dedicate hours to understand your business, market and industry so we can build a plan that aligns with your business objective and goals. Today, businesses are adapting and exploring the digital terrain at a rate faster than ever, globally over 60% of the businesses have their digital presence established. We help you get the best data-backed strategy and engaging creative appeal to your campaigns which makes you stand out from your competitors.</p>
+            </div>
+            <img src="assets/project/1.png" alt="mus" className="col-md-4"/>
+            </div>
           </div>
         </div>
       </div>
@@ -45,28 +56,325 @@ const Digital = () => {
           className="mil-deco"
           style={{ bottom: "0", right: "25%", transform: "rotate(180deg)" }}
         ></div>
-        <div className="container">
-          <div className="row">
-            <div className="">
-              <div className=" mil-mb-30">
-                <p>
-                  <h5>Let's grow digitally</h5>
-                  Got a business idea but struggling to stand out in the market?
-                  Let's help you scale your business and grow at an unprecedent
-                  rate. We are a team of digital geeks working our way through
-                  changing algorithms of the digital world, providing our
-                  clients with the best campaign results.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+        
       </section>
       {/* <!-- call to action end --> */}
 
-      <div className="container">
+
+
+      <div className="mil-icon-box mil-center mil-mb-60 mt-5">
+        CHALLENGES
+        <h2 className="mil-mb-20 mt-2 " >What is your challenge today?</h2>
+        <p className="h5">
+          Explore the challenges that connect to your situation. We can work
+          together to <br />
+          chart the best path forward for your specific organization and
+          circumstance.
+        </p>
+      </div>
+      
+        <div className="container">
+        <Accordion style={{ backgroundColor: "#1B2F5B",marginBottom:"20px",color:"white"}}>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel1a-content"
+            id="panel1a-header"
+            className="" 
+          >
+            <Typography>HOW TO DO DIGITAL MARKETING?</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+            Most people think that digital marketing is all about posting content on social handles, while they are right to a certain extent yet they miss out on the vast landscape of digital marketing. Digital marketing is a combination of data, strategy and creativity put together to yield the best results for the business.
+            </Typography>
+            <h6 className="mt-4 mb-4 text-white font-weight-500 ">
+            Services that can help you enhance your digital presence - 
+            </h6>
+            <div className="col-md-11 d-flex">
+            <div className="col-md-7">
+            <div>
+            Social Media Marketing
+              <Link to="/deveops" class="mil-link3 link-right">
+                <i class="fas fa-arrow-right"></i>
+              </Link>
+            </div>{" "}
+            
+           
+            <div>
+            PPC
+              <Link to="/deveops" class="mil-link3 link-right">
+                <i class="fas fa-arrow-right"></i>
+              </Link>
+            </div>
+            <div>
+            SEO
+              <Link to="/deveops" class="mil-link3 link-right">
+                <i class="fas fa-arrow-right"></i>
+              </Link>
+            </div>
+            </div>
+            <div className="col-md-4">
+            <div>
+            Web and App Development 
+              <Link to="/deveops" class="mil-link3 link-right">
+                <i class="fas fa-arrow-right"></i>
+              </Link>
+            </div>
+
+            </div>
+            </div>
+          </AccordionDetails>
+        </Accordion>
+        <Accordion style={{ backgroundColor: "#1B2F5B",marginBottom:"20px",color:"white"}}>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel1a-content"
+            id="panel1a-header"
+            className="" 
+          >
+            <Typography>HOW TO ENHANCE YOUR DIGITAL MARKETING CAMPAIGNS ? </Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+            To succeed on digital platforms it is essential that one has the understanding of the algorithms of these platforms. Creating a campaign without knowing the algorithm, is more like enrouting to a destination in a foreign country without navigation.
+            </Typography>
+            <h6 className="mt-4 mb-4 text-white font-weight-500">
+            Services that can help you enhance your digital presence -
+            </h6>
+            <div className="col-md-11 d-flex">
+            <div className="col-md-7">
+            <div>
+            Google Analytics 
+              <Link to="/deveops" class="mil-link3 link-right">
+                <i class="fas fa-arrow-right"></i>
+              </Link>
+            </div>{" "}
+            
+           
+            <div>
+            Trend Analysis
+              <Link to="/deveops" class="mil-link3 link-right">
+                <i class="fas fa-arrow-right"></i>
+              </Link>
+            </div>
+            <div>
+            Data Analytics
+              <Link to="/deveops" class="mil-link3 link-right">
+                <i class="fas fa-arrow-right"></i>
+              </Link>
+            </div>
+            </div>
+            <div className="col-md-4">
+            <div>
+            Creative Strategy
+              <Link to="/deveops" class="mil-link3 link-right">
+                <i class="fas fa-arrow-right"></i>
+              </Link>
+            </div>
+            <div>
+            Social Media Strategy
+              <Link to="/deveops" class="mil-link3 link-right">
+                <i class="fas fa-arrow-right"></i>
+              </Link>
+            </div>
+            </div>
+            </div>
+          </AccordionDetails>
+        </Accordion>
+        <Accordion style={{ backgroundColor: "#1B2F5B",marginBottom:"20px",color:"white"}}>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel1a-content"
+            id="panel1a-header"
+            className="" 
+          >
+            <Typography>HOW TO IDENTIFY THE MARKET TRENDS ON DIGITAL PLATFORMS? </Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+            Walking with the trends is yet another important aspect of digital marketing. If you want to ace your digital game, you cannot afford to miss the trends.
+            </Typography>
+            <h6 className="mt-4 mb-4 text-white font-weight-500">
+            Services that can help you enhance your digital presence -
+            </h6>
+            <div className="col-md-11 d-flex">
+            <div className="col-md-7">
+            <div>
+            Trend Analysis
+              <Link to="/deveops" class="mil-link3 link-right">
+                <i class="fas fa-arrow-right"></i>
+              </Link>
+            </div>{" "}
+            
+           
+            <div>
+            Competitive Analysis
+              <Link to="/deveops" class="mil-link3 link-right">
+                <i class="fas fa-arrow-right"></i>
+              </Link>
+            </div>
+            
+            </div>
+            
+            </div>
+          </AccordionDetails>
+        </Accordion>
+        <Accordion style={{ backgroundColor: "#1B2F5B",marginBottom:"20px",color:"white"}}>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel1a-content"
+            id="panel1a-header"
+            className="" 
+          >
+            <Typography>HOW TO OPTIMIZE ON-PAGE SEO? </Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+            SEO is one of the most talked and wanted services in Digital Marketing. To optimize on-page SEO one should work on high quality niche backlinks, fastest load time, SERPs inspired content and list of other 
+            </Typography>
+            <h6 className="mt-2 mb-2 text-white font-weight-500">
+            Services that can help you optimize your on-page SEO - 
+            </h6>
+            <div className="col-md-11 d-flex">
+            <div className="col-md-7">
+            <div>
+            Keyword Research
+              <Link to="/deveops" class="mil-link3 link-right">
+                <i class="fas fa-arrow-right"></i>
+              </Link>
+            </div>{" "}
+            
+           
+            <div>
+            Content Writing
+              <Link to="/deveops" class="mil-link3 link-right">
+                <i class="fas fa-arrow-right"></i>
+              </Link>
+            </div>
+            <div>
+            Website Development
+              <Link to="/deveops" class="mil-link3 link-right">
+                <i class="fas fa-arrow-right"></i>
+              </Link>
+            </div>
+            </div>
+           
+            </div>
+          </AccordionDetails>
+        </Accordion>
+        <Accordion style={{ backgroundColor: "#1B2F5B",marginBottom:"20px",color:"white"}}>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel1a-content"
+            id="panel1a-header"
+            className=""
+            style={{color:'white'}} 
+          >
+            <Typography>WHAT IS BETTER PPC OR FACEBOOK ADS? </Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+            PPC and Facebook ads both are crucial, however depending on the purpose of the campaign, one of the two or a mix is chosen. For instance if the ad has to be targeted to a well-defined set of audience then Facebook ads are preferred however if the target audience is not defined and very vast then google ads are more preferable. The choice is further refined on a list of other parameters as well. 
+            </Typography>
+            <h6 className="mt-4 mb-4 text-white font-weight-500">
+            Services that can help you enhance your digital presence -
+            </h6>
+            <div className="col-md-11 d-flex">
+            <div className="col-md-7">
+            <div>
+            PPC Campaigns
+              <Link to="/deveops" class="mil-link3 link-right">
+                <i class="fas fa-arrow-right"></i>
+              </Link>
+            </div>{" "}
+            
+           
+            <div>
+            Social Media Marketing
+              <Link to="/deveops" class="mil-link3 link-right">
+                <i class="fas fa-arrow-right"></i>
+              </Link>
+            </div>
+            <div>
+            Google Analytics 
+              <Link to="/deveops" class="mil-link3 link-right">
+                <i class="fas fa-arrow-right"></i>
+              </Link>
+            </div>
+            </div>
+            <div className="col-md-4">
+            <div>
+            Google Ads
+              <Link to="/deveops" class="mil-link3 link-right">
+                <i class="fas fa-arrow-right"></i>
+              </Link>
+            </div>
+           
+            </div>
+            </div>
+          </AccordionDetails>
+        </Accordion>
+        <Accordion style={{ backgroundColor: "#1B2F5B",marginBottom:"20px",color:"white"}}>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel1a-content"
+            id="panel1a-header"
+            className="" 
+          >
+            <Typography>WHAT MARKETING WORKS THE BEST FOR SMALL BUISNESSES? </Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+            Small businesses have limited marketing spend and so it is crucial for them to choose a marketing mix that fits the budget and serves the purpose as well. 
+            </Typography>
+            <h6 className="mt-4 mb-4 text-white font-weight-500">
+            Services that can be the best suit for small businesses are - 
+            </h6>
+            <div className="col-md-11 d-flex">
+            <div className="col-md-7">
+            <div>
+            Content Marketing 
+              <Link to="/deveops" class="mil-link3 link-right">
+                <i class="fas fa-arrow-right"></i>
+              </Link>
+            </div>{" "}
+            
+           
+            <div>
+            Email Marketing 
+              <Link to="/deveops" class="mil-link3 link-right">
+                <i class="fas fa-arrow-right"></i>
+              </Link>
+            </div>
+            <div>
+            SEO
+              <Link to="/deveops" class="mil-link3 link-right">
+                <i class="fas fa-arrow-right"></i>
+              </Link>
+            </div>
+            </div>
+            <div className="col-md-4">
+            <div>
+            <span className="mil-suptitle mil-suptitle-2 mil-mb-30 text-white">
+              Services and Solutions
+            </span>
+             
+            </div>
+            <div>
+            Networking
+              <Link to="/deveops" class="mil-link3 link-right">
+                <i class="fas fa-arrow-right"></i>
+              </Link>
+            </div>
+            </div>
+            </div>
+          </AccordionDetails>
+        </Accordion>
+        </div>
+        <div className="container">
         <div className="mil-divider"></div>
       </div>
+      
 
       {/* <!-- steps --> */}
       <section className="mt-4">
@@ -77,9 +385,7 @@ const Digital = () => {
         <div className="container">
           <div className="row">
             <div className="col-12 mil-mb-90 ">
-              <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
-                Services and Solutions
-              </span>
+              
               <h2 className="mil-mb-30">Our Expertise</h2>
               <p className="mil-dark">
                 We understand every business needs a unique solution. Our team
@@ -103,7 +409,7 @@ const Digital = () => {
                   But don’t worry, our team of experts has got you all covered.
                 </p>
                 <Link
-                      to="/"
+                      to="/seo"
                       class="mil-link2 link-right mil-mb-30"
                     >
                       <i class="fas fa-arrow-right"></i>
@@ -122,7 +428,7 @@ const Digital = () => {
                   business. Together let’s give the city a new buzz to gossip.
                 </p><br/><br/>
                 <Link
-                      to="/"
+                      to="/socialMedia"
                       class="mil-link2 link-right mil-mb-30"
                     >
                       <i class="fas fa-arrow-right"></i>
@@ -141,7 +447,7 @@ const Digital = () => {
                   convert visitors into customers cost-effectively.
                 </p><br/><br/>
                 <Link
-                      to="/"
+                      to="/ppc"
                       class="mil-link2 link-right mil-mb-30"
                     >
                       <i class="fas fa-arrow-right"></i>
@@ -161,7 +467,7 @@ const Digital = () => {
                   connects with your audience.
                 </p>
                 <Link
-                      to="/"
+                      to="/contentMarketing"
                       class="mil-link2 link-right mil-mb-30"
                     >
                       <i class="fas fa-arrow-right"></i>
@@ -180,7 +486,7 @@ const Digital = () => {
                   strategies to help you stay ahead in the game.
                 </p>
                 <Link
-                      to="/"
+                      to="/marketResearch"
                       class="mil-link2 link-right mil-mb-30"
                     >
                       <i class="fas fa-arrow-right"></i>
@@ -199,7 +505,7 @@ const Digital = () => {
                   encourages action.
                 </p><br/>
                 <Link
-                      to="/"
+                      to="/contentWriting"
                       class="mil-link2 link-right mil-mb-30"
                     >
                       <i class="fas fa-arrow-right"></i>
@@ -249,7 +555,7 @@ const Digital = () => {
             <h3 class="mil-light mil-mb-30">
               Your Path to Success Starts Here{" "}
             </h3>
-            <p class="mil-mb-60">
+            <p class="mil-light-soft mil-mb-60">
               Our services are designed to empower small businesses,
               professionals, entrepreneurs, and mid-size businesses to achieve
               their digital marketing goals. We don't believe in
@@ -262,7 +568,7 @@ const Digital = () => {
             <h3 class="mil-light mil-mb-30">
               Digital Marketing Services That Drive Results{" "}
             </h3>
-            <p class="mil-mb-60">
+            <p class="mil-light-soft mil-mb-60">
               Our focus on Search Engine Optimization, Social Media Marketing,
               pay-per-click, Content Marketing, Market Research, Content
               Writing, and copywriting means we can provide you with a holistic
@@ -271,7 +577,7 @@ const Digital = () => {
             </p>
 
             <h3 class="mil-light mil-mb-30">Targeting Your Business Growth </h3>
-            <p class="mil-mb-60">
+            <p class="mil-light-soft mil-mb-60">
               Our digital marketing strategies are built around your specific
               audience. Whether you're a small business looking to attract local
               customers or a mid-size business aiming to expand globally, we
@@ -282,7 +588,7 @@ const Digital = () => {
             <h3 class=" mil-light mil-mb-30">
               Get Your Business to New Heights{" "}
             </h3>
-            <p class="mil-mb-60">
+            <p class="mil-light-soft mil-mb-60">
               If you're ready to take your business to new heights, it's time to
               harness the power of digital marketing. Contact us today and
               discover how our experienced team and local focus can make a real

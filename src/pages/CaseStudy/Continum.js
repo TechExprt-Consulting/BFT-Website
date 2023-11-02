@@ -55,7 +55,7 @@ const Continuum = () => {
             <div class="col-lg-7 col-xl-8">
               {/* <span class="mil-suptitle mil-suptitle-2 mil-mb-30">Overviews</span> */}
               <h3 class="mil-mb-30">Overviews</h3>
-              <p class="mil-mb-60">
+              <p class="mil-mb-60 conten">
                 Continuum was just an idea where our client wanted to work
                 rigorously on providing solutions to efface the hurdles of the
                 B2B manual return process. His mission is to ease the process
@@ -118,7 +118,7 @@ const Continuum = () => {
       <section class="mil-p-120-60">
         <div class="container">
           <div class="row justify-content-between align-items-center">
-            <div class="col-xl-5 mil-mb-60">
+            <div class="col-xl-5 mil-mb-60 conten">
               <h3 class="mil-mb-30">The Solution</h3>
 
               <div class="mil-icon-box-head mil-long mil-mb-15">
@@ -188,7 +188,7 @@ const Continuum = () => {
             <div class="">
               <h2 class="mil-mb-30">Conclusion</h2>
 
-              <p>
+              <p className="conten">
                 With Continuum, we achieved a hassle-free B2B return model. A
                 user-friendly interface for customers to access purchase order
                 details and initiate the returns process, enabled a quick

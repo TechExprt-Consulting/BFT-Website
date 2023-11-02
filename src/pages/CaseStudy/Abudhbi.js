@@ -55,7 +55,7 @@ const AbuDhabi = () => {
             <div class="col-lg-7 col-xl-8">
               {/* <span class="mil-suptitle mil-suptitle-2 mil-mb-30">Overviews</span> */}
               <h3 class="mil-mb-30">Overviews</h3>
-              <p class="mil-mb-60">
+              <p class="mil-mb-60 conten">
                 Abu Dhabi University is the largest private university in the
                 UAE. It is one of the region’s leading academic institutions and
                 ranks in the top 3 universities in the UAE. The university
@@ -91,7 +91,7 @@ const AbuDhabi = () => {
                   <ul class="mil-check-icon-list">
                     <li>
                     <img src="assets/icon/sm/1.svg" alt="icon" />
-                      <span class="mil-dark">
+                      <span class="mil-dark conten">
                         Certificate generation and verification application
                         should be a blockchain-based solution (The system) to be
                         made available on the ADU domain adu.ac.ae{" "}
@@ -114,7 +114,7 @@ const AbuDhabi = () => {
       <section class="mil-p-120-60">
         <div class="container">
           <div class="row justify-content-between align-items-center">
-            <div class="col-xl-5 mil-mb-60">
+            <div class="col-xl-5 mil-mb-60 conten">
               <h3 class="mil-mb-30">The Solution</h3>
 
               <div class="mil-icon-box-head mil-long mil-mb-15">
@@ -153,7 +153,7 @@ const AbuDhabi = () => {
             <div class="">
               <h2 class="mil-mb-30">Conclusion</h2>
 
-              <p>
+              <p className="conten">
                 With Continuum, we achieved a hassle-free B2B return model. A
                 user-friendly interface for customers to access purchase order
                 details and initiate the returns process, enabled a quick

@@ -76,9 +76,9 @@ const Ppc = () => {
       <div className="container">
         <div className="row">
           <div className="col-12 mil-mb-90 ">
-            <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
+            {/* <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
               Services and Solutions
-            </span>
+            </span> */}
             <h2 className="mil-mb-30">Our Comprehensive PPC Services   </h2>
             <p className="mil-dark">
             At BytesFarms Technologies, we offer a comprehensive suite of PPC services to help you maximize your ROI:   </p>

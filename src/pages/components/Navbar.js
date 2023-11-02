@@ -56,7 +56,9 @@ const Navbar = () => {
                       </li>
                     </ul>
                   </li>
-
+                  <li>
+                    <Link to="/tech">Technologies</Link>
+                  </li>
                   <li className="mil-has-children">
                     <Link to="/">Services</Link>
                     <ul>

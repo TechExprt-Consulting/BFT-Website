@@ -76,9 +76,7 @@ const ContentM = () => {
       <div className="container">
         <div className="row">
           <div className="col-12 mil-mb-90 ">
-            <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
-              Services and Solutions
-            </span>
+            
             <h2 className="mil-mb-30">Our Comprehensive Content Marketing Services   </h2>
             <p className="mil-dark">
             At BytesFarms Technologies, we offer a range of content marketing services to help you stand out in the digital landscape:    </p>

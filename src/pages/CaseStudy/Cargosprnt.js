@@ -82,7 +82,7 @@ const CargoSprint = () => {
             <div class="col-lg-7 col-xl-8">
               {/* <span class="mil-suptitle mil-suptitle-2 mil-mb-30">Overviews</span> */}
               <h3 class="mil-mb-30">Overviews</h3>
-              <p class="mil-mb-60">
+              <p class="mil-mb-60 conten">
                 Cargosprint is a leading payment intermediary with a vast array
                 of user interfaces and apps that enable clients to make seamless
                 payments. The existing process involved sending payment data to
@@ -103,7 +103,7 @@ const CargoSprint = () => {
                   <ul class="mil-check-icon-list mil-mb-15">
                     <li>
                       <img src="assets/icon/sm/1.svg" alt="icon" />
-                      <span class="mil-dark">
+                      <span class="mil-dark conten">
                         Complex and error-prone custom code in Salesforce for
                         Payment data integration.{" "}
                       </span>
@@ -121,7 +121,7 @@ const CargoSprint = () => {
                   <ul class="mil-check-icon-list">
                     <li>
                       <img src="assets/icon/sm/1.svg" alt="icon" />
-                      <span class="mil-dark">
+                      <span class="mil-dark conten">
                         The need for standardized Salesforce functionality to
                         facilitate seamless data integration.{" "}
                       </span>
@@ -143,7 +143,7 @@ const CargoSprint = () => {
       <section class="mil-p-120-60">
         <div class="container">
           <div class="row justify-content-between align-items-center">
-            <div class="col-xl-5 mil-mb-60">
+            <div class="col-xl-5 mil-mb-60 conten">
               <h3 class="mil-mb-30">The Solution</h3>
 
               <div class="mil-icon-box-head mil-long mil-mb-15">
@@ -202,7 +202,7 @@ const CargoSprint = () => {
             <div class="">
               <h2 class="mil-mb-30">Conclusion</h2>
 
-              <p>
+              <p className="conten">
                 By transitioning to Financial Force (Certinia) and implementing
                 REST API integration with Salesforce, Cargosprint achieved a
                 streamlined and secure payment data integration process. It

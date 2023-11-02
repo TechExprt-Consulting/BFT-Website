@@ -58,7 +58,7 @@ const CaseStudies = () => {
                 Segment – B2B, B2C{" "}
               </span>
 
-              <p>
+              <p className="conten">
                 We developed a Custom APEX based REST API integration solution
                 to handle incoming/outgoing payment data requests from Google
                 Cloud Platform and process them asynchronously to create records
@@ -97,7 +97,7 @@ const CaseStudies = () => {
                 Segment - B2B{" "}
               </span>
 
-              <p>
+              <p className="conten">
                 By implementing Salesforce Field Service Lightning, we
                 successfully addressed these critical problems and achieved
                 substantial improvements in their field service operations.{" "}
@@ -128,7 +128,7 @@ const CaseStudies = () => {
                 Hassles of B2B manual return process{" "}
               </h4>
 
-              <p>
+              <p className="conten">
                 Designed a software that dedicatedly works in this direction and
                 solves all the problems related to return in B2B{" "}
               </p>
@@ -168,7 +168,7 @@ const CaseStudies = () => {
                 Segment - B2B{" "}
               </span>
 
-              <p>
+              <p className="conten">
                 Developed a detailed platform filled with the intricacies of
                 each segment and yet keeping it simple and accessible{" "}
               </p>
@@ -198,7 +198,7 @@ const CaseStudies = () => {
                 Industry - Education &nbsp;
               </span>
 
-              <p>
+              <p className="conten">
                 Created a blockchain system that assigned distinct identities to
                 each document or degree, effectively preventing fraud.{" "}
               </p>

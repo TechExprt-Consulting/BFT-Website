@@ -2534,7 +2534,7 @@ illustration
 .mil-circle-illustration .mil-circle-bg {
   width: 100%;
   height: 100%;
-  background-color: rgb(245, 124, 0);
+  /* background-color: rgb(245, 124, 0); */
   position: absolute;
   top: 0;
   left: 0;
@@ -2542,7 +2542,7 @@ illustration
 }
 .mil-circle-illustration .mil-image-frame {
   width: 100%;
-  height: calc(100% + 60px);
+  height: calc(90% + 60px);
   position: absolute;
   top: -60px;
   left: 0;
@@ -2550,8 +2550,8 @@ illustration
   overflow: hidden;
 }
 .mil-circle-illustration .mil-image-frame img {
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
+  /* -webkit-filter: grayscale(100%);
+          filter: grayscale(100%); */
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -2663,6 +2663,64 @@ icons
   right: 12px;
 }
 .mil-icon-frame.mil-light img {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+/* -------------------------------------------------- */
+.mil-icon-frame1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+.mil-icon-frame1:before {
+  content: "";
+  /* background-color: rgb(245, 124, 0); */
+  border-radius: 50%;
+  position: absolute;
+  bottom: -2px;
+  right: -3px;
+}
+.mil-icon-frame1 h3 {
+  position: relative;
+}
+.mil-icon-frame1 img {
+  position: relative;
+}
+.mil-icon-frame1.mil-icon-frame-md {
+  width: 45px;
+  height: 45px;
+}
+.mil-icon-frame1.mil-icon-frame-md:before {
+  width: 20px;
+  height: 20px;
+}
+.mil-icon-frame1.mil-icon-frame-sm {
+  width: 25px;
+  height: 25px;
+}
+.mil-icon-frame1.mil-icon-frame-sm:before {
+  width: 13px;
+  height: 13px;
+}
+.mil-icon-frame1.mil-icon-bg {
+  background-color: rgba(18, 24, 32, 0.05);
+  /* background-color: white; */
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.mil-icon-frame1.mil-icon-bg:before {
+  bottom: 10px;
+  right: 12px;
+}
+.mil-icon-frame1.mil-light img {
   -webkit-filter: invert(100%);
           filter: invert(100%);
 }
