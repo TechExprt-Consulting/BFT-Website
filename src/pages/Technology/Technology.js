@@ -43,8 +43,8 @@ const Technology = () => {
                         <div class="mil-divider mil-divider-left"></div>
                         <div class="mil-service-item">
                             <div class="mil-service-icon">
-                                <div class="mil-icon-frame mil-icon-frame-md">
-                                    <img src="assets/project/22.png" alt="icon" style={{height:"50px", width:"50px"}}/>
+                                <div class="mil-icon-frame1 mil-icon-frame-md">
+                                    <img src="assets/project/22.png" alt="icon" style={{height:"50px", width:"90px"}}/>
                                 </div>
                             </div>
                             <div class="mil-service-text">
@@ -55,8 +55,8 @@ const Technology = () => {
                         <div class="mil-divider mil-divider-left"></div>
                         <div class="mil-service-item">
                             <div class="mil-service-icon">
-                                <div class="mil-icon-frame mil-icon-frame-md">
-                                    <img src="img/icons/md/2.svg" alt="icon"/>
+                                <div class="mil-icon-frame1 mil-icon-frame-md">
+                                    <img src="assets/project/12.png" alt="icon" style={{height:"60px", width:"90px"}}/>
                                 </div>
                             </div>
                             <div class="mil-service-text">
@@ -67,8 +67,8 @@ const Technology = () => {
                         <div class="mil-divider mil-divider-left"></div>
                         <div class="mil-service-item">
                             <div class="mil-service-icon">
-                                <div class="mil-icon-frame mil-icon-frame-md">
-                                    <img src="img/icons/md/3.svg" alt="icon"/>
+                                <div class="mil-icon-frame1 mil-icon-frame-md">
+                                    <img src="assets/project/11.png" alt="icon" style={{height:"60px", width:"90px"}}/>
                                 </div>
                             </div>
                             <div class="mil-service-text">
@@ -79,8 +79,8 @@ const Technology = () => {
                         <div class="mil-divider mil-divider-left"></div>
                         <div class="mil-service-item">
                             <div class="mil-service-icon">
-                                <div class="mil-icon-frame mil-icon-frame-md">
-                                    <img src="img/icons/md/3.svg" alt="icon"/>
+                                <div class="mil-icon-frame1 mil-icon-frame-md">
+                                    <img src="assets/project/23.png" alt="icon" style={{height:"40px", width:"90px"}}/>
                                 </div>
                             </div>
                             <div class="mil-service-text">
@@ -94,8 +94,8 @@ const Technology = () => {
                         <div class="mil-divider mil-divider-left"></div>
                         <div class="mil-service-item">
                             <div class="mil-service-icon">
-                                <div class="mil-icon-frame mil-icon-frame-md">
-                                    <img src="img/icons/md/4.svg" alt="icon"/>
+                                <div class="mil-icon-frame1 mil-icon-frame-md">
+                                    <img src="assets/project/1.png" alt="icon" style={{height:"60px", width:"90px"}}/>
                                 </div>
                             </div>
                             <div class="mil-service-text">
@@ -106,8 +106,8 @@ const Technology = () => {
                         <div class="mil-divider mil-divider-left"></div>
                         <div class="mil-service-item">
                             <div class="mil-service-icon">
-                                <div class="mil-icon-frame mil-icon-frame-md">
-                                    <img src="img/icons/md/5.svg" alt="icon"/>
+                                <div class="mil-icon-frame1 mil-icon-frame-md">
+                                    <img src="assets/project/2.png" alt="icon" style={{height:"30px", width:"80px"}}/>
                                 </div>
                             </div>
                             <div class="mil-service-text">
@@ -118,8 +118,8 @@ const Technology = () => {
                         <div class="mil-divider mil-divider-left"></div>
                         <div class="mil-service-item">
                             <div class="mil-service-icon">
-                                <div class="mil-icon-frame mil-icon-frame-md">
-                                    <img src="img/icons/md/6.svg" alt="icon"/>
+                                <div class="mil-icon-frame1 mil-icon-frame-md">
+                                    <img src="assets/project/21.png" alt="icon" style={{height:"40px", width:"90px"}}/>
                                 </div>
                             </div>
                             <div class="mil-service-text">
@@ -130,8 +130,8 @@ const Technology = () => {
                                                 <div class="mil-divider mil-divider-left"></div>
                         <div class="mil-service-item">
                             <div class="mil-service-icon">
-                                <div class="mil-icon-frame mil-icon-frame-md">
-                                    <img src="img/icons/md/6.svg" alt="icon"/>
+                                <div class="mil-icon-frame1 mil-icon-frame-md">
+                                    <img src="assets/project/24.png" alt="icon"style={{height:"40px", width:"90px"}}/>
                                 </div>
                             </div>
                             <div class="mil-service-text">
@@ -147,8 +147,8 @@ const Technology = () => {
                         <div class="mil-divider mil-divider-left"></div>
                         <div class="mil-service-item">
                             <div class="mil-service-icon">
-                                <div class="mil-icon-frame mil-icon-frame-md">
-                                    <img src="img/icons/md/1.svg" alt="icon"/>
+                                <div class="mil-icon-frame1 mil-icon-frame-md">
+                                    <img src="assets/project/20.png" alt="icon" style={{height:"40px", width:"90px"}}/>
                                 </div>
                             </div>
                             <div class="mil-service-text">
@@ -159,8 +159,8 @@ const Technology = () => {
                         <div class="mil-divider mil-divider-left"></div>
                         <div class="mil-service-item">
                             <div class="mil-service-icon">
-                                <div class="mil-icon-frame mil-icon-frame-md">
-                                    <img src="img/icons/md/2.svg" alt="icon"/>
+                                <div class="mil-icon-frame1 mil-icon-frame-md">
+                                    <img src="assets/project/25.png" alt="icon" style={{height:"60px", width:"90px"}}/>
                                 </div>
                             </div>
                             <div class="mil-service-text">
@@ -171,8 +171,8 @@ const Technology = () => {
                         <div class="mil-divider mil-divider-left"></div>
                         <div class="mil-service-item">
                             <div class="mil-service-icon">
-                                <div class="mil-icon-frame mil-icon-frame-md">
-                                    <img src="img/icons/md/3.svg" alt="icon"/>
+                                <div class="mil-icon-frame1 mil-icon-frame-md">
+                                    <img src="assets/project/10.png" alt="icon" style={{height:"60px", width:"90px"}}/>
                                 </div>
                             </div>
                             <div class="mil-service-text">
@@ -183,8 +183,8 @@ const Technology = () => {
                         <div class="mil-divider mil-divider-left"></div>
                         <div class="mil-service-item">
                             <div class="mil-service-icon">
-                                <div class="mil-icon-frame mil-icon-frame-md">
-                                    <img src="img/icons/md/3.svg" alt="icon"/>
+                                <div class="mil-icon-frame1 mil-icon-frame-md">
+                                    <img src="assets/project/26.png" alt="icon" style={{height:"30px", width:"90px"}}/>
                                 </div>
                             </div>
                             <div class="mil-service-text">
@@ -198,8 +198,8 @@ const Technology = () => {
                         <div class="mil-divider mil-divider-left"></div>
                         <div class="mil-service-item">
                             <div class="mil-service-icon">
-                                <div class="mil-icon-frame mil-icon-frame-md">
-                                    <img src="img/icons/md/4.svg" alt="icon"/>
+                                <div class="mil-icon-frame1 mil-icon-frame-md">
+                                    <img src="assets/project/16.png" alt="icon" style={{height:"60px", width:"90px"}}/>
                                 </div>
                             </div>
                             <div class="mil-service-text">
@@ -210,8 +210,8 @@ const Technology = () => {
                         <div class="mil-divider mil-divider-left"></div>
                         <div class="mil-service-item">
                             <div class="mil-service-icon">
-                                <div class="mil-icon-frame mil-icon-frame-md">
-                                    <img src="img/icons/md/5.svg" alt="icon"/>
+                                <div class="mil-icon-frame1 mil-icon-frame-md">
+                                    <img src="assets/project/18.png" alt="icon" style={{height:"60px", width:"90px"}}/>
                                 </div>
                             </div>
                             <div class="mil-service-text">
@@ -222,8 +222,8 @@ const Technology = () => {
                         <div class="mil-divider mil-divider-left"></div>
                         <div class="mil-service-item">
                             <div class="mil-service-icon">
-                                <div class="mil-icon-frame mil-icon-frame-md">
-                                    <img src="img/icons/md/6.svg" alt="icon"/>
+                                <div class="mil-icon-frame1 mil-icon-frame-md">
+                                    <img src="assets/project/5.png" alt="icon" style={{height:"30px", width:"90px"}}/>
                                 </div>
                             </div>
                             <div class="mil-service-text">
@@ -234,8 +234,8 @@ const Technology = () => {
                                                 <div class="mil-divider mil-divider-left"></div>
                         <div class="mil-service-item">
                             <div class="mil-service-icon">
-                                <div class="mil-icon-frame mil-icon-frame-md">
-                                    <img src="img/icons/md/6.svg" alt="icon"/>
+                                <div class="mil-icon-frame1 mil-icon-frame-md">
+                                    <img src="assets/project/19.jpg" alt="icon" style={{height:"60px", width:"90px"}}/>
                                 </div>
                             </div>
                             <div class="mil-service-text">
@@ -253,8 +253,8 @@ const Technology = () => {
                         <div class="mil-divider mil-divider-left"></div>
                         <div class="mil-service-item">
                             <div class="mil-service-icon">
-                                <div class="mil-icon-frame mil-icon-frame-md">
-                                    <img src="img/icons/md/1.svg" alt="icon"/>
+                                <div class="mil-icon-frame1 mil-icon-frame-md">
+                                    <img src="assets/project/15.png" alt="icon" style={{height:"40px", width:"90px"}}/>
                                 </div>
                             </div>
                             <div class="mil-service-text">
@@ -265,8 +265,8 @@ const Technology = () => {
                         <div class="mil-divider mil-divider-left"></div>
                         <div class="mil-service-item">
                             <div class="mil-service-icon">
-                                <div class="mil-icon-frame mil-icon-frame-md">
-                                    <img src="img/icons/md/2.svg" alt="icon"/>
+                                <div class="mil-icon-frame1 mil-icon-frame-md">
+                                    <img src="assets/project/10.png" alt="icon" style={{height:"60px", width:"90px"}}/>
                                 </div>
                             </div>
                             <div class="mil-service-text">
@@ -282,8 +282,8 @@ const Technology = () => {
                         <div class="mil-divider mil-divider-left"></div>
                         <div class="mil-service-item">
                             <div class="mil-service-icon">
-                                <div class="mil-icon-frame mil-icon-frame-md">
-                                    <img src="img/icons/md/4.svg" alt="icon"/>
+                                <div class="mil-icon-frame1 mil-icon-frame-md">
+                                    <img src="assets/project/27.png" alt="icon" style={{height:"50px", width:"90px"}}/>
                                 </div>
                             </div>
                             <div class="mil-service-text">
@@ -294,8 +294,8 @@ const Technology = () => {
                         <div class="mil-divider mil-divider-left"></div>
                         <div class="mil-service-item">
                             <div class="mil-service-icon">
-                                <div class="mil-icon-frame mil-icon-frame-md">
-                                    <img src="img/icons/md/5.svg" alt="icon"/>
+                                <div class="mil-icon-frame1 mil-icon-frame-md">
+                                    <img src="assets/project/28.jpg" alt="icon" style={{height:"60px", width:"90px"}}/>
                                 </div>
                             </div>
                             <div class="mil-service-text">
@@ -312,8 +312,8 @@ const Technology = () => {
                         <div class="mil-divider mil-divider-left"></div>
                         <div class="mil-service-item">
                             <div class="mil-service-icon">
-                                <div class="mil-icon-frame mil-icon-frame-md">
-                                    <img src="img/icons/md/1.svg" alt="icon"/>
+                                <div class="mil-icon-frame1 mil-icon-frame-md">
+                                    <img src="assets/project/29.png" alt="icon" style={{height:"40px", width:"90px"}}/>
                                 </div>
                             </div>
                             <div class="mil-service-text">
@@ -324,8 +324,8 @@ const Technology = () => {
                         <div class="mil-divider mil-divider-left"></div>
                         <div class="mil-service-item">
                             <div class="mil-service-icon">
-                                <div class="mil-icon-frame mil-icon-frame-md">
-                                    <img src="img/icons/md/2.svg" alt="icon"/>
+                                <div class="mil-icon-frame1 mil-icon-frame-md">
+                                    <img src="assets/project/30.png" alt="icon" style={{height:"60px", width:"90px"}}/>
                                 </div>
                             </div>
                             <div class="mil-service-text">
@@ -336,8 +336,8 @@ const Technology = () => {
                         <div class="mil-divider mil-divider-left"></div>
                         <div class="mil-service-item">
                             <div class="mil-service-icon">
-                                <div class="mil-icon-frame mil-icon-frame-md">
-                                    <img src="img/icons/md/1.svg" alt="icon"/>
+                                <div class="mil-icon-frame1 mil-icon-frame-md">
+                                    <img src="assets/project/31.jpg" alt="icon" style={{height:"60px", width:"90px"}}/>
                                 </div>
                             </div>
                             <div class="mil-service-text">

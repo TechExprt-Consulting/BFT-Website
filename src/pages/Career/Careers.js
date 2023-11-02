@@ -45,8 +45,8 @@ const Careers = () => {
                 <span className="mil-accent">JOIN TO US</span>{" "}
               </h2>
             </div>
-            <div className="col-xl-4">
-              <p>
+            <div className="col-xl-4 conten">
+              <p >
                 Bytesfarms Technologies is a pioneering IT services company,
                 specializing in Salesforce, Web/Mobile development, Cloud &
                 DevOps, and Blockchain solutions. We revolutionize operations,
@@ -57,7 +57,7 @@ const Careers = () => {
           </div>
           <ul className="mil-vacancies-frame">
             <li className="mil-vacancy">
-              <div className="row">
+              <div className="row ">
                 <div className="col-md-6 col-lg-4 col-xl-4 mil-mb-30">
                   <div className="mil-vacancy-head mil-mb-15">
                     <span className="mil-badge">Full Time</span>
@@ -65,7 +65,7 @@ const Careers = () => {
                   </div>
                   <h4>UI and Web Developer</h4>
                 </div>
-                <div className="col-md-6 col-lg-4 col-xl-4 mil-mb-30">
+                <div className="col-md-6 col-lg-4 col-xl-4 mil-mb-30 conten">
                   <p>
                     Web developers specialize in building websites and web
                     applications, using programming languages like HTML, CSS,
@@ -91,7 +91,7 @@ const Careers = () => {
                   </div>
                   <h4>AI Developer</h4>
                 </div>
-                <div className="col-md-6 col-lg-4 col-xl-4 mil-mb-30">
+                <div className="col-md-6 col-lg-4 col-xl-4 mil-mb-30 conten">
                   <p>
                     AI (Artificial Intelligence) involves the simulation of
                     human intelligence in machines, enabling them to perform
@@ -117,7 +117,7 @@ const Careers = () => {
                   </div>
                   <h4>Salesforce Developer</h4>
                 </div>
-                <div className="col-md-6 col-lg-4 col-xl-4 mil-mb-30">
+                <div className="col-md-6 col-lg-4 col-xl-4 mil-mb-30 conten">
                   <p>
                     Salesforce is a leading customer relationship management
                     (CRM) platform that helps businesses manage their sales,
@@ -142,7 +142,7 @@ const Careers = () => {
                   </div>
                   <h4>Deveops</h4>
                 </div>
-                <div className="col-md-6 col-lg-4 col-xl-4 mil-mb-30">
+                <div className="col-md-6 col-lg-4 col-xl-4 mil-mb-30 conten">
                   <p>
                     DevOps practices combine development and IT operations,
                     emphasizing collaboration and automation, leading to faster
@@ -168,13 +168,11 @@ const Careers = () => {
         <div className="container">
           <div className="row align-items-center justify-content-between">
             <div className="col-xl-5 mil-mb-60">
-              <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
-                Work With Us
-              </span>
+              
               <h2 className="mil-mb-30">
                 Why <span className="mil-accent">Choose</span> Us?
               </h2>
-              <p className="mil-mb-15">
+              <p className="mil-mb-15 conten">
                 {" "}
                 At Bytesfarms Technologies, we stand out in the crowded digital
                 landscape by delivering cutting-edge solutions tailored to your
@@ -182,7 +180,7 @@ const Careers = () => {
                 bring years of industry experience to the table, ensuring
                 top-notch quality and efficiency in every project we undertake.{" "}
               </p>
-              <p className="mil-mb-15">
+              <p className="mil-mb-15 conten">
                 Additionally, our dedication to customer satisfaction means you
                 can expect prompt communication, transparent processes, and
                 timely delivery of your projects.

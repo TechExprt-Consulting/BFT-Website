@@ -80,9 +80,7 @@ Content Writing & Copywriting Services  </h2>
       <div className="container">
         <div className="row">
           <div className="col-12 mil-mb-90 ">
-            <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
-              Services and Solutions
-            </span>
+            
             <h2 className="mil-mb-30">Our Comprehensive Content Writing & Copywriting Services   </h2>
             <p className="mil-dark">
             At BytesFarms, we offer a comprehensive suite of content writing and copywriting services designed to elevate your brand's messaging and engage your audience effectively: </p>

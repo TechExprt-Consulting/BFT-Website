@@ -80,9 +80,7 @@ const Seo = () => {
         <div className="container">
           <div className="row">
             <div className="col-12 mil-mb-90 ">
-              <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
-                Services and Solutions
-              </span>
+              
               <h2 className="mil-mb-30">Our Comprehensive SEO Services </h2>
               <p className="mil-dark">
               At BytesFarms Technologies, we offer a comprehensive suite of SEO services designed to elevate your online visibility and drive sustainable results: 

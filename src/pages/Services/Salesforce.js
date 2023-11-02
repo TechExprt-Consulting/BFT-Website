@@ -97,12 +97,12 @@ const Salesforce = () => {
       </div>
       
         
-        <Accordion style={{ backgroundColor: "#1B2F5B", margin: "40px" }}>
+        <Accordion style={{ backgroundColor: "#1B2F5B", margin: "40px",color:"white"}}>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel1a-content"
             id="panel1a-header"
-            className="hoverEffect" 
+            className="" 
           >
             <Typography>Accordion 1</Typography>
           </AccordionSummary>
@@ -112,7 +112,7 @@ const Salesforce = () => {
               Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
               eget.
             </Typography>
-            <h6 className="mt-2 mb-2 text-secondary font-weight-500">
+            <h6 className="mt-2 mb-2 text-white font-weight-500">
               Related offerings
             </h6>
             <div className="col-md-11 d-flex">
@@ -155,63 +155,7 @@ const Salesforce = () => {
             </div>
           </AccordionDetails>
         </Accordion>
-        <Accordion style={{ backgroundColor: "#D7ECF3", margin: "40px" }}>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2a-content"
-            id="panel2a-header"
-          >
-            <Typography>Accordion 2</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-              eget.
-            </Typography>
-            <h6 className="mt-2 mb-2 text-secondary font-weight-500">
-              Related offerings
-            </h6>
-            <div className="col-md-11 d-flex">
-            <div className="col-md-7">
-            <div>
-              Strategy
-              <Link to="/deveops" class="mil-link3 link-right">
-                <i class="fas fa-arrow-right"></i>
-              </Link>
-            </div>{" "}
-            
-           
-            <div>
-              Stra
-              <Link to="/deveops" class="mil-link3 link-right">
-                <i class="fas fa-arrow-right"></i>
-              </Link>
-            </div>
-            <div>
-              Stra
-              <Link to="/deveops" class="mil-link3 link-right">
-                <i class="fas fa-arrow-right"></i>
-              </Link>
-            </div>
-            </div>
-            <div className="col-md-4">
-            <div>
-              Stra
-              <Link to="/deveops" class="mil-link3 link-right">
-                <i class="fas fa-arrow-right"></i>
-              </Link>
-            </div>
-            <div>
-              Stra
-              <Link to="/deveops" class="mil-link3 link-right">
-                <i class="fas fa-arrow-right"></i>
-              </Link>
-            </div>
-            </div>
-            </div>
-          </AccordionDetails>
-        </Accordion>
+       
 {/* challenges end */}
 
 
@@ -225,9 +169,7 @@ const Salesforce = () => {
         <div className="container">
           <div className="row">
             <div className="col-12 mil-mb-90">
-              <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
-                Services and Solutions
-              </span>
+             
               <h2 className="mil-mb-30">
                 Our Salesforce Developement Services Let You Win Big
               </h2>
@@ -409,9 +351,9 @@ const Salesforce = () => {
           style={{ bottom: "0", right: "40%", transform: "rotate(180deg)" }}
         ></div>
         <div className="container">
-          <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
+          {/* <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
             High Quality and Performance
-          </span>
+          </span> */}
           <h2 className="mil-mb-90">
             Our Approach To <span className="mil-accent">Salesforce</span>{" "}
             Developement

@@ -54,7 +54,7 @@ const DMC = () => {
             <div class="col-lg-7 col-xl-8">
               {/* <span class="mil-suptitle mil-suptitle-2 mil-mb-30">Overviews</span> */}
               <h3 class="mil-mb-30">Overviews</h3>
-              <p class="mil-mb-60">
+              <p class="mil-mb-60 conten">
                 Delta Marketing Company (DMC) was established in 1984 and is
                 part of the Alireza family of companies based in Jeddah, Saudi
                 Arabia. DMC leads a successful and complimentary portfolio of
@@ -91,7 +91,7 @@ const DMC = () => {
                   <ul class="mil-check-icon-list">
                     <li>
                     <img src="assets/icon/sm/1.svg" alt="icon" />
-                      <span class="mil-dark">
+                      <span class="mil-dark conten">
                         Getting the feedback form filled in without asking their
                         customer for the Salesforce credentials to the Customer.{" "}
                       </span>
@@ -113,7 +113,7 @@ const DMC = () => {
       <section class="mil-p-120-60">
         <div class="container">
           <div class="row justify-content-between align-items-center">
-            <div class="col-xl-5 mil-mb-60">
+            <div class="col-xl-5 mil-mb-60 conten">
               <h3 class="mil-mb-30">The Solution</h3>
 
               <div class="mil-icon-box-head mil-long mil-mb-15">
@@ -182,7 +182,7 @@ const DMC = () => {
             <div class="">
               <h2 class="mil-mb-30">Conclusion</h2>
 
-              <p>
+              <p className="conten">
                 By implementing Salesforce Field Service Lightning, we
                 successfully addressed the critical problems and achieved
                 substantial improvements in their field service operations. They

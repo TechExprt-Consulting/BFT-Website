@@ -80,9 +80,7 @@ const MarketResearch = () => {
       <div className="container">
         <div className="row">
           <div className="col-12 mil-mb-90 ">
-            <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
-              Services and Solutions
-            </span>
+           
             <h2 className="mil-mb-30">Our Comprehensive Market Research Services  </h2>
             <p className="mil-dark">
             At BytesFarms, we offer a comprehensive suite of market research services designed to provide you with the knowledge you need to thrive in your industry:

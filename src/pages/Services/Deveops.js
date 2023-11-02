@@ -90,9 +90,7 @@ const Deveops = () => {
         <div className="container">
           <div className="row">
             <div className="col-12 mil-mb-90">
-              <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
-                Services and Solutions
-              </span>
+              
               <h2 className="mil-mb-30">
                 Our Devops Consulting Services Let You Win Big
               </h2>
@@ -196,9 +194,7 @@ const Deveops = () => {
           style={{ bottom: "0", right: "40%", transform: "rotate(180deg)" }}
         ></div> */}
         <div className="container">
-          <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
-            High Quality and Performance
-          </span>
+         
           <h2 className="mil-mb-90">
             Our Approach To <span className="mil-accent">Devops</span>{" "}
             Consulting
