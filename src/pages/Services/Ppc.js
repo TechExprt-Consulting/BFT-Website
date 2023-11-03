@@ -91,9 +91,9 @@ const Ppc = () => {
               <div className="mil-number-icon mil-circle mil-mb-30">
                 <span>01</span>
               </div>
-              <h4 className="mil-mb-15">Keyword Research</h4>
+              <h4 className="mil-mb-15">Google Ads</h4>
               <p>
-              We conduct thorough research to identify the most relevant and high-converting keywords for your industry and target audience.</p>
+              Enables the brand to display their ads to their targeted customers when they search for specific keywords on any page of the google network.</p>
               
             </div>
           </div>
@@ -102,9 +102,9 @@ const Ppc = () => {
               <div className="mil-number-icon mil-lines mil-mb-30">
                 <span>02</span>
               </div>
-              <h4 className="mil-mb-15">Ad Campaign Creation</h4>
+              <h4 className="mil-mb-15">Display Advertising</h4>
               <p>
-              Our expert PPC team creates highly targeted and compelling ad campaigns designed to drive clicks and conversions. </p>
+              Designs the most creative and interactive visual ads to promote the product on different platforms. </p>
             </div>
           </div>
           <div className="col-xl-4">
@@ -112,43 +112,13 @@ const Ppc = () => {
               <div className="mil-number-icon mil-mb-30">
                 <span>03</span>
               </div>
-              <h4 className="mil-mb-15">Ad Copywriting</h4>
+              <h4 className="mil-mb-15">PPC Audits</h4>
               <p>
-              We craft persuasive ad copy that engages users and encourages them to take the desired action</p>
+              Backed by data and through analysis, a comprehensive report is prepared to evaluate the performance, identify the gaps and improve further.</p>
             </div>
           </div>
-          <div className="col-xl-4">
-            <div className="mil-mb-60 conten">
-              <div className="mil-number-icon mil-circle mil-mb-30">
-                <span>04</span>
-              </div>
-              <h4 className="mil-mb-15"> Bid Management</h4>
-              <p>
-              We monitor and adjust your bids to ensure you get the best return on your investment.  </p>
-              
-            </div>
-          </div>
-          <div className="col-xl-4">
-            <div className="mil-mb-60 conten">
-              <div className="mil-number-icon mil-lines mil-mb-30">
-                <span>05</span>
-              </div>
-              <h4 className="mil-mb-15">Ad Testing and Optimization</h4>
-              <p>
-              We continually test and optimize your ads to maximize their effectiveness. </p>
-              
-            </div>
-          </div>
-          <div className="col-xl-4">
-            <div className="mil-mb-60 conten">
-              <div className="mil-number-icon mil-mb-30">
-                <span>06</span>
-              </div>
-              <h4 className="mil-mb-15">Performance Tracking and Reporting</h4>
-              <p>
-              We provide regular reports on the performance of your PPC campaigns, so you can see the tangible results of our efforts. </p>
-            </div>
-          </div>
+          
+          
           
         </div>
       </div>

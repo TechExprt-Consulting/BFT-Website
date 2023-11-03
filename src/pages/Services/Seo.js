@@ -1,11 +1,11 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
+import React from "react";
+import { Link } from "react-router-dom";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 const Seo = () => {
   return (
     <div className="mil-wrapper">
-      <Navbar/>
+      <Navbar />
 
       {/* <!-- banner --> */}
       <div className="mil-banner-sm mil-deep-bg">
@@ -35,6 +35,7 @@ const Seo = () => {
               </li>
             </ul>
             <h2 className="mil-uppercase">Search Engine Optimization </h2>
+            
           </div>
         </div>
       </div>
@@ -51,17 +52,25 @@ const Seo = () => {
             <div className="">
               <div className=" mil-mb-30">
                 <p>
-                 
-                 
-
-Business is not easy, especially if you are missing out on the online visibility game. In today’s fast pacing world when every business has made their digital debut, SEO stands as a game changer for many. With constant content push and rigorous
-
-But don’t worry, our team of experts has got you all covered. Our team of SEO experts is armed with the tools, knowledge and strategies needed to make a way through the intricacies of SEO, ensuring that your business moves to the top position of the search results.                </p>
+                  Business is not easy, especially if you are missing out on the
+                  online visibility game. In today’s fast pacing world when
+                  every business has made their digital debut, SEO stands as a
+                  game changer for many. With constant content push and rigorous
+                  But don’t worry, our team of experts has got you all covered.
+                  Our team of SEO experts is armed with the tools, knowledge and
+                  strategies needed to make a way through the intricacies of
+                  SEO, ensuring that your business moves to the top position of
+                  the search results.{" "}
+                </p>
               </div>
               <div className=" mil-mb-30">
                 <p>
-                  
-                  While you focus on your business operations and administration, we take care of our SEO roadmap and ranking destination. With our arsenal of SEO tools, techniques and commitment to goal-oriented results, we are here to ace your SEO game and strengthen the online presence for your business.                </p>
+                  While you focus on your business operations and
+                  administration, we take care of our SEO roadmap and ranking
+                  destination. With our arsenal of SEO tools, techniques and
+                  commitment to goal-oriented results, we are here to ace your
+                  SEO game and strengthen the online presence for your business.{" "}
+                </p>
               </div>
             </div>
           </div>
@@ -87,21 +96,24 @@ But don’t worry, our team of experts has got you all covered. Our team of SEO 
               </span> */}
               <h2 className="mil-mb-30">Our Comprehensive SEO Services </h2>
               <p className="mil-dark">
-              At BytesFarms Technologies, we offer a comprehensive suite of SEO services designed to elevate your online visibility and drive sustainable results: 
+                At BytesFarms Technologies, we offer a comprehensive suite of
+                SEO services designed to elevate your online visibility and
+                drive sustainable results:
               </p>
             </div>
           </div>
           <div className="row mil-mb-30-adapt">
             <div className="col-xl-4">
               <div className="mil-mb-60 conten">
-                <div className="mil-number-icon mil-circle mil-mb-30">
+                <div className="mil-number-icon mil-lines mil-mb-30">
                   <span>01</span>
                 </div>
-                <h4 className="mil-mb-15">Keyword Research</h4>
+                <h4 className="mil-mb-15"> On-Page Optimization</h4>
                 <p>
-                We begin by identifying the most relevant and high-traffic keywords in your industry. This forms the foundation of your SEO strategy.
+                  Our experts meticulously optimize your website's on-page
+                  elements, including meta tags, headings, and content, ensuring
+                  it's search engine-friendly.
                 </p>
-                
               </div>
             </div>
             <div className="col-xl-4">
@@ -109,9 +121,12 @@ But don’t worry, our team of experts has got you all covered. Our team of SEO 
                 <div className="mil-number-icon mil-lines mil-mb-30">
                   <span>02</span>
                 </div>
-                <h4 className="mil-mb-15"> On-Page Optimization</h4>
+                <h4 className="mil-mb-15"> Link Building</h4>
                 <p>
-                Our experts meticulously optimize your website's on-page elements, including meta tags, headings, and content, ensuring it's search engine-friendly. 
+                  - One of the most common practices at SEO is link-building,
+                  more popularly known as backlinks. These backlinks work as a
+                  sign of authenticity from other sites, which improves the
+                  ranking of your content on the search engines.
                 </p>
               </div>
             </div>
@@ -120,9 +135,10 @@ But don’t worry, our team of experts has got you all covered. Our team of SEO 
                 <div className="mil-number-icon mil-mb-30">
                   <span>03</span>
                 </div>
-                <h4 className="mil-mb-15">Off-Page Optimization </h4>
+                <h4 className="mil-mb-15">Technical SEO </h4>
                 <p>
-                We build high-quality backlinks, engage in guest posting, and manage your online reputation to enhance your website's authority and trustworthiness.
+                  Optimisation of the technical elements of website to enhance
+                  the overall performance and search engine ranking.
                 </p>
               </div>
             </div>
@@ -131,11 +147,12 @@ But don’t worry, our team of experts has got you all covered. Our team of SEO 
                 <div className="mil-number-icon mil-circle mil-mb-30">
                   <span>04</span>
                 </div>
-                <h4 className="mil-mb-15">Content Creation </h4>
+                <h4 className="mil-mb-15">Local SEO</h4>
                 <p>
-                Quality content is king in the world of SEO. We create compelling, informative, and shareable content that not only attracts visitors but also keeps them engaged. 
+                  If you're a local business, we help you dominate local search
+                  results, ensuring that potential customers in your area can
+                  find you quickly and easily.
                 </p>
-                
               </div>
             </div>
             <div className="col-xl-4">
@@ -143,11 +160,12 @@ But don’t worry, our team of experts has got you all covered. Our team of SEO 
                 <div className="mil-number-icon mil-lines mil-mb-30">
                   <span>05</span>
                 </div>
-                <h4 className="mil-mb-15">Local SEO</h4>
+                <h4 className="mil-mb-15">E-Commerce SEO</h4>
                 <p>
-                If you're a local business, we help you dominate local search results, ensuring that potential customers in your area can find you quickly and easily.
+                  - optimizing product pages, enhancing user experience,
+                  managing categories, and improving site architecture to boost
+                  sales and improve visibility.
                 </p>
-                
               </div>
             </div>
             <div className="col-xl-4">
@@ -155,22 +173,8 @@ But don’t worry, our team of experts has got you all covered. Our team of SEO 
                 <div className="mil-number-icon mil-mb-30">
                   <span>06</span>
                 </div>
-                <h4 className="mil-mb-15">Competitor Analysis</h4>
-                <p>
-                We keep a close eye on your competitors to identify opportunities and stay ahead in the SEO game.
-                </p>
-              </div>
-            </div>
-            <div className="col-xl-4">
-              <div className="mil-mb-60 conten">
-                <div className="mil-number-icon mil-mb-30">
-                  <span>07</span>
-                </div>
-                <h4 className="mil-mb-15">Regular Reporting</h4>
-                <p>
-                We provide transparent and detailed reports on your SEO campaign's progress, so you can see the tangible results of our efforts.
-                </p>
-                
+                <h4 className="mil-mb-15">SEO Audits</h4>
+                <p>A detailed analysis of the website’s SEO performance.</p>
               </div>
             </div>
           </div>
@@ -186,11 +190,55 @@ But don’t worry, our team of experts has got you all covered. Our team of SEO 
         <div className="mil-divider"></div>
       </div>
 
-     
-  
-      
       {/* <!-- services --> */}
-      <section className="mil-gradient-bg mil-deco-right mil-p-120-0">
+      <div className="mil-icon-box mil-center mil-mb-60 mt-5">
+        <h2 className="mil-mb-20 mt-2 ">Why Choose Us?</h2>
+      </div>
+      <div className="row">
+        <div className="col-md-6 col-xl-3">
+          <div className="mil-icon-box mil-center mil-mb-60">
+            <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
+              <img src="assets/icon/5.svg" alt="icon" />
+            </div>
+            <h5 className="mil-mb-20">
+              <span className="mil-accent">01.</span>&nbsp; High Quality Niche
+              Backlinks
+            </h5>
+          </div>
+        </div>
+        <div className="col-md-6 col-xl-3">
+          <div className="mil-icon-box mil-center mil-mb-60">
+            <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
+              <img src="assets/icon/5.svg" alt="icon" />
+            </div>
+            <h5 className="mil-mb-20">
+              <span className="mil-accent">02.</span>&nbsp; Flawless Onpage SEO
+            </h5>
+          </div>
+        </div>
+        <div className="col-md-6 col-xl-3">
+          <div className="mil-icon-box mil-center mil-mb-60">
+            <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
+              <img src="assets/icon/5.svg" alt="icon" />
+            </div>
+            <h5 className="mil-mb-20">
+              <span className="mil-accent">03.</span>&nbsp; SERPs Inspired
+              Content
+            </h5>
+          </div>
+        </div>
+        <div className="col-md-6 col-xl-3">
+          <div className="mil-icon-box mil-center mil-mb-60">
+            <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
+              <img src="assets/icon/5.svg" alt="icon" />
+            </div>
+            <h5 className="mil-mb-20">
+              <span className="mil-accent">04.</span>&nbsp; Fastest Load-Times
+            </h5>
+          </div>
+        </div>
+      </div>
+      {/* <section className="mil-gradient-bg mil-deco-right mil-p-120-0">
         <div
           className="mil-deco mil-deco-accent"
           style={{ top: "0", left: "5%" }}
@@ -205,13 +253,7 @@ But don’t worry, our team of experts has got you all covered. Our team of SEO 
               Why Choose our{" "}
               <span className="mil-accent">Search Engine Optimization</span>{" "}
             </h2>
-            {/* <p className="mil-light-soft">
-              With years of experience and a proven track record, BytesFarms is
-              your trusted partner for Salesforce Developement.
-              <br /> Our dedicated team of experts is committed to delivering
-              results that matter, helping you achieve efficiency, agility, and
-              innovation in your organization.
-            </p> */}
+           
           </div>
           <div className="row mil-mb-30-adapt">
             <div className="col-lg-3">
@@ -260,12 +302,12 @@ But don’t worry, our team of experts has got you all covered. Our team of SEO 
             </Link>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* <!-- services end --> */}
 
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Seo
+export default Seo;

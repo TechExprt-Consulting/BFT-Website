@@ -45,7 +45,7 @@ const Careers = () => {
                 <span className="mil-accent">JOIN TO US</span>{" "}
               </h2>
             </div>
-            <div className="col-xl-4 conten">
+            <div className="col-xl-6 conten">
               <p >
                 Bytesfarms Technologies is a pioneering IT services company,
                 specializing in Salesforce, Web/Mobile development, Cloud &

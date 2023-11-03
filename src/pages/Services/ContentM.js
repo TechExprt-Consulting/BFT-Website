@@ -112,9 +112,9 @@ const ContentM = () => {
               <div className="mil-number-icon mil-mb-30">
                 <span>03</span>
               </div>
-              <h4 className="mil-mb-15">SEO Optimization</h4>
+              <h4 className="mil-mb-15">Creative Strategy</h4>
               <p>
-              We ensure your content is not only engaging but also optimized for search engines, boosting your visibility</p>
+              A mix of creative elements such as visual design, copy and other elements to achieve the overall marketing objective.</p>
             </div>
           </div>
           <div className="col-xl-4">
@@ -122,33 +122,14 @@ const ContentM = () => {
               <div className="mil-number-icon mil-circle mil-mb-30">
                 <span>04</span>
               </div>
-              <h4 className="mil-mb-15">Content Distribution</h4>
+              <h4 className="mil-mb-15">Case Studies</h4>
               <p>
-              We strategically distribute your content across various platforms to maximize its reach.</p>
+              We create detailed and well-articulated case studies for our clients, which further helps them present their work at various platforms.</p>
               
             </div>
           </div>
-          <div className="col-xl-4">
-            <div className="mil-mb-60 conten">
-              <div className="mil-number-icon mil-lines mil-mb-30">
-                <span>05</span>
-              </div>
-              <h4 className="mil-mb-15">Audience Engagement</h4>
-              <p>
-              We engage with your audience through comments, shares, and discussions, building a community around your brand</p>
-              
-            </div>
-          </div>
-          <div className="col-xl-4">
-            <div className="mil-mb-60 conten">
-              <div className="mil-number-icon mil-mb-30">
-                <span>06</span>
-              </div>
-              <h4 className="mil-mb-15">Analytics and Reporting</h4>
-              <p>
-              We provide regular reports on the performance of your content marketing campaigns, allowing you to measure your ROI. </p>
-            </div>
-          </div>
+          
+          
           
         </div>
       </div>

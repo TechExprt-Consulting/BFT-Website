@@ -5678,7 +5678,7 @@ text-align:center;
 
 .mil-vertical-button{
   position: absolute;
-  top: 80px;
+  top: 40px;
   right: 0px;
   transform: rotate(-90deg);
   transform-origin: bottom right;

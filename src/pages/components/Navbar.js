@@ -92,7 +92,7 @@ const Navbar = () => {
                                   Content Marketing
                                 </Link>
                               </li>
-                              <li>
+                              {/* <li>
                                 <Link to="/marketResearch">
                                   Market Research
                                 </Link>
@@ -101,7 +101,7 @@ const Navbar = () => {
                                 <Link to="/contentWriting">
                                   Content Writing and copywriting
                                 </Link>
-                              </li>
+                              </li> */}
                             </ul>
                           
                          {/* )}  */}
