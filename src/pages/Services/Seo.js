@@ -51,15 +51,17 @@ const Seo = () => {
             <div className="">
               <div className=" mil-mb-30">
                 <p>
-                  <h5>Achieve Top Rankings with Our Expert Search Engine Optimization (SEO) Services</h5>
-                  In the digital age, where search engines dominate the way consumers find information, products, and services, having a strong online presence is crucial for any business. Search Engine Optimization (SEO) is the key to ensuring your website appears at the top of search results, driving more organic traffic, and ultimately, boosting your bottom line. At Bytesfarms, we are your partners in unlocking the full potential of SEO. 
-                </p>
+                 
+                 
+
+Business is not easy, especially if you are missing out on the online visibility game. In today’s fast pacing world when every business has made their digital debut, SEO stands as a game changer for many. With constant content push and rigorous
+
+But don’t worry, our team of experts has got you all covered. Our team of SEO experts is armed with the tools, knowledge and strategies needed to make a way through the intricacies of SEO, ensuring that your business moves to the top position of the search results.                </p>
               </div>
               <div className=" mil-mb-30">
                 <p>
-                  <h5>Why SEO Matters </h5>
-                  Search engines like Google, Bing, and Yahoo are the go-to resources for people seeking answers to their questions and solutions to their problems. When potential customers search for products or services that your business offers, you want to be among the first results they see. Studies show that websites appearing on the first page of search results receive the lion's share of clicks. This is where SEO becomes essential. 
-                </p>
+                  
+                  While you focus on your business operations and administration, we take care of our SEO roadmap and ranking destination. With our arsenal of SEO tools, techniques and commitment to goal-oriented results, we are here to ace your SEO game and strengthen the online presence for your business.                </p>
               </div>
             </div>
           </div>
@@ -80,7 +82,9 @@ const Seo = () => {
         <div className="container">
           <div className="row">
             <div className="col-12 mil-mb-90 ">
-              
+              {/* <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
+                Services and Solutions
+              </span> */}
               <h2 className="mil-mb-30">Our Comprehensive SEO Services </h2>
               <p className="mil-dark">
               At BytesFarms Technologies, we offer a comprehensive suite of SEO services designed to elevate your online visibility and drive sustainable results: 
@@ -187,50 +191,73 @@ const Seo = () => {
       
       {/* <!-- services --> */}
       <section className="mil-gradient-bg mil-deco-right mil-p-120-0">
-        {/* <div
+        <div
           className="mil-deco mil-deco-accent"
           style={{ top: "0", left: "5%" }}
-        ></div> */}
+        ></div>
         <div className="container">
-          <div className=" mil-mb-90">
+          <div className="mil-text-center mil-mb-90">
+            <span className="mil-suptitle  mil-light mil-suptitle-2 mil-mb-30">
+              Always The Best
+            </span>
             <h2 className="mil-light mil-mb-30">
               {" "}
-              Why Choose <span className="mil-accent">Us</span>{" "}
+              Why Choose our{" "}
+              <span className="mil-accent">Search Engine Optimization</span>{" "}
             </h2>
-            <p className="mil-light-soft conten">
-            Experienced Team: Our SEO experts have over a decade of experience in the field. They stay updated with the latest search engine algorithm changes, ensuring your strategy is always in line with best practices. 
-            </p>
-            <p className="mil-light-soft conten">
-            Results-driven: We understand that SEO is an investment, and we're dedicated to delivering a significant return on that investment. Our goal is to see your website consistently climbing the search engine rankings. 
-            </p>
-            <p className="mil-light-soft conten">
-            Local SEO Focus: If you're a small business, you can trust our local SEO expertise. We understand the unique challenges and opportunities that local businesses face, and we know how to help you stand out in your community. 
-            </p>
+            {/* <p className="mil-light-soft">
+              With years of experience and a proven track record, BytesFarms is
+              your trusted partner for Salesforce Developement.
+              <br /> Our dedicated team of experts is committed to delivering
+              results that matter, helping you achieve efficiency, agility, and
+              innovation in your organization.
+            </p> */}
+          </div>
+          <div className="row mil-mb-30-adapt">
+            <div className="col-lg-3">
+              <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                </div>
+                <p className="mil-light"> High Quality Niche Backlinks</p>
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                  <img src="assets/icon/sm/2.svg" alt="icon" />
+                </div>
+                <p className="mil-light">Flawless Onpage SEO</p>
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                  <img src="assets/icon/sm/7.svg" alt="icon" />
+                </div>
+                <p className="mil-light">SERPs Inspired Content</p>
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                  <img src="assets/icon/sm/3.svg" alt="icon" />
+                </div>
+                <p className="mil-light">Fastest Load-Times</p>
+              </div>
+            </div>
 
-            <h3 class="mil-light mil-mb-30">
-            The Path to SEO Success Starts Here
-            </h3>
-            <p class="mil-light-soft mil-mb-60">
-            Our approach to SEO is simple yet effective. We believe in understanding your business and audience, tailoring strategies to your unique needs, and delivering results. When you work with us, you're not just another client; you're a partner on the path to SEO success.
-            </p>
+            
 
-            <h3 class="mil-light mil-mb-30">
-            Dominating Search Results 
-            </h3>
-            <p class="mil-light-soft mil-mb-60">
-            We don't just aim for top rankings; we aim for search result domination. When potential customers search for keywords related to your industry, we ensure they find your website before they find your competitors. 
-            </p>
-
-            <h3 class="mil-light mil-mb-30">Get Started Today  </h3>
-            <p class="mil-light-soft mil-mb-60">
-            If you're ready to unlock the full potential of your online presence through expert SEO services, contact us today. Let's discuss your goals and build a customized SEO strategy that's tailored to your business. Together, we can make your website a powerful and consistent source of organic traffic, leads, and revenue. 
-            </p>
-
-           
-
-            <h3 className="mil-light mil-mb-30">
-            CTA: Get your business to the top of the search results! 
-            </h3>
+            
+          </div>
+          <div className="mil-text-center">
+            <Link
+              to="/Contact"
+              className="mil-button mil-border mil-light mil-mb-30"
+            >
+              <span>Talk To Our SEO Experts</span>
+            </Link>
           </div>
         </div>
       </section>

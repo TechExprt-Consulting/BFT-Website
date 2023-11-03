@@ -15,11 +15,11 @@ const Digital = () => {
 
       {/* <!-- banner --> */}
       <div className="mil-banner-sm mil-deep-bg">
-        <img
+        {/* <img
           src="assets/deco/map.png"
           alt="background"
           className="mil-background-image"
-        />
+        /> */}
         {/* <div
           className="mil-deco mil-deco-accent"
           style={{ top: "47%", right: "10%", transform: "rotate(90deg)" }}
@@ -39,15 +39,19 @@ const Digital = () => {
             </ul>
             <div className="d-flex">
             <div className="d-flex row">
-            <h2 className="mil-uppercase">Digital Marketing</h2>
+            <h2 className="mil-uppercase" style={{color:"#1B2F5B"}}>Digital Marketing</h2>
             
             <p className="col-md-8 conten">When developing your digital marketing strategies, we dedicate hours to understand your business, market and industry so we can build a plan that aligns with your business objective and goals. Today, businesses are adapting and exploring the digital terrain at a rate faster than ever, globally over 60% of the businesses have their digital presence established. We help you get the best data-backed strategy and engaging creative appeal to your campaigns which makes you stand out from your competitors.</p>
             </div>
-            <img src="assets/project/1.png" alt="mus" className="col-md-4"/>
+            <img src="assets/mockup/Salesforce.png" alt="mus" className="col-md-4" />
             </div>
           </div>
-        </div>
+          <div className="">
+              <button className="mil-vertical-button text-dark ">Get a Free quote!</button> 
+              </div>
       </div>
+        </div>
+        
       {/* <!-- banner end --> */}
 
       {/* <!-- call to action --> */}
@@ -76,12 +80,12 @@ const Digital = () => {
         <div className="container">
         <Accordion style={{ backgroundColor: "#1B2F5B",marginBottom:"20px",color:"white"}}>
           <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
+            expandIcon={<ExpandMoreIcon style={{color:"white"}}/>}
             aria-controls="panel1a-content"
             id="panel1a-header"
             className="" 
           >
-            <Typography>HOW TO DO DIGITAL MARKETING?</Typography>
+            <Typography className="fw-bold">HOW TO DO DIGITAL MARKETING?</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
@@ -127,12 +131,12 @@ const Digital = () => {
         </Accordion>
         <Accordion style={{ backgroundColor: "#1B2F5B",marginBottom:"20px",color:"white"}}>
           <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
+            expandIcon={<ExpandMoreIcon style={{color:"white"}}/>}
             aria-controls="panel1a-content"
             id="panel1a-header"
             className="" 
           >
-            <Typography>HOW TO ENHANCE YOUR DIGITAL MARKETING CAMPAIGNS ? </Typography>
+            <Typography className="fw-bold">HOW TO ENHANCE YOUR DIGITAL MARKETING CAMPAIGNS ? </Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
@@ -183,12 +187,12 @@ const Digital = () => {
         </Accordion>
         <Accordion style={{ backgroundColor: "#1B2F5B",marginBottom:"20px",color:"white"}}>
           <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
+            expandIcon={<ExpandMoreIcon style={{color:"white"}}/>}
             aria-controls="panel1a-content"
             id="panel1a-header"
             className="" 
           >
-            <Typography>HOW TO IDENTIFY THE MARKET TRENDS ON DIGITAL PLATFORMS? </Typography>
+            <Typography className="fw-bold">HOW TO IDENTIFY THE MARKET TRENDS ON DIGITAL PLATFORMS? </Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
@@ -221,12 +225,12 @@ const Digital = () => {
         </Accordion>
         <Accordion style={{ backgroundColor: "#1B2F5B",marginBottom:"20px",color:"white"}}>
           <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
+            expandIcon={<ExpandMoreIcon style={{color:"white"}}/>}
             aria-controls="panel1a-content"
             id="panel1a-header"
             className="" 
           >
-            <Typography>HOW TO OPTIMIZE ON-PAGE SEO? </Typography>
+            <Typography className="fw-bold">HOW TO OPTIMIZE ON-PAGE SEO? </Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
@@ -264,13 +268,13 @@ const Digital = () => {
         </Accordion>
         <Accordion style={{ backgroundColor: "#1B2F5B",marginBottom:"20px",color:"white"}}>
           <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
+            expandIcon={<ExpandMoreIcon style={{color:"white"}}/>}
             aria-controls="panel1a-content"
             id="panel1a-header"
             className=""
             style={{color:'white'}} 
           >
-            <Typography>WHAT IS BETTER PPC OR FACEBOOK ADS? </Typography>
+            <Typography className="fw-bold">WHAT IS BETTER PPC OR FACEBOOK ADS? </Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
@@ -316,12 +320,12 @@ const Digital = () => {
         </Accordion>
         <Accordion style={{ backgroundColor: "#1B2F5B",marginBottom:"20px",color:"white"}}>
           <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
+            expandIcon={<ExpandMoreIcon style={{color:"white"}}/>}
             aria-controls="panel1a-content"
             id="panel1a-header"
             className="" 
           >
-            <Typography>WHAT MARKETING WORKS THE BEST FOR SMALL BUISNESSES? </Typography>
+            <Typography className="fw-bold">WHAT MARKETING WORKS THE BEST FOR SMALL BUISNESSES? </Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
@@ -355,9 +359,9 @@ const Digital = () => {
             </div>
             <div className="col-md-4">
             <div>
-            <span className="mil-suptitle mil-suptitle-2 mil-mb-30 text-white">
+            {/* <span className="mil-suptitle mil-suptitle-2 mil-mb-30 text-white">
               Services and Solutions
-            </span>
+            </span> */}
              
             </div>
             <div>

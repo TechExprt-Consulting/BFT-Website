@@ -51,12 +51,12 @@ const ContentM = () => {
           <div className="">
             <div className=" mil-mb-30">
               <p>
-                <h5>Elevate Your Brand with Powerful Content Marketing Services  </h5>
-                In the digital age, content is the currency of the internet. A well-executed content marketing strategy can transform your business, driving brand awareness, engagement, and ultimately, revenue. At BytesFarms, we are your partners in crafting compelling and effective content marketing strategies. </p>           </div>
+                
+                Most people often underestimate the power of content and that is where they miss on a gold mine of opportunities in the process. High quality content has the power to significantly amplify a brand's reach and impact. Look around and you will find yourself dwelling in the oceans of content. From the videos you watch on youtube to the long descriptive articles you read on Medium, blogger and other sites, it is all content. In recent times, brands are heavily investing in content as they have realized how effortlessly content helps them establish their brands presence in the market.</p>           </div>
             <div className=" mil-mb-30">
               <p>
-                <h5>The Power of Content  </h5>
-                Content marketing is more than just creating blog posts or social media updates. It's about telling your brand's story, engaging your audience, and providing value. Quality content can attract, inform, and inspire your customers. </p>            </div>
+                
+                At BytesFarms, we have a team of dedicated content writers, strategists and digital marketing experts who harness the art of content development and distribution helping our clients drive more relevant traffic to their website and reach more potential customers. </p>            </div>
           </div>
         </div>
       </div>
@@ -76,7 +76,9 @@ const ContentM = () => {
       <div className="container">
         <div className="row">
           <div className="col-12 mil-mb-90 ">
-            
+            {/* <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
+              Services and Solutions
+            </span> */}
             <h2 className="mil-mb-30">Our Comprehensive Content Marketing Services   </h2>
             <p className="mil-dark">
             At BytesFarms Technologies, we offer a range of content marketing services to help you stand out in the digital landscape:    </p>
@@ -166,49 +168,74 @@ const ContentM = () => {
    
     {/* <!-- services --> */}
     <section className="mil-gradient-bg mil-deco-right mil-p-120-0">
-      {/* <div
-        className="mil-deco mil-deco-accent"
-        style={{ top: "0", left: "5%" }}
-      ></div> */}
-      <div className="container">
-        <div className=" mil-mb-90">
-          <h2 className="mil-light mil-mb-30">
-            {" "}
-            Why Choose <span className="mil-accent">Us</span>{" "}
-          </h2>
-          <p className="mil-light-soft conten">
-          Experienced Team: Our content marketing experts have over a decade of experience in crafting and executing successful content marketing strategies. They know how to create content that resonates with your audience and drives results.</p>
-          <p className="mil-light-soft conten">
-          Results-Driven Approach: We're not just about creating content; we're about creating content that works. Our strategies are designed to increase traffic, conversions, and brand visibility. </p>
-          <p className="mil-light-soft conten">
-          Personalized Solutions: We understand that every business is unique. When you work with us, you get a content marketing strategy that's customized to meet your specific goals and audience.</p>
+        <div
+          className="mil-deco mil-deco-accent"
+          style={{ top: "0", left: "5%" }}
+        ></div>
+        <div className="container">
+          <div className="mil-text-center mil-mb-90">
+            <span className="mil-suptitle  mil-light mil-suptitle-2 mil-mb-30">
+              Always The Best
+            </span>
+            <h2 className="mil-light mil-mb-30">
+              {" "}
+              Why Choose our{" "}
+              <span className="mil-accent">Search Engine Optimization</span>{" "}
+            </h2>
+            {/* <p className="mil-light-soft">
+              With years of experience and a proven track record, BytesFarms is
+              your trusted partner for Salesforce Developement.
+              <br /> Our dedicated team of experts is committed to delivering
+              results that matter, helping you achieve efficiency, agility, and
+              innovation in your organization.
+            </p> */}
+          </div>
+          <div className="row mil-mb-30-adapt">
+            <div className="col-lg-3">
+              <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                </div>
+                <p className="mil-light">  Tailored Strategies</p>
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                  <img src="assets/icon/sm/2.svg" alt="icon" />
+                </div>
+                <p className="mil-light">Research Based Content</p>
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                  <img src="assets/icon/sm/7.svg" alt="icon" />
+                </div>
+                <p className="mil-light">SEO Expertise</p>
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                  <img src="assets/icon/sm/7.svg" alt="icon" />
+                </div>
+                <p className="mil-light">Multi-Channel Distribution</p>
+              </div>
+            </div>
 
-          <h3 class="mil-light mil-mb-30">
-          The Path to Content Marketing Success Starts Here 
-          </h3>
-          <p class="mil-light-soft mil-mb-60">
-          Our approach to content marketing is based on understanding your brand, your goals, and your audience. We work closely with you to develop content that enhances your brand's presence and drives engagement. 
-           </p>
-
-          <h3 class="mil-light mil-mb-30">
-          Transforming Your Content into a Marketing Powerhouse 
-          </h3>
-          <p class=" mil-light-soft mil-mb-60">
-          We don't just create content; we create marketing assets. When you work with us, your content becomes a powerful tool for engaging your audience, driving traffic, and generating leads</p>
-
-          <h3 class="mil-light mil-mb-30">Get Started Today  </h3>
-          <p class="mil-light-soft mil-mb-60">
-          If you're ready to harness the full potential of content marketing, contact us today. Let's discuss your goals and build a content marketing strategy that's tailored to your brand. Together, we can make your content a key driver of brand awareness and revenue. 
-          </p>
-
-         
-
-          <h3 className="mil-light mil-mb-30">
-          CTA: Elevate your brand with content marketing! 
-          </h3>
+            
+          </div>
+          <div className="mil-text-center">
+            <Link
+              to="/Contact"
+              className="mil-button mil-border mil-light mil-mb-30"
+            >
+              <span>Talk To Our SEO Experts</span>
+            </Link>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
     {/* <!-- services end --> */}
 
     <Footer />

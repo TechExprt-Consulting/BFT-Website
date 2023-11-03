@@ -51,14 +51,12 @@ const SocialMedia = () => {
             <div className="">
               <div className=" mil-mb-30">
                 <p>
-                  <h5>Elevate Your Brand with Strategic Social Media Marketing Services </h5>
-                  In the era of social connectivity, a strong presence on popular social media platforms is essential for businesses of all sizes. Social Media Marketing is the bridge that connects you with your target audience, drives brand engagement, and ultimately boosts your bottom line. At Bytesfarms, we are your partners in crafting a winning social media strategy.                 </p>
-              </div>
-              <div className=" mil-mb-30">
-                <p>
-                  <h5>The Power of social media  </h5>
-                  Social media platforms like Facebook, Instagram, Twitter, and LinkedIn have become integral parts of our daily lives. People use these platforms not only to stay connected with friends and family but also to discover and engage with brands. This presents a golden opportunity for businesses to connect with their audience on a personal level.                 </p>
-              </div>
+                 
+                  Let us establish your digital footprint, design creative strategy and optimize the social media campaigns for your business. The heart of social media marketing lies in the building entrancing online presence that reflects the brand’s identity authentically. A brand’s digital presence should be designed considering that this
+
+will serve as a digital touchpoint of the brand for all the visitors and potential customers. Having said that, it becomes crucial to be aware of what and how one plans to establish their digital presence. At BytesFarms, our team works meticulously to craft compelling narratives that reflect the client’s brand essence and identity. The journey of content creation starts from ideation and conceptualisation and continues till it gets published and the response is analyzed, we use the data to further enhance the next piece of content.         </p>     </div>
+
+              
             </div>
           </div>
         </div>
@@ -78,7 +76,9 @@ const SocialMedia = () => {
         <div className="container">
           <div className="row">
             <div className="col-12 mil-mb-90 ">
-              
+              {/* <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
+                Services and Solutions
+              </span> */}
               <h2 className="mil-mb-30">Our Comprehensive Social Media Marketing Services  </h2>
               <p className="mil-dark">
               At BytesFarms Technologies, we offer a comprehensive range of social media marketing services designed to help you leverage the full potential of these platforms:               </p>
@@ -111,7 +111,7 @@ const SocialMedia = () => {
                 <div className="mil-number-icon mil-mb-30">
                   <span>03</span>
                 </div>
-                <h4 className="mil-mb-15">Audience Engagement </h4>
+                <h4 className="mil-mb-15">Community Management </h4>
                 <p>
                 We engage with your audience, respond to comments, and create a sense of community around your brand.                </p>
               </div>
@@ -165,44 +165,67 @@ const SocialMedia = () => {
      
   
          {/* <!-- services --> */}
-      <section className="mil-gradient-bg mil-deco-right mil-p-120-0">
-        {/* <div
+         <section className="mil-gradient-bg mil-deco-right mil-p-120-0">
+        <div
           className="mil-deco mil-deco-accent"
           style={{ top: "0", left: "5%" }}
-        ></div> */}
+        ></div>
         <div className="container">
-          <div className=" mil-mb-90">
+          <div className="mil-text-center mil-mb-90">
+            <span className="mil-suptitle  mil-light mil-suptitle-2 mil-mb-30">
+              Always The Best
+            </span>
             <h2 className="mil-light mil-mb-30">
               {" "}
-              Why Choose <span className="mil-accent">Us</span>{" "}
+              Why Choose our{" "}
+              <span className="mil-accent">Search Engine Optimization</span>{" "}
             </h2>
-            <p className="mil-light-soft conten">
-            Experienced Team: Our social media experts have over a decade of experience in crafting and executing successful social media marketing strategies. They understand the ever-evolving landscape of social media and can guide your brand effectively.            </p>
-            <p className="mil-light-soft conten">
-            Results-Driven Approach: We're not just about likes and shares; we're about driving measurable results. Our strategies are designed to boost your brand's online presence, increase traffic, and drive conversions.             </p>
-            <p className="mil-light-soft conten">
-            Personalized Solutions: We believe in tailoring our services to meet your unique needs. When you work with us, you'll get a social media strategy that's designed with your specific goals and audience in mind.             </p>
+            {/* <p className="mil-light-soft">
+              With years of experience and a proven track record, BytesFarms is
+              your trusted partner for Salesforce Developement.
+              <br /> Our dedicated team of experts is committed to delivering
+              results that matter, helping you achieve efficiency, agility, and
+              innovation in your organization.
+            </p> */}
+          </div>
+          <div className="row mil-mb-30-adapt">
+            <div className="col-lg-3">
+              <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                </div>
+                <p className="mil-light"> Designing Creative Strategies</p>
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                  <img src="assets/icon/sm/2.svg" alt="icon" />
+                </div>
+                <p className="mil-light">Building Your Online Presence</p>
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                  <img src="assets/icon/sm/7.svg" alt="icon" />
+                </div>
+                <p className="mil-light">Strengthening your customer base</p>
+              </div>
+            </div>
+            
 
-            <h3 class="mil-light mil-mb-30">
-            The Path to social media Success Starts Here 
-            </h3>
-            <p class="mil-light-soft mil-mb-60">
-            Our approach to social media marketing is rooted in understanding your brand and your audience. We work closely with you to develop strategies that will enhance your brand's presence, boost engagement, and deliver tangible results.             </p>
+            
 
-            <h3 class="mil-light mil-mb-30">
-            Transforming Your Social Media Presence 
-            </h3>
-            <p class="mil-light-soft mil-mb-60">
-            We're not just in the business of managing social media accounts; we're in the business of transforming them. When you work with us, you can expect to see your social media presence become a vibrant hub for brand engagement.             </p>
-
-            <h3 class="mil-light mil-mb-30">Get Started Today  </h3>
-            <p class="mil-light-soft mil-mb-60">
-            If you're ready to harness the full potential of social media marketing, contact us today. Let's discuss your goals and build a social media strategy that's tailored to your brand. Together, we can make your brand a prominent and influential force on social media.             </p>
-
-           
-
-            <h3 className="mil-light mil-mb-30">
-            CTA: Elevate your brand with social media marketing!             </h3>
+            
+          </div>
+          <div className="mil-text-center">
+            <Link
+              to="/Contact"
+              className="mil-button mil-border mil-light mil-mb-30"
+            >
+              <span>Talk To Our SEO Experts</span>
+            </Link>
           </div>
         </div>
       </section>

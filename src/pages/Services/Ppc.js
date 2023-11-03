@@ -51,12 +51,13 @@ const Ppc = () => {
           <div className="">
             <div className=" mil-mb-30">
               <p>
-                <h5>Maximize Your ROI with Expert Pay Per Click (PPC) Services </h5>
-                In the competitive landscape of online advertising, Pay-per-click (PPC) campaigns are a powerful tool for driving immediate results. Whether you're looking to increase website traffic, generate leads, or boost sales, PPC advertising can help you achieve your goals. At BytesFarms, we are your partners in crafting and managing highly effective PPC campaigns. </p>           </div>
-            <div className=" mil-mb-30">
+                
+                Achieve instant visibility and results with our PPC campaigns. Our team creates precision-targeted ad campaigns to drive valuable traffic and convert visitors into loyal customers, all while keeping the approach cost-effective. Digital landscape is highly competitive and so there is a cost assigned to each click. In absence of knowledge and expertise, chances that one might end up losing a chunk of digital marketing spend are relatively higher.
+</p>            </div>
+<div className=" mil-mb-30">
               <p>
-                <h5>The Power of PPC Advertising   </h5>
-                PPC advertising allows businesses to place ads on search engines and various online platforms and pay only when users click on their ads. This makes it a cost-effective and efficient way to reach a highly targeted audience and get your message in front of potential customers who are actively searching for your products or services. </p>            </div>
+                
+                So when you choose us as your PPC partner, you don’t just invest in online advertising but you invest in a process that is driven by research, strategy, precision, data and creativity. The campaigns we design for you are meticulously designed results of intense brainstorming sessions, concept development, creative strategy, all underpinned by deep research</p>            </div>
           </div>
         </div>
       </div>
@@ -167,44 +168,69 @@ const Ppc = () => {
    
     {/* <!-- services --> */}
     <section className="mil-gradient-bg mil-deco-right mil-p-120-0">
-      {/* <div
-        className="mil-deco mil-deco-accent"
-        style={{ top: "0", left: "5%" }}
-      ></div> */}
-      <div className="container">
-        <div className=" mil-mb-90">
-          <h2 className="mil-light mil-mb-30">
-            {" "}
-            Why Choose <span className="mil-accent">Us</span>{" "}
-          </h2>
-          <p className="mil-light-soft conten">
-          Experienced Team: Our PPC experts have over a decade of experience in managing successful PPC campaigns. They understand the intricacies of the various advertising platforms and can maximize the impact of your campaigns.</p>
-          <p className="mil-light-soft conten">
-          Results-Driven Approach: Our goal is not just to get clicks but to drive conversions and boost your bottom line. We're dedicated to delivering measurable results that align with your business objectives. </p>
-          <p className="mil-light-soft conten">
-          Targeted Advertising: We believe in reaching the right audience at the right time. Our PPC campaigns are laser-focused on your specific target audience, ensuring your budget is spent efficiently.  </p>
+        <div
+          className="mil-deco mil-deco-accent"
+          style={{ top: "0", left: "5%" }}
+        ></div>
+        <div className="container">
+          <div className="mil-text-center mil-mb-90">
+            <span className="mil-suptitle  mil-light mil-suptitle-2 mil-mb-30">
+              Always The Best
+            </span>
+            <h2 className="mil-light mil-mb-30">
+              {" "}
+              Why Choose our{" "}
+              <span className="mil-accent">Search Engine Optimization</span>{" "}
+            </h2>
+            {/* <p className="mil-light-soft">
+              With years of experience and a proven track record, BytesFarms is
+              your trusted partner for Salesforce Developement.
+              <br /> Our dedicated team of experts is committed to delivering
+              results that matter, helping you achieve efficiency, agility, and
+              innovation in your organization.
+            </p> */}
+          </div>
+          <div className="row mil-mb-30-adapt">
+            <div className="col-lg-3">
+              <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                </div>
+                <p className="mil-light"> Strategin Campaign Creation</p>
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                  <img src="assets/icon/sm/2.svg" alt="icon" />
+                </div>
+                <p className="mil-light">Audience & Device Analysis</p>
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                  <img src="assets/icon/sm/7.svg" alt="icon" />
+                </div>
+                <p className="mil-light">Custom Conversion Analysis</p>
+              </div>
+            </div>
+            
 
-          <h3 class="mil-light mil-mb-30">
-          The Path to PPC Success Starts Here           </h3>
-          <p class="mil-light-soft mil-mb-60">
-          Our approach to PPC is simple but highly effective. We work closely with you to understand your business, goals, and audience, and then we design a customized PPC strategy that aligns with your unique needs. </p>
+            
 
-          <h3 class="mil-light mil-mb-30">
-          Maximizing Your ROI           </h3>
-          <p class=" mil-light-soft mil-mb-60">
-          Our focus is on driving results and maximizing your return on investment. When you work with us, you can expect to see a significant improvement in your online advertising efforts. </p>
-
-          <h3 class="mil-light mil-mb-30">Get Started Today  </h3>
-          <p class="mil-light-soft mil-mb-60">
-          If you're ready to achieve a strong online presence and maximize your ROI through expert PPC services, contact us today. Let's discuss your goals and build a PPC strategy that's tailored to your business. Together, we can make PPC advertising a powerful driver of leads and revenue for your brand. </p>
-
-         
-
-          <h3 className="mil-light mil-mb-30">
-          CTA: Maximize your ROI with PPC advertising! </h3>
+            
+          </div>
+          <div className="mil-text-center">
+            <Link
+              to="/Contact"
+              className="mil-button mil-border mil-light mil-mb-30"
+            >
+              <span>Talk To Our SEO Experts</span>
+            </Link>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
     {/* <!-- services end --> */}
 
     <Footer />
