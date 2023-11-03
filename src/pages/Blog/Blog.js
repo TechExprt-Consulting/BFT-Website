@@ -30,7 +30,7 @@ const Blog = () => {
                 <Link to="/Careers">Blog</Link>
               </li>
             </ul>
-            <h2 className="mil-uppercase">Our Blog</h2>
+            <h2 className="mil-uppercase">Our Blogs</h2>
           </div>
         </div>
       </div>
