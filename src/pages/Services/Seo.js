@@ -8,41 +8,57 @@ const Seo = () => {
       <Navbar />
 
       {/* <!-- banner --> */}
-      <div className="mil-banner-sm mil-deep-bg">
-        <img
+      <div className="mil-banner-sm bg-white shadow shadow-bottom shadow-md">
+        {/* <img
           src="assets/deco/map.png"
           alt="background"
           className="mil-background-image"
-        />
-        <div
+        /> */}
+        {/* <div
           className="mil-deco mil-deco-accent"
           style={{ top: "47%", right: "10%", transform: "rotate(90deg)" }}
-        ></div>
+        ></div> */}
         <div className="mil-banner-content">
           <div className="container mil-relative">
-            <ul className="mil-breadcrumbs mil-mb-30">
-              <li>
-                <Link to="/Home">Home</Link>
-              </li>
-              <li>
-                <Link to="">Service</Link>
-              </li>
-              <li>
-                <Link to="/digital">Digital Marketing</Link>
-              </li>
-              <li>
-                <Link to="/seo">SEO</Link>
-              </li>
-            </ul>
-            <h2 className="mil-uppercase">Search Engine Optimization </h2>
-            
+            <div className="d-flex">
+              <div className="d-flex row  ">
+                <ul className="mil-breadcrumbs mil-mb-30 ">
+                  <li>
+                    <Link to="/Home">Home</Link>
+                  </li>
+                  <li>
+                    <Link to="">Service</Link>
+                  </li>
+                  <li>
+                    <Link to="/Salesforce">Digital Marketing</Link>
+                  </li>
+                  <li>
+                    <Link to="/Salesforce">SEO</Link>
+                  </li>
+                </ul>
+
+                
+                  <h2 className="mil-uppercase " style={{ color: "#1B2F5B" }}>
+                    Search Engine Optimization
+                  </h2>
+                
+              </div>
+
+              <img src="assets/mockup/SEO.png" alt="mus" className="col-md-4" />
+            </div>
+          </div>
+          <div className="">
+            <button className="mil-vertical-button text-dark ">
+              Get a Free Quote!
+            </button>
           </div>
         </div>
       </div>
+
       {/* <!-- banner end --> */}
 
       {/* <!-- call to action --> */}
-      <section className="mt-4">
+      <section className="mt-5">
         <div
           className="mil-deco"
           style={{ bottom: "0", right: "25%", transform: "rotate(180deg)" }}
@@ -51,7 +67,7 @@ const Seo = () => {
           <div className="row">
             <div className="">
               <div className=" mil-mb-30">
-                <p>
+                <p className="conten">
                   Business is not easy, especially if you are missing out on the
                   online visibility game. In today’s fast pacing world when
                   every business has made their digital debut, SEO stands as a
@@ -64,7 +80,7 @@ const Seo = () => {
                 </p>
               </div>
               <div className=" mil-mb-30">
-                <p>
+                <p className="conten">
                   While you focus on your business operations and
                   administration, we take care of our SEO roadmap and ranking
                   destination. With our arsenal of SEO tools, techniques and

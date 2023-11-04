@@ -10,16 +10,16 @@ const Deveops = () => {
       <Navbar/>
 
       {/* <!-- banner --> */}
-      <div className="mil-banner-sm mil-deep-bg">
-        <img
+      <div className="mil-banner-sm bg-white shadow shadow-bottom shadow-md">
+        {/* <img
           src="assets/deco/map.png"
           alt="background"
           className="mil-background-image"
-        />
-        <div
+        /> */}
+        {/* <div
           className="mil-deco mil-deco-accent"
           style={{ top: "47%", right: "10%", transform: "rotate(90deg)" }}
-        ></div>
+        ></div> */}
         <div className="mil-banner-content">
           <div className="container mil-relative">
             <ul className="mil-breadcrumbs mil-mb-30">
@@ -30,56 +30,47 @@ const Deveops = () => {
                 <Link to="">Service</Link>
               </li>
               <li>
-                <Link to="/Deveops">Deveops</Link>
+                <Link to="/Salesforce">DevOps</Link>
               </li>
             </ul>
-            <h2 className="mil-uppercase">Devops Consulting</h2>
-          </div>
-        </div>
-      </div>
-      {/* <!-- banner end --> */}
+            <div className="d-flex">
+              <div className="d-flex row">
+                <h2 className="mil-uppercase" style={{ color: "#1B2F5B" }}>
+                  DevOps Consulting
+                </h2>
 
-      {/* <!-- call to action --> */}
-      <section className="mil-p-120-90">
-        <div
-          className="mil-deco"
-          style={{ bottom: "0", right: "25%", transform: "rotate(180deg)" }}
-        ></div>
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-8">
-              <div className="mil-hori-box mil-mb-30">
-                <div className="mil-mr-30">
-                  <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg">
-                    <img src="assets/icon/1.svg" alt="icon" />
-                  </div>
-                </div>
-                <h6 className="conten">
-                  Are you ready to supercharge your business operations and
+                <p className="col-md-8 conten">
+                Are you ready to supercharge your business operations and
                   boost your development processes? Look no further than our
                   top-tier DevOps consulting services. At BytesFarms, we
                   understand the critical role that DevOps plays in modern
                   software development and IT management. Our expert team is
                   dedicated to helping you achieve operational excellence
                   through tailored DevOps solutions.
-                </h6>
+                </p>
               </div>
-            </div>
-            <div className="col-lg-4">
-              <div className="mil-adaptive-right">
-                <Link to="/Contact" className="mil-button mil-border mil-mb-30">
-                  <span>Get in Touch</span>
-                </Link>
-              </div>
+              <img
+                src="assets/mockup/devops.png"
+                alt="mus"
+                className="col-md-4"
+              />
             </div>
           </div>
+          <div className="">
+            <button className="mil-vertical-button text-dark ">
+              Get a Free Quote!
+            </button>
+          </div>
         </div>
-      </section>
-      {/* <!-- call to action end --> */}
-
-      <div className="container">
-        <div className="mil-divider"></div>
       </div>
+
+      {/* <!-- banner end --> */}
+
+      
+
+      {/* <div className="container">
+        <div className="mil-divider"></div>
+      </div> */}
 
       {/* <!-- steps --> */}
       <section className="mil-p-120-90">
@@ -330,9 +321,9 @@ const Deveops = () => {
         ></div>
         <div className="container">
           <div className="mil-text-center mil-mb-90">
-            <span className="mil-suptitle  mil-light mil-suptitle-2 mil-mb-30">
+            {/* <span className="mil-suptitle  mil-light mil-suptitle-2 mil-mb-30">
               Always The Best
-            </span>
+            </span> */}
             <h2 className="mil-light mil-mb-30">
               {" "}
               Why Choose our{" "}
@@ -358,7 +349,7 @@ const Deveops = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-light">
-                  <img src="assets/icon/sm/2.svg" alt="icon" />
+                  <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-light">Customized Solutions</p>
               </div>
@@ -366,7 +357,7 @@ const Deveops = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-light">
-                  <img src="assets/icon/sm/7.svg" alt="icon" />
+                  <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-light">Stay Ahead of the Curve</p>
               </div>
@@ -374,7 +365,7 @@ const Deveops = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-light">
-                  <img src="assets/icon/sm/3.svg" alt="icon" />
+                  <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-light">End-to-End Support</p>
               </div>
@@ -383,7 +374,7 @@ const Deveops = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-light">
-                  <img src="assets/icon/sm/1.svg" alt="icon" />
+                  <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-light">Assessment and Strategy Design</p>
               </div>

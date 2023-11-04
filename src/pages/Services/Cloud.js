@@ -8,25 +8,38 @@ const Cloud = () => {
   return (
     <div className="mil-wrapper">
      <Navbar/>
-      {/* <!-- banner end --> */}
+       {/* <!-- banner --> */}
+       <div className="mil-banner-sm bg-white shadow shadow-bottom shadow-md">
+        {/* <img
+          src="assets/deco/map.png"
+          alt="background"
+          className="mil-background-image"
+        /> */}
+        {/* <div
+          className="mil-deco mil-deco-accent"
+          style={{ top: "47%", right: "10%", transform: "rotate(90deg)" }}
+        ></div> */}
+        <div className="mil-banner-content">
+          <div className="container mil-relative">
+            <ul className="mil-breadcrumbs mil-mb-30">
+              <li>
+                <Link to="/Home">Home</Link>
+              </li>
+              <li>
+                <Link to="">Service</Link>
+              </li>
+              <li>
+                <Link to="/Salesforce">Cloud Migration</Link>
+              </li>
+            </ul>
+            <div className="d-flex">
+              <div className="d-flex row">
+                <h2 className="mil-uppercase" style={{ color: "#1B2F5B" }}>
+                  Cloud Migration
+                </h2>
 
-      {/* <!-- call to action --> */}
-      <section className="mil-p-120-90">
-        <div
-          className="mil-deco"
-          style={{ bottom: "0", right: "25%", transform: "rotate(180deg)" }}
-        ></div>
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-8">
-              <div className="mil-hori-box mil-mb-30">
-                <div className="mil-mr-30">
-                  <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg">
-                    <img src="assets/icon/1.svg" alt="icon" />
-                  </div>
-                </div>
-                <h6 className="conten">
-                  Are you ready to elevate your business operations to the next
+                <p className="col-md-8 conten">
+                Are you ready to elevate your business operations to the next
                   level? Embracing the power of the cloud can be a
                   transformative journey, and our dedicated Cloud Migration
                   Services are here to guide you every step of the way. Whether
@@ -34,24 +47,30 @@ const Cloud = () => {
                   is committed to delivering a seamless and efficient transition
                   to the cloud, unlocking unparalleled scalability, flexibility,
                   and cost savings for your organization.
-                </h6>
+                </p>
               </div>
-            </div>
-            <div className="col-lg-4">
-              <div className="mil-adaptive-right">
-                <Link to="/Contact" className="mil-button mil-border mil-mb-30">
-                  <span>Get in Touch</span>
-                </Link>
-              </div>
+              <img
+                src="assets/mockup/cloud.png"
+                alt="mus"
+                className="col-md-4"
+              />
             </div>
           </div>
+          <div className="">
+            <button className="mil-vertical-button text-dark ">
+              Get a Free Quote!
+            </button>
+          </div>
         </div>
-      </section>
-      {/* <!-- call to action end --> */}
-
-      <div className="container">
-        <div className="mil-divider"></div>
       </div>
+
+      {/* <!-- banner end --> */}
+
+      
+
+      {/* <div className="container">
+        <div className="mil-divider"></div>
+      </div> */}
 
       {/* <!-- services --> */}
       <section className="mil-services mil-p-120-90">
@@ -204,9 +223,9 @@ const Cloud = () => {
         ></div>
         <div className="container">
           <div className="mil-text-center mil-mb-90">
-            <span className="mil-suptitle  mil-light mil-suptitle-2 mil-mb-30">
+            {/* <span className="mil-suptitle  mil-light mil-suptitle-2 mil-mb-30">
               Always The Best
-            </span>
+            </span> */}
             <h2 className="mil-light mil-mb-30">
               {" "}
               Why Choose our{" "}
@@ -231,7 +250,7 @@ const Cloud = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-light">
-                  <img src="assets/icon/sm/2.svg" alt="icon" />
+                  <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-light">Tailored Solutions</p>
               </div>
@@ -239,7 +258,7 @@ const Cloud = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-light">
-                  <img src="assets/icon/sm/7.svg" alt="icon" />
+                  <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-light">Minimal Disruption</p>
               </div>
@@ -247,7 +266,7 @@ const Cloud = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-light">
-                  <img src="assets/icon/sm/3.svg" alt="icon" />
+                  <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-light">Security First</p>
               </div>
@@ -256,7 +275,7 @@ const Cloud = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-light">
-                  <img src="assets/icon/sm/1.svg" alt="icon" />
+                  <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-light">Cost Efficiency</p>
               </div>

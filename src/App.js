@@ -38,6 +38,13 @@ import Client from './pages/Home/Client';
 import ItService from './pages/Home/ItService';
 import Itsolution from './pages/Home/Itsolution';
 import Technology from './pages/Technology/Technology';
+import SalesCons from './pages/Services/SalesCons';
+import SalesCust from './pages/Services/SalesCust';
+import SalesExc from './pages/Services/SalesExc';
+import SalesImp from './pages/Services/SalesImp';
+import SalesInt from './pages/Services/SalesInt';
+import SalesIt from './pages/Services/SalesIt';
+import SalesMig from './pages/Services/SalesMig';
 function App() {
  
   return (
@@ -46,6 +53,16 @@ function App() {
       <Router >
       <ScrollToTop />
         <Routes>
+        <Route path='/salesforceConsulting' element={<SalesCons/>}/>
+        <Route path='/salesforceCustomization' element={<SalesCust/>}/>
+        <Route path='/salesforceAppExchange' element={<SalesExc/>}/>
+        <Route path='/salesforceImplementation' element={<SalesImp/>}/>
+        <Route path='/salesforceIntegration' element={<SalesInt/>}/>
+        <Route path='/salesforceItSupport' element={<SalesIt/>}/>
+        <Route path='/salesforceMigration' element={<SalesMig/>}/>
+
+
+
         <Route path='/tech' element={<Technology/>}/>
 
           <Route path='/itsolution' element={<Itsolution/>}/>

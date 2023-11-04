@@ -7,41 +7,58 @@ const Ppc = () => {
     <div className="mil-wrapper">
     <Navbar/>
 
-    {/* <!-- banner --> */}
-    <div className="mil-banner-sm mil-deep-bg">
-      <img
-        src="assets/deco/map.png"
-        alt="background"
-        className="mil-background-image"
-      />
-      <div
-        className="mil-deco mil-deco-accent"
-        style={{ top: "47%", right: "10%", transform: "rotate(90deg)" }}
-      ></div>
-      <div className="mil-banner-content">
-        <div className="container mil-relative">
-          <ul className="mil-breadcrumbs mil-mb-30">
-            <li>
-              <Link to="/Home">Home</Link>
-            </li>
-            <li>
-              <Link to="">Service</Link>
-            </li>
-            <li>
-              <Link to="/digital">Digital Marketing</Link>
-            </li>
-            <li>
-              <Link to="/ppc">PPC</Link>
-            </li>
-          </ul>
-          <h2 className="mil-uppercase">Pay Per Click </h2>
+   {/* <!-- banner --> */}
+   <div className="mil-banner-sm bg-white shadow shadow-bottom shadow-md">
+        {/* <img
+          src="assets/deco/map.png"
+          alt="background"
+          className="mil-background-image"
+        /> */}
+        {/* <div
+          className="mil-deco mil-deco-accent"
+          style={{ top: "47%", right: "10%", transform: "rotate(90deg)" }}
+        ></div> */}
+        <div className="mil-banner-content">
+          <div className="container mil-relative">
+          <div className="d-flex">
+              <div className="d-flex row  ">
+                <ul className="mil-breadcrumbs mil-mb-30 ">
+                  <li>
+                    <Link to="/Home">Home</Link>
+                  </li>
+                  <li>
+                    <Link to="">Service</Link>
+                  </li>
+                  <li>
+                    <Link to="/Salesforce">Digital Marketing</Link>
+                  </li>
+                  <li>
+                    <Link to="/Salesforce">PPC</Link>
+                  </li>
+                </ul>
+
+                
+                  <h2 className="mil-uppercase " style={{ color: "#1B2F5B" }}>
+                    Pay Per Click
+                  </h2>
+                
+              </div>
+
+              <img src="assets/mockup/PPC.png" alt="mus" className="col-md-4" />
+            </div>
+          </div>
+          <div className="">
+            <button className="mil-vertical-button text-dark ">
+              Get a Free Quote!
+            </button>
+          </div>
         </div>
       </div>
-    </div>
-    {/* <!-- banner end --> */}
+
+      {/* <!-- banner end --> */}
 
     {/* <!-- call to action --> */}
-    <section className="mt-4">
+    <section className="mt-5">
       <div
         className="mil-deco"
         style={{ bottom: "0", right: "25%", transform: "rotate(180deg)" }}
@@ -50,12 +67,12 @@ const Ppc = () => {
         <div className="row">
           <div className="">
             <div className=" mil-mb-30">
-              <p>
+              <p className='conten'>
                 
                 Achieve instant visibility and results with our PPC campaigns. Our team creates precision-targeted ad campaigns to drive valuable traffic and convert visitors into loyal customers, all while keeping the approach cost-effective. Digital landscape is highly competitive and so there is a cost assigned to each click. In absence of knowledge and expertise, chances that one might end up losing a chunk of digital marketing spend are relatively higher.
 </p>            </div>
 <div className=" mil-mb-30">
-              <p>
+              <p className='conten'>
                 
                 So when you choose us as your PPC partner, you don’t just invest in online advertising but you invest in a process that is driven by research, strategy, precision, data and creativity. The campaigns we design for you are meticulously designed results of intense brainstorming sessions, concept development, creative strategy, all underpinned by deep research</p>            </div>
           </div>
@@ -137,28 +154,59 @@ const Ppc = () => {
 
    
     {/* <!-- services --> */}
-    <section className="mil-gradient-bg mil-deco-right mil-p-120-0">
+     {/* <!-- services --> */}
+      <div className="mil-icon-box mil-center mil-mb-60 mt-5">
+        <h2 className="mil-mb-20 mt-2 ">Why Choose Us?</h2>
+      </div>
+      <div className="row">
+        <div className="col-md-7 col-xl-4">
+          <div className="mil-icon-box mil-center mil-mb-60">
+            <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
+              <img src="assets/icon/5.svg" alt="icon" />
+            </div>
+            <h5 className="mil-mb-20">
+              <span className="mil-accent">01.</span>&nbsp;Strategin Campaign Creation
+              
+            </h5>
+          </div>
+        </div>
+        <div className="col-md-7 col-xl-4">
+          <div className="mil-icon-box mil-center mil-mb-60">
+            <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
+              <img src="assets/icon/5.svg" alt="icon" />
+            </div>
+            <h5 className="mil-mb-20">
+              <span className="mil-accent">02.</span>&nbsp; Audience & Device Analysis
+            </h5>
+          </div>
+        </div>
+        <div className="col-md-7 col-xl-4">
+          <div className="mil-icon-box mil-center mil-mb-60">
+            <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
+              <img src="assets/icon/5.svg" alt="icon" />
+            </div>
+            <h5 className="mil-mb-20">
+              <span className="mil-accent">03.</span>&nbsp; Custom Conversion Analysis
+              
+            </h5>
+          </div>
+        </div>
+        
+      </div>
+    {/* <section className="mil-gradient-bg mil-deco-right mil-p-120-0">
         <div
           className="mil-deco mil-deco-accent"
           style={{ top: "0", left: "5%" }}
         ></div>
         <div className="container">
           <div className="mil-text-center mil-mb-90">
-            <span className="mil-suptitle  mil-light mil-suptitle-2 mil-mb-30">
-              Always The Best
-            </span>
+           
             <h2 className="mil-light mil-mb-30">
               {" "}
               Why Choose our{" "}
               <span className="mil-accent">Search Engine Optimization</span>{" "}
             </h2>
-            {/* <p className="mil-light-soft">
-              With years of experience and a proven track record, BytesFarms is
-              your trusted partner for Salesforce Developement.
-              <br /> Our dedicated team of experts is committed to delivering
-              results that matter, helping you achieve efficiency, agility, and
-              innovation in your organization.
-            </p> */}
+           
           </div>
           <div className="row mil-mb-30-adapt">
             <div className="col-lg-3">
@@ -200,7 +248,7 @@ const Ppc = () => {
             </Link>
           </div>
         </div>
-      </section>
+      </section> */}
     {/* <!-- services end --> */}
 
     <Footer />

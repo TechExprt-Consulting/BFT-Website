@@ -8,17 +8,17 @@ const BlockChain = () => {
     <div className="mil-wrapper">
 <Navbar/>
 
-      {/* <!-- banner --> */}
-      <div className="mil-banner-sm mil-deep-bg">
-        <img
+       {/* <!-- banner --> */}
+       <div className="mil-banner-sm bg-white shadow shadow-bottom shadow-md">
+        {/* <img
           src="assets/deco/map.png"
           alt="background"
           className="mil-background-image"
-        />
-        <div
+        /> */}
+        {/* <div
           className="mil-deco mil-deco-accent"
           style={{ top: "47%", right: "10%", transform: "rotate(90deg)" }}
-        ></div>
+        ></div> */}
         <div className="mil-banner-content">
           <div className="container mil-relative">
             <ul className="mil-breadcrumbs mil-mb-30">
@@ -29,32 +29,17 @@ const BlockChain = () => {
                 <Link to="">Service</Link>
               </li>
               <li>
-                <Link to="/BlockChain">BlockChain</Link>
+                <Link to="/Salesforce">BlockChain</Link>
               </li>
             </ul>
-            <h2 className="mil-uppercase">BlockChain Developement</h2>
-          </div>
-        </div>
-      </div>
-      {/* <!-- banner end --> */}
+            <div className="d-flex">
+              <div className="d-flex row">
+                <h2 className="mil-uppercase" style={{ color: "#1B2F5B" }}>
+                  BlockChain Developement
+                </h2>
 
-      {/* <!-- call to action --> */}
-      <section className="mil-p-120-90">
-        <div
-          className="mil-deco"
-          style={{ bottom: "0", right: "25%", transform: "rotate(180deg)" }}
-        ></div>
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-8">
-              <div className="mil-hori-box mil-mb-30">
-                <div className="mil-mr-30">
-                  <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg">
-                    <img src="assets/icon/1.svg" alt="icon" />
-                  </div>
-                </div>
-                <h6 className="conten">
-                  Embrace the future of trust and transparency with our
+                <p className="col-md-9 conten">
+                Embrace the future of trust and transparency with our
                   Blockchain Development Services. Our experienced team of
                   blockchain developers is here to help you navigate the dynamic
                   world of blockchain technology. We offer tailor-made solutions
@@ -64,24 +49,30 @@ const BlockChain = () => {
                   top priority, and our state-of-the-art security protocols
                   ensure your data and transactions remain safeguarded from
                   threats.
-                </h6>
+                </p>
               </div>
-            </div>
-            <div className="col-lg-4">
-              <div className="mil-adaptive-right">
-                <Link to="/Contact" className="mil-button mil-border mil-mb-30">
-                  <span>Get in Touch</span>
-                </Link>
-              </div>
+              <img
+                src="assets/mockup/blockchain.png"
+                alt="mus"
+                className="col-md-4"
+              />
             </div>
           </div>
+          <div className="">
+            <button className="mil-vertical-button text-dark ">
+              Get a Free Quote!
+            </button>
+          </div>
         </div>
-      </section>
-      {/* <!-- call to action end --> */}
-
-      <div className="container">
-        <div className="mil-divider"></div>
       </div>
+
+      {/* <!-- banner end --> */}
+
+      
+
+      {/* <div className="container">
+        <div className="mil-divider"></div>
+      </div> */}
 
       {/* <!-- steps --> */}
       <section className="mil-p-120-90">
@@ -444,9 +435,9 @@ const BlockChain = () => {
         ></div>
         <div className="container">
           <div className="mil-text-center mil-mb-90">
-            <span className="mil-suptitle  mil-light mil-suptitle-2 mil-mb-30">
+            {/* <span className="mil-suptitle  mil-light mil-suptitle-2 mil-mb-30">
               Always The Best
-            </span>
+            </span> */}
             <h2 className="mil-light mil-mb-30">
               {" "}
               Why Choose our{" "}
@@ -471,7 +462,7 @@ const BlockChain = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-light">
-                  <img src="assets/icon/sm/2.svg" alt="icon" />
+                  <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-light">Smart Contract Development</p>
               </div>
@@ -479,7 +470,7 @@ const BlockChain = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-light">
-                  <img src="assets/icon/sm/7.svg" alt="icon" />
+                  <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-light">Tokenization Services</p>
               </div>
@@ -487,7 +478,7 @@ const BlockChain = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-light">
-                  <img src="assets/icon/sm/3.svg" alt="icon" />
+                  <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-light">Blockchain Consulting</p>
               </div>
@@ -496,7 +487,7 @@ const BlockChain = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-light">
-                  <img src="assets/icon/sm/1.svg" alt="icon" />
+                  <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-light">Supply Chain Solutions</p>
               </div>
@@ -504,7 +495,7 @@ const BlockChain = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-light">
-                  <img src="assets/icon/sm/4.svg" alt="icon" />
+                  <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-light">Security Audits and Solutions</p>
               </div>

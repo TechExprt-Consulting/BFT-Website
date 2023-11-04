@@ -7,41 +7,57 @@ const ContentM = () => {
     <div className="mil-wrapper">
     <Navbar/>
 
-    {/* <!-- banner --> */}
-    <div className="mil-banner-sm mil-deep-bg">
-      <img
-        src="assets/deco/map.png"
-        alt="background"
-        className="mil-background-image"
-      />
-      <div
-        className="mil-deco mil-deco-accent"
-        style={{ top: "47%", right: "10%", transform: "rotate(90deg)" }}
-      ></div>
-      <div className="mil-banner-content">
-        <div className="container mil-relative">
-          <ul className="mil-breadcrumbs mil-mb-30">
-            <li>
-              <Link to="/Home">Home</Link>
-            </li>
-            <li>
-              <Link to="">Service</Link>
-            </li>
-            <li>
-              <Link to="/digital">Digital Marketing</Link>
-            </li>
-            <li>
-              <Link to="/contentMarketing">Content Marketing</Link>
-            </li>
-          </ul>
-          <h2 className="mil-uppercase">Content Marketing</h2>
+    <div className="mil-banner-sm bg-white shadow shadow-bottom shadow-md">
+        {/* <img
+          src="assets/deco/map.png"
+          alt="background"
+          className="mil-background-image"
+        /> */}
+        {/* <div
+          className="mil-deco mil-deco-accent"
+          style={{ top: "47%", right: "10%", transform: "rotate(90deg)" }}
+        ></div> */}
+        <div className="mil-banner-content">
+          <div className="container mil-relative">
+          <div className="d-flex">
+              <div className="d-flex row  ">
+                <ul className="mil-breadcrumbs mil-mb-30 ">
+                  <li>
+                    <Link to="/Home">Home</Link>
+                  </li>
+                  <li>
+                    <Link to="">Service</Link>
+                  </li>
+                  <li>
+                    <Link to="/Salesforce">Digital Marketing</Link>
+                  </li>
+                  <li>
+                    <Link to="/Salesforce">Content Marketing</Link>
+                  </li>
+                </ul>
+
+                
+                  <h2 className="mil-uppercase " style={{ color: "#1B2F5B" }}>
+                    Content Marketing
+                  </h2>
+                
+              </div>
+
+              <img src="assets/mockup/SEO.png" alt="mus" className="col-md-4" />
+            </div>
+          </div>
+          <div className="">
+            <button className="mil-vertical-button text-dark ">
+              Get a Free Quote!
+            </button>
+          </div>
         </div>
       </div>
-    </div>
-    {/* <!-- banner end --> */}
+
+      {/* <!-- banner end --> */}
 
     {/* <!-- call to action --> */}
-    <section className="mt-4">
+    <section className="mt-5">
       <div
         className="mil-deco"
         style={{ bottom: "0", right: "25%", transform: "rotate(180deg)" }}
@@ -50,11 +66,11 @@ const ContentM = () => {
         <div className="row">
           <div className="">
             <div className=" mil-mb-30">
-              <p>
+              <p className='conten'>
                 
                 Most people often underestimate the power of content and that is where they miss on a gold mine of opportunities in the process. High quality content has the power to significantly amplify a brand's reach and impact. Look around and you will find yourself dwelling in the oceans of content. From the videos you watch on youtube to the long descriptive articles you read on Medium, blogger and other sites, it is all content. In recent times, brands are heavily investing in content as they have realized how effortlessly content helps them establish their brands presence in the market.</p>           </div>
             <div className=" mil-mb-30">
-              <p>
+              <p className='conten'>
                 
                 At BytesFarms, we have a team of dedicated content writers, strategists and digital marketing experts who harness the art of content development and distribution helping our clients drive more relevant traffic to their website and reach more potential customers. </p>            </div>
           </div>
@@ -148,28 +164,67 @@ const ContentM = () => {
 
    
     {/* <!-- services --> */}
-    <section className="mil-gradient-bg mil-deco-right mil-p-120-0">
+    <div className="mil-icon-box mil-center mil-mb-60 mt-5">
+        <h2 className="mil-mb-20 mt-2 ">Why Choose Us?</h2>
+      </div>
+      <div className="row">
+        <div className="col-md-6 col-xl-3">
+          <div className="mil-icon-box mil-center mil-mb-60">
+            <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
+              <img src="assets/icon/5.svg" alt="icon" />
+            </div>
+            <h5 className="mil-mb-20">
+              <span className="mil-accent">01.</span>&nbsp;Tailored Strategies
+              
+            </h5>
+          </div>
+        </div>
+        <div className="col-md-6 col-xl-3">
+          <div className="mil-icon-box mil-center mil-mb-60">
+            <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
+              <img src="assets/icon/5.svg" alt="icon" />
+            </div>
+            <h5 className="mil-mb-20">
+              <span className="mil-accent">02.</span>&nbsp; Research Based Content
+            </h5>
+          </div>
+        </div>
+        <div className="col-md-6 col-xl-3">
+          <div className="mil-icon-box mil-center mil-mb-60">
+            <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
+              <img src="assets/icon/5.svg" alt="icon" />
+            </div>
+            <h5 className="mil-mb-20">
+              <span className="mil-accent">03.</span>&nbsp; SEO Expertise
+              
+            </h5>
+          </div>
+        </div>
+        <div className="col-md-6 col-xl-3">
+          <div className="mil-icon-box mil-center mil-mb-60">
+            <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
+              <img src="assets/icon/5.svg" alt="icon" />
+            </div>
+            <h5 className="mil-mb-20">
+              <span className="mil-accent">04.</span>&nbsp; Multi-Channel Distribution
+            </h5>
+          </div>
+        </div>
+      </div>
+    {/* <section className="mil-gradient-bg mil-deco-right mil-p-120-0">
         <div
           className="mil-deco mil-deco-accent"
           style={{ top: "0", left: "5%" }}
         ></div>
         <div className="container">
           <div className="mil-text-center mil-mb-90">
-            <span className="mil-suptitle  mil-light mil-suptitle-2 mil-mb-30">
-              Always The Best
-            </span>
+           
             <h2 className="mil-light mil-mb-30">
               {" "}
               Why Choose our{" "}
               <span className="mil-accent">Search Engine Optimization</span>{" "}
             </h2>
-            {/* <p className="mil-light-soft">
-              With years of experience and a proven track record, BytesFarms is
-              your trusted partner for Salesforce Developement.
-              <br /> Our dedicated team of experts is committed to delivering
-              results that matter, helping you achieve efficiency, agility, and
-              innovation in your organization.
-            </p> */}
+           
           </div>
           <div className="row mil-mb-30-adapt">
             <div className="col-lg-3">
@@ -216,7 +271,7 @@ const ContentM = () => {
             </Link>
           </div>
         </div>
-      </section>
+      </section> */}
     {/* <!-- services end --> */}
 
     <Footer />

@@ -14,7 +14,7 @@ const Digital = () => {
       <Navbar />
 
       {/* <!-- banner --> */}
-      <div className="mil-banner-sm mil-deep-bg">
+      <div className="mil-banner-sm bg-white shadow shadow-bottom shadow-md">
         {/* <img
           src="assets/deco/map.png"
           alt="background"
@@ -95,7 +95,7 @@ const Digital = () => {
       <div className="container">
         <Accordion
           style={{
-            backgroundColor: "#1B2F5B",
+            backgroundColor: "#3279a8",
             marginBottom: "20px",
             color: "white",
           }}
@@ -156,7 +156,7 @@ const Digital = () => {
         </Accordion>
         <Accordion
           style={{
-            backgroundColor: "#1B2F5B",
+            backgroundColor: "#3279a8",
             marginBottom: "20px",
             color: "white",
           }}
@@ -221,7 +221,7 @@ const Digital = () => {
         </Accordion>
         <Accordion
           style={{
-            backgroundColor: "#1B2F5B",
+            backgroundColor: "#3279a8",
             marginBottom: "20px",
             color: "white",
           }}
@@ -265,7 +265,7 @@ const Digital = () => {
         </Accordion>
         <Accordion
           style={{
-            backgroundColor: "#1B2F5B",
+            backgroundColor: "#3279a8",
             marginBottom: "20px",
             color: "white",
           }}
@@ -316,7 +316,7 @@ const Digital = () => {
         </Accordion>
         <Accordion
           style={{
-            backgroundColor: "#1B2F5B",
+            backgroundColor: "#3279a8",
             marginBottom: "20px",
             color: "white",
           }}
@@ -379,7 +379,9 @@ const Digital = () => {
         </Accordion>
         <Accordion
           style={{
-            backgroundColor: "#1B2F5B",
+            // backgroundColor: "#1B2F5B",
+            backgroundColor: "#3279a8",
+
             marginBottom: "20px",
             color: "white",
           }}
@@ -537,7 +539,7 @@ const Digital = () => {
                 </Link>
               </div>
             </div>
-            <div className="col-xl-4">
+            {/* <div className="col-xl-4">
               <div className="mil-mb-60 conten">
                 <div className="mil-number-icon mil-lines mil-mb-30">
                   <span>05</span>
@@ -575,8 +577,8 @@ const Digital = () => {
                   <i class="fas fa-arrow-right"></i>
                 </Link>
               </div>
-            </div>
-          </div>
+            </div>*/}
+          </div> 
         </div>
       </section>
       {/* <!-- steps end --> */}

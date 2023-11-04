@@ -8,40 +8,57 @@ const SocialMedia = () => {
       <Navbar/>
 
       {/* <!-- banner --> */}
-      <div className="mil-banner-sm mil-deep-bg">
-        <img
+     <div className="mil-banner-sm bg-white shadow shadow-bottom shadow-md">
+        {/* <img
           src="assets/deco/map.png"
           alt="background"
           className="mil-background-image"
-        />
-        <div
+        /> */}
+        {/* <div
           className="mil-deco mil-deco-accent"
           style={{ top: "47%", right: "10%", transform: "rotate(90deg)" }}
-        ></div>
+        ></div> */}
         <div className="mil-banner-content">
           <div className="container mil-relative">
-            <ul className="mil-breadcrumbs mil-mb-30">
-              <li>
-                <Link to="/Home">Home</Link>
-              </li>
-              <li>
-                <Link to="">Service</Link>
-              </li>
-              <li>
-                <Link to="/digital">Digital Marketing</Link>
-              </li>
-              <li>
-                <Link to="/socialMedia">Social Media Marketing</Link>
-              </li>
-            </ul>
-            <h2 className="mil-uppercase">Social Media Marketing </h2>
+          <div className="d-flex">
+              <div className="d-flex row  ">
+                <ul className="mil-breadcrumbs mil-mb-30 ">
+                  <li>
+                    <Link to="/Home">Home</Link>
+                  </li>
+                  <li>
+                    <Link to="">Service</Link>
+                  </li>
+                  <li>
+                    <Link to="/Salesforce">Digital Marketing</Link>
+                  </li>
+                  <li>
+                    <Link to="/Salesforce">Social Media Marketing</Link>
+                  </li>
+                </ul>
+
+                
+                  <h2 className="mil-uppercase " style={{ color: "#1B2F5B" }}>
+                    Social Media Marketing
+                  </h2>
+                
+              </div>
+
+              <img src="assets/mockup/SEO.png" alt="mus" className="col-md-4" />
+            </div>
+          </div>
+          <div className="">
+            <button className="mil-vertical-button text-dark ">
+              Get a Free Quote!
+            </button>
           </div>
         </div>
       </div>
+
       {/* <!-- banner end --> */}
 
       {/* <!-- call to action --> */}
-      <section className="mt-4">
+      <section className="mt-5">
         <div
           className="mil-deco"
           style={{ bottom: "0", right: "25%", transform: "rotate(180deg)" }}
@@ -50,7 +67,7 @@ const SocialMedia = () => {
           <div className="row">
             <div className="">
               <div className=" mil-mb-30">
-                <p>
+                <p className='conten'>
                  
                   Let us establish your digital footprint, design creative strategy and optimize the social media campaigns for your business. The heart of social media marketing lies in the building entrancing online presence that reflects the brand’s identity authentically. A brand’s digital presence should be designed considering that this
 
@@ -165,28 +182,58 @@ will serve as a digital touchpoint of the brand for all the visitors and potenti
      
   
          {/* <!-- services --> */}
-         <section className="mil-gradient-bg mil-deco-right mil-p-120-0">
+         <div className="mil-icon-box mil-center mil-mb-60 mt-5">
+        <h2 className="mil-mb-20 mt-2 ">Why Choose Us?</h2>
+      </div>
+      <div className="row">
+        <div className="col-md-7 col-xl-4">
+          <div className="mil-icon-box mil-center mil-mb-60">
+            <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
+              <img src="assets/icon/5.svg" alt="icon" />
+            </div>
+            <h5 className="mil-mb-20">
+              <span className="mil-accent">01.</span>&nbsp; Designing Creative Strategies
+              
+            </h5>
+          </div>
+        </div>
+        <div className="col-md-7 col-xl-4">
+          <div className="mil-icon-box mil-center mil-mb-60">
+            <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
+              <img src="assets/icon/5.svg" alt="icon" />
+            </div>
+            <h5 className="mil-mb-20">
+              <span className="mil-accent">02.</span>&nbsp; Building Your Online Presence
+            </h5>
+          </div>
+        </div>
+        <div className="col-md-7 col-xl-4">
+          <div className="mil-icon-box mil-center mil-mb-60">
+            <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
+              <img src="assets/icon/5.svg" alt="icon" />
+            </div>
+            <h5 className="mil-mb-20">
+              <span className="mil-accent">03.</span>&nbsp; Strengthening your customer base
+              
+            </h5>
+          </div>
+        </div>
+        
+      </div>
+         {/* <section className="mil-gradient-bg mil-deco-right mil-p-120-0">
         <div
           className="mil-deco mil-deco-accent"
           style={{ top: "0", left: "5%" }}
         ></div>
         <div className="container">
           <div className="mil-text-center mil-mb-90">
-            <span className="mil-suptitle  mil-light mil-suptitle-2 mil-mb-30">
-              Always The Best
-            </span>
+           
             <h2 className="mil-light mil-mb-30">
               {" "}
               Why Choose our{" "}
               <span className="mil-accent">Search Engine Optimization</span>{" "}
             </h2>
-            {/* <p className="mil-light-soft">
-              With years of experience and a proven track record, BytesFarms is
-              your trusted partner for Salesforce Developement.
-              <br /> Our dedicated team of experts is committed to delivering
-              results that matter, helping you achieve efficiency, agility, and
-              innovation in your organization.
-            </p> */}
+           
           </div>
           <div className="row mil-mb-30-adapt">
             <div className="col-lg-3">
@@ -228,7 +275,7 @@ will serve as a digital touchpoint of the brand for all the visitors and potenti
             </Link>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* <!-- services end --> */}
 
       <Footer />

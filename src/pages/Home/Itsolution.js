@@ -715,13 +715,12 @@ export default function VerticalTabs() {
             </div>
             <div className="mil-service-text">
               <h5 className="mil-mb-30">
-                <span className="mil-accent">01</span> Salesforce
-                Developement
+                <span className="mil-accent">01</span> SEO
+                
               </h5>
               <p className="conten">
-                Salesforce is a leading customer relationship management
-                (CRM) platform that helps businesses manage their sales,
-                customer service, and marketing needs efficiently.
+              Business is not easy, especially if you are missing out on the online visibility game. In today’s fast pacing world when every business has made their digital debut, SEO stands as a game changer for many.
+But don’t worry, our team of experts has got you all covered.
               </p>
               <Link to="/salesforce" class="mil-link2 link-right mil-mb-30">
                 <i class="fas fa-arrow-right"></i>
@@ -737,12 +736,10 @@ export default function VerticalTabs() {
             </div>
             <div className="mil-service-text">
               <h5 className="mil-mb-30">
-                <span className="mil-accent">02</span> DevOps
+                <span className="mil-accent">02</span> Social Media Marketing
               </h5>
               <p className="conten">
-                DevOps practices combine development and IT operations,
-                emphasizing collaboration and automation, leading to faster
-                software development, continuous integration, and delivery.
+              Let us build your online presence, design your creative strategy and optimize the social media campaigns for your business. Together let’s give the city a new buzz to gossip.
               </p>
               <Link to="/deveops" class="mil-link2 link-right mil-mb-30">
                 <i class="fas fa-arrow-right"></i>
@@ -760,14 +757,11 @@ export default function VerticalTabs() {
             </div>
             <div className="mil-service-text">
               <h5 className="mil-mb-30">
-                <span className="mil-accent">04</span> Blockchain Consulting
+                <span className="mil-accent">03</span> PPC
               </h5>
               <p className="conten">
-                Blockchain technology ensures secure, transparent, and
-                tamper-proof record-keeping, revolutionizing various
-                industries by enabling decentralized transactions and smart
-                contracts.
-              </p>
+              Achieve instant visibility and results with our PPC campaigns. Our team creates targeted ad campaigns to drive traffic and convert visitors into customers cost-effectively.
+              </p><br/>
               <Link to="/blockChain" class="mil-link2 link-right mil-mb-30">
                 <i class="fas fa-arrow-right"></i>
               </Link>
@@ -782,14 +776,11 @@ export default function VerticalTabs() {
             </div>
             <div className="mil-service-text">
               <h5 className="mil-mb-30">
-                <span className="mil-accent">05</span> Digital Marketing
+                <span className="mil-accent">04</span> Content Marketing
               </h5>
               <p className="conten">
-                Digital marketing is a multifaceted approach aimed at
-                reaching, engaging, and converting an online audience.It
-                empowers businesses to establish a robust customer
-                relationship.
-              </p>
+              High-quality content is the cornerstone of a successful digital marketing strategy. We produce compelling, informative, and shareable content that builds your brand and connects with your audience.
+              </p><br/>
               <Link to="/digital" class="mil-link2 link-right mil-mb-30">
                 <i class="fas fa-arrow-right"></i>
               </Link>
