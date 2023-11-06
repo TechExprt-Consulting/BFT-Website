@@ -63,7 +63,7 @@ const Navbar = () => {
                     <Link to="/">Services</Link>
                     <ul>
                     <li >
-                        <Link to="/webApp">Web Developement</Link>
+                        <Link to="/mobileApp">Mobile App Developement</Link>
                       </li>
                       <li className="mil-has-children2" >
                         <Link to="/salesforce">Salesforce Services</Link>
@@ -154,8 +154,38 @@ const Navbar = () => {
                       <li>
                         <Link to="/deveops">Devops Consulting</Link>
                       </li>
-                      <li>
-                        <Link to="/mobileApp">Mobile App Developement</Link>
+                      <li className="mil-has-children2">
+                      <Link to="/webApp">Web Developement</Link>
+                      <ul >
+                              <li>
+                                <Link to="/seo">
+                                  SAAS Developement
+                                </Link>
+                              </li>
+                              <li>
+                                <Link to="/socialMedia">
+                                  Custom Software Developement
+                                </Link>
+                              </li>
+                              <li>
+                                <Link to="/ppc">API Developement</Link>
+                              </li>
+                              <li>
+                                <Link to="/contentMarketing">
+                                  Custom Admin Panel
+                                </Link>
+                              </li>
+                              {/* <li>
+                                <Link to="/marketResearch">
+                                  Market Research
+                                </Link>
+                              </li>
+                              <li>
+                                <Link to="/contentWriting">
+                                  Content Writing and copywriting
+                                </Link>
+                              </li> */}
+                            </ul>
                       </li>
                       
                     </ul>

@@ -27,6 +27,11 @@ const Continuum = () => {
             <h2 class="mil-uppercase">Continuum</h2>
           </div>
         </div>
+        <div className="mil-fixed-button-container">
+          <button className="mil-vertical-button text-dark ">
+            Get a Free Quote!
+          </button>
+        </div>
       </div>
       {/* <!-- banner end --> */}
 

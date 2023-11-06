@@ -46,11 +46,11 @@ const Consultant = () => {
             Want to be our next success story?
           </h2>
           <p className="text-white pb-4">
-            Have an idea? Discuss our project with our team today! Lay down
+            Have an idea? Discuss your project with our team today! Lay down
             your requirements and venture into a successful partnership with
             BytesFarms.
           </p>
-          <button type="submit" className="mil-button mil-accent-bg ">
+          <button type="submit" className="mil-button mil-accent-bg mb-4">
             <Link to="/contact" >Have a Free Consultation</Link>
           </button>
         </div>

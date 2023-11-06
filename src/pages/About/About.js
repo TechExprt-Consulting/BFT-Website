@@ -31,6 +31,11 @@ const About = () => {
             </ul>
             <h2 className="mil-uppercase">Enterprise</h2>
           </div>
+          <div className="mil-fixed-button-container">
+            <button className="mil-vertical-button text-dark ">
+              Get a Free Quote!
+            </button>
+          </div>
         </div>
       </div>
       {/* <!-- banner end --> */}
@@ -194,7 +199,89 @@ const About = () => {
       {/* <!-- about end --> */}
 
       {/* <!-- features --> */}
-      <section className="mil-p-120-120">
+
+
+      <section className="mt-4">
+      {/* <div
+        className="mil-deco"
+        style={{ bottom: "0", right: "35%", transform: "rotate(180deg)" }}
+      ></div> */}
+      <div className="container">
+        <div className="row">
+          <div className="col-12 mil-mb-90 ">
+            {/* <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
+              Services and Solutions
+            </span> */}
+            <h2 className="mil-mb-30">VALUES   </h2>
+            {/* <p className="mil-dark">
+            At BytesFarms Technologies, we offer a range of content marketing services to help you stand out in the digital landscape:    </p> */}
+          </div>
+        </div>
+        <div className="row mil-mb-30-adapt">
+          <div className="col-xl-4">
+            <div className="mil-mb-60 conten">
+              <div className="mil-number-icon mil-circle mil-mb-30">
+                <span>01</span>
+              </div>
+              <h4 className="mil-mb-15">Integrity</h4>
+              <p>
+              Our honesty, ethical behavior and transparent approach have proven to be an indispensable asset for us. 
+              </p>
+              
+            </div>
+          </div>
+          <div className="col-xl-4">
+            <div className="mil-mb-60 conten">
+              <div className="mil-number-icon mil-lines mil-mb-30">
+                <span>02</span>
+              </div>
+              <h4 className="mil-mb-15">Adaptability</h4>
+              <p>
+              In an industry that is ever-evolving, we promote a work culture that is agile and flexible.</p>
+            </div>
+          </div>
+          <div className="col-xl-4">
+            <div className="mil-mb-60 conten">
+              <div className="mil-number-icon mil-mb-30">
+                <span>03</span>
+              </div>
+              <h4 className="mil-mb-15">Responsibility</h4>
+              <p>
+              We take complete responsibilities not only in context to the work that we deliver but for the consequences that might follow after.</p>
+            </div>
+          </div>
+          <div className="col-xl-4">
+            <div className="mil-mb-60 conten">
+              <div className="mil-number-icon mil-circle mil-mb-30">
+                <span>04</span>
+              </div>
+              <h4 className="mil-mb-15">Inclusivity</h4>
+              <p>
+              We understand that individuality is as crucial as team spirit, and so be it in the process of decision-making or even mere executions, we diligently make a point that there is equal opportunity for everyone to voice their opinion.</p>
+              
+            </div>
+          </div>
+          <div className="col-xl-4">
+            <div className="mil-mb-60 conten">
+              <div className="mil-number-icon mil-circle mil-mb-30">
+                <span>05</span>
+              </div>
+              <h4 className="mil-mb-15">Foresightedness</h4>
+              <p>
+              The ability to foresee, helps us get a much clearer understanding and design a more concrete plan of action accordingly.</p>
+              
+            </div>
+          </div>
+          
+          
+          
+        </div>
+      </div>
+    </section>
+
+
+
+      {/* <section className="mil-p-120-120">
         <div className="container">
           
           <h2 className="mil-mb-120 mb-3">Values</h2>
@@ -293,7 +380,7 @@ const About = () => {
         </div>
         
       </section>
-      <div className="mil-divider"></div>
+      <div className="mil-divider"></div> */}
 
       {/* <!-- features end --> */}
 
@@ -429,9 +516,9 @@ const About = () => {
               <div className="col-12">
                 <button
                   type="submit"
-                  className="mil-button mil-accent-bg mil-fw"
+                  className="mil-button mil-accent-bg mil-fw "
                 >
-                  <span>Send Message Now</span>
+                  <span>Contact Us</span>
                 </button>
               </div>
             </div>

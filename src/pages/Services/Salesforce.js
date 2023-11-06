@@ -15,17 +15,9 @@ const Salesforce = () => {
       <Navbar />
 
       {/* <!-- banner --> */}
-      <div className="mil-banner-sm bg-white shadow shadow-bottom shadow-md">
-        {/* <img
-          src="assets/deco/map.png"
-          alt="background"
-          className="mil-background-image"
-        /> */}
-        {/* <div
-          className="mil-deco mil-deco-accent"
-          style={{ top: "47%", right: "10%", transform: "rotate(90deg)" }}
-        ></div> */}
-        <div className="mil-banner-content">
+      {/* <div className="mil-banner-sm bg-white shadow shadow-bottom shadow-md">
+       
+        <div className="mil-banner-content ">
           <div className="container mil-relative">
             <ul className="mil-breadcrumbs mil-mb-30">
               <li>
@@ -38,13 +30,13 @@ const Salesforce = () => {
                 <Link to="/Salesforce">Salesforce</Link>
               </li>
             </ul>
-            <div className="d-flex">
+            <div className="d-flex ">
               <div className="d-flex row">
                 <h2 className="mil-uppercase" style={{ color: "#1B2F5B" }}>
                   Salesforce Services
                 </h2>
 
-                <p className="col-md-10 conten">
+                <p className=" conten">
                   Are you ready to take your Salesforce experience to the next
                   level? As a Salesforce AppExchange Partner, we provide the
                   ultimate solution to elevate your business, streamline your
@@ -63,17 +55,70 @@ const Salesforce = () => {
               <img
                 src="assets/mockup/salesforce1.png"
                 alt="mus"
-                className="col-md-4"
+                className="col-md-4 mockup"
               />
             </div>
           </div>
-          <div className="">
+          <div className="" id="mil-quote-button">
             <button className="mil-vertical-button text-dark ">
               Get a Free Quote!
             </button>
           </div>
         </div>
+      </div> */}
+
+
+
+<div className="mil-banner-sm bg-white shadow shadow-bottom shadow-md">
+  <div className="mil-banner-content">
+    <div className="container mil-relative">
+      <ul className="mil-breadcrumbs mil-mb-30">
+        <li>
+          <Link to="/Home">Home</Link>
+        </li>
+        <li>
+          <Link to="">Service</Link>
+        </li>
+        <li>
+          <Link to="/Salesforce">Salesforce</Link>
+        </li>
+      </ul>
+      <div className="d-flex flex-column-reverse flex-md-row">
+        <div className="d-flex flex-column ">
+          <h2 className="mil-uppercase mt-2" style={{ color: "#1B2F5B" }}>
+            Salesforce Services
+          </h2>
+
+          <p className="conten">
+            Are you ready to take your Salesforce experience to the next level?
+            As a Salesforce AppExchange Partner, we provide the ultimate
+            solution to elevate your business, streamline your processes, and
+            expand your reach within the Salesforce Ecosystem. With our expert
+            guidance and unmatched services, you can unlock new opportunities
+            and soar to new heights. Discover the advantages of partnering with
+            us and become a driving force in the Salesforce AppExchange
+            community. As a seasoned Salesforce AppExchange Partner, we bring a
+            wealth of experience and expertise to the table. Our team of
+            certified professionals has a deep understanding of Salesforce's
+            intricate ecosystem, ensuring that your app stands out from the
+            competition.
+          </p>
+
+          <div className="mil-quote-button ">
+            <button className="mil-vertical-button text-dark ">
+             <Link to='/contact'> Get a Free Quote!</Link>
+            </button>
+          </div>
+        </div>
+        <img
+          src="assets/mockup/salesforce1.png"
+          alt="mus"
+          className="col-md-4 mockup"
+        />
       </div>
+    </div>
+  </div>
+</div>
 
       {/* <!-- banner end --> */}
       {/* challenges */}
@@ -656,14 +701,14 @@ const Salesforce = () => {
       </div>
       {/* <!-- partners end --> */}
       
-      <section className="mil-gradient-bg mil-deco-right mil-p-120-0">
+      <section className="bg-white mil-deco-right mil-p-120-0">
         <div
           className="mil-deco mil-deco-accent"
           style={{ top: "0", left: "5%" }}
         ></div>
         <div className="container">
           <div className="mil-text-center mil-mb-90">
-            <h2 className="mil-light mil-mb-30">
+            <h2 className="mil-ligh mil-mb-30">
               {" "}
               Why Choose our{" "}
               <span className="mil-accent">Salesforce Applications</span>{" "}
@@ -673,63 +718,63 @@ const Salesforce = () => {
           <div className="row mil-mb-30-adapt">
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
                   <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light "> Industry experts</p>
+                <p className="mil-ligh "> Industry experts</p>
               </div>
             </div>
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
                   <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light ">Six decades of combined professional expertise</p>
+                <p className="mil-ligh ">Six decades of combined professional expertise</p>
               </div>
             </div>
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
                   <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light ">SF Delivery Exp - 6 years</p>
+                <p className="mil-ligh ">SF Delivery Exp - 6 years</p>
               </div>
             </div>
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
                   <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light ">7x Certified SF Architect</p>
-              </div>
-            </div>
-
-            <div className="col-lg-3">
-              <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
-                </div>
-                <p className="mil-light ">4x Certified SF Dev</p>
+                <p className="mil-ligh ">7x Certified SF Architect</p>
               </div>
             </div>
 
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
                   <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light ">Salesforce Partner</p>
+                <p className="mil-ligh ">4x Certified SF Dev</p>
+              </div>
+            </div>
+
+            <div className="col-lg-3">
+              <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
+                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                </div>
+                <p className="mil-ligh ">Salesforce Partner</p>
               </div>
             </div>
           </div>
-          <div className="mil-text-center">
+          {/* <div className="mil-text-center">
             <Link
               to="/Contact"
-              className="mil-button mil-border mil-light mil-mb-30"
+              className="mil-button mil-border mil-ligh mil-mb-30"
             >
               <span>Talk To Our Salesforce Experts</span>
             </Link>
-          </div>
+          </div> */}
         </div>
       </section>
       {/* <!-- services end --> */}

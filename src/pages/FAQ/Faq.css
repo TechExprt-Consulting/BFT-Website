@@ -570,8 +570,8 @@ button
 ------------------------------------------- */
 .mil-button {
   cursor: pointer;
-  height: 70px;
-  padding: 0 60px;
+  height: 50px;
+  padding: 0 40px;
   font-family: "Sora", sans-serif;
   font-size: 16px;
   color: rgb(18, 24, 32);
@@ -628,7 +628,7 @@ button
   color: rgb(255, 255, 255);
 }
 .mil-button.mil-fw {
-  width: 50%;
+  width: 35%;
 }
 .mil-button.mil-light-bg {
   background-color: rgb(255, 255, 255);
@@ -976,11 +976,11 @@ form
 
 .mil-subscribe-form {
   position: relative;
-  width: 100%;
+  width: 70%;
 }
 .mil-subscribe-form input {
   padding: 0 60px;
-  height: 80px;
+  height: 60px;
   width: 100%;
   border: none;
   border-radius: 40px;
@@ -1018,12 +1018,14 @@ form
   .mil-subscribe-form input {
     text-align: center;
     padding: 0 30px;
-    height: 70px;
+    height: 50px;
+  
   }
   .mil-subscribe-form button {
     margin-top: 5px;
     position: static;
     width: 100%;
+    
   }
 }
 
@@ -1327,7 +1329,8 @@ background
   content: "";
   width: 350px;
   height: 350px;
-  background-color: rgb(245, 124, 0);
+  /* background-color: rgb(245, 124, 0); */
+  background-color: white;
   position: absolute;
   top: -150px;
   right: -150px;
@@ -5515,7 +5518,7 @@ additional pages
 } */
 
 .conten{
-  text-align:justify;
+  text-align:left;
 }
 .conten2{
 text-align:center;
@@ -5677,8 +5680,8 @@ text-align:center;
 }
 
 .mil-vertical-button{
-  position: absolute;
-  top: 40px;
+  position: fixed;
+  top: 110px;
   right: 0px;
   transform: rotate(-90deg);
   transform-origin: bottom right;
@@ -5714,4 +5717,141 @@ textarea::placeholder {
 }
 .place1.place2::placeholder {
   color: white;
+}
+
+
+/* Add these styles to your existing CSS file or <style> tag in the component */
+.mil-consultant-container {
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .mil-consultant-container .col-md-3 {
+    display: none;
+  }
+  
+  .mil-consultant-container .col-md-4 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .mil-consultant-container .col-md-4 {
+    padding: 0 15px;
+  }
+  
+  .mil-consultant-container img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.mockup img {
+
+  max-width: 100%;
+  height: auto;
+}
+.mil-quote-button {
+  position: absolute;
+  bottom: 20px; /* Adjust the bottom position as needed */
+  right: 20px; /* Adjust the right position as needed */
+  background-color: #ffffff; /* Set the background color */
+  padding: 10px 20px; /* Set padding as needed */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 999; /* Set a high z-index to ensure the button appears above the image */
+}
+
+/* Responsive styles for small screens (up to 576px) */
+@media (max-width: 576px) {
+  .mil-banner-content {
+    padding: 20px;
+  }
+  
+  .mil-quote-button {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+/* Responsive styles for medium screens (577px to 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+  .mil-banner-content {
+    padding: 40px;
+  }
+}
+
+/* Responsive styles for large screens (769px and above) */
+@media (min-width: 768px) {
+  .mil-banner-content {
+    padding: 60px;
+    /* display :none; */
+  }
+}
+
+
+
+/* Responsive styles for small screens (up to 576px) */
+@media (max-width: 576px) {
+  .mil-banner-content {
+    padding: 20px;
+  }
+}
+
+/* Responsive styles for medium screens (577px to 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+  .mil-banner-content {
+    padding: 40px;
+  }
+}
+
+/* Responsive styles for large screens (769px and above) */
+@media (min-width: 769px) {
+  .mil-banner-content {
+    padding: 60px;
+  }
+
+  /* Fixed button styles */
+  .mil-fixed-button-container {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    /* transform: translateY(-50%); */
+    z-index: 999;
+  }
+}
+
+.mil-corner-image {
+  /* position: fixed; */
+  bottom: 0;
+  right: 0;
+  /* margin: 20px; */
+  z-index: 998;
+}
+/* Fixed button styles */
+.mil-fixed-button-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+/* Image styles within the banner content */
+.mil-banner-image {
+  position: absolute;
+  bottom: 0;
+  right: 25px;
+
+  max-width: 100%; /* Ensure the image doesn't exceed the banner width */
+  /* max-height: 100%; Ensure the image doesn't exceed the banner height */
+  height:400px;
+  z-index: 998;
+}
+.mil-corner-image {
+  /* position: fixed; */
+  bottom: 0;
+  right: 0;
+  /* margin: 20px; */
+  z-index: 998;
 }

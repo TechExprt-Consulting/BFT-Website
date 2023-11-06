@@ -10,60 +10,52 @@ const Deveops = () => {
       <Navbar/>
 
       {/* <!-- banner --> */}
-      <div className="mil-banner-sm bg-white shadow shadow-bottom shadow-md">
-        {/* <img
-          src="assets/deco/map.png"
-          alt="background"
-          className="mil-background-image"
-        /> */}
-        {/* <div
-          className="mil-deco mil-deco-accent"
-          style={{ top: "47%", right: "10%", transform: "rotate(90deg)" }}
-        ></div> */}
-        <div className="mil-banner-content">
-          <div className="container mil-relative">
-            <ul className="mil-breadcrumbs mil-mb-30">
-              <li>
-                <Link to="/Home">Home</Link>
-              </li>
-              <li>
-                <Link to="">Service</Link>
-              </li>
-              <li>
-                <Link to="/Salesforce">DevOps</Link>
-              </li>
-            </ul>
-            <div className="d-flex">
-              <div className="d-flex row">
-                <h2 className="mil-uppercase" style={{ color: "#1B2F5B" }}>
-                  DevOps Consulting
-                </h2>
+      
+<div className="mil-banner-sm bg-white shadow shadow-bottom shadow-md">
+  <div className="mil-banner-content">
+    <div className="container mil-relative">
+      <ul className="mil-breadcrumbs mil-mb-30">
+        <li>
+          <Link to="/Home">Home</Link>
+        </li>
+        <li>
+          <Link to="">Service</Link>
+        </li>
+        <li>
+          <Link to="/Salesforce">Devops</Link>
+        </li>
+      </ul>
+      <div className="d-flex flex-column-reverse flex-md-row">
+        <div className="d-flex flex-column ">
+          <h2 className="mil-uppercase mt-2" style={{ color: "#1B2F5B" }}>
+          DevOps Consulting
+          </h2>
 
-                <p className="col-md-8 conten">
-                Are you ready to supercharge your business operations and
+          <p className="conten">
+          Are you ready to supercharge your business operations and
                   boost your development processes? Look no further than our
                   top-tier DevOps consulting services. At BytesFarms, we
                   understand the critical role that DevOps plays in modern
                   software development and IT management. Our expert team is
                   dedicated to helping you achieve operational excellence
                   through tailored DevOps solutions.
-                </p>
-              </div>
-              <img
-                src="assets/mockup/devops.png"
-                alt="mus"
-                className="col-md-4"
-              />
-            </div>
-          </div>
-          <div className="">
+          </p>
+
+          <div className="mil-quote-button ">
             <button className="mil-vertical-button text-dark ">
-              Get a Free Quote!
+             <Link to='/contact'> Get a Free Quote!</Link>
             </button>
           </div>
         </div>
+        <img
+          src="assets/mockup/devops.png"
+          alt="mus"
+          className="col-md-4 mockup"
+        />
       </div>
-
+    </div>
+  </div>
+</div>
       {/* <!-- banner end --> */}
 
       
@@ -314,7 +306,7 @@ const Deveops = () => {
       </div>
       {/* <!-- partners end --> */}
       {/* <!-- services --> */}
-      <section className="mil-gradient-bg mil-deco-right mil-p-120-0">
+      <section className="bg-white mil-deco-right mil-p-120-0">
         <div
           className="mil-deco mil-deco-accent"
           style={{ top: "0", left: "5%" }}
@@ -324,7 +316,7 @@ const Deveops = () => {
             {/* <span className="mil-suptitle  mil-light mil-suptitle-2 mil-mb-30">
               Always The Best
             </span> */}
-            <h2 className="mil-light mil-mb-30">
+            <h2 className="mil-ligh mil-mb-30">
               {" "}
               Why Choose our{" "}
               <span className="mil-accent">Devops Applications</span>{" "}
@@ -340,54 +332,54 @@ const Deveops = () => {
           <div className="row mil-mb-30-adapt">
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
                   <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light">Experienced Team</p>
+                <p className="mil-ligh">Experienced Team</p>
               </div>
             </div>
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
                   <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light">Customized Solutions</p>
+                <p className="mil-ligh">Customized Solutions</p>
               </div>
             </div>
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
                   <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light">Stay Ahead of the Curve</p>
+                <p className="mil-ligh">Stay Ahead of the Curve</p>
               </div>
             </div>
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
                   <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light">End-to-End Support</p>
+                <p className="mil-ligh">End-to-End Support</p>
               </div>
             </div>
 
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
                   <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light">Assessment and Strategy Design</p>
+                <p className="mil-ligh">Assessment and Strategy Design</p>
               </div>
             </div>
           </div>
-          <div className="mil-text-center">
+          {/* <div className="mil-text-center">
             <Link
               to="/Contact"
-              className="mil-button mil-border mil-light mil-mb-30"
+              className="mil-button mil-border mil-ligh mil-mb-30"
             >
               <span>Talk To Our Devops Experts</span>
             </Link>
-          </div>
+          </div> */}
         </div>
       </section>
       {/* <!-- services end --> */}

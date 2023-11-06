@@ -29,6 +29,11 @@ const Careers = () => {
             </ul>
             <h2 className="mil-uppercase">Careers</h2>
           </div>
+          <div className="mil-fixed-button-container">
+            <button className="mil-vertical-button text-dark ">
+              Get a Free Quote!
+            </button>
+          </div>
         </div>
       </div>
       {/* <!-- banner end --> */}

@@ -10,16 +10,8 @@ const MobileApp = () => {
       <Navbar/>
 
      {/* <!-- banner --> */}
-     <div className="mil-banner-sm bg-white shadow shadow-bottom shadow-md">
-        {/* <img
-          src="assets/deco/map.png"
-          alt="background"
-          className="mil-background-image"
-        /> */}
-        {/* <div
-          className="mil-deco mil-deco-accent"
-          style={{ top: "47%", right: "10%", transform: "rotate(90deg)" }}
-        ></div> */}
+     {/* <div className="mil-banner-sm bg-white shadow shadow-bottom shadow-md">
+        
         <div className="mil-banner-content">
           <div className="container mil-relative">
             <ul className="mil-breadcrumbs mil-mb-30">
@@ -57,14 +49,59 @@ const MobileApp = () => {
               />
             </div>
           </div>
-          <div className="">
+          <div className="mil-fixed-button-container">
             <button className="mil-vertical-button text-dark ">
-              Get a Free Quote!
+             <Link to='/contact'> Get a Free Quote!</Link>
             </button>
           </div>
         </div>
-      </div>
+      </div> */}
+<div className="mil-banner-sm bg-white shadow shadow-bottom shadow-md">
+  <div className="mil-banner-content">
+    <div className="container mil-relative">
+      <ul className="mil-breadcrumbs mil-mb-30">
+        <li>
+          <Link to="/Home">Home</Link>
+        </li>
+        <li>
+          <Link to="">Service</Link>
+        </li>
+        <li>
+          <Link to="/Salesforce">Mobile App</Link>
+        </li>
+      </ul>
+      <div className="d-flex flex-column-reverse flex-md-row">
+        <div className="d-flex flex-column ">
+          <h2 className="mil-uppercase mt-2" style={{ color: "#1B2F5B" }}>
+          Mobile App Developement
+          </h2>
 
+          <p className="conten">
+          Are you searching for a trusted app development company that
+                  can turn your groundbreaking app idea into a reality? Look no
+                  further! At BytesFarms, we are a dedicated team of experts
+                  with a proven track record in delivering top-notch app
+                  development services. We believe that successful app
+                  development goes beyond just writing code. It's about
+                  understanding your vision, your target audience, and the
+                  problem your app aims to solve.
+          </p>
+
+          <div className="mil-quote-button ">
+            <button className="mil-vertical-button text-dark ">
+             <Link to='/contact'> Get a Free Quote!</Link>
+            </button>
+          </div>
+        </div>
+        <img
+          src="assets/mockup/mobileapp.png"
+          alt="mus"
+          className="col-md-4 mockup"
+        />
+      </div>
+    </div>
+  </div>
+</div>
       {/* <!-- banner end --> */}
 
 
@@ -301,7 +338,7 @@ const MobileApp = () => {
       </div>
       {/* <!-- partners end --> */}
       {/* <!-- services --> */}
-      <section className="mil-gradient-bg mil-deco-right mil-p-120-0">
+      <section className="bg-white mil-deco-right mil-p-120-0">
         <div
           className="mil-deco mil-deco-accent"
           style={{ top: "0", left: "5%" }}
@@ -311,7 +348,7 @@ const MobileApp = () => {
             {/* <span className="mil-suptitle  mil-light mil-suptitle-2 mil-mb-30">
               Always The Best
             </span> */}
-            <h2 className="mil-light mil-mb-30">
+            <h2 className="mil-ligh mil-mb-30">
               {" "}
               Why Choose our{" "}
               <span className="mil-accent">Mobile Applications</span>{" "}
@@ -326,54 +363,54 @@ const MobileApp = () => {
           <div className="row mil-mb-30-adapt">
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
                   <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light">Consultation</p>
+                <p className="mil-ligh">Consultation</p>
               </div>
             </div>
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
                   <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light">Design</p>
+                <p className="mil-ligh">Design</p>
               </div>
             </div>
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
                   <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light">Development</p>
+                <p className="mil-ligh">Development</p>
               </div>
             </div>
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
                   <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light">Testing</p>
+                <p className="mil-ligh">Testing</p>
               </div>
             </div>
 
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
                   <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light">Launch</p>
+                <p className="mil-ligh">Launch</p>
               </div>
             </div>
           </div>
-          <div className="mil-text-center">
+          {/* <div className="mil-text-center">
             <Link
               to="/Contact"
-              className="mil-button mil-border mil-light mil-mb-30"
+              className="mil-button mil-border mil-ligh mil-mb-30"
             >
               <span>Talk To Our Mobile App Experts</span>
             </Link>
-          </div>
+          </div> */}
         </div>
       </section>
       {/* <!-- services end --> */}

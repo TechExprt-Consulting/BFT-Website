@@ -85,6 +85,11 @@ const Home = () => {
             </div>
           </div>
         </div>
+        <div className="mil-fixed-button-container">
+          <button className="mil-vertical-button text-dark ">
+           <Link to='/contact'> Get a Free Quote!</Link>
+          </button>
+        </div>
       </div>
 
       {/* partners start*/}

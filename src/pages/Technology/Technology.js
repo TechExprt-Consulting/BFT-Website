@@ -43,6 +43,11 @@ const Technology = () => {
             <h2 className="mil-uppercase">Technologies</h2>
           </div>
         </div>
+        <div className="mil-fixed-button-container">
+          <button className="mil-vertical-button text-dark ">
+            <Link to='/contact'>Get a Free Quote!</Link>
+          </button>
+        </div>
       </div>
       {/* <!-- banner end --> */}
       {/* <div className="mil-p-90-60 logo-carousel container  mil-partners-frame">
@@ -86,9 +91,7 @@ const Technology = () => {
                     <span class="mil-accent">01</span> HTML, CSS, JavaScript
                   </h5>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                  Custom interactive features and animations using HTML, CSS, and JavaScript to enhance user experiences on your site.
                   </p>
                 </div>
               </div>
@@ -108,9 +111,7 @@ const Technology = () => {
                     <span class="mil-accent">02</span> React JS
                   </h5>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                   Building responsive and interactive web applications using React.js, which includes component development and state management.
                   </p>
                 </div>
               </div>
@@ -130,9 +131,7 @@ const Technology = () => {
                     <span class="mil-accent">03</span> Angular JS
                   </h5>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                  Data binding and dependency injection to facilitate dynamic content updates and modular code organization in web applications.
                   </p>
                 </div>
               </div>
@@ -152,9 +151,7 @@ const Technology = () => {
                     <span class="mil-accent">04</span> Express JS
                   </h5>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                  Web development and API services using Express.js, creating fast and efficient server-side applications in Node.js.
                   </p>
                 </div>
               </div>
@@ -177,9 +174,7 @@ const Technology = () => {
                     <span class="mil-accent">01</span> Java
                   </h5>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                  Java software development for web and mobile applications, Java-based system integration, and API development.
                   </p>
                 </div>
               </div>
@@ -199,9 +194,7 @@ const Technology = () => {
                     <span class="mil-accent">02</span> Python
                   </h5>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                   Python programming and automation services, including web scraping and data analysis
                   </p>
                 </div>
               </div>
@@ -221,9 +214,7 @@ const Technology = () => {
                     <span class="mil-accent">03</span> Node JS
                   </h5>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                   Web development using Node.js for building fast and scalable server-side applications, RESTful API creation and maintenance with Node.js for seamless data communication.
                   </p>
                 </div>
               </div>
@@ -243,9 +234,7 @@ const Technology = () => {
                     <span class="mil-accent">04</span> SpringBoot
                   </h5>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                  Custom web application development using Spring Boot and provide RESTful API development and integration.
                   </p>
                 </div>
               </div>
@@ -270,9 +259,7 @@ const Technology = () => {
                     <span class="mil-accent">01</span> Jenkins
                   </h5>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                  Continuous integration and continuous delivery (CI/CD) services to automate and streamline software development and deployment processes.
                   </p>
                 </div>
               </div>
@@ -292,9 +279,7 @@ const Technology = () => {
                     <span class="mil-accent">02</span>CI/CD
                   </h5>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                  Implement automated testing and deployment pipelines for faster software delivery in CI/CD
                   </p>
                 </div>
               </div>
@@ -314,9 +299,7 @@ const Technology = () => {
                     <span class="mil-accent">03</span> Git
                   </h5>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                   Git repository management, including branching, merging, and version control, Git workflow optimization, and code collaboration facilitation.
                   </p>
                 </div>
               </div>
@@ -327,7 +310,7 @@ const Technology = () => {
                     <img
                       src="assets/project/26.png"
                       alt="icon"
-                      style={{ height: "30px", width: "90px" }}
+                      style={{ height: "20px", width: "90px" }}
                     />
                   </div>
                 </div>
@@ -336,9 +319,7 @@ const Technology = () => {
                     <span class="mil-accent">04</span> Bitbucket
                   </h5>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                  Bitbucket offers version control and collaboration tools for software development, enabling code hosting, branching, and merging. It provides continuous integration, issue tracking, and code reviews, enhancing team productivity and code quality.
                   </p>
                 </div>
               </div>
@@ -361,9 +342,7 @@ const Technology = () => {
                     <span class="mil-accent">01</span> Salesforce
                   </h5>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                  Salesforce consulting and customization for business process optimization. Salesforce training and support for efficient CRM usage and adoption.
                   </p>
                 </div>
               </div>
@@ -383,9 +362,7 @@ const Technology = () => {
                     <span class="mil-accent">02</span> AWS
                   </h5>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                  You can offer AWS cloud computing services, such as hosting websites and applications, and provide data storage and analytics solutions for businesses.
                   </p>
                 </div>
               </div>
@@ -405,9 +382,7 @@ const Technology = () => {
                     <span class="mil-accent">03</span> Microsoft Azure
                   </h5>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                  Cloud computing and storage solutions in Microsoft Azure, including virtual machines and data storage services.
                   </p>
                 </div>
               </div>
@@ -427,9 +402,7 @@ const Technology = () => {
                     <span class="mil-accent">04</span> Google Cloud
                   </h5>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                  You can offer cloud computing and storage services on Google Cloud, as well as data analytics and machine learning solutions for businesses.
                   </p>
                 </div>
               </div>
@@ -502,9 +475,7 @@ const Technology = () => {
                     <span class="mil-accent">01</span> Figma
                   </h5>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                   I can create user-friendly and interactive web and mobile app prototypes in Figma, ensuring seamless user experiences and smooth design collaboration.
                   </p>
                 </div>
               </div>
@@ -550,9 +521,7 @@ const Technology = () => {
                       <span class="mil-accent">01</span> MongoDB
                     </h5>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
+                     NoSQL database design and development, data modeling, and performance optimization for scalable, document-oriented data storage.
                     </p>
                   </div>
                 </div>
@@ -572,9 +541,7 @@ const Technology = () => {
                       <span class="mil-accent">02</span> MySQL
                     </h5>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
+                     Relational database design, schema development, and query optimization for efficient data storage and retrieval.
                     </p>
                   </div>
                 </div>
@@ -594,9 +561,7 @@ const Technology = () => {
                       <span class="mil-accent">03</span> Oracle
                     </h5>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
+                     Oracle services cover database administration, performance tuning, and PL/SQL development, ensuring reliable and high-performance data management.
                     </p>
                   </div>
                 </div>
@@ -619,9 +584,7 @@ const Technology = () => {
                       <span class="mil-accent">01</span> UberSuggest
                     </h5>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
+                    SEO analysis and keyword research services using Ubersuggest to help clients improve their online visibility and content strategy.
                     </p>
                   </div>
                 </div>
@@ -641,9 +604,7 @@ const Technology = () => {
                       <span class="mil-accent">02</span> Semrush
                     </h5>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
+                    Keyword research and analysis to improve SEO, as well as competitive analysis to enhance online marketing strategies for clients.
                     </p>
                   </div>
                 </div>
@@ -663,9 +624,7 @@ const Technology = () => {
                       <span class="mil-accent">03</span> Ahref
                     </h5>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
+                    SEO analysis and keyword research services to optimize website rankings and visibility on search engines.
                     </p>
                   </div>
                 </div>
@@ -691,9 +650,7 @@ const Technology = () => {
                     <span class="mil-accent">01</span> Canva
                   </h5>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                   Create eye-catching social media posts, logos, and marketing materials using Canva's intuitive design tools.
                   </p>
                 </div>
               </div>
@@ -713,9 +670,7 @@ const Technology = () => {
                     <span class="mil-accent">02</span> Figma
                   </h5>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                   I can create user-friendly and interactive web and mobile app prototypes in Figma, ensuring seamless user experiences and smooth design collaboration.
                   </p>
                 </div>
               </div>
@@ -757,9 +712,7 @@ const Technology = () => {
                     <span class="mil-accent">04</span> Illustrator
                   </h5>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                   Specializes in vector graphics and can design logos, illustrations, and pictures with precision and creativity, catering to various design needs.
                   </p>
                 </div>
                
@@ -780,9 +733,7 @@ const Technology = () => {
                     <span class="mil-accent">05</span> Invision
                   </h5>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                   Develop interactive prototypes to showcase the functionality and flow of digital products, helping clients visualize their ideas before development
                   </p>
                 </div>
                
@@ -806,9 +757,7 @@ const Technology = () => {
                     <span class="mil-accent">01</span> Google Analytics
                   </h5>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                  Google Analytics setup and configuration for website tracking, Data analysis, and reporting to improve online performance. Spyfu: Competitive intelligence services, helping businesses analyze their competitors' digital marketing strategies and discover valuable insights.
                   </p>
                 </div>
               </div>
@@ -850,9 +799,7 @@ const Technology = () => {
                     <span class="mil-accent">03</span> Grammarly
                   </h5>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                   Proofreading and editing services to improve the clarity and correctness of written content
                   </p>
                 </div>
               </div>
@@ -872,9 +819,7 @@ const Technology = () => {
                     <span class="mil-accent">04</span> Hubspot
                   </h5>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                  Create and manage marketing campaigns, email automation, and lead nurturing in HubSpot.
                   </p>
                 </div>
                
@@ -895,9 +840,7 @@ const Technology = () => {
                     <span class="mil-accent">05</span> Apollo
                   </h5>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                   Apollo.io's database can be utilized to enhance lead generation and prospecting efforts.
                   </p>
                 </div>
                

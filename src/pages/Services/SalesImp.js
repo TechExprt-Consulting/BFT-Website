@@ -48,9 +48,9 @@ const SalesImp = () => {
             <img src="assets/mockup/salesforce1.png" alt="mus" className="col-md-4" />
           </div>
         </div>
-        <div className="">
+        <div className="mil-fixed-button-container">
           <button className="mil-vertical-button text-dark ">
-            Get a Free Quote!
+            <Link to='/contact'>Get a Free Quote!</Link>
           </button>
         </div>
       </div>
@@ -112,9 +112,9 @@ const SalesImp = () => {
       <div className="col-md-6 col-xl-3">
         <div className="mil-icon-box mil-center mil-mb-60">
           <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-            <img src="assets/icon/5.svg" alt="icon" />
+            <img src="assets/salesforce/CPQ.png" alt="icon" style={{width:"200px" , height:"80px"}}/>
           </div>
-          <h5 className="mil-mb-20">
+          <h5 className="mil-mb-20 mt-5">
             <span className="mil-accent">01.</span>&nbsp; Salesforce CPQ 
             
           </h5>
@@ -122,10 +122,10 @@ const SalesImp = () => {
       </div>
       <div className="col-md-6 col-xl-3">
         <div className="mil-icon-box mil-center mil-mb-60">
-          <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-            <img src="assets/icon/5.svg" alt="icon" />
+          <div className="mil-icon-frame1 mil-icon-frame-md mil-mb-30">
+            <img src="assets/salesforce/fsl.png" alt="icon" style={{width:"200px",height:"50px"}}/>
           </div>
-          <h5 className="mil-mb-20">
+          <h5 className="mil-mb-20 mt-5">
             <span className="mil-accent">02.</span>&nbsp; Salesforce FSL 
           </h5>
         </div>
@@ -133,9 +133,9 @@ const SalesImp = () => {
       <div className="col-md-6 col-xl-3">
         <div className="mil-icon-box mil-center mil-mb-60">
           <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-            <img src="assets/icon/5.svg" alt="icon" />
+            <img src="assets/salesforce/salescloud.jpg" alt="icon" style={{width:"200px",height:"150px"}}/>
           </div>
-          <h5 className="mil-mb-20">
+          <h5 className="mil-mb-20 mt-5">
             <span className="mil-accent">03.</span>&nbsp; Sales Cloud 
             
           </h5>
@@ -143,10 +143,10 @@ const SalesImp = () => {
       </div>
       <div className="col-md-6 col-xl-3">
         <div className="mil-icon-box mil-center mil-mb-60">
-          <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-            <img src="assets/icon/5.svg" alt="icon" />
+          <div className="mil-icon-frame1 mil-icon-frame-md mil-mb-30">
+            <img src="assets/salesforce/service.png" alt="icon"style={{width:"170px",height:"60px"}}/>
           </div>
-          <h5 className="mil-mb-20">
+          <h5 className="mil-mb-20 mt-5">
             <span className="mil-accent">04.</span>&nbsp;Service Cloud 
           </h5>
         </div>
@@ -156,9 +156,9 @@ const SalesImp = () => {
       <div className="col-md-6 col-xl-3">
         <div className="mil-icon-box mil-center mil-mb-60">
           <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-            <img src="assets/icon/5.svg" alt="icon" />
+            <img src="assets/salesforce/marketing.png" alt="icon" style={{width:"170px",height:"60px"}}/>
           </div>
-          <h5 className="mil-mb-20">
+          <h5 className="mil-mb-20 mt-5">
             <span className="mil-accent">05.</span>&nbsp;Marketing Cloud 
             
           </h5>
@@ -167,19 +167,19 @@ const SalesImp = () => {
       <div className="col-md-6 col-xl-3">
         <div className="mil-icon-box mil-center mil-mb-60">
           <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-            <img src="assets/icon/5.svg" alt="icon" />
+            <img src="assets/salesforce/experience.png" alt="icon" style={{width:"170px",height:"60px"}}/>
           </div>
-          <h5 className="mil-mb-20">
+          <h5 className="mil-mb-20 mt-5">
             <span className="mil-accent">06.</span>&nbsp;Experience Cloud 
           </h5>
         </div>
       </div>
       <div className="col-md-6 col-xl-3">
         <div className="mil-icon-box mil-center mil-mb-60">
-          <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-            <img src="assets/icon/5.svg" alt="icon" />
+          <div className="mil-icon-frame1 mil-icon-frame-md mil-mb-30">
+            <img src="assets/salesforce/financialsercvice.png" alt="icon" style={{width:"160px",height:"100px"}}/>
           </div>
-          <h5 className="mil-mb-20">
+          <h5 className="mil-mb-20 mt-5">
             <span className="mil-accent">07.</span>&nbsp;Financial Services Cloud 
             
           </h5>
@@ -188,9 +188,9 @@ const SalesImp = () => {
       <div className="col-md-6 col-xl-3">
         <div className="mil-icon-box mil-center mil-mb-60">
           <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-            <img src="assets/icon/5.svg" alt="icon" />
+            <img src="assets/salesforce/commerce.png" alt="icon"style={{width:"160px",height:"100px"}} />
           </div>
-          <h5 className="mil-mb-20">
+          <h5 className="mil-mb-20 mt-5">
             <span className="mil-accent">08.</span>&nbsp;Commerce Cloud 
           </h5>
         </div>
@@ -198,7 +198,7 @@ const SalesImp = () => {
     </div>
       </div>
     </section>
-    {/* <!-- steps end --> */}
+        {/* <!-- steps end --> */}
 
     <div className="container">
       <div className="mil-divider"></div>
@@ -211,14 +211,14 @@ const SalesImp = () => {
     
    
 
-    <section className="mil-gradient-bg mil-deco-right mil-p-120-0">
+    <section className="bg-white mil-deco-right mil-p-120-0">
         <div
           className="mil-deco mil-deco-accent"
           style={{ top: "0", left: "5%" }}
         ></div>
         <div className="container">
           <div className="mil-text-center mil-mb-90">
-            <h2 className="mil-light mil-mb-30">
+            <h2 className="mil-ligh mil-mb-30">
               {" "}
               Why Choose our{" "}
               <span className="mil-accent">Salesforce Applications</span>{" "}
@@ -228,63 +228,63 @@ const SalesImp = () => {
           <div className="row mil-mb-30-adapt">
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
                   <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light "> Industry experts</p>
+                <p className="mil-ligh "> Industry experts</p>
               </div>
             </div>
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
                   <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light ">Six decades of combined professional expertise</p>
+                <p className="mil-ligh ">Six decades of combined professional expertise</p>
               </div>
             </div>
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
                   <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light ">SF Delivery Exp - 6 years</p>
+                <p className="mil-ligh">SF Delivery Exp - 6 years</p>
               </div>
             </div>
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
                   <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light ">7x Certified SF Architect</p>
-              </div>
-            </div>
-
-            <div className="col-lg-3">
-              <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
-                </div>
-                <p className="mil-light ">4x Certified SF Dev</p>
+                <p className="mil-ligh ">7x Certified SF Architect</p>
               </div>
             </div>
 
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
                   <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light ">Salesforce Partner</p>
+                <p className="mil-ligh ">4x Certified SF Dev</p>
+              </div>
+            </div>
+
+            <div className="col-lg-3">
+              <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
+                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                </div>
+                <p className="mil-ligh ">Salesforce Partner</p>
               </div>
             </div>
           </div>
-          <div className="mil-text-center">
+          {/* <div className="mil-text-center">
             <Link
               to="/Contact"
-              className="mil-button mil-border mil-light mil-mb-30"
+              className="mil-button mil-border mil-ligh mil-mb-30"
             >
               <span>Talk To Our Salesforce Experts</span>
             </Link>
-          </div>
+          </div> */}
         </div>
       </section>
 

@@ -47,9 +47,9 @@ const Ppc = () => {
               <img src="assets/mockup/PPC.png" alt="mus" className="col-md-4" />
             </div>
           </div>
-          <div className="">
+          <div className="mil-fixed-button-container">
             <button className="mil-vertical-button text-dark ">
-              Get a Free Quote!
+              <Link to='/contact'>Get a Free Quote!</Link>
             </button>
           </div>
         </div>
@@ -155,45 +155,8 @@ const Ppc = () => {
    
     {/* <!-- services --> */}
      {/* <!-- services --> */}
-      <div className="mil-icon-box mil-center mil-mb-60 mt-5">
-        <h2 className="mil-mb-20 mt-2 ">Why Choose Us?</h2>
-      </div>
-      <div className="row">
-        <div className="col-md-7 col-xl-4">
-          <div className="mil-icon-box mil-center mil-mb-60">
-            <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-              <img src="assets/icon/5.svg" alt="icon" />
-            </div>
-            <h5 className="mil-mb-20">
-              <span className="mil-accent">01.</span>&nbsp;Strategin Campaign Creation
-              
-            </h5>
-          </div>
-        </div>
-        <div className="col-md-7 col-xl-4">
-          <div className="mil-icon-box mil-center mil-mb-60">
-            <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-              <img src="assets/icon/5.svg" alt="icon" />
-            </div>
-            <h5 className="mil-mb-20">
-              <span className="mil-accent">02.</span>&nbsp; Audience & Device Analysis
-            </h5>
-          </div>
-        </div>
-        <div className="col-md-7 col-xl-4">
-          <div className="mil-icon-box mil-center mil-mb-60">
-            <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-              <img src="assets/icon/5.svg" alt="icon" />
-            </div>
-            <h5 className="mil-mb-20">
-              <span className="mil-accent">03.</span>&nbsp; Custom Conversion Analysis
-              
-            </h5>
-          </div>
-        </div>
-        
-      </div>
-    {/* <section className="mil-gradient-bg mil-deco-right mil-p-120-0">
+      
+    <section className="bg-white mil-deco-right mil-p-120-0">
         <div
           className="mil-deco mil-deco-accent"
           style={{ top: "0", left: "5%" }}
@@ -201,7 +164,7 @@ const Ppc = () => {
         <div className="container">
           <div className="mil-text-center mil-mb-90">
            
-            <h2 className="mil-light mil-mb-30">
+            <h2 className="mil-ligh mil-mb-30">
               {" "}
               Why Choose our{" "}
               <span className="mil-accent">Search Engine Optimization</span>{" "}
@@ -211,26 +174,26 @@ const Ppc = () => {
           <div className="row mil-mb-30-adapt">
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
                   <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light"> Strategin Campaign Creation</p>
+                <p className="mil-ligh"> Strategin Campaign Creation</p>
               </div>
             </div>
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
-                  <img src="assets/icon/sm/2.svg" alt="icon" />
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
+                  <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light">Audience & Device Analysis</p>
+                <p className="mil-ligh">Audience & Device Analysis</p>
               </div>
             </div>
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
-                  <img src="assets/icon/sm/7.svg" alt="icon" />
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
+                  <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light">Custom Conversion Analysis</p>
+                <p className="mil-ligh">Custom Conversion Analysis</p>
               </div>
             </div>
             
@@ -239,16 +202,16 @@ const Ppc = () => {
 
             
           </div>
-          <div className="mil-text-center">
+          {/* <div className="mil-text-center">
             <Link
               to="/Contact"
-              className="mil-button mil-border mil-light mil-mb-30"
+              className="mil-button mil-border mil-ligh mil-mb-30"
             >
               <span>Talk To Our SEO Experts</span>
             </Link>
-          </div>
+          </div> */}
         </div>
-      </section> */}
+      </section>
     {/* <!-- services end --> */}
 
     <Footer />

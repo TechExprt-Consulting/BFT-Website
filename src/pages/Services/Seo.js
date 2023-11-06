@@ -47,9 +47,9 @@ const Seo = () => {
               <img src="assets/mockup/SEO.png" alt="mus" className="col-md-4" />
             </div>
           </div>
-          <div className="">
+          <div className="mil-fixed-button-container">
             <button className="mil-vertical-button text-dark ">
-              Get a Free Quote!
+             <Link to='/contact'> Get a Free Quote!</Link>
             </button>
           </div>
         </div>
@@ -207,64 +207,16 @@ const Seo = () => {
       </div>
 
       {/* <!-- services --> */}
-      <div className="mil-icon-box mil-center mil-mb-60 mt-5">
-        <h2 className="mil-mb-20 mt-2 ">Why Choose Us?</h2>
-      </div>
-      <div className="row">
-        <div className="col-md-6 col-xl-3">
-          <div className="mil-icon-box mil-center mil-mb-60">
-            <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-              <img src="assets/icon/5.svg" alt="icon" />
-            </div>
-            <h5 className="mil-mb-20">
-              <span className="mil-accent">01.</span>&nbsp; High Quality Niche
-              Backlinks
-            </h5>
-          </div>
-        </div>
-        <div className="col-md-6 col-xl-3">
-          <div className="mil-icon-box mil-center mil-mb-60">
-            <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-              <img src="assets/icon/5.svg" alt="icon" />
-            </div>
-            <h5 className="mil-mb-20">
-              <span className="mil-accent">02.</span>&nbsp; Flawless Onpage SEO
-            </h5>
-          </div>
-        </div>
-        <div className="col-md-6 col-xl-3">
-          <div className="mil-icon-box mil-center mil-mb-60">
-            <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-              <img src="assets/icon/5.svg" alt="icon" />
-            </div>
-            <h5 className="mil-mb-20">
-              <span className="mil-accent">03.</span>&nbsp; SERPs Inspired
-              Content
-            </h5>
-          </div>
-        </div>
-        <div className="col-md-6 col-xl-3">
-          <div className="mil-icon-box mil-center mil-mb-60">
-            <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-              <img src="assets/icon/5.svg" alt="icon" />
-            </div>
-            <h5 className="mil-mb-20">
-              <span className="mil-accent">04.</span>&nbsp; Fastest Load-Times
-            </h5>
-          </div>
-        </div>
-      </div>
-      {/* <section className="mil-gradient-bg mil-deco-right mil-p-120-0">
+      
+      <section className="bg-white mil-deco-right mil-p-120-0">
         <div
           className="mil-deco mil-deco-accent"
           style={{ top: "0", left: "5%" }}
         ></div>
         <div className="container">
           <div className="mil-text-center mil-mb-90">
-            <span className="mil-suptitle  mil-light mil-suptitle-2 mil-mb-30">
-              Always The Best
-            </span>
-            <h2 className="mil-light mil-mb-30">
+           
+            <h2 className="mil-ligh mil-mb-30">
               {" "}
               Why Choose our{" "}
               <span className="mil-accent">Search Engine Optimization</span>{" "}
@@ -274,34 +226,34 @@ const Seo = () => {
           <div className="row mil-mb-30-adapt">
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
                   <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light"> High Quality Niche Backlinks</p>
+                <p className="mil-ligh"> High Quality Niche Backlinks</p>
               </div>
             </div>
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
-                  <img src="assets/icon/sm/2.svg" alt="icon" />
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
+                  <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light">Flawless Onpage SEO</p>
+                <p className="mil-ligh">Flawless Onpage SEO</p>
               </div>
             </div>
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
-                  <img src="assets/icon/sm/7.svg" alt="icon" />
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
+                  <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light">SERPs Inspired Content</p>
+                <p className="mil-ligh">SERPs Inspired Content</p>
               </div>
             </div>
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
-                  <img src="assets/icon/sm/3.svg" alt="icon" />
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
+                  <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light">Fastest Load-Times</p>
+                <p className="mil-ligh">Fastest Load-Times</p>
               </div>
             </div>
 
@@ -309,16 +261,16 @@ const Seo = () => {
 
             
           </div>
-          <div className="mil-text-center">
+          {/* <div className="mil-text-center">
             <Link
               to="/Contact"
-              className="mil-button mil-border mil-light mil-mb-30"
+              className="mil-button mil-border mil-ligh mil-mb-30"
             >
               <span>Talk To Our SEO Experts</span>
             </Link>
-          </div>
+          </div> */}
         </div>
-      </section> */}
+      </section>
       {/* <!-- services end --> */}
 
       <Footer />

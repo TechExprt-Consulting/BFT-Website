@@ -9,37 +9,31 @@ const Cloud = () => {
     <div className="mil-wrapper">
      <Navbar/>
        {/* <!-- banner --> */}
-       <div className="mil-banner-sm bg-white shadow shadow-bottom shadow-md">
-        {/* <img
-          src="assets/deco/map.png"
-          alt="background"
-          className="mil-background-image"
-        /> */}
-        {/* <div
-          className="mil-deco mil-deco-accent"
-          style={{ top: "47%", right: "10%", transform: "rotate(90deg)" }}
-        ></div> */}
-        <div className="mil-banner-content">
-          <div className="container mil-relative">
-            <ul className="mil-breadcrumbs mil-mb-30">
-              <li>
-                <Link to="/Home">Home</Link>
-              </li>
-              <li>
-                <Link to="">Service</Link>
-              </li>
-              <li>
-                <Link to="/Salesforce">Cloud Migration</Link>
-              </li>
-            </ul>
-            <div className="d-flex">
-              <div className="d-flex row">
-                <h2 className="mil-uppercase" style={{ color: "#1B2F5B" }}>
-                  Cloud Migration
-                </h2>
+       
 
-                <p className="col-md-8 conten">
-                Are you ready to elevate your business operations to the next
+
+<div className="mil-banner-sm bg-white shadow shadow-bottom shadow-md">
+  <div className="mil-banner-content">
+    <div className="container mil-relative">
+      <ul className="mil-breadcrumbs mil-mb-30">
+        <li>
+          <Link to="/Home">Home</Link>
+        </li>
+        <li>
+          <Link to="">Service</Link>
+        </li>
+        <li>
+          <Link to="/Salesforce">Cloud Migration</Link>
+        </li>
+      </ul>
+      <div className="d-flex flex-column-reverse flex-md-row">
+        <div className="d-flex flex-column ">
+          <h2 className="mil-uppercase mt-2" style={{ color: "#1B2F5B" }}>
+          Cloud Migration
+          </h2>
+
+          <p className="conten">
+          Are you ready to elevate your business operations to the next
                   level? Embracing the power of the cloud can be a
                   transformative journey, and our dedicated Cloud Migration
                   Services are here to guide you every step of the way. Whether
@@ -47,23 +41,23 @@ const Cloud = () => {
                   is committed to delivering a seamless and efficient transition
                   to the cloud, unlocking unparalleled scalability, flexibility,
                   and cost savings for your organization.
-                </p>
-              </div>
-              <img
-                src="assets/mockup/cloud.png"
-                alt="mus"
-                className="col-md-4"
-              />
-            </div>
-          </div>
-          <div className="">
+          </p>
+
+          <div className="mil-quote-button ">
             <button className="mil-vertical-button text-dark ">
-              Get a Free Quote!
+             <Link to='/contact'> Get a Free Quote!</Link>
             </button>
           </div>
         </div>
+        <img
+          src="assets/mockup/cloud.png"
+          alt="mus"
+          className="col-md-4 mockup"
+        />
       </div>
-
+    </div>
+  </div>
+</div>
       {/* <!-- banner end --> */}
 
       
@@ -216,7 +210,7 @@ const Cloud = () => {
       </div>
       {/* <!-- partners end --> */}
       {/* <!-- services --> */}
-      <section className="mil-gradient-bg mil-deco-right mil-p-120-0">
+      <section className="bg-white mil-deco-right mil-p-120-0">
         <div
           className="mil-deco mil-deco-accent"
           style={{ top: "0", left: "5%" }}
@@ -226,7 +220,7 @@ const Cloud = () => {
             {/* <span className="mil-suptitle  mil-light mil-suptitle-2 mil-mb-30">
               Always The Best
             </span> */}
-            <h2 className="mil-light mil-mb-30">
+            <h2 className="mil-ligh mil-mb-30">
               {" "}
               Why Choose our{" "}
               <span className="mil-accent">Cloud Migration Applications</span>
@@ -241,54 +235,54 @@ const Cloud = () => {
           <div className="row mil-mb-30-adapt">
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
                   <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light"> Expertise</p>
+                <p className="mil-ligh"> Expertise</p>
               </div>
             </div>
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
                   <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light">Tailored Solutions</p>
+                <p className="mil-ligh">Tailored Solutions</p>
               </div>
             </div>
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
                   <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light">Minimal Disruption</p>
+                <p className="mil-ligh">Minimal Disruption</p>
               </div>
             </div>
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
                   <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light">Security First</p>
+                <p className="mil-ligh">Security First</p>
               </div>
             </div>
 
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
                   <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light">Cost Efficiency</p>
+                <p className="mil-ligh">Cost Efficiency</p>
               </div>
             </div>
           </div>
-          <div className="mil-text-center">
+          {/* <div className="mil-text-center">
             <Link
               to="/Contact"
-              className="mil-button mil-border mil-light mil-mb-30"
+              className="mil-button mil-border mil-ligh mil-mb-30"
             >
               <span>Talk To Our Cloud Migration Experts</span>
             </Link>
-          </div>
+          </div> */}
         </div>
       </section>
       {/* <!-- services end --> */}

@@ -9,37 +9,31 @@ const BlockChain = () => {
 <Navbar/>
 
        {/* <!-- banner --> */}
-       <div className="mil-banner-sm bg-white shadow shadow-bottom shadow-md">
-        {/* <img
-          src="assets/deco/map.png"
-          alt="background"
-          className="mil-background-image"
-        /> */}
-        {/* <div
-          className="mil-deco mil-deco-accent"
-          style={{ top: "47%", right: "10%", transform: "rotate(90deg)" }}
-        ></div> */}
-        <div className="mil-banner-content">
-          <div className="container mil-relative">
-            <ul className="mil-breadcrumbs mil-mb-30">
-              <li>
-                <Link to="/Home">Home</Link>
-              </li>
-              <li>
-                <Link to="">Service</Link>
-              </li>
-              <li>
-                <Link to="/Salesforce">BlockChain</Link>
-              </li>
-            </ul>
-            <div className="d-flex">
-              <div className="d-flex row">
-                <h2 className="mil-uppercase" style={{ color: "#1B2F5B" }}>
-                  BlockChain Developement
-                </h2>
+       
 
-                <p className="col-md-9 conten">
-                Embrace the future of trust and transparency with our
+
+<div className="mil-banner-sm bg-white shadow shadow-bottom shadow-md">
+  <div className="mil-banner-content">
+    <div className="container mil-relative">
+      <ul className="mil-breadcrumbs mil-mb-30">
+        <li>
+          <Link to="/Home">Home</Link>
+        </li>
+        <li>
+          <Link to="">Service</Link>
+        </li>
+        <li>
+          <Link to="/Salesforce">BlockChain</Link>
+        </li>
+      </ul>
+      <div className="d-flex flex-column-reverse flex-md-row">
+        <div className="d-flex flex-column ">
+          <h2 className="mil-uppercase mt-2" style={{ color: "#1B2F5B" }}>
+          BlockChain Developement
+          </h2>
+
+          <p className="conten">
+          Embrace the future of trust and transparency with our
                   Blockchain Development Services. Our experienced team of
                   blockchain developers is here to help you navigate the dynamic
                   world of blockchain technology. We offer tailor-made solutions
@@ -49,23 +43,23 @@ const BlockChain = () => {
                   top priority, and our state-of-the-art security protocols
                   ensure your data and transactions remain safeguarded from
                   threats.
-                </p>
-              </div>
-              <img
-                src="assets/mockup/blockchain.png"
-                alt="mus"
-                className="col-md-4"
-              />
-            </div>
-          </div>
-          <div className="">
+          </p>
+
+          <div className="mil-quote-button ">
             <button className="mil-vertical-button text-dark ">
-              Get a Free Quote!
+             <Link to='/contact'> Get a Free Quote!</Link>
             </button>
           </div>
         </div>
+        <img
+          src="assets/mockup/blockchain.png"
+          alt="mus"
+          className="col-md-4 mockup"
+        />
       </div>
-
+    </div>
+  </div>
+</div>
       {/* <!-- banner end --> */}
 
       
@@ -381,11 +375,11 @@ const BlockChain = () => {
           </div>
 
           <div className="row align-items-center">
-            <div className="col-md-6 col-xl-6">
+            {/* <div className="col-md-6 col-xl-6">
               <Link to="/Contact" className="mil-button mil-border mil-mb-30">
                 <span>Talk To Our BlockChain Experts</span>
               </Link>
-            </div>
+            </div> */}
             <div className="col-md-6 col-xl-6">
               <div className="mil-adaptive-right">
                 {/* <Link to="" className="mil-link mil-mb-30"><span>See More</span><i className="fas fa-arrow-right"></i></Link> */}
@@ -428,7 +422,7 @@ const BlockChain = () => {
       </div>
       {/* <!-- partners end --> */}
       {/* <!-- services --> */}
-      <section className="mil-gradient-bg mil-deco-right mil-p-120-0">
+      <section className="bg-white mil-deco-right mil-p-120-0">
         <div
           className="mil-deco mil-deco-accent"
           style={{ top: "0", left: "5%" }}
@@ -438,7 +432,7 @@ const BlockChain = () => {
             {/* <span className="mil-suptitle  mil-light mil-suptitle-2 mil-mb-30">
               Always The Best
             </span> */}
-            <h2 className="mil-light mil-mb-30">
+            <h2 className="mil-ligh mil-mb-30">
               {" "}
               Why Choose our{" "}
               <span className="mil-accent">BlockChain Applications</span>{" "}
@@ -453,58 +447,58 @@ const BlockChain = () => {
           <div className="row mil-mb-30-adapt">
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
                   <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light">Blockchain Development</p>
+                <p className="mil-ligh">Blockchain Development</p>
               </div>
             </div>
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
                   <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light">Smart Contract Development</p>
+                <p className="mil-ligh">Smart Contract Development</p>
               </div>
             </div>
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
                   <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light">Tokenization Services</p>
+                <p className="mil-ligh">Tokenization Services</p>
               </div>
             </div>
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
                   <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light">Blockchain Consulting</p>
+                <p className="mil-ligh">Blockchain Consulting</p>
               </div>
             </div>
 
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
                   <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light">Supply Chain Solutions</p>
+                <p className="mil-ligh">Supply Chain Solutions</p>
               </div>
             </div>
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
                   <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light">Security Audits and Solutions</p>
+                <p className="mil-ligh">Security Audits and Solutions</p>
               </div>
             </div>
           </div>
           <div className="mil-text-center">
             <Link
               to="/Contact"
-              className="mil-button mil-border mil-light mil-mb-30"
+              className="mil-button mil-border mil-ligh mil-mb-30"
             >
               <span>Talk To Our BlockChain Experts</span>
             </Link>

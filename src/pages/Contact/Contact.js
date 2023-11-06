@@ -15,30 +15,75 @@ const Contact = () => {
     <div className="mil-wrapper">
       <Navbar/>
       {/* <!-- banner --> */}
-      <div className="mil-banner-sm mil-deep-bg">
-        <img
-          src="assets/deco/map.png"
-          alt="background"
-          className="mil-background-image"
-        />
-        <div
-          className="mil-deco mil-deco-accent"
-          style={{ top: "47%", right: "10%", transform: "rotate(90deg)" }}
-        ></div>
-        <div className="mil-banner-content">
-          <div className="container mil-relative">
-            <ul className="mil-breadcrumbs mil-mb-30">
-              <li>
-                <Link to="/Home">Home</Link>
-              </li>
-              <li>
-                <Link to="/Contact">Contact Us</Link>
-              </li>
-            </ul>
-            <h2 className="mil-uppercase">Let’s discuss your opportunity</h2>
-          </div>
+      
+<div className="mil-banner-sm bg-white shadow shadow-bottom shadow-md">
+  <div className="mil-banner-content position-relative">
+    <div className="container ">
+      <div className="d-flex flex-column-reverse flex-md-row col-md-6">
+        <div className="d-flex flex-column mt-3">
+          <ul className="mil-breadcrumbs mil-mb-30">
+            <li>
+              <Link to="/Home">Home</Link>
+            </li>
+            <li>
+              <Link to="">Contact Us</Link>
+            </li>
+          </ul>
+
+          <h2 className="mil-uppercase" style={{ color: "#1B2F5B" }}>
+            Let's discuss your opportunity
+          </h2>
+        </div>
+
+      </div>
+    
+
+  <div className="mil-fixed-button-container">
+    <button className="mil-vertical-button text-dark ">
+      <Link to='/contact'>Get a Free Quote!</Link>
+    </button>
+  </div>        <img src="assets/mockup/contact.png" alt="mus" className="col-md-5  pt-5  mil-banner-image"  />
+
+  </div>
+  </div>
+</div>
+
+{/* <div className="mil-banner-sm bg-white shadow shadow-bottom shadow-md">
+  <div className="mil-banner-content position-relative">
+    <div className="container">
+      <div className="d-flex flex-column-reverse flex-md-row">
+        <div className="d-flex flex-column mt-3">
+          <ul className="mil-breadcrumbs mil-mb-30">
+            <li>
+              <Link to="/Home">Home</Link>
+            </li>
+            <li>
+              <Link to="">Contact Us</Link>
+            </li>
+          </ul>
+
+          <h2 className="mil-uppercase" style={{ color: "#1B2F5B" }}>
+            Let's discuss your opportunity
+          </h2>
         </div>
       </div>
+
+      <div className="mil-fixed-button-container">
+        <button className="mil-vertical-button text-dark">
+          Get a Free Quote!
+        </button>
+      </div>
+
+      <img
+        src="assets/mockup/contact.png"
+        alt="mus"
+        className="mil-banner-image"
+      />
+    </div>
+  </div>
+</div> */}
+
+
       {/* <!-- banner end --> */}
 
       {/* <!-- contact --> */}
@@ -51,6 +96,7 @@ const Contact = () => {
                 method="post"
                 enctype="multipart/form-data"
               >
+                <h3 className="mil-mb-60 mil-uppercase">Contact Us</h3>
                 <h4 className="mil-mb-60">
                   <span className="mil-accent">01.</span> Tell Us About Yourself
                 </h4>

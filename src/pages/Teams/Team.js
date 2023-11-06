@@ -31,6 +31,11 @@ const Team = () => {
             <h2 className="mil-uppercase">Leadership Team</h2>
           </div>
         </div>
+        <div className="mil-fixed-button-container">
+          <button className="mil-vertical-button text-dark ">
+            <Link to='/contact'>Get a Free Quote!</Link>
+          </button>
+        </div>
       </div>
       {/* <!-- banner end --> */}
 

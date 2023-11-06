@@ -14,37 +14,29 @@ const Digital = () => {
       <Navbar />
 
       {/* <!-- banner --> */}
-      <div className="mil-banner-sm bg-white shadow shadow-bottom shadow-md">
-        {/* <img
-          src="assets/deco/map.png"
-          alt="background"
-          className="mil-background-image"
-        /> */}
-        {/* <div
-          className="mil-deco mil-deco-accent"
-          style={{ top: "47%", right: "10%", transform: "rotate(90deg)" }}
-        ></div> */}
-        <div className="mil-banner-content">
-          <div className="container mil-relative">
-            <ul className="mil-breadcrumbs mil-mb-30">
-              <li>
-                <Link to="/Home">Home</Link>
-              </li>
-              <li>
-                <Link to="">Service</Link>
-              </li>
-              <li>
-                <Link to="/Salesforce">Digital Marketing</Link>
-              </li>
-            </ul>
-            <div className="d-flex">
-              <div className="d-flex row">
-                <h2 className="mil-uppercase" style={{ color: "#1B2F5B" }}>
-                  Digital Marketing
-                </h2>
+      
+<div className="mil-banner-sm bg-white shadow shadow-bottom shadow-md">
+  <div className="mil-banner-content">
+    <div className="container mil-relative">
+      <ul className="mil-breadcrumbs mil-mb-30">
+        <li>
+          <Link to="/Home">Home</Link>
+        </li>
+        <li>
+          <Link to="">Service</Link>
+        </li>
+        <li>
+          <Link to="/Salesforce">Digital Marketing</Link>
+        </li>
+      </ul>
+      <div className="d-flex flex-column-reverse flex-md-row">
+        <div className="d-flex flex-column ">
+          <h2 className="mil-uppercase mt-2" style={{ color: "#1B2F5B" }}>
+          Digital Marketing
+          </h2>
 
-                <p className="col-md-8 conten">
-                  When developing your digital marketing strategies, we dedicate
+          <p className="conten">
+          When developing your digital marketing strategies, we dedicate
                   hours to understand your business, market and industry so we
                   can build a plan that aligns with your business objective and
                   goals. Today, businesses are adapting and exploring the
@@ -53,23 +45,23 @@ const Digital = () => {
                   help you get the best data-backed strategy and engaging
                   creative appeal to your campaigns which makes you stand out
                   from your competitors.
-                </p>
-              </div>
-              <img
-                src="assets/mockup/salesforce1.png"
-                alt="mus"
-                className="col-md-4"
-              />
-            </div>
-          </div>
-          <div className="">
+          </p>
+
+          <div className="mil-quote-button ">
             <button className="mil-vertical-button text-dark ">
-              Get a Free Quote!
+             <Link to='/contact'> Get a Free Quote!</Link>
             </button>
           </div>
         </div>
+        <img
+          src="assets/mockup/salesforce1.png"
+          alt="mus"
+          className="col-md-4 mockup"
+        />
       </div>
-
+    </div>
+  </div>
+</div>
       {/* <!-- banner end --> */}
 
       {/* <!-- call to action --> */}

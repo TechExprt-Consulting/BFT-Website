@@ -9,16 +9,8 @@ const WebApp = () => {
       <Navbar/>
 
      {/* <!-- banner --> */}
-     <div className="mil-banner-sm bg-white shadow shadow-bottom shadow-md">
-        {/* <img
-          src="assets/deco/map.png"
-          alt="background"
-          className="mil-background-image"
-        /> */}
-        {/* <div
-          className="mil-deco mil-deco-accent"
-          style={{ top: "47%", right: "10%", transform: "rotate(90deg)" }}
-        ></div> */}
+     {/* <div className="mil-banner-sm bg-white shadow shadow-bottom shadow-md">
+        
         <div className="mil-banner-content">
           <div className="container mil-relative">
             <ul className="mil-breadcrumbs mil-mb-30">
@@ -56,14 +48,59 @@ const WebApp = () => {
               />
             </div>
           </div>
-          <div className="">
+          <div className="mil-fixed-button-container">
             <button className="mil-vertical-button text-dark ">
-              Get a Free Quote!
+             <Link to='/contact'> Get a Free Quote!</Link>
             </button>
           </div>
         </div>
-      </div>
+      </div> */}
+<div className="mil-banner-sm bg-white shadow shadow-bottom shadow-md">
+  <div className="mil-banner-content">
+    <div className="container mil-relative">
+      <ul className="mil-breadcrumbs mil-mb-30">
+        <li>
+          <Link to="/Home">Home</Link>
+        </li>
+        <li>
+          <Link to="">Service</Link>
+        </li>
+        <li>
+          <Link to="/Salesforce">Web Application</Link>
+        </li>
+      </ul>
+      <div className="d-flex flex-column-reverse flex-md-row">
+        <div className="d-flex flex-column ">
+          <h2 className="mil-uppercase mt-2" style={{ color: "#1B2F5B" }}>
+          Web & App Developement
+          </h2>
 
+          <p className="conten">
+          Are you ready to transform your online presence? Our Web
+                  Development services are designed to create stunning,
+                  functional, and user-friendly websites that resonate with your
+                  audience and drive results. With a team of skilled developers,
+                  designers, and experts, we bring your vision to life on the
+                  digital canvas. Whether you're a startup looking to establish
+                  your online identity or a well-established business aiming to
+                  revamp your website, we've got you covered.
+          </p>
+
+          <div className="mil-quote-button ">
+            <button className="mil-vertical-button text-dark ">
+             <Link to='/contact'> Get a Free Quote!</Link>
+            </button>
+          </div>
+        </div>
+        <img
+          src="assets/mockup/webdev.png"
+          alt="mus"
+          className="col-md-4 mockup"
+        />
+      </div>
+    </div>
+  </div>
+</div>
       {/* <!-- banner end --> */}
 
      
@@ -172,11 +209,11 @@ const WebApp = () => {
             </div>
 
             <div className="row align-items-center">
-              <div className="col-md-6 col-xl-6">
+              {/* <div className="col-md-6 col-xl-6">
                 <Link to="/Contact" className="mil-button mil-border mil-mb-30">
                   <span>Talk To Our Web Application Experts</span>
                 </Link>
-              </div>
+              </div> */}
               <div className="col-md-6 col-xl-6">
                 <div className="mil-adaptive-right">
                   {/* <Link to="" className="mil-link mil-mb-30"><span>See More</span><i className="fas fa-arrow-right"></i></Link> */}
@@ -223,7 +260,7 @@ const WebApp = () => {
       </div>
       {/* <!-- partners end --> */}
       {/* <!-- services --> */}
-      <section className="mil-gradient-bg mil-deco-right mil-p-120-0">
+      <section className="bg-white mil-deco-right mil-p-120-0">
         <div
           className="mil-deco mil-deco-accent"
           style={{ top: "0", left: "5%" }}
@@ -233,7 +270,7 @@ const WebApp = () => {
             {/* <span className="mil-suptitle  mil-light mil-suptitle-2 mil-mb-30">
               Always The Best
             </span> */}
-            <h2 className="mil-light mil-mb-30">
+            <h2 className="mil-ligh mil-mb-30">
               {" "}
               Why Choose our{" "}
               <span className="mil-accent">Web Applications</span>{" "}
@@ -250,54 +287,54 @@ const WebApp = () => {
           <div className="row mil-mb-30-adapt">
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
                   <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light">Custom Website Development</p>
+                <p className="mil-ligh">Custom Website Development</p>
               </div>
             </div>
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
                   <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light">Responsive Design</p>
+                <p className="mil-ligh">Responsive Design</p>
               </div>
             </div>
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
                   <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light">E-Commerce Solutions</p>
+                <p className="mil-ligh">E-Commerce Solutions</p>
               </div>
             </div>
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
                   <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light">Content Management Systems (CMS)</p>
+                <p className="mil-ligh">Content Management Systems (CMS)</p>
               </div>
             </div>
 
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
-                <div className="mil-icon-frame mil-icon-frame-sm mil-light">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
                   <img src="assets/icon/sm/6.svg" alt="icon" />
                 </div>
-                <p className="mil-light">Web Application Development</p>
+                <p className="mil-ligh">Web Application Development</p>
               </div>
             </div>
           </div>
-          <div className="mil-text-center">
+          {/* <div className="mil-text-center">
             <Link
               to="/Contact"
-              className="mil-button mil-border mil-light mil-mb-30"
+              className="mil-button mil-border mil-ligh mil-mb-30"
             >
               <span>Talk To Our Web App Experts</span>
             </Link>
-          </div>
+          </div> */}
         </div>
       </section>
       {/* <!-- services end --> */}
