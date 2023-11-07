@@ -54,7 +54,7 @@ const Digital = () => {
           </div>
         </div>
         <img
-          src="assets/mockup/salesforce1.png"
+          src="assets/mockup/digital.png"
           alt="mus"
           className="col-md-4 mockup"
         />

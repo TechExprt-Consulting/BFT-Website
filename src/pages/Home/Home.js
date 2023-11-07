@@ -339,6 +339,7 @@ const Home = () => {
                   {" "}
                   <img src="assets/img/dmc.png" alt="Project" />
                 </Link>
+                &nbsp;
               </div>
               <h3 className="mt-3">
                 <span className="mil-accent">
@@ -372,6 +373,7 @@ const Home = () => {
                 <Link to="/nexum">
                   <img src="assets/img/nexum.png" alt="Project" />
                 </Link>
+                &nbsp;
               </div>
               <h3 className="mt-3">
                 <span className="mil-accent">

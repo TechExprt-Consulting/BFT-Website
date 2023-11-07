@@ -570,13 +570,10 @@ export default function VerticalTabs() {
             </div>
             <div className="mil-service-text">
               <h5 className="mil-mb-30">
-                <span className="mil-accent">04</span> Manage Service
+                <span className="mil-accent">04</span> Managed Service
               </h5>
               <p className="conten">
-                Digital marketing is a multifaceted approach aimed at
-                reaching, engaging, and converting an online audience.It
-                empowers businesses to establish a robust customer
-                relationship.
+              Staying updated and well-versed with all aspects of new and old industry tech can be troublesome for many organizations and that is where we step in with our most preferred Managed services. 
               </p>
               <Link to="/" class="mil-link2 link-right mil-mb-30">
                 <i class="fas fa-arrow-right"></i>
@@ -609,15 +606,15 @@ export default function VerticalTabs() {
             </div>
             <div className="mil-service-text">
               <h5 className="mil-mb-30">
-                <span className="mil-accent">01</span> Customize mobile & web developement
-                Developement
+                <span className="mil-accent">01</span> Customize Mobile & Web Developement
+                
               </h5>
               <p className="conten">
                 Salesforce is a leading customer relationship management
                 (CRM) platform that helps businesses manage their sales,
                 customer service, and marketing needs efficiently.
               </p>
-              <Link to="" class="mil-link2 link-right mil-mb-30">
+              <Link to="/webApp" class="mil-link2 link-right mil-mb-30">
                 <i class="fas fa-arrow-right"></i>
               </Link>
             </div>
@@ -638,7 +635,7 @@ export default function VerticalTabs() {
                 emphasizing collaboration and automation, leading to faster
                 software development, continuous integration, and delivery.
               </p>
-              <Link to="" class="mil-link2 link-right mil-mb-30">
+              <Link to="/api" class="mil-link2 link-right mil-mb-30">
                 <i class="fas fa-arrow-right"></i>
               </Link>
             </div>
@@ -662,7 +659,7 @@ export default function VerticalTabs() {
                 industries by enabling decentralized transactions and smart
                 contracts.
               </p>
-              <Link to="" class="mil-link2 link-right mil-mb-30">
+              <Link to="salesforceMigration" class="mil-link2 link-right mil-mb-30">
                 <i class="fas fa-arrow-right"></i>
               </Link>
             </div>
@@ -684,7 +681,7 @@ export default function VerticalTabs() {
                 empowers businesses to establish a robust customer
                 relationship.
               </p>
-              <Link to="" class="mil-link2 link-right mil-mb-30">
+              <Link to="/saas" class="mil-link2 link-right mil-mb-30">
                 <i class="fas fa-arrow-right"></i>
               </Link>
             </div>
