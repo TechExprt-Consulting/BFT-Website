@@ -548,7 +548,7 @@ export default function VerticalTabs() {
             </div>
             <div className="mil-service-text">
               <h5 className="mil-mb-30">
-                <span className="mil-accent">04</span> Blockchain Consulting
+                <span className="mil-accent">03</span> Blockchain Consulting
               </h5>
               <p className="conten">
                 Blockchain technology ensures secure, transparent, and
@@ -570,7 +570,7 @@ export default function VerticalTabs() {
             </div>
             <div className="mil-service-text">
               <h5 className="mil-mb-30">
-                <span className="mil-accent">05</span> Digital Marketing
+                <span className="mil-accent">04</span> Manage Service
               </h5>
               <p className="conten">
                 Digital marketing is a multifaceted approach aimed at
@@ -578,7 +578,7 @@ export default function VerticalTabs() {
                 empowers businesses to establish a robust customer
                 relationship.
               </p>
-              <Link to="/digital" class="mil-link2 link-right mil-mb-30">
+              <Link to="/" class="mil-link2 link-right mil-mb-30">
                 <i class="fas fa-arrow-right"></i>
               </Link>
             </div>
@@ -609,7 +609,7 @@ export default function VerticalTabs() {
             </div>
             <div className="mil-service-text">
               <h5 className="mil-mb-30">
-                <span className="mil-accent">01</span> Salesforce
+                <span className="mil-accent">01</span> Customize mobile & web developement
                 Developement
               </h5>
               <p className="conten">
@@ -617,7 +617,7 @@ export default function VerticalTabs() {
                 (CRM) platform that helps businesses manage their sales,
                 customer service, and marketing needs efficiently.
               </p>
-              <Link to="/salesforce" class="mil-link2 link-right mil-mb-30">
+              <Link to="" class="mil-link2 link-right mil-mb-30">
                 <i class="fas fa-arrow-right"></i>
               </Link>
             </div>
@@ -631,14 +631,14 @@ export default function VerticalTabs() {
             </div>
             <div className="mil-service-text">
               <h5 className="mil-mb-30">
-                <span className="mil-accent">02</span> DevOps
+                <span className="mil-accent">02</span> API Integration
               </h5>
               <p className="conten">
                 DevOps practices combine development and IT operations,
                 emphasizing collaboration and automation, leading to faster
                 software development, continuous integration, and delivery.
               </p>
-              <Link to="/deveops" class="mil-link2 link-right mil-mb-30">
+              <Link to="" class="mil-link2 link-right mil-mb-30">
                 <i class="fas fa-arrow-right"></i>
               </Link>
             </div>
@@ -654,7 +654,7 @@ export default function VerticalTabs() {
             </div>
             <div className="mil-service-text">
               <h5 className="mil-mb-30">
-                <span className="mil-accent">04</span> Blockchain Consulting
+                <span className="mil-accent">03</span> Migration
               </h5>
               <p className="conten">
                 Blockchain technology ensures secure, transparent, and
@@ -662,7 +662,7 @@ export default function VerticalTabs() {
                 industries by enabling decentralized transactions and smart
                 contracts.
               </p>
-              <Link to="/blockChain" class="mil-link2 link-right mil-mb-30">
+              <Link to="" class="mil-link2 link-right mil-mb-30">
                 <i class="fas fa-arrow-right"></i>
               </Link>
             </div>
@@ -676,7 +676,7 @@ export default function VerticalTabs() {
             </div>
             <div className="mil-service-text">
               <h5 className="mil-mb-30">
-                <span className="mil-accent">05</span> Digital Marketing
+                <span className="mil-accent">04</span> SAAS
               </h5>
               <p className="conten">
                 Digital marketing is a multifaceted approach aimed at
@@ -684,7 +684,7 @@ export default function VerticalTabs() {
                 empowers businesses to establish a robust customer
                 relationship.
               </p>
-              <Link to="/digital" class="mil-link2 link-right mil-mb-30">
+              <Link to="" class="mil-link2 link-right mil-mb-30">
                 <i class="fas fa-arrow-right"></i>
               </Link>
             </div>
@@ -722,7 +722,7 @@ export default function VerticalTabs() {
               Business is not easy, especially if you are missing out on the online visibility game. In today’s fast pacing world when every business has made their digital debut, SEO stands as a game changer for many.
 But don’t worry, our team of experts has got you all covered.
               </p>
-              <Link to="/salesforce" class="mil-link2 link-right mil-mb-30">
+              <Link to="/seo" class="mil-link2 link-right mil-mb-30">
                 <i class="fas fa-arrow-right"></i>
               </Link>
             </div>
@@ -741,7 +741,7 @@ But don’t worry, our team of experts has got you all covered.
               <p className="conten">
               Let us build your online presence, design your creative strategy and optimize the social media campaigns for your business. Together let’s give the city a new buzz to gossip.
               </p>
-              <Link to="/deveops" class="mil-link2 link-right mil-mb-30">
+              <Link to="/sociaMedia" class="mil-link2 link-right mil-mb-30">
                 <i class="fas fa-arrow-right"></i>
               </Link>
             </div>
@@ -762,7 +762,7 @@ But don’t worry, our team of experts has got you all covered.
               <p className="conten">
               Achieve instant visibility and results with our PPC campaigns. Our team creates targeted ad campaigns to drive traffic and convert visitors into customers cost-effectively.
               </p><br/>
-              <Link to="/blockChain" class="mil-link2 link-right mil-mb-30">
+              <Link to="/ppc" class="mil-link2 link-right mil-mb-30">
                 <i class="fas fa-arrow-right"></i>
               </Link>
             </div>
@@ -781,7 +781,7 @@ But don’t worry, our team of experts has got you all covered.
               <p className="conten">
               High-quality content is the cornerstone of a successful digital marketing strategy. We produce compelling, informative, and shareable content that builds your brand and connects with your audience.
               </p><br/>
-              <Link to="/digital" class="mil-link2 link-right mil-mb-30">
+              <Link to="/contentMarketing" class="mil-link2 link-right mil-mb-30">
                 <i class="fas fa-arrow-right"></i>
               </Link>
             </div>

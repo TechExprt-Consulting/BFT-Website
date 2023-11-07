@@ -492,12 +492,10 @@ const Technology = () => {
                 </div>
                 <div class="mil-service-text">
                   <h5 class="mil-mb-30">
-                    <span class="mil-accent">02</span> Artificial Intelligence
+                    <span class="mil-accent">02</span> Adobe Illustrator
                   </h5>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                  Specializes in vector graphics and can design logos, illustrations, and pictures with precision and creativity, catering to various design needs.
                   </p>
                 </div>
               </div>
@@ -757,7 +755,7 @@ const Technology = () => {
                     <span class="mil-accent">01</span> Google Analytics
                   </h5>
                   <p>
-                  Google Analytics setup and configuration for website tracking, Data analysis, and reporting to improve online performance. Spyfu: Competitive intelligence services, helping businesses analyze their competitors' digital marketing strategies and discover valuable insights.
+                  Google Analytics setup and configuration for website tracking, Data analysis, and reporting to improve online performance. 
                   </p>
                 </div>
               </div>
@@ -777,9 +775,7 @@ const Technology = () => {
                     <span class="mil-accent">02</span> Spyfu
                   </h5>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                  Competitive intelligence services, helping businesses analyze their competitors' digital marketing strategies and discover valuable insights.
                   </p>
                 </div>
               </div>

@@ -54,7 +54,7 @@ const Home = () => {
       <Navbar />
 
       {/* <!-- banner --> */}
-      <div class="mil-banner mil-top-space-0">
+      <div class="mil-banner mil-top-space-0 shadow shadow-bottom shadow-md">
         <div class="mil-overlay"></div>
 
         <div class="mil-banner-content bg-light">

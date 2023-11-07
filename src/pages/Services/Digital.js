@@ -118,19 +118,19 @@ const Digital = () => {
               <div className="col-md-7">
                 <div>
                   Social Media Marketing
-                  <Link to="/deveops" class="mil-link3 link-right">
+                  <Link to="/socialMedia" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>{" "}
                 <div>
                   PPC
-                  <Link to="/deveops" class="mil-link3 link-right">
+                  <Link to="/ppc" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
                 <div>
                   SEO
-                  <Link to="/deveops" class="mil-link3 link-right">
+                  <Link to="/seo" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -138,7 +138,7 @@ const Digital = () => {
               <div className="col-md-4">
                 <div>
                   Web and App Development
-                  <Link to="/deveops" class="mil-link3 link-right">
+                  <Link to="/web" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -177,19 +177,19 @@ const Digital = () => {
               <div className="col-md-7">
                 <div>
                   Google Analytics
-                  <Link to="/deveops" class="mil-link3 link-right">
+                  <Link to="" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>{" "}
                 <div>
                   Trend Analysis
-                  <Link to="/deveops" class="mil-link3 link-right">
+                  <Link to="" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
                 <div>
                   Data Analytics
-                  <Link to="/deveops" class="mil-link3 link-right">
+                  <Link to="" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -197,13 +197,13 @@ const Digital = () => {
               <div className="col-md-4">
                 <div>
                   Creative Strategy
-                  <Link to="/deveops" class="mil-link3 link-right">
+                  <Link to="" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
                 <div>
                   Social Media Strategy
-                  <Link to="/deveops" class="mil-link3 link-right">
+                  <Link to="" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -241,13 +241,13 @@ const Digital = () => {
               <div className="col-md-7">
                 <div>
                   Trend Analysis
-                  <Link to="/deveops" class="mil-link3 link-right">
+                  <Link to="" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>{" "}
                 <div>
                   Competitive Analysis
-                  <Link to="/deveops" class="mil-link3 link-right">
+                  <Link to="" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -286,19 +286,19 @@ const Digital = () => {
               <div className="col-md-7">
                 <div>
                   Keyword Research
-                  <Link to="/deveops" class="mil-link3 link-right">
+                  <Link to="" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>{" "}
                 <div>
                   Content Writing
-                  <Link to="/deveops" class="mil-link3 link-right">
+                  <Link to="" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
                 <div>
                   Website Development
-                  <Link to="/deveops" class="mil-link3 link-right">
+                  <Link to="/webApp" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -341,19 +341,19 @@ const Digital = () => {
               <div className="col-md-7">
                 <div>
                   PPC Campaigns
-                  <Link to="/deveops" class="mil-link3 link-right">
+                  <Link to="/ppc" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>{" "}
                 <div>
                   Social Media Marketing
-                  <Link to="/deveops" class="mil-link3 link-right">
+                  <Link to="/socialMedia" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
                 <div>
                   Google Analytics
-                  <Link to="/deveops" class="mil-link3 link-right">
+                  <Link to="" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -361,7 +361,7 @@ const Digital = () => {
               <div className="col-md-4">
                 <div>
                   Google Ads
-                  <Link to="/deveops" class="mil-link3 link-right">
+                  <Link to="" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -401,19 +401,19 @@ const Digital = () => {
               <div className="col-md-7">
                 <div>
                   Content Marketing
-                  <Link to="/deveops" class="mil-link3 link-right">
+                  <Link to="/contentMarketing" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>{" "}
                 <div>
                   Email Marketing
-                  <Link to="/deveops" class="mil-link3 link-right">
+                  <Link to="" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
                 <div>
                   SEO
-                  <Link to="/deveops" class="mil-link3 link-right">
+                  <Link to="/seo" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -426,7 +426,7 @@ const Digital = () => {
                 </div>
                 <div>
                   Networking
-                  <Link to="/deveops" class="mil-link3 link-right">
+                  <Link to="" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>

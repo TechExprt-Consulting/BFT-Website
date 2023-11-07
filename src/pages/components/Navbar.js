@@ -158,20 +158,20 @@ const Navbar = () => {
                       <Link to="/webApp">Web Developement</Link>
                       <ul >
                               <li>
-                                <Link to="/seo">
+                                <Link to="/saas">
                                   SAAS Developement
                                 </Link>
                               </li>
                               <li>
-                                <Link to="/socialMedia">
+                                <Link to="/softwareDevelopement">
                                   Custom Software Developement
                                 </Link>
                               </li>
                               <li>
-                                <Link to="/ppc">API Developement</Link>
+                                <Link to="/api">API Developement</Link>
                               </li>
                               <li>
-                                <Link to="/contentMarketing">
+                                <Link to="/adminPanel">
                                   Custom Admin Panel
                                 </Link>
                               </li>

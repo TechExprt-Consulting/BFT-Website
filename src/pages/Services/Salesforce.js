@@ -171,19 +171,19 @@ const Salesforce = () => {
               <div className="col-md-7">
                 <div>
                   Salesforce Implementation
-                  <Link to="/deveops" class="mil-link3 link-right">
+                  <Link to="/salesforceImplementation" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>{" "}
                 <div>
                   Salesforce Customization
-                  <Link to="/deveops" class="mil-link3 link-right">
+                  <Link to="/salesforceCustomization" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
                 <div>
                   Salesforce Integration
-                  <Link to="/deveops" class="mil-link3 link-right">
+                  <Link to="/salesforceIntegration" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -191,13 +191,13 @@ const Salesforce = () => {
               <div className="col-md-4">
                 <div>
                   Salesforce Migration
-                  <Link to="/deveops" class="mil-link3 link-right">
+                  <Link to="/salesforceMigration" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
                 <div>
                   Salesforce App Exchange
-                  <Link to="/deveops" class="mil-link3 link-right">
+                  <Link to="/salesforceAppExchange" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -239,19 +239,19 @@ const Salesforce = () => {
               <div className="col-md-7">
                 <div>
                   Salesforce Implementation
-                  <Link to="/deveops" class="mil-link3 link-right">
+                  <Link to="/salesforceImplementation" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>{" "}
                 <div>
                   Salesforce Customization
-                  <Link to="/deveops" class="mil-link3 link-right">
+                  <Link to="/salesforceCustomization" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
                 <div>
                   Salesforce Integration
-                  <Link to="/deveops" class="mil-link3 link-right">
+                  <Link to="/salesforceIntegration" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -298,19 +298,19 @@ const Salesforce = () => {
               <div className="col-md-7">
                 <div>
                   Experience Cloud
-                  <Link to="/deveops" class="mil-link3 link-right">
+                  <Link to="" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>{" "}
                 <div>
                   Service Cloud
-                  <Link to="/deveops" class="mil-link3 link-right">
+                  <Link to="" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
                 <div>
                   Marketing Cloud
-                  <Link to="/deveops" class="mil-link3 link-right">
+                  <Link to="" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -318,19 +318,19 @@ const Salesforce = () => {
               <div className="col-md-4">
                 <div>
                   FSL
-                  <Link to="/deveops" class="mil-link3 link-right">
+                  <Link to="" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
                 <div>
                   LWC
-                  <Link to="/deveops" class="mil-link3 link-right">
+                  <Link to="" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
                 <div>
                   CPQ
-                  <Link to="/deveops" class="mil-link3 link-right">
+                  <Link to="" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -438,19 +438,19 @@ const Salesforce = () => {
               <div className="col-md-7">
                 <div>
                 Experience Cloud
-                  <Link to="/deveops" class="mil-link3 link-right">
+                  <Link to="" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>{" "}
                 <div>
                   Service Cloud
-                  <Link to="/deveops" class="mil-link3 link-right">
+                  <Link to="" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
                 <div>
                   Marketing Cloud
-                  <Link to="/deveops" class="mil-link3 link-right">
+                  <Link to="" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -458,7 +458,7 @@ const Salesforce = () => {
               <div className="col-md-4">
                 <div>
                   Hubspot
-                  <Link to="/deveops" class="mil-link3 link-right">
+                  <Link to="" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -466,7 +466,7 @@ const Salesforce = () => {
               <div className="col-md-4">
                 <div>
                   ZOHO
-                  <Link to="/deveops" class="mil-link3 link-right">
+                  <Link to="" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>

@@ -19,7 +19,7 @@ const Footer = () => {
                 Join our tech community, embrace innovation!
               </p>
             </div>
-            <div className="col-xl-6 mil-mb-60">
+            <div className="col-xl-6 mil-mb-60 d-flex justify-content-center">
               <form className="mil-subscribe-form">
                 <input type="text" placeholder="Your email address" />
                 <button type="submit" className="mil-button mil-accent-bg">
@@ -37,7 +37,6 @@ const Footer = () => {
                 src="/assets/logo/logo-2.png"
                 alt="mus"
                 className="mil-logo mil-mb-60"
-                style={{ width: "220px", height: "70px"}}
               />
 
               <p
@@ -71,7 +70,7 @@ const Footer = () => {
             <div className="col-md-4 col-lg-4 col-xl-5">
               <div className="row justify-content-between">
                 <div className="col-md-5 col-lg-6 mil-mb-60">
-                  <h4 className="mil-list-title mil-light mil-mb-60">
+                  <h4 className="mil-list-title mil-light mil-mb-60 mt-3">
                     Services
                   </h4>
 
@@ -102,7 +101,7 @@ const Footer = () => {
                 </div>
 
                 <div className="col-md-4 col-lg-5 col-xl-5 mil-mb-60">
-                  <h4 className="mil-list-title mil-light mil-mb-60">Links</h4>
+                  <h4 className="mil-list-title mil-light mil-mb-60 mt-3">Links</h4>
 
                   <ul className="mil-hover-link-list mil-light">
                     <li>

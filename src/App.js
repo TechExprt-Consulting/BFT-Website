@@ -45,6 +45,10 @@ import SalesImp from './pages/Services/SalesImp';
 import SalesInt from './pages/Services/SalesInt';
 import SalesIt from './pages/Services/SalesIt';
 import SalesMig from './pages/Services/SalesMig';
+import Saas from './pages/Services/Saas';
+import Api from './pages/Services/Api';
+import Admin from './pages/Services/Admin';
+import SD from './pages/Services/SD';
 function App() {
  
   return (
@@ -53,6 +57,11 @@ function App() {
       <Router >
       <ScrollToTop />
         <Routes>
+          <Route path='/saas' element={<Saas/>}/>
+          <Route path='/api' element={<Api/>}/>
+          <Route path='/adminPanel' element={<Admin/>}/>
+          <Route path='/softwareDevelopement' element={<SD/>}/>
+
         <Route path='/salesforceConsulting' element={<SalesCons/>}/>
         <Route path='/salesforceCustomization' element={<SalesCust/>}/>
         <Route path='/salesforceAppExchange' element={<SalesExc/>}/>

@@ -9,52 +9,40 @@ const Seo = () => {
 
       {/* <!-- banner --> */}
       <div className="mil-banner-sm bg-white shadow shadow-bottom shadow-md">
-        {/* <img
-          src="assets/deco/map.png"
-          alt="background"
-          className="mil-background-image"
-        /> */}
-        {/* <div
-          className="mil-deco mil-deco-accent"
-          style={{ top: "47%", right: "10%", transform: "rotate(90deg)" }}
-        ></div> */}
-        <div className="mil-banner-content">
-          <div className="container mil-relative">
-            <div className="d-flex">
-              <div className="d-flex row  ">
-                <ul className="mil-breadcrumbs mil-mb-30 ">
-                  <li>
-                    <Link to="/Home">Home</Link>
-                  </li>
-                  <li>
-                    <Link to="">Service</Link>
-                  </li>
-                  <li>
-                    <Link to="/Salesforce">Digital Marketing</Link>
-                  </li>
-                  <li>
-                    <Link to="/Salesforce">SEO</Link>
-                  </li>
-                </ul>
-
-                
-                  <h2 className="mil-uppercase " style={{ color: "#1B2F5B" }}>
-                    Search Engine Optimization
-                  </h2>
-                
-              </div>
-
-              <img src="assets/mockup/SEO.png" alt="mus" className="col-md-4" />
+    <div className="mil-banner-content">
+        <div className="container mil-relative">
+            <div className="row d-flex flex-column-reverse flex-md-row">
+                <div className="col-md-8">
+                    <ul className="mil-breadcrumbs mil-mb-30 ">
+                        <li>
+                            <Link to="/Home">Home</Link>
+                        </li>
+                        <li>
+                            <Link to="">Service</Link>
+                        </li>
+                        <li>
+                            <Link to="/Salesforce">Digital Marketing</Link>
+                        </li>
+                        {/* <li>
+                            <Link to="/Salesforce">SEO</Link>
+                        </li> */}
+                    </ul>
+                    <h2 className="mil-uppercase" style={{ color: "#1B2F5B" }}>
+                    SEO 
+                    </h2>
+                </div>
+                <div className="col-md-4 text-center">
+                    <img src="assets/mockup/SEO.png" alt="mus" className="img-fluid" />
+                </div>
             </div>
-          </div>
-          <div className="mil-fixed-button-container">
-            <button className="mil-vertical-button text-dark ">
-             <Link to='/contact'> Get a Free Quote!</Link>
-            </button>
-          </div>
         </div>
-      </div>
-
+        <div className="mil-fixed-button-container text-center mt-3">
+            <button className="mil-vertical-button text-dark">
+                <Link to='/contact'>Get a Free Quote!</Link>
+            </button>
+        </div>
+    </div>
+</div>
       {/* <!-- banner end --> */}
 
       {/* <!-- call to action --> */}
