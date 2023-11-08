@@ -5235,8 +5235,8 @@ footer
   position: relative;
 }
 .mil-footer-content .mil-logo {
-  width: 220px;
-  height: 70px;
+  width: 255px;
+  height: 68px;
 }
 
 
@@ -5716,7 +5716,7 @@ input[type="tel"]::placeholder,
 input[type="Your Message"]::placeholder,
 input[type="number"]::placeholder,
 
-textarea::placeholder {
+textarea[type="text"]::placeholder {
   color: #555555;
 }
 .place1.place2::placeholder {

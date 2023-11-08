@@ -207,6 +207,7 @@ const Contact = () => {
                         <span>Project Description</span>
                       </label>
                       <textarea
+                      type ="text"
                         placeholder="Your Message"
                         name="message"
                         className="mil-shortened"

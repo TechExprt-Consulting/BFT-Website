@@ -145,7 +145,7 @@ const Careers = () => {
                     <span className="mil-badge">Full Time</span>
                     <span className="mil-text-sm mil-dark">Indore</span>
                   </div>
-                  <h4>Deveops</h4>
+                  <h4>DevOps</h4>
                 </div>
                 <div className="col-md-6 col-lg-4 col-xl-4 mil-mb-30 conten">
                   <p>

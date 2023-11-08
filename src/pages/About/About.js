@@ -44,8 +44,8 @@ const About = () => {
       <section className="mil-p-120-60">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-lg-12 col-xl-8">
-              <h4 className="mil-mb-60 conten">
+            <div className="">
+              <h5 className="mil-mb-60 conten">
                 Fostering business growth and expansion, since 2003,{" "}
                 <span className="mil-accent">Bytesfarms Technologies </span>{" "}
                 firmly rests upon the robust foundations of technology and
@@ -54,17 +54,17 @@ const About = () => {
                 enhance customer engagement and drive growth with Digital
                 Marketing, Strategic Consultation, Salesforce, Web/mobile dev,
                 Cloud and DevOps and Blockchain solutions.
-              </h4>
+              </h5>
             </div>
             <div className="col-lg-12 col-xl-4">
-              <div className="mil-adaptive-right">
+              {/* <div className="mil-adaptive-right">
                 <Link
                   to="/Contact"
                   className="mil-button mil-border mil-mr-15 mil-mb-30"
                 >
                   <span>Talk To an Expert</span>
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

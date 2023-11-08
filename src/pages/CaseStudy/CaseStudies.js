@@ -218,7 +218,6 @@ const CaseStudies = () => {
               </Link>
             </div>
           </div>
-          <div className="mil-divider mil-mb-60"></div>
         </div>
       </section>
       {/* <!-- portfolio end --> */}

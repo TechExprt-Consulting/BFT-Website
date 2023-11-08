@@ -575,7 +575,7 @@ export default function VerticalTabs() {
               <p className="conten">
               Staying updated and well-versed with all aspects of new and old industry tech can be troublesome for many organizations and that is where we step in with our most preferred Managed services. 
               </p>
-              <Link to="/" class="mil-link2 link-right mil-mb-30">
+              <Link to="/managedService" class="mil-link2 link-right mil-mb-30">
                 <i class="fas fa-arrow-right"></i>
               </Link>
             </div>

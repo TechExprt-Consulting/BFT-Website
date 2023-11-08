@@ -16,7 +16,7 @@ const Client = () => {
   }, []);
 
   return (
-    <div className="mil-p-90-60 logo-carousel container  mil-partners-frame">
+    <div className="mil-p-90-60 logo-carousel container  mil-partners-frame ">
       {[...Array(3)].map((_, index) => {
         const imageNumber = (currentImage + index) % totalImages || totalImages;
         return (

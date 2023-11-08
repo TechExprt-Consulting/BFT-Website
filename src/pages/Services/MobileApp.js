@@ -210,11 +210,7 @@ const MobileApp = () => {
             </div>
           </div>
           <div className="row align-items-center">
-            <div className="col-md-6 col-xl-6">
-              <Link to="/Contact" className="mil-button mil-border mil-mb-30">
-                <span>Tell us about your project</span>
-              </Link>
-            </div>
+            
             <div className="col-md-6 col-xl-6">
               <div className="mil-adaptive-right">
                 {/* <Link to="" className="mil-link mil-mb-30"><span>See More</span><i className="fas fa-arrow-right"></i></Link> */}

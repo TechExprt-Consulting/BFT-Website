@@ -6,7 +6,6 @@ import Navbar from "../components/Navbar";
 import $ from "jquery";
 import { useState, useEffect } from "react";
 import Consultant from "../components/Consultant";
-import Partner from "../components/Partner";
 import Client from "./Client";
 // import Service from "./Service";
 import Itsolution from './Itsolution'
@@ -151,7 +150,7 @@ const Home = () => {
       </div> */}
 
       {/* <!-- services --> */}
-      <section className="mil-services mil-p-120-90 mt-0 pt-1">
+      <section className="mil-services mil-p-120-90 mt-0 pt-1 ">
         {/* <div className="mil-deco" style={{ top: "0", right: "20%" }}></div> */}
         <div className="container">
           <h2 className="mil-mb-30">
@@ -309,7 +308,7 @@ const Home = () => {
         <div className="mil-divider"></div>
       </div> */}
 
-      <section className="mil-p-120-120 m-1 p-1">
+      <section className="mil-p-120-120 m-1 p-1 mt-3">
         <div className="container">
           <div class="col-md-6 col-xl-6">
             <h2 class="mil-mb-30 mb-3">Case Studies</h2>
@@ -497,7 +496,7 @@ const Home = () => {
         <div className="row align-items-center mil-mb-90">
           <div className="col-md-6 col-xl-3 conten2">
             <div className="mil-h1">
-              20<span className="mil-accent">+</span>
+              60<span className="mil-accent">+</span>
             </div>
             <h6 className="mil-mb-60">
               Years of <br />
@@ -516,7 +515,7 @@ const Home = () => {
             <div className="mil-h1">
               89<span className="mil-accent">%</span>
             </div>
-            <h6 className="mil-mb-60">recurring customers</h6>
+            <h6 className="mil-mb-60">Recurring customers</h6>
           </div>
 
           <div className="col-md-6 col-xl-3 conten2">

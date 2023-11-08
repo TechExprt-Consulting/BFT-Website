@@ -414,7 +414,7 @@ const WebApp = () => {
       </div>
 
       {/* <!-- services --> */}
-      <section className="mil-services mil-p-120-90 shadow shadow-bottom shadow-md">
+      <section className="mil-services mil-p-120-90 ">
         {/* <div
           className="mil-deco"
           style={{ bottom: "0", right: "40%", transform: "rotate(180deg)" }}

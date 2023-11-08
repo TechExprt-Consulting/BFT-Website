@@ -580,11 +580,8 @@ const Digital = () => {
       </div>
 
       {/* <!-- services --> */}
-      <section className="mil-gradient-bg mil-deco-right mil-p-120-0">
-        {/* <div
-          className="mil-deco mil-deco-accent"
-          style={{ top: "0", left: "5%" }}
-        ></div> */}
+      {/* <section className="mil-gradient-bg mil-deco-right mil-p-120-0">
+     
         <div className="container">
           <div className=" mil-mb-90">
             <h2 className="mil-light mil-mb-30">
@@ -657,6 +654,69 @@ const Digital = () => {
               CTA: Get your business to new heights!{" "}
             </h3>
           </div>
+        </div>
+      </section> */}
+      <section className="bg-white mil-deco-right mil-p-120-0">
+        <div
+          className="mil-deco mil-deco-accent"
+          style={{ top: "0", left: "5%" }}
+        ></div>
+        <div className="container">
+          <div className="mil-text-center mil-mb-90">
+           
+            <h2 className="mil-ligh mil-mb-30">
+              {" "}
+              Why Choose our{" "}
+              <span className="mil-accent">Digital Marketing Services</span>{" "}
+            </h2>
+           
+          </div>
+          <div className="row mil-mb-30-adapt">
+            <div className="col-lg-3">
+              <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
+                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                </div>
+                <p className="mil-ligh"> High Quality Niche Backlinks</p>
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
+                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                </div>
+                <p className="mil-ligh">Flawless Onpage SEO</p>
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
+                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                </div>
+                <p className="mil-ligh">Designing Creative Strategies</p>
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
+                <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
+                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                </div>
+                <p className="mil-ligh">Multi-Channel Distribution</p>
+              </div>
+            </div>
+
+            
+
+            
+          </div>
+          {/* <div className="mil-text-center">
+            <Link
+              to="/Contact"
+              className="mil-button mil-border mil-ligh mil-mb-30"
+            >
+              <span>Talk To Our SEO Experts</span>
+            </Link>
+          </div> */}
         </div>
       </section>
       {/* <!-- services end --> */}

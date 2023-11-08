@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import { Link } from "react-router-dom";
-import { useState, useEffect } from "react";
 const Technology = () => {
   // const totalImages = 7; // Total number of images
   // const [currentImage, setCurrentImage] = useState(1);
@@ -82,7 +81,7 @@ const Technology = () => {
                     <img
                       src="assets/project/22.png"
                       alt="icon"
-                      style={{ height: "50px", width: "90px" }}
+                      style={{ height: "40px", width: "80px" }}
                     />
                   </div>
                 </div>
@@ -122,7 +121,7 @@ const Technology = () => {
                     <img
                       src="assets/project/11.png"
                       alt="icon"
-                      style={{ height: "60px", width: "90px" }}
+                      style={{ height: "50px", width: "100px" }}
                     />
                   </div>
                 </div>
@@ -132,7 +131,7 @@ const Technology = () => {
                   </h5>
                   <p>
                   Data binding and dependency injection to facilitate dynamic content updates and modular code organization in web applications.
-                  </p>
+                  </p><br/>
                 </div>
               </div>
               <div class="mil-divider mil-divider-left"></div>
@@ -185,7 +184,7 @@ const Technology = () => {
                     <img
                       src="assets/project/2.png"
                       alt="icon"
-                      style={{ height: "30px", width: "80px" }}
+                      style={{ height: "30px", width: "90px" }}
                     />
                   </div>
                 </div>
@@ -195,7 +194,7 @@ const Technology = () => {
                   </h5>
                   <p>
                    Python programming and automation services, including web scraping and data analysis
-                  </p>
+                  </p><br/>
                 </div>
               </div>
               <div class="mil-divider mil-divider-left"></div>
@@ -205,7 +204,7 @@ const Technology = () => {
                     <img
                       src="assets/project/21.png"
                       alt="icon"
-                      style={{ height: "40px", width: "90px" }}
+                      style={{ height: "30px", width: "90px" }}
                     />
                   </div>
                 </div>
@@ -225,7 +224,7 @@ const Technology = () => {
                     <img
                       src="assets/project/24.png"
                       alt="icon"
-                      style={{ height: "40px", width: "90px" }}
+                      style={{ height: "30px", width: "90px" }}
                     />
                   </div>
                 </div>
@@ -250,7 +249,7 @@ const Technology = () => {
                     <img
                       src="assets/project/20.png"
                       alt="icon"
-                      style={{ height: "40px", width: "90px" }}
+                      style={{ height: "30px", width: "90px" }}
                     />
                   </div>
                 </div>
@@ -270,7 +269,7 @@ const Technology = () => {
                     <img
                       src="assets/project/25.png"
                       alt="icon"
-                      style={{ height: "60px", width: "90px" }}
+                      style={{ height: "70px", width: "100px" }}
                     />
                   </div>
                 </div>
@@ -280,7 +279,7 @@ const Technology = () => {
                   </h5>
                   <p>
                   Implement automated testing and deployment pipelines for faster software delivery in CI/CD
-                  </p>
+                  </p><br/>
                 </div>
               </div>
               <div class="mil-divider mil-divider-left"></div>
@@ -353,7 +352,7 @@ const Technology = () => {
                     <img
                       src="assets/project/18.png"
                       alt="icon"
-                      style={{ height: "60px", width: "90px" }}
+                      style={{ height: "40px", width: "90px" }}
                     />
                   </div>
                 </div>
@@ -373,7 +372,7 @@ const Technology = () => {
                     <img
                       src="assets/project/5.png"
                       alt="icon"
-                      style={{ height: "30px", width: "90px" }}
+                      style={{ height: "30px", width: "100px" }}
                     />
                   </div>
                 </div>
@@ -419,7 +418,7 @@ const Technology = () => {
                     <img
                       src="assets/project/15.png"
                       alt="icon"
-                      style={{ height: "40px", width: "90px" }}
+                      style={{ height: "30px", width: "90px" }}
                     />
                   </div>
                 </div>
@@ -466,7 +465,7 @@ const Technology = () => {
                     <img
                       src="assets/project/27.png"
                       alt="icon"
-                      style={{ height: "50px", width: "90px" }}
+                      style={{ height: "40px", width: "90px" }}
                     />
                   </div>
                 </div>
@@ -548,7 +547,7 @@ const Technology = () => {
                   <div class="mil-service-icon">
                     <div class="mil-icon-frame1 mil-icon-frame-md">
                       <img
-                        src="assets/project/31.jpg"
+                        src="assets/project/31.png"
                         alt="icon"
                         style={{ height: "60px", width: "90px" }}
                       />
@@ -593,7 +592,7 @@ const Technology = () => {
                       <img
                         src="assets/project/semrush.png"
                         alt="icon"
-                        style={{ height: "60px", width: "90px" }}
+                        style={{ height: "20px", width: "90px" }}
                       />
                     </div>
                   </div>
@@ -746,7 +745,7 @@ const Technology = () => {
                     <img
                       src="assets/project/6.png"
                       alt="icon"
-                      style={{ height: "80px", width: "110px" }}
+                      style={{ height: "90px", width: "110px" }}
                     />
                   </div>
                 </div>
@@ -796,7 +795,7 @@ const Technology = () => {
                   </h5>
                   <p>
                    Proofreading and editing services to improve the clarity and correctness of written content
-                  </p>
+                  </p><br/>
                 </div>
               </div>
              <div class="mil-divider mil-divider-left"></div>
@@ -806,7 +805,7 @@ const Technology = () => {
                     <img
                       src="assets/project/hubspot.png"
                       alt="icon"
-                      style={{ height: "40px", width: "90px" }}
+                      style={{ height: "20px", width: "90px" }}
                     />
                   </div>
                 </div>
@@ -816,7 +815,7 @@ const Technology = () => {
                   </h5>
                   <p>
                   Create and manage marketing campaigns, email automation, and lead nurturing in HubSpot.
-                  </p>
+                  </p><br/>
                 </div>
                
                 </div>

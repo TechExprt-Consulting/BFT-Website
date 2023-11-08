@@ -41,7 +41,7 @@ const Footer = () => {
 
               <p
                 className="mil-light mil-light-soft"
-                style={{ marginBottom: "45px" }}
+                style={{ marginBottom: "45px" ,marginLeft:"20px"}}
               >
                 <span className="mil-accent">USA </span>&nbsp;- 3795 GARDENSIDE
                 CT, ALPHARETTA, GA 30004
@@ -50,7 +50,7 @@ const Footer = () => {
                 HEIGHTS, AB ROAD, INDORE
               </p>
 
-              <ul className="mil-simple-list mil-mb-15">
+              <ul className="mil-simple-list mil-mb-15 " style={{marginLeft:"20px"}}>
                 
                 <li className="mil-light">
                   <span className="mil-accent">+91</span>&nbsp;
