@@ -28,7 +28,7 @@ const Ppc = () => {
                         </li> */}
                     </ul>
                     <h2 className="mil-uppercase" style={{ color: "#1B2F5B" }}>
-                    PPC 
+                    Pay Per Click
                     </h2>
                 </div>
                 <div className="col-md-4 text-center">

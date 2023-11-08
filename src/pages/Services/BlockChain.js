@@ -32,7 +32,7 @@ const BlockChain = () => {
           BlockChain Developement
           </h2>
 
-          <p className="conten">
+          <p className="conten col-md-10">
           Embrace the future of trust and transparency with our
                   Blockchain Development Services. Our experienced team of
                   blockchain developers is here to help you navigate the dynamic
@@ -166,7 +166,7 @@ const BlockChain = () => {
                 <h4 className="mil-mb-15">
                   BLOCKCHAIN MAINTENANCE AND SUPPORT
                 </h4>
-                <p>
+                <p className="">
                   Beyond development, we offer ongoing support and maintenance
                   to ensure your blockchain ecosystem operates smoothly. Embrace
                   the future of technology with BytesFarms. Contact us today to
@@ -178,11 +178,7 @@ const BlockChain = () => {
             </div>
           </div>
           <div className="row align-items-center">
-            <div className="col-md-6 col-xl-6">
-              <Link to="" className="mil-button mil-border mil-mb-30">
-                <span>Tell us about your project</span>
-              </Link>
-            </div>
+           
             <div className="col-md-6 col-xl-6">
               <div className="mil-adaptive-right">
                 {/* <Link to="" className="mil-link mil-mb-30"><span>See More</span><i className="fas fa-arrow-right"></i></Link> */}
@@ -202,7 +198,7 @@ const BlockChain = () => {
       </div>
 
       {/* <!-- services --> */}
-      <section className="mil-services mil-p-120-90">
+      <section className="mil-services mil-p-120-90 shadow shadow-bottom shadow-md">
         {/* <div
           className="mil-deco"
           style={{ bottom: "0", right: "40%", transform: "rotate(180deg)" }}
@@ -422,7 +418,7 @@ const BlockChain = () => {
       </div>
       {/* <!-- partners end --> */}
       {/* <!-- services --> */}
-      <section className="bg-white mil-deco-right mil-p-120-0">
+      <section className="bg-white mil-deco-right mil-p-120-0 shadow shadow-top shadow-lg">
         <div
           className="mil-deco mil-deco-accent"
           style={{ top: "0", left: "5%" }}

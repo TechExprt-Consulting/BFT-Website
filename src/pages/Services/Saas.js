@@ -188,7 +188,7 @@ const Saas = () => {
             <h2 className="mil-ligh mil-mb-30">
               {" "}
               Why Choose our{" "}
-              <span className="mil-accent">Web Applications</span>{" "}
+              <span className="mil-accent">Web & App Services</span>{" "}
             </h2>
             <p className="mil-ligh-soft">
               At Bytes Farms, we don't just build websites; we craft digital

@@ -28,7 +28,7 @@ const SocialMedia = () => {
                         </li> */}
                     </ul>
                     <h2 className="mil-uppercase" style={{ color: "#1B2F5B" }}>
-                    PPC 
+                    Social Media Marketing
                     </h2>
                 </div>
                 <div className="col-md-4 text-center">
@@ -86,8 +86,7 @@ will serve as a digital touchpoint of the brand for all the visitors and potenti
                 Services and Solutions
               </span> */}
               <h2 className="mil-mb-30">Our Comprehensive Social Media Marketing Services  </h2>
-              <p className="mil-dark">
-              At BytesFarms Technologies, we offer a comprehensive range of social media marketing services designed to help you leverage the full potential of these platforms:               </p>
+               
             </div>
           </div>
           <div className="row mil-mb-30-adapt">

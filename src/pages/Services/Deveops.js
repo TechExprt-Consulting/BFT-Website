@@ -31,7 +31,7 @@ const Deveops = () => {
           DevOps Consulting
           </h2>
 
-          <p className="conten">
+          <p className="conten col-md-10">
           Are you ready to supercharge your business operations and
                   boost your development processes? Look no further than our
                   top-tier DevOps consulting services. At BytesFarms, we
@@ -147,11 +147,7 @@ const Deveops = () => {
             </div>
           </div>
           <div className="row align-items-center">
-            <div className="col-md-6 col-xl-6">
-              <Link to="/Contact" className="mil-button mil-border mil-mb-30">
-                <span>Tell us about your project</span>
-              </Link>
-            </div>
+           
             <div className="col-md-6 col-xl-6">
               <div className="mil-adaptive-right">
                 {/* <Link to="" className="mil-link mil-mb-30"><span>See More</span><i className="fas fa-arrow-right"></i></Link> */}
@@ -171,7 +167,7 @@ const Deveops = () => {
       </div>
 
       {/* <!-- services --> */}
-      <section className="mil-services mil-p-120-90">
+      <section className="mil-services mil-p-120-90 shadow shadow-bottom shadow-md">
         {/* <div
           className="mil-deco"
           style={{ bottom: "0", right: "40%", transform: "rotate(180deg)" }}
@@ -252,7 +248,7 @@ const Deveops = () => {
                   <h5 className="mil-mb-30">
                     <span className="mil-accent">04</span> Timely Delivery
                   </h5>
-                  <p className="conten">
+                  <p className="conten ">
                     We value your time as much as you do. Our streamlined
                     development process ensures that your website is delivered
                     within the agreed-upon timeframe.
@@ -262,11 +258,7 @@ const Deveops = () => {
             </div>
 
             <div className="row align-items-center">
-              <div className="col-md-6 col-xl-6">
-                <Link to="/Contact" className="mil-button mil-border mil-mb-30">
-                  <span>Talk To Our Devops Experts</span>
-                </Link>
-              </div>
+
               <div className="col-md-6 col-xl-6">
                 <div className="mil-adaptive-right">
                   {/* <Link to="" className="mil-link mil-mb-30"><span>See More</span><i className="fas fa-arrow-right"></i></Link> */}
@@ -306,7 +298,7 @@ const Deveops = () => {
       </div>
       {/* <!-- partners end --> */}
       {/* <!-- services --> */}
-      <section className="bg-white mil-deco-right mil-p-120-0">
+      <section className="bg-white mil-deco-right mil-p-120-0 shadow shadow-top shadow-lg">
         <div
           className="mil-deco mil-deco-accent"
           style={{ top: "0", left: "5%" }}

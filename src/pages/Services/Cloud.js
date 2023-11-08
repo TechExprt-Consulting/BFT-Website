@@ -32,7 +32,7 @@ const Cloud = () => {
           Cloud Migration
           </h2>
 
-          <p className="conten">
+          <p className="conten col-md-10">
           Are you ready to elevate your business operations to the next
                   level? Embracing the power of the cloud can be a
                   transformative journey, and our dedicated Cloud Migration
@@ -67,7 +67,7 @@ const Cloud = () => {
       </div> */}
 
       {/* <!-- services --> */}
-      <section className="mil-services mil-p-120-90">
+      <section className="mil-services mil-p-120-90 shadow shadow-bottom shadow-lg">
         {/* <div
           className="mil-deco"
           style={{ bottom: "0", right: "40%", transform: "rotate(180deg)" }}
@@ -151,7 +151,7 @@ const Cloud = () => {
                   <h5 className="mil-mb-30">
                     <span className="mil-accent">04</span> Go-Live And Support
                   </h5>
-                  <p className="conten">
+                  <p className="conten ">
                     When everything is ready, we execute the migration with
                     precision. Our support doesn't stop there – we provide
                     post-migration assistance to ensure your operations continue
@@ -163,11 +163,7 @@ const Cloud = () => {
           </div>
 
           <div className="row align-items-center">
-            <div className="col-md-6 col-xl-6">
-              <Link to="/Contact" className="mil-button mil-border mil-mb-30">
-                <span>Talk To Our Cloud Migration Experts</span>
-              </Link>
-            </div>
+            
             <div className="col-md-6 col-xl-6">
               <div className="mil-adaptive-right">
                 {/* <Link to="" className="mil-link mil-mb-30"><span>See More</span><i className="fas fa-arrow-right"></i></Link> */}
@@ -210,7 +206,7 @@ const Cloud = () => {
       </div>
       {/* <!-- partners end --> */}
       {/* <!-- services --> */}
-      <section className="bg-white mil-deco-right mil-p-120-0">
+      <section className="bg-white mil-deco-right mil-p-120-0 shadow shadow-top shadow-lg">
         <div
           className="mil-deco mil-deco-accent"
           style={{ top: "0", left: "5%" }}

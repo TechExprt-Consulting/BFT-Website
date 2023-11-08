@@ -28,7 +28,7 @@ const Seo = () => {
                         </li> */}
                     </ul>
                     <h2 className="mil-uppercase" style={{ color: "#1B2F5B" }}>
-                    SEO 
+                    Search Engine Optimization
                     </h2>
                 </div>
                 <div className="col-md-4 text-center">

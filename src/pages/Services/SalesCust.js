@@ -97,10 +97,10 @@ const SalesCust = () => {
       <div className="col-md-6 col-xl-3">
         <div className="mil-icon-box mil-center mil-mb-60">
           <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-            <img src="assets/salesforce/CPQ.png" alt="icon" style={{width:"200px" , height:"80px"}}/>
+          <Link to='/tech'> <img src="assets/salesforce/CPQ.png" alt="icon" style={{width:"200px" , height:"80px"}}/></Link>
           </div>
           <h5 className="mil-mb-20 mt-5">
-            <span className="mil-accent">01.</span>&nbsp; Salesforce CPQ 
+            {/* <span className="mil-accent">01.</span>&nbsp; Salesforce CPQ  */}
             
           </h5>
         </div>
@@ -108,20 +108,20 @@ const SalesCust = () => {
       <div className="col-md-6 col-xl-3">
         <div className="mil-icon-box mil-center mil-mb-60">
           <div className="mil-icon-frame1 mil-icon-frame-md mil-mb-30">
-            <img src="assets/salesforce/fsl.png" alt="icon" style={{width:"200px",height:"50px"}}/>
+          <Link to='/tech'> <img src="assets/salesforce/fsl.png" alt="icon" style={{width:"200px",height:"50px"}}/></Link>
           </div>
           <h5 className="mil-mb-20 mt-5">
-            <span className="mil-accent">02.</span>&nbsp; Salesforce FSL 
+            {/* <span className="mil-accent">02.</span>&nbsp; Salesforce FSL  */}
           </h5>
         </div>
       </div>
       <div className="col-md-6 col-xl-3">
         <div className="mil-icon-box mil-center mil-mb-60">
           <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-            <img src="assets/salesforce/salescloud.jpg" alt="icon" style={{width:"200px",height:"150px"}}/>
+          <Link to='/tech'> <img src="assets/salesforce/salescloud.jpg" alt="icon" style={{width:"200px",height:"150px"}}/></Link>
           </div>
           <h5 className="mil-mb-20 mt-5">
-            <span className="mil-accent">03.</span>&nbsp; Sales Cloud 
+            {/* <span className="mil-accent">03.</span>&nbsp; Sales Cloud  */}
             
           </h5>
         </div>
@@ -129,10 +129,10 @@ const SalesCust = () => {
       <div className="col-md-6 col-xl-3">
         <div className="mil-icon-box mil-center mil-mb-60">
           <div className="mil-icon-frame1 mil-icon-frame-md mil-mb-30">
-            <img src="assets/salesforce/service.png" alt="icon"style={{width:"170px",height:"60px"}}/>
+          <Link to='/tech'> <img src="assets/salesforce/service.png" alt="icon"style={{width:"170px",height:"60px"}}/></Link>
           </div>
           <h5 className="mil-mb-20 mt-5">
-            <span className="mil-accent">04.</span>&nbsp;Service Cloud 
+            {/* <span className="mil-accent">04.</span>&nbsp;Service Cloud  */}
           </h5>
         </div>
       </div>
@@ -141,10 +141,10 @@ const SalesCust = () => {
       <div className="col-md-6 col-xl-3">
         <div className="mil-icon-box mil-center mil-mb-60">
           <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-            <img src="assets/salesforce/marketing.png" alt="icon" style={{width:"170px",height:"60px"}}/>
+          <Link to='/tech'><img src="assets/salesforce/marketing.png" alt="icon" style={{width:"170px",height:"60px"}}/></Link>
           </div>
           <h5 className="mil-mb-20 mt-5">
-            <span className="mil-accent">05.</span>&nbsp;Marketing Cloud 
+            {/* <span className="mil-accent">05.</span>&nbsp;Marketing Cloud  */}
             
           </h5>
         </div>
@@ -152,20 +152,20 @@ const SalesCust = () => {
       <div className="col-md-6 col-xl-3">
         <div className="mil-icon-box mil-center mil-mb-60">
           <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-            <img src="assets/salesforce/experience.png" alt="icon" style={{width:"170px",height:"60px"}}/>
+          <Link to='/tech'> <img src="assets/salesforce/experience.png" alt="icon" style={{width:"170px",height:"60px"}}/></Link>
           </div>
           <h5 className="mil-mb-20 mt-5">
-            <span className="mil-accent">06.</span>&nbsp;Experience Cloud 
+            {/* <span className="mil-accent">06.</span>&nbsp;Experience Cloud  */}
           </h5>
         </div>
       </div>
       <div className="col-md-6 col-xl-3">
         <div className="mil-icon-box mil-center mil-mb-60">
           <div className="mil-icon-frame1 mil-icon-frame-md mil-mb-30">
-            <img src="assets/salesforce/financialsercvice.png" alt="icon" style={{width:"160px",height:"100px"}}/>
+          <Link to='/tech'> <img src="assets/salesforce/financialsercvice.png" alt="icon" style={{width:"160px",height:"100px"}}/></Link>
           </div>
           <h5 className="mil-mb-20 mt-5">
-            <span className="mil-accent">07.</span>&nbsp;Financial Services Cloud 
+            {/* <span className="mil-accent">07.</span>&nbsp;Financial Services Cloud  */}
             
           </h5>
         </div>
@@ -173,10 +173,10 @@ const SalesCust = () => {
       <div className="col-md-6 col-xl-3">
         <div className="mil-icon-box mil-center mil-mb-60">
           <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-            <img src="assets/salesforce/commerce.png" alt="icon"style={{width:"160px",height:"100px"}} />
+          <Link to='/tech'> <img src="assets/salesforce/commerce.png" alt="icon"style={{width:"160px",height:"100px"}} /></Link>
           </div>
           <h5 className="mil-mb-20 mt-5">
-            <span className="mil-accent">08.</span>&nbsp;Commerce Cloud 
+            {/* <span className="mil-accent">08.</span>&nbsp;Commerce Cloud  */}
           </h5>
         </div>
       </div>

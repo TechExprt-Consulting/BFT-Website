@@ -29,7 +29,7 @@ const Managed = () => {
                   Managed Services
                 </h2>
 
-                <p className="conten">
+                <p className="conten col-md-10">
                   Staying updated and well-versed with all aspects of new and
                   old industry tech can be troublesome for many organizations
                   and that is where we step in with our most preferred Managed

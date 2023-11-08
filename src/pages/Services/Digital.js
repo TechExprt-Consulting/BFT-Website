@@ -35,7 +35,7 @@ const Digital = () => {
           Digital Marketing
           </h2>
 
-          <p className="conten">
+          <p className="conten col-md-10">
           When developing your digital marketing strategies, we dedicate
                   hours to understand your business, market and industry so we
                   can build a plan that aligns with your business objective and
@@ -449,11 +449,7 @@ const Digital = () => {
           <div className="row">
             <div className="col-12 mil-mb-90 ">
               <h2 className="mil-mb-30">Our Expertise</h2>
-              <p className="mil-dark">
-                We understand every business needs a unique solution. Our team
-                of experts provides a wide range of services catering to the
-                needs of businesses of all scales and industries.
-              </p>
+             
             </div>
           </div>
           <div className="row mil-mb-30-adapt">

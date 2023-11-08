@@ -23,7 +23,8 @@ body {
   font-size: 15px;
   font-weight: 400;
   /* color:#7D7C7C; */
-  color: #555555;
+  /* color: #555555; */
+  color: black;
     line-height: 170%;
   -ms-scroll-chaining: none;
       overscroll-behavior: none;

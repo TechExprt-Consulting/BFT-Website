@@ -71,12 +71,12 @@ const MobileApp = () => {
         </li>
       </ul>
       <div className="d-flex flex-column-reverse flex-md-row">
-        <div className="d-flex flex-column ">
+        <div className="d-flex flex-column  ">
           <h2 className="mil-uppercase mt-2" style={{ color: "#1B2F5B" }}>
           Mobile App Developement
           </h2>
 
-          <p className="conten">
+          <p className="conten col-md-10">
           Are you searching for a trusted app development company that
                   can turn your groundbreaking app idea into a reality? Look no
                   further! At BytesFarms, we are a dedicated team of experts
@@ -124,10 +124,7 @@ const MobileApp = () => {
               <h2 className="mil-mb-30">
                 Our Mobile App Developement Services Let You Win Big
               </h2>
-              <p className="mil-dark">
-                Top-Tier App Development Company Offering Unparalleled App
-                Development Services.
-              </p>
+             
             </div>
           </div>
           <div className="row mil-mb-30-adapt">
@@ -237,7 +234,7 @@ const MobileApp = () => {
       </div>
 
       {/* <!-- services --> */}
-      <section className="mil-services mil-p-120-90">
+      <section className="mil-services mil-p-120-90  shadow shadow-bottom shadow-md">
         {/* <div
           className="mil-deco"
           style={{ bottom: "0", right: "40%", transform: "rotate(180deg)" }}
@@ -287,11 +284,7 @@ const MobileApp = () => {
             </div>
 
             <div className="row align-items-center">
-              <div className="col-md-6 col-xl-6">
-                <Link to="/Contact" className="mil-button mil-border mil-mb-30">
-                  <span>Talk To Our Mobile App Experts</span>
-                </Link>
-              </div>
+              
               <div className="col-md-6 col-xl-6">
                 <div className="mil-adaptive-right">
                   {/* <Link to="" className="mil-link mil-mb-30"><span>See More</span><i className="fas fa-arrow-right"></i></Link> */}
@@ -303,8 +296,8 @@ const MobileApp = () => {
       </section>
       {/* <!-- services end --> */}
       {/* <!-- partners --> */}
-      <div class="mil-partners mil-partners-spaces">
-        <div class="container">
+      <div class="mil-partners mil-partners-spaces ">
+        <div class="container ">
           <div class="mil-partners-frame">
             <a href="#.">
               <img
@@ -338,7 +331,7 @@ const MobileApp = () => {
       </div>
       {/* <!-- partners end --> */}
       {/* <!-- services --> */}
-      <section className="bg-white mil-deco-right mil-p-120-0">
+      <section className="bg-white mil-deco-right mil-p-120-0 shadow shadow-top shadow-lg">
         <div
           className="mil-deco mil-deco-accent"
           style={{ top: "0", left: "5%" }}

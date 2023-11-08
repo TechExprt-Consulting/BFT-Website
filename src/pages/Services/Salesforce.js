@@ -89,7 +89,7 @@ const Salesforce = () => {
             Salesforce Services
           </h2>
 
-          <p className="conten">
+          <p className="conten col-md-10">
             Are you ready to take your Salesforce experience to the next level?
             As a Salesforce AppExchange Partner, we provide the ultimate
             solution to elevate your business, streamline your processes, and
@@ -485,7 +485,7 @@ const Salesforce = () => {
       {/* challenges end */}
 
       {/* <!-- steps --> */}
-      <section className="mil-p-120-90">
+      <section className="mil-p-120-90 shadow shadow-bottom shadow-md">
         {/* <div
           className="mil-deco"
           style={{ bottom: "0", right: "35%", transform: "rotate(180deg)" }}
@@ -496,11 +496,7 @@ const Salesforce = () => {
               <h2 className="mil-mb-30">
                 Our Salesforce Developement Services Let You Win Big
               </h2>
-              <p className="mil-dark">
-                DevOps practices combine development and IT operations,
-                emphasizing collaboration and automation, leading to faster
-                software development, continuous integration, and delivery.
-              </p>
+             
             </div>
           </div>
           <div className="row mil-mb-30-adapt">
@@ -650,11 +646,7 @@ const Salesforce = () => {
             </div>
           </div>
           <div className="row align-items-center">
-            <div className="col-md-6 col-xl-6">
-              <Link to="" className="mil-button mil-border mil-mb-30">
-                <span>Tell us about your project</span>
-              </Link>
-            </div>
+            
             <div className="col-md-6 col-xl-6">
               <div className="mil-adaptive-right">
                 {/* <Link to="" className="mil-link mil-mb-30"><span>See More</span><i className="fas fa-arrow-right"></i></Link> */}
@@ -701,7 +693,7 @@ const Salesforce = () => {
       </div>
       {/* <!-- partners end --> */}
       
-      <section className="bg-white mil-deco-right mil-p-120-0">
+      <section className="bg-white mil-deco-right mil-p-120-0 shadow shadow-top shadow-lg">
         <div
           className="mil-deco mil-deco-accent"
           style={{ top: "0", left: "5%" }}

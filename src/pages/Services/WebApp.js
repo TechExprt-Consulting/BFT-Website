@@ -80,10 +80,10 @@ const WebApp = () => {
           Web & App Developement
           </h2>
 
-          <p className="conten">
+          <p className="conten col-md-10">
           Across various sectors, companies are increasingly embracing tailored technological solutions to optimize their business processes and streamline their workflows. Technology has become the driving force behind these essential functions, from marketing and sales to overall operations.
           </p>
-          <p>In the digital age, this paradigm shift is reshaping how businesses operate, making it essential to harness the power of customized tech solutions. As you explore our website and app service section, you'll discover how our offerings can empower your business in this digital era, providing the tools you need to thrive in a tech-driven world. The transition to a digital-first approach has become the prevailing trend, and the Software as a Service (SaaS) industry has rapidly risen to prominence in the contemporary landscape.</p>
+          <p className="col-md-10">In the digital age, this paradigm shift is reshaping how businesses operate, making it essential to harness the power of customized tech solutions. As you explore our website and app service section, you'll discover how our offerings can empower your business in this digital era, providing the tools you need to thrive in a tech-driven world. The transition to a digital-first approach has become the prevailing trend, and the Software as a Service (SaaS) industry has rapidly risen to prominence in the contemporary landscape.</p>
 
           <div className="mil-quote-button ">
             <button className="mil-vertical-button text-dark ">
@@ -414,7 +414,7 @@ const WebApp = () => {
       </div>
 
       {/* <!-- services --> */}
-      <section className="mil-services mil-p-120-90">
+      <section className="mil-services mil-p-120-90 shadow shadow-bottom shadow-md">
         {/* <div
           className="mil-deco"
           style={{ bottom: "0", right: "40%", transform: "rotate(180deg)" }}
@@ -513,7 +513,7 @@ const WebApp = () => {
       </section>
 
       {/* <!-- services end --> */}
-      <section className="mil-services mil-p-120-90">
+      <section className="mil-services mil-p-120-90 shadow shadow-bottom shadow-lg">
         {/* <div
           className="mil-deco"
           style={{ bottom: "0", right: "40%", transform: "rotate(180deg)" }}
@@ -663,7 +663,7 @@ const WebApp = () => {
       </div>
       {/* <!-- partners end --> */}
       {/* <!-- services --> */}
-      <section className="bg-white mil-deco-right mil-p-120-0">
+      <section className="bg-white mil-deco-right mil-p-120-0 shadow shadow-top shadow-lg">
         <div
           className="mil-deco mil-deco-accent"
           style={{ top: "0", left: "5%" }}
@@ -676,7 +676,7 @@ const WebApp = () => {
             <h2 className="mil-ligh mil-mb-30">
               {" "}
               Why Choose our{" "}
-              <span className="mil-accent">Web Applications</span>{" "}
+              <span className="mil-accent">Web & App Services</span>{" "}
             </h2>
             <p className="mil-ligh-soft">
               At Bytes Farms, we don't just build websites; we craft digital
