@@ -20,18 +20,18 @@ const Saas = () => {
                             <Link to="">Service</Link>
                         </li>
                         <li>
-                            <Link to="/Salesforce">Web Development</Link>
+                            <Link to="/Salesforce">Web Developement</Link>
                         </li>
                         {/* <li>
-                            <Link to="/Salesforce">SAAS</Link>
+                            <Link to="/Salesforce">SEO</Link>
                         </li> */}
                     </ul>
                     <h2 className="mil-uppercase" style={{ color: "#1B2F5B" }}>
-                    SAAS Development 
+                   Software as a Service
                     </h2>
                 </div>
                 <div className="col-md-4 text-center">
-                    <img src="assets/mockup/webdev.png" alt="mus" className="img-fluid" />
+                    <img src="assets/mockup/saas.png" alt="mus" className="img-fluid" />
                 </div>
             </div>
         </div>
@@ -42,7 +42,6 @@ const Saas = () => {
         </div>
     </div>
 </div>
-
       {/* <!-- banner end --> */}
 
     {/* <!-- call to action --> */}

@@ -21,18 +21,18 @@ const SD = () => {
                             <Link to="">Service</Link>
                         </li>
                         <li>
-                            <Link to="/Salesforce">Web Development</Link>
+                            <Link to="/Salesforce">Web Developement</Link>
                         </li>
                         {/* <li>
-                            <Link to="/Salesforce">Custom Software Developement</Link>
+                            <Link to="/Salesforce">SEO</Link>
                         </li> */}
                     </ul>
                     <h2 className="mil-uppercase" style={{ color: "#1B2F5B" }}>
-                    Custom Software Developement
+                   Custom Software Developement
                     </h2>
                 </div>
                 <div className="col-md-4 text-center">
-                    <img src="assets/mockup/webdev.png" alt="mus" className="img-fluid" />
+                    <img src="assets/mockup/SD.png" alt="mus" className="img-fluid" />
                 </div>
             </div>
         </div>

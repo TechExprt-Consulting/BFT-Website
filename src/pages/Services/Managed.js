@@ -46,7 +46,7 @@ const Managed = () => {
                 </div>
               </div>
               <img
-                src="assets/mockup/webdev.png"
+                src="assets/mockup/managed.png"
                 alt="mus"
                 className="col-md-4 mockup"
               />

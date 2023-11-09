@@ -17,37 +17,42 @@ const Technology = () => {
 
   return (
     <>
-      <Navbar />
+     
+     
+      <Navbar/>
       {/* <!-- banner --> */}
-      <div className="mil-banner-sm mil-deep-bg">
-        <img
-          src="assets/deco/map.png"
-          alt="background"
-          className="mil-background-image"
-        />
-        <div
-          className="mil-deco mil-deco-accent"
-          style={{ top: "47%", right: "10%", transform: "rotate(90deg)" }}
-        ></div>
-        <div className="mil-banner-content">
-          <div className="container mil-relative">
-            <ul className="mil-breadcrumbs mil-mb-30">
-              <li>
-                <Link to="/Home">Home</Link>
-              </li>
-              <li>
-                <Link to="">Technologies</Link>
-              </li>
-            </ul>
-            <h2 className="mil-uppercase">Technologies</h2>
-          </div>
+      
+<div className="mil-banner-sm bg-white shadow shadow-bottom shadow-md pb-5">
+  <div className="mil-banner-content position-relative">
+    <div className="container ">
+      <div className="d-flex flex-column-reverse flex-md-row col-md-6">
+        <div className="d-flex flex-column mt-3">
+          <ul className="mil-breadcrumbs mil-mb-30 ">
+            <li>
+              <Link to="/Home">Home</Link>
+            </li>
+            <li>
+              <Link to="">Technologies</Link>
+            </li>
+          </ul>
+
+          <h2 className="mil-uppercase" style={{ color: "#1B2F5B" }}>
+            Technologies
+          </h2>
         </div>
-        <div className="mil-fixed-button-container">
-          <button className="mil-vertical-button text-dark ">
-            <Link to='/contact'>Get a Free Quote!</Link>
-          </button>
-        </div>
+
       </div>
+    
+
+  <div className="mil-fixed-button-container">
+    <button className="mil-vertical-button text-dark ">
+      <Link to='/contact'>Get a Free Quote!</Link>
+    </button>
+  </div>        <img src="assets/mockup/technology.png" alt="mus" className="col-md-5  w-26   mil-banner-image" style={{paddingTop:"50px",height:"413px"}} />
+
+  </div>
+  </div>
+</div>
       {/* <!-- banner end --> */}
       {/* <div className="mil-p-90-60 logo-carousel container  mil-partners-frame">
       {[...Array(3)].map((_, index) => {
@@ -427,9 +432,7 @@ const Technology = () => {
                     <span class="mil-accent">01</span> Flutter
                   </h5>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                  Flutter is an open-source UI software development toolkit created by Google for building natively compiled applications for mobile, web, and desktop from a single codebase.
                   </p>
                 </div>
               </div>
@@ -685,9 +688,7 @@ const Technology = () => {
                     <span class="mil-accent">03</span> Photoshop
                   </h5>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                  Adobe Photoshop is a powerful raster graphics editor used for image editing, digital art creation, and graphic design. 
                   </p>
                 </div>
               </div>
