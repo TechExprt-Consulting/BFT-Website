@@ -449,9 +449,7 @@ const Technology = () => {
                     <span class="mil-accent">02</span> Github
                   </h5>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                  Git repository management, including branching, merging, and version control, Git workflow optimization, and code collaboration facilitation.
                   </p>
                 </div>
               </div>

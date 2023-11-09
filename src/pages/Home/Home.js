@@ -8,7 +8,7 @@ import { useState, useEffect } from "react";
 import Consultant from "../components/Consultant";
 import Client from "./Client";
 // import Service from "./Service";
-import Itsolution from './Itsolution'
+import Itsolution from "./Itsolution";
 // import ItService from "./ItService";
 // import Service from "./Service";
 
@@ -61,7 +61,10 @@ const Home = () => {
             <div class="row align-items-center">
               <div class="col-xl-8">
                 <h1 class="mil-mb-60">
-                  <span class="mil-uppercase mil-ligh"style={{color:"#1B2F5B"}}>
+                  <span
+                    class="mil-uppercase mil-ligh"
+                    style={{ color: "#1B2F5B" }}
+                  >
                     Your tech and strategy partner in
                     <br />
                   </span>{" "}
@@ -86,7 +89,7 @@ const Home = () => {
         </div>
         <div className="mil-fixed-button-container">
           <button className="mil-vertical-button text-dark ">
-           <Link to='/contact'> Get a Free Quote!</Link>
+            <Link to="/contact"> Get a Free Quote!</Link>
           </button>
         </div>
       </div>
@@ -156,7 +159,7 @@ const Home = () => {
           <h2 className="mil-mb-30">
             How We Can <span className="mil-accent">Help You</span>
           </h2>
-          
+
           {/* <div className="container">
             <div className="mil-divider"></div>
           </div>
@@ -299,10 +302,9 @@ const Home = () => {
               </div>
             </div>
   </div> */}
-          <Itsolution/>
+          <Itsolution />
         </div>
-      </section> 
-
+      </section>
 
       {/* <div className="container">
         <div className="mil-divider"></div>
@@ -485,8 +487,6 @@ const Home = () => {
         </div>
       </section>
       {/* <!-- how it works end --> */}
-
-      
 
       <div className="container mil-mb-90">
         <div className="mil-divider"></div>

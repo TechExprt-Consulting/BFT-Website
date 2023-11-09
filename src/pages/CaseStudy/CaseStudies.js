@@ -41,7 +41,7 @@ const CaseStudies = () => {
       {/* <!-- banner end --> */}
 
       {/* <!-- portfolio --> */}
-      <section className="mil-p-120-120">
+      <section className="mil-p-120-120  pt-5">
         <div className="container">
           <div
             className="row justify-content-between align-items-center"
