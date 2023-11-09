@@ -384,24 +384,3 @@
   .mil-transparent-nav .mil-menu-btn span, .mil-transparent-nav .mil-menu-btn span:after, .mil-transparent-nav .mil-menu-btn span:before {
     background-color: rgb(255, 255, 255);
   }
-
-
-
-  .popup-container {
-    position: absolute;
-    top: 0;
-    left: 100%; /* Position the submenu to the right of the main menu */
-    margin-top: -10px; /* Adjust the vertical alignment if needed */
-}
-
-.popup-list {
-    display: none;
-    background-color: #ffffff;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 10px;
-    z-index: 1;
-}
-
-.mil-has-children:hover .popup-container .popup-list {
-    display: block;
-}

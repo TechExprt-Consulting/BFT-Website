@@ -2,12 +2,103 @@ import React from "react";
 import "./Service.css";
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
 
 const MobileApp = () => {
   return (
     <div className="mil-wrapper">
-      <Navbar/>
+      <div className="mil-top-position mil-fixed ">
+        <div className="mil-top-panel ">
+          <div className="container">
+            <Link
+              to="/home"
+              className="mil-logo"
+              style={{ width: "250px", height: "90px" }}             ></Link>
+            <div className="mil-navigation">
+              <nav>
+                <ul>
+                  <li>
+                    <Link to="/home">Home</Link>
+                  </li>
+
+                  <li className="mil-has-children">
+                    <Link to="/">Enterprise</Link>
+                    <ul>
+                      <li>
+                        <Link to="/about">About us</Link>
+                      </li>
+                      <li>
+                        <Link to="/team"> Our Team</Link>
+                      </li>
+                      <li>
+                        <Link to="/career">Careers</Link>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <Link to="/case">Case Studies</Link>
+                  </li>
+
+                  <li className="mil-has-children">
+                    <Link to="/">Services</Link>
+                    <ul>
+                      <li>
+                        <Link to="/salesforce">Salesforce Services</Link>
+                      </li>
+                      <li>
+                        <Link to="/digital">Digital Marketing</Link>
+                      </li>
+
+                      <li>
+                        <Link to="/blockChain">Blockchain Developement</Link>
+                      </li>
+                      <li>
+                        <Link to="/cloud">Cloud Migration</Link>
+                      </li>
+                      <li>
+                        <Link to="/deveops">Devops Consulting</Link>
+                      </li>
+                      <li>
+                        <Link to="/mobileApp">Mobile App Developement</Link>
+                      </li>
+                      <li>
+                        <Link to="/webApp">Web Developement</Link>
+                      </li>
+                    </ul>
+                  </li>
+                  {/* <li>
+                    <Link to="/Faq">FAQ</Link>
+                  </li> */}
+
+                  <li>
+                    <Link to="/blog">Blog</Link>
+                  </li>
+                  <li>
+                    <Link to="/contact">Contact Us</Link>
+                  </li>
+                </ul>
+                <div className="mil-search-icon">
+                  <svg
+                    width="21"
+                    height="20"
+                    viewBox="0 0 21 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M20.5848 19.7029C20.3908 19.8999 20.1358 19.997 19.8808 19.997C19.6268 19.997 19.3718 19.8999 19.1778 19.7029L15.5118 16.2199C13.9778 17.2549 12.3798 17.997 9.92584 17.997C4.98484 17.997 0.964844 13.959 0.964844 8.99695C0.964844 4.34995 4.98484 0.199951 9.92584 0.199951C14.8668 0.199951 18.8858 4.34995 18.8858 8.99695C18.8858 11.118 18.1468 13.68 16.9188 14.608L20.5848 18.29C20.9738 18.681 20.9738 19.3129 20.5848 19.7029ZM9.92584 1.99695C6.82984 1.99695 2.95684 5.13695 2.95684 8.99695C2.95684 12.857 6.82984 15.998 9.92584 15.998C11.8398 15.998 13.5758 15.217 14.8368 13.957C14.8408 13.952 14.8418 13.945 14.8468 13.941C14.8518 13.936 14.8578 13.935 14.8628 13.93C16.1168 12.663 16.8948 10.92 16.8948 8.99695C16.8948 5.13695 13.7678 1.99695 9.92584 1.99695Z"
+                    />
+                  </svg>
+                </div>
+              </nav>
+            </div>
+            <div className="mil-menu-btn">
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
 
       {/* <!-- banner --> */}
       <div className="mil-banner-sm mil-deep-bg">
@@ -54,7 +145,7 @@ const MobileApp = () => {
                     <img src="assets/icon/1.svg" alt="icon" />
                   </div>
                 </div>
-                <h6 className="conten">
+                <h6>
                   Are you searching for a trusted app development company that
                   can turn your groundbreaking app idea into a reality? Look no
                   further! At BytesFarms, we are a dedicated team of experts
@@ -91,7 +182,9 @@ const MobileApp = () => {
         <div className="container">
           <div className="row">
             <div className="col-12 mil-mb-90">
-              
+              <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
+                Services and Solutions
+              </span>
               <h2 className="mil-mb-30">
                 Our Mobile App Developement Services Let You Win Big
               </h2>
@@ -108,7 +201,7 @@ const MobileApp = () => {
                   <span>01</span>
                 </div>
                 <h4 className="mil-mb-15">EXPERTISE IN DIVERSE PLATFORMS</h4>
-                <p className="conten">
+                <p>
                   Our seasoned app developers are proficient in a wide range of
                   platforms, including iOS, Android, and cross-platform
                   development. Whether you need a sleek iOS app or a versatile
@@ -122,7 +215,7 @@ const MobileApp = () => {
                   <span>02</span>
                 </div>
                 <h4 className="mil-mb-15">CUSTOM SOLUTIONS</h4>
-                <p className="conten">
+                <p>
                   We understand that every business is unique. That's why we
                   tailor our app development services to match your specific
                   requirements. From design to functionality, your app will be a
@@ -136,7 +229,7 @@ const MobileApp = () => {
                   <span>03</span>
                 </div>
                 <h4 className="mil-mb-15">USER-CENTRIC DESIGN</h4>
-                <p className="conten">
+                <p>
                   User experience is at the heart of what we do. Our designers
                   create intuitive, user-friendly interfaces that keep your
                   audience engaged and coming back for more.
@@ -149,7 +242,7 @@ const MobileApp = () => {
                   <span>04</span>
                 </div>
                 <h4 className="mil-mb-15">SEAMLESS INTEGRATION</h4>
-                <p className="conten">
+                <p>
                   Our app development services ensure seamless integration with
                   existing systems, providing a hassle-free experience for both
                   you and your users.
@@ -162,7 +255,7 @@ const MobileApp = () => {
                   <span>05</span>
                 </div>
                 <h4 className="mil-mb-15">RIGOROUS TESTING</h4>
-                <p className="conten">
+                <p>
                   Quality assurance is paramount. We subject every app to
                   rigorous testing procedures to ensure it performs flawlessly
                   on all devices and platforms.
@@ -175,7 +268,7 @@ const MobileApp = () => {
                   <span>06</span>
                 </div>
                 <h4 className="mil-mb-15">TIMELY DELIVERY</h4>
-                <p className="conten">
+                <p>
                   We understand the importance of meeting deadlines. Our team
                   works diligently to deliver your app on time and within
                   budget.
@@ -209,12 +302,14 @@ const MobileApp = () => {
 
       {/* <!-- services --> */}
       <section className="mil-services mil-p-120-90">
-        {/* <div
+        <div
           className="mil-deco"
           style={{ bottom: "0", right: "40%", transform: "rotate(180deg)" }}
-        ></div> */}
+        ></div>
         <div className="container">
-          
+          <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
+            High Quality and Performance
+          </span>
           <h2 className="mil-mb-90">
             Our Approach To <span className="mil-accent">Mobile App</span>{" "}
             Developement
@@ -231,7 +326,7 @@ const MobileApp = () => {
                   <h5 className="mil-mb-30">
                     <span className="mil-accent">01</span>Guarantee Of Quality
                   </h5>
-                  <p className="conten">
+                  <p>
                     Our commitment to unwavering quality ensures a steadfast
                     100% surety in all our undertakings.
                   </p>
@@ -249,7 +344,7 @@ const MobileApp = () => {
                   <h5 className="mil-mb-30">
                     <span className="mil-accent">02</span>24/7 Of Support
                   </h5>
-                  <p className="conten">
+                  <p>
                     Uninterrupted help available 24/7, ensuring your queries are
                     always attended to.
                   </p>

@@ -32,12 +32,12 @@ const Footer = () => {
           <div className="mil-divider mil-light"></div>
 
           <div className="row justify-content-around mil-p-120-60">
-            <div className="col-md-4 col-lg-3 col-xl-3 mil-mb-30">
+            <div className="col-md-3 col-lg-3 col-xl-3 mil-mb-30">
               <img
                 src="/assets/logo/logo-2.png"
                 alt="mus"
                 className="mil-logo mil-mb-60"
-                style={{ width: "220px", height: "70px"}}
+                style={{ width: "210px", height: "60px" }}
               />
 
               <p
@@ -52,7 +52,10 @@ const Footer = () => {
               </p>
 
               <ul className="mil-simple-list mil-mb-15">
-                
+                <li className="mil-light">
+                  <span className="mil-accent">+01</span>&nbsp;
+                  <span className="mil-light-soft">804 435 5595</span>
+                </li>
                 <li className="mil-light">
                   <span className="mil-accent">+91</span>&nbsp;
                   <span className="mil-light-soft">989 306 4124</span>
@@ -68,54 +71,53 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="col-md-4 col-lg-4 col-xl-5">
+            <div className="col-md-3 col-lg-3 col-xl-4">
               <div className="row justify-content-between">
-                <div className="col-md-5 col-lg-6 mil-mb-60">
+                <div className="col-md-4 col-lg-5 mil-mb-60">
                   <h4 className="mil-list-title mil-light mil-mb-60">
                     Services
                   </h4>
 
                   <ul className="mil-hover-link-list mil-light text-decoration-none">
                     <li>
-                      <Link to="/salesforce">Salesforce</Link>
-                    </li>
-                    
-                    <li>
-                      <Link to="/cloud">Cloud</Link>
+                      <Link to="/Salesforce">Salesforce</Link>
                     </li>
                     <li>
-                      <Link to="/digital">Digital Marketing</Link>
+                      <Link to="/Cloud">Cloud</Link>
                     </li>
                     <li>
-                      <Link to="/deveops">Deveops</Link>
+                      <Link to="/Digital">Digital Marketing</Link>
                     </li>
                     <li>
-                      <Link to="/blockChain">BlockChain</Link>
+                      <Link to="/Deveops">Deveops</Link>
                     </li>
                     <li>
-                      <Link to="/mobileApp">Mobile Developement</Link>
+                      <Link to="/BlockChain">BlockChain</Link>
                     </li>
                     <li>
-                      <Link to="/webApp">Web Developement</Link>
+                      <Link to="/MobileApp">Mobile App Developement</Link>
+                    </li>
+                    <li>
+                      <Link to="/WebApp">Web Developement</Link>
                     </li>
                   </ul>
                 </div>
 
-                <div className="col-md-4 col-lg-5 col-xl-5 mil-mb-60">
+                <div className="col-md-4 col-lg-5 mil-mb-60">
                   <h4 className="mil-list-title mil-light mil-mb-60">Links</h4>
 
                   <ul className="mil-hover-link-list mil-light">
                     <li>
-                      <Link to="/about">About Us</Link>
+                      <Link to="/About">About Us</Link>
                     </li>
                     <li>
-                      <Link to="/blog">Our Blog</Link>
+                      <Link to="/Blog">Our Blog</Link>
                     </li>
                     <li>
-                      <Link to="/team">Our Team</Link>
+                      <Link to="/Team">Our Team</Link>
                     </li>
                     <li>
-                      <Link to="/career">Careers</Link>
+                      <Link to="/Careers">Careers</Link>
                     </li>
                     {/* <li>
                       <Link to="/Faq">FAQ</Link>
@@ -124,13 +126,12 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-3 col-lg-3 col-xl-3">
+            <div className="col-md-3 col-lg-3 col-xl-4">
               {" "}
               <div className="mil-map-frame">
                 <iframe
-                
                   src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14718.182783990356!2d75.892227!3d22.7451213!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fdce5c8a35a9%3A0xa14c8742df30e4ba!2sBytesFarms%20Technologies%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1697115056572!5m2!1sen!2sin"
-                  width="500px"
+                  width="800px"
                   height=""
                   style={{ border: "0" }}
                   allowfullscreen=""

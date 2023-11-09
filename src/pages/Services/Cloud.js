@@ -2,12 +2,132 @@ import React from "react";
 import "./Service.css";
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
 
 const Cloud = () => {
   return (
     <div className="mil-wrapper">
-     <Navbar/>
+      <div className="mil-top-position mil-fixed ">
+        <div className="mil-top-panel ">
+          <div className="container">
+            <Link
+              to="/home"
+              className="mil-logo"
+              style={{ width: "250px", height: "90px" }}             ></Link>
+            <div className="mil-navigation">
+              <nav>
+                <ul>
+                  <li>
+                    <Link to="/home">Home</Link>
+                  </li>
+
+                  <li className="mil-has-children">
+                    <Link to="/">Enterprise</Link>
+                    <ul>
+                      <li>
+                        <Link to="/about">About us</Link>
+                      </li>
+                      <li>
+                        <Link to="/team"> Our Team</Link>
+                      </li>
+                      <li>
+                        <Link to="/career">Careers</Link>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <Link to="/case">Case Studies</Link>
+                  </li>
+
+                  <li className="mil-has-children">
+                    <Link to="/">Services</Link>
+                    <ul>
+                      <li>
+                        <Link to="/salesforce">Salesforce Services</Link>
+                      </li>
+                      <li>
+                        <Link to="/digital">Digital Marketing</Link>
+                      </li>
+
+                      <li>
+                        <Link to="/blockChain">Blockchain Developement</Link>
+                      </li>
+                      <li>
+                        <Link to="/cloud">Cloud Migration</Link>
+                      </li>
+                      <li>
+                        <Link to="/deveops">Devops Consulting</Link>
+                      </li>
+                      <li>
+                        <Link to="/mobileApp">Mobile App Developement</Link>
+                      </li>
+                      <li>
+                        <Link to="/webApp">Web Developement</Link>
+                      </li>
+                    </ul>
+                  </li>
+                  {/* <li>
+                    <Link to="/Faq">FAQ</Link>
+                  </li> */}
+
+                  <li>
+                    <Link to="/blog">Blog</Link>
+                  </li>
+                  <li>
+                    <Link to="/contact">Contact Us</Link>
+                  </li>
+                </ul>
+                <div className="mil-search-icon">
+                  <svg
+                    width="21"
+                    height="20"
+                    viewBox="0 0 21 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M20.5848 19.7029C20.3908 19.8999 20.1358 19.997 19.8808 19.997C19.6268 19.997 19.3718 19.8999 19.1778 19.7029L15.5118 16.2199C13.9778 17.2549 12.3798 17.997 9.92584 17.997C4.98484 17.997 0.964844 13.959 0.964844 8.99695C0.964844 4.34995 4.98484 0.199951 9.92584 0.199951C14.8668 0.199951 18.8858 4.34995 18.8858 8.99695C18.8858 11.118 18.1468 13.68 16.9188 14.608L20.5848 18.29C20.9738 18.681 20.9738 19.3129 20.5848 19.7029ZM9.92584 1.99695C6.82984 1.99695 2.95684 5.13695 2.95684 8.99695C2.95684 12.857 6.82984 15.998 9.92584 15.998C11.8398 15.998 13.5758 15.217 14.8368 13.957C14.8408 13.952 14.8418 13.945 14.8468 13.941C14.8518 13.936 14.8578 13.935 14.8628 13.93C16.1168 12.663 16.8948 10.92 16.8948 8.99695C16.8948 5.13695 13.7678 1.99695 9.92584 1.99695Z"
+                    />
+                  </svg>
+                </div>
+              </nav>
+            </div>
+            <div className="mil-menu-btn">
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* <!-- banner --> */}
+      <div className="mil-banner-sm mil-deep-bg">
+        <img
+          src="assets/deco/map.png"
+          alt="background"
+          className="mil-background-image"
+        />
+        <div
+          className="mil-deco mil-deco-accent"
+          style={{ top: "47%", right: "10%", transform: "rotate(90deg)" }}
+        ></div>
+        <div className="mil-banner-content">
+          <div className="container mil-relative">
+            <ul className="mil-breadcrumbs mil-mb-30">
+              <li>
+                <Link to="/Home">Home</Link>
+              </li>
+              <li>
+                <Link to="">Service</Link>
+              </li>
+              <li>
+                <Link to="/Cloud">Cloud</Link>
+              </li>
+            </ul>
+            <h2 className="mil-uppercase">Cloud Migration</h2>
+          </div>
+        </div>
+      </div>
       {/* <!-- banner end --> */}
 
       {/* <!-- call to action --> */}
@@ -25,7 +145,7 @@ const Cloud = () => {
                     <img src="assets/icon/1.svg" alt="icon" />
                   </div>
                 </div>
-                <h6 className="conten">
+                <h6>
                   Are you ready to elevate your business operations to the next
                   level? Embracing the power of the cloud can be a
                   transformative journey, and our dedicated Cloud Migration
@@ -55,12 +175,14 @@ const Cloud = () => {
 
       {/* <!-- services --> */}
       <section className="mil-services mil-p-120-90">
-        {/* <div
+        <div
           className="mil-deco"
           style={{ bottom: "0", right: "40%", transform: "rotate(180deg)" }}
-        ></div> */}
+        ></div>
         <div className="container">
-          
+          <span className="mil-suptitle mil-suptitle-2 mil-mb-30">
+            High Quality and Performance
+          </span>
           <h2 className="mil-mb-90">
             Our Approach To <span className="mil-accent">Cloud</span> Migration
           </h2>
@@ -76,7 +198,7 @@ const Cloud = () => {
                   <h5 className="mil-mb-30">
                     <span className="mil-accent">01</span>Strategic Planning
                   </h5>
-                  <p className="conten">
+                  <p>
                     Our experienced architects create a detailed migration plan
                     that outlines each step of the process. This plan considers
                     factors like data security , application performance, and
@@ -97,7 +219,7 @@ const Cloud = () => {
                     <span className="mil-accent">02</span> Comprehensive
                     Assessment
                   </h5>
-                  <p className="conten">
+                  <p>
                     We start by gaining a deep understanding of your existing
                     infrastructure, applications, and business goals. This
                     assessment helps us tailor a migration strategy that aligns
@@ -118,7 +240,7 @@ const Cloud = () => {
                     <span className="mil-accent">03</span> Testing And
                     Validation
                   </h5>
-                  <p className="conten">
+                  <p>
                     Before the final transition, we rigorously test all migrated
                     systems and applications to identify and address any issues.
                     This guarantees a seamless experience for your end-users
@@ -138,7 +260,7 @@ const Cloud = () => {
                   <h5 className="mil-mb-30">
                     <span className="mil-accent">04</span> Go-Live And Support
                   </h5>
-                  <p className="conten">
+                  <p>
                     When everything is ready, we execute the migration with
                     precision. Our support doesn't stop there – we provide
                     post-migration assistance to ensure your operations continue
