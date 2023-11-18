@@ -20,7 +20,7 @@ const Admin = () => {
                             <Link to="">Service</Link>
                         </li>
                         <li>
-                            <Link to="/Salesforce">Web Developement</Link>
+                            <Link to="/Salesforce">Custom Admin Panel</Link>
                         </li>
                         {/* <li>
                             <Link to="/Salesforce">SEO</Link>

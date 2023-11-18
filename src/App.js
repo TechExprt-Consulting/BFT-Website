@@ -49,6 +49,7 @@ import Api from './pages/Services/Api';
 import Admin from './pages/Services/Admin';
 import SD from './pages/Services/SD';
 import Managed from './pages/Services/Managed';
+import Nav from './pages/components/Nav';
 function App() {
  
   return (
@@ -57,6 +58,9 @@ function App() {
       <Router >
       <ScrollToTop />
         <Routes>
+
+    <Route path ='/nav' element={<Nav/>}/>
+
           <Route path='/managedService' element={<Managed/>}/>
           <Route path='/saas' element={<Saas/>}/>
           <Route path='/api' element={<Api/>}/>

@@ -21,7 +21,7 @@ const SD = () => {
                             <Link to="">Service</Link>
                         </li>
                         <li>
-                            <Link to="/Salesforce">Web Developement</Link>
+                            <Link to="/Salesforce">Software Developement</Link>
                         </li>
                         {/* <li>
                             <Link to="/Salesforce">SEO</Link>

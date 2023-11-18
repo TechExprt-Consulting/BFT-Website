@@ -21,7 +21,7 @@ const Seo = () => {
                             <Link to="">Service</Link>
                         </li>
                         <li>
-                            <Link to="/Salesforce">Digital Marketing</Link>
+                            <Link to="/Salesforce">SEO</Link>
                         </li>
                         {/* <li>
                             <Link to="/Salesforce">SEO</Link>

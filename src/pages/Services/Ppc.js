@@ -21,7 +21,7 @@ const Ppc = () => {
                             <Link to="">Service</Link>
                         </li>
                         <li>
-                            <Link to="/Salesforce">Digital Marketing</Link>
+                            <Link to="/Salesforce">PPC</Link>
                         </li>
                         {/* <li>
                             <Link to="/Salesforce">PPC</Link>

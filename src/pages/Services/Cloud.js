@@ -67,7 +67,7 @@ const Cloud = () => {
       </div> */}
 
       {/* <!-- services --> */}
-      <section className="mil-services mil-p-120-90 shadow shadow-bottom shadow-lg">
+      <section className="mil-services mil-p-120-90 shadow shadow-bottom shadow-md">
         {/* <div
           className="mil-deco"
           style={{ bottom: "0", right: "40%", transform: "rotate(180deg)" }}
@@ -181,7 +181,7 @@ const Cloud = () => {
               <img
                 src="assets/project/18.png"
                 alt="partner"
-                style={{ width: "130px" }}
+                style={{ width: "100px", marginTop:"30px" }}
               />
             </a>
             <a href="#.">
@@ -206,7 +206,7 @@ const Cloud = () => {
       </div>
       {/* <!-- partners end --> */}
       {/* <!-- services --> */}
-      <section className="bg-white mil-deco-right mil-p-120-0 shadow shadow-top shadow-lg">
+      <section className="bg-white mil-deco-right mil-p-120-0 shadow shadow-top shadow-md">
         <div
           className="mil-deco mil-deco-accent"
           style={{ top: "0", left: "5%" }}

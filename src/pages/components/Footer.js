@@ -12,14 +12,14 @@ const Footer = () => {
       <div className="container">
         <div className="mil-footer-content">
           <div className="row align-items-center mil-p-120-60">
-            <div className="col-xl-6 mil-mb-60">
+            <div className="col-xl-7 mil-mb-60">
               <h3 className="mil-light mil-mb-15">ARE YOU INTERESTED?</h3>
 
               <p className="mil-light-soft">
                 Join our tech community, embrace innovation!
               </p>
             </div>
-            <div className="col-xl-6 mil-mb-60 d-flex justify-content-center">
+            <div className="col-xl-5 mil-mb-60 d-flex justify-content-end">
               <form className="mil-subscribe-form">
                 <input type="text" placeholder="Your email address" />
                 <button type="submit" className=" btn btn mil-button mil-accent-bg">

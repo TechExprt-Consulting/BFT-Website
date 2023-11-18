@@ -68,7 +68,7 @@ const Technology = () => {
       })}
     </div> */}
       {/* <!-- services --> */}
-      <section class="mil-services mil-p-120-90">
+      <section class="mil-services mil-p-120-90 pt-4">
         {/* <div class="mil-deco" style={{ top: "0", right: "20%" }}></div> */}
         <div class="container ">
           <h2 class="mil-mb-30  ">

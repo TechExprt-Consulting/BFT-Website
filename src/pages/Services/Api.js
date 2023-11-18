@@ -20,7 +20,7 @@ const Api = () => {
                             <Link to="">Service</Link>
                         </li>
                         <li>
-                            <Link to="/Salesforce">Web Developement</Link>
+                            <Link to="/Salesforce">API Developement</Link>
                         </li>
                         {/* <li>
                             <Link to="/Salesforce">SEO</Link>

@@ -125,7 +125,9 @@ const Navbar = () => {
                               </li>
                             </ul>
                       </li>
-                     
+                      <li>
+                        <Link to="/deveops">Devops Consulting</Link>
+                      </li>
                       <li
                         className="mil-has-children2"
                         
@@ -171,9 +173,8 @@ const Navbar = () => {
                       <li>
                         <Link to="/cloud">Cloud Migration</Link>
                       </li>
-                      <li>
-                        <Link to="/deveops">Devops Consulting</Link>
-                      </li>
+                    
+                     
                       <li >
                         <Link to="/mobileApp">Mobile App Developement</Link>
                       </li>

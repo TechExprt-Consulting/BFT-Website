@@ -21,7 +21,7 @@ const SocialMedia = () => {
                             <Link to="">Service</Link>
                         </li>
                         <li>
-                            <Link to="/Salesforce">Digital Marketing</Link>
+                            <Link to="/Salesforce">Social Media</Link>
                         </li>
                         {/* <li>
                             <Link to="/Salesforce">Social Media Marketing</Link>
