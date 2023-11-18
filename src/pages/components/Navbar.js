@@ -12,7 +12,7 @@ const Navbar = () => {
           <div className="container">
             <Link
               to="/home"
-              className="mil-logo"
+              className="mil-logo "
               style={{ width: "250px", height: "90px" }}
             ></Link>
             <div className="mil-navigation">
@@ -62,9 +62,31 @@ const Navbar = () => {
                   <li className="mil-has-children">
                     <Link to="/">Services</Link>
                     <ul>
-                    <li >
-                        <Link to="/mobileApp">Mobile App Developement</Link>
+                      <li className="mil-has-children2">
+                      <Link to="/webApp">Web Developement</Link>
+                      <ul >
+                              <li>
+                                <Link to="/saas">
+                                  SAAS Developement
+                                </Link>
+                              </li>
+                              <li>
+                                <Link to="/softwareDevelopement">
+                                  Custom Software Developement
+                                </Link>
+                              </li>
+                              <li>
+                                <Link to="/api">API Developement</Link>
+                              </li>
+                              <li>
+                                <Link to="/adminPanel">
+                                  Custom Admin Panel
+                                </Link>
+                              </li>
+                             
+                            </ul>
                       </li>
+                    
                       <li className="mil-has-children2" >
                         <Link to="/salesforce">Salesforce Services</Link>
                         <ul >
@@ -145,49 +167,19 @@ const Navbar = () => {
                          {/* )}  */}
                       </li>
 
-                      <li>
-                        <Link to="/blockChain">Blockchain Developement</Link>
-                      </li>
+                     
                       <li>
                         <Link to="/cloud">Cloud Migration</Link>
                       </li>
                       <li>
                         <Link to="/deveops">Devops Consulting</Link>
                       </li>
-                      <li className="mil-has-children2">
-                      <Link to="/webApp">Web Developement</Link>
-                      <ul >
-                              <li>
-                                <Link to="/saas">
-                                  SAAS Developement
-                                </Link>
-                              </li>
-                              <li>
-                                <Link to="/softwareDevelopement">
-                                  Custom Software Developement
-                                </Link>
-                              </li>
-                              <li>
-                                <Link to="/api">API Developement</Link>
-                              </li>
-                              <li>
-                                <Link to="/adminPanel">
-                                  Custom Admin Panel
-                                </Link>
-                              </li>
-                              {/* <li>
-                                <Link to="/marketResearch">
-                                  Market Research
-                                </Link>
-                              </li>
-                              <li>
-                                <Link to="/contentWriting">
-                                  Content Writing and copywriting
-                                </Link>
-                              </li> */}
-                            </ul>
+                      <li >
+                        <Link to="/mobileApp">Mobile App Developement</Link>
                       </li>
-                      
+                      <li>
+                        <Link to="/blockChain">Blockchain Developement</Link>
+                      </li>
                     </ul>
                   </li>
                   {/* <li>

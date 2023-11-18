@@ -22,7 +22,7 @@ const Footer = () => {
             <div className="col-xl-6 mil-mb-60 d-flex justify-content-center">
               <form className="mil-subscribe-form">
                 <input type="text" placeholder="Your email address" />
-                <button type="submit" className="mil-button mil-accent-bg">
+                <button type="submit" className=" btn btn mil-button mil-accent-bg">
                   Subscribe Now
                 </button>
               </form>

@@ -16,7 +16,7 @@ const Home = () => {
   const contents = [
     "IT SOLUTIONS",
     "BLOCKCHAIN",
-    "ARTIFICIAL INTELLIGENCE",
+    // "ARTIFICIAL INTELLIGENCE",
     "DIGITAL MARKETING",
     "BRANDING SOLUTIONS",
     "WEB DEVELOPEMENT",
@@ -59,7 +59,7 @@ const Home = () => {
         <div class="mil-banner-content bg-light">
           <div class="container">
             <div class="row align-items-center">
-              <div class="col-xl-8">
+              <div class="col-xl-8 ">
                 <h1 class="mil-mb-60">
                   <span
                     class="mil-uppercase mil-ligh"
@@ -68,7 +68,7 @@ const Home = () => {
                     Your tech and strategy partner in
                     <br />
                   </span>{" "}
-                  <span class="mil-font-3 mil-accent">
+                  <span class="mil-font-3 mil-accent1">
                     {contents[currentIndex]}
                   </span>
                 </h1>
@@ -95,7 +95,7 @@ const Home = () => {
       </div>
 
       {/* partners start*/}
-
+{/* 
       {/* <div className=" mil-p-90-60  ">
         <div className="container ">
           <div className="mil-partners-frame">
@@ -144,7 +144,7 @@ const Home = () => {
             </Link>
           </div>
         </div>
-      </div> */}
+      </div> */} 
       <Client />
       {/* partners end */}
 
@@ -153,14 +153,14 @@ const Home = () => {
       </div> */}
 
       {/* <!-- services --> */}
-      <section className="mil-services mil-p-120-90 mt-0 pt-1 ">
-        {/* <div className="mil-deco" style={{ top: "0", right: "20%" }}></div> */}
+      <section className="mil-services mil-p-120-90 mt-0 pt-0">
+        <div className="mil-deco" style={{ top: "0", right: "20%" }}></div>
         <div className="container">
           <h2 className="mil-mb-30">
             How We Can <span className="mil-accent">Help You</span>
           </h2>
 
-          {/* <div className="container">
+          <div className="container">
             <div className="mil-divider"></div>
           </div>
           <div className="row">
@@ -301,8 +301,8 @@ const Home = () => {
                 </div>
               </div>
             </div>
-  </div> */}
-          <Itsolution />
+  </div>
+          {/* <Itsolution /> */}
         </div>
       </section>
 
@@ -310,8 +310,8 @@ const Home = () => {
         <div className="mil-divider"></div>
       </div> */}
 
-      <section className="mil-p-120-120 m-1 p-1 mt-3">
-        <div className="container">
+      <section className="mil-p-120-120 ">
+        <div className="container" style={{backgroundColor:"#FFFFFF"}}>
           <div class="col-md-6 col-xl-6">
             <h2 class="mil-mb-30 mb-3">Case Studies</h2>
           </div>
@@ -319,35 +319,47 @@ const Home = () => {
             className="row justify-content-around align-items-center"
             id="cargo"
           >
-            <div className="col-xl-5 mil-mb-60">
-              <div className="mil-project-cover">
+            <div className="col-xl-5 mil-mb-60 bg-light p-3">
+              {/* <div className="mil-project-cover">
                 <Link to="/continuum">
                   <img src="assets/img/continum.png" alt="Project" />
                 </Link>
                 &nbsp;
-              </div>
+              </div> */}
               <h3 className="mt-3">
                 <span className="mil-accent">
                   <Link to="/continuum">Continumm</Link>
                 </span>
               </h3>
               <p>Tech Stack: React, Java, Springboot</p>
+              <div>
+                 <Link to='/continuum'><span className="mil-accent">View Case Study</span></Link> 
+                  <Link to="/continuum" class="mil-link3 link-right">
+                    <i class="fas fa-arrow-right"></i>
+                  </Link>
+                </div>
             </div>
 
-            <div className="col-xl-5 mil-mb-60">
-              <div className="mil-project-cover">
+            <div className="col-xl-5 mil-mb-60 bg-light p-3">
+              {/* <div className="mil-project-cover">
                 <Link to="/dmc">
                   {" "}
                   <img src="assets/img/dmc.png" alt="Project" />
                 </Link>
                 &nbsp;
-              </div>
+              </div> */}
               <h3 className="mt-3">
                 <span className="mil-accent">
                   <Link to="/dmc">DMC</Link>
                 </span>
               </h3>
               <p>Tech Stack: Salesfoce, FSL, LWC, Apex</p>
+              <div>
+                 <Link to='/dmc'><span className="mil-accent">View Case Study</span></Link> 
+                  <Link to="/dmc" class="mil-link3 link-right">
+                    <i class="fas fa-arrow-right"></i>
+                  </Link>
+                </div>
             </div>
           </div>
 
@@ -355,33 +367,45 @@ const Home = () => {
             className="row justify-content-around align-items-center"
             id="cargo"
           >
-            <div className="col-xl-5 mil-mb-60">
-              <div className="mil-project-cover">
+            <div className="col-xl-5 mil-mb-60 bg-light p-3">
+              {/* <div className="mil-project-cover">
                 <Link to="/cargosprint">
                   <img src="assets/img/cargo.png" alt="Project" />
                 </Link>
                 &nbsp;
-              </div>
+              </div> */}
               <h3 className="mt-3">
                 <span className="mil-accent">
                   <Link to="/cargosprint">Cargo Sprint</Link>
                 </span>
               </h3>
               <p>Tech Stack: Apex, Custom REST API, Financial Force, GCP</p>
+              <div>
+                 <Link to='/cargosprint'><span className="mil-accent">View Case Study</span></Link> 
+                  <Link to="/cargosprint" class="mil-link3 link-right">
+                    <i class="fas fa-arrow-right"></i>
+                  </Link>
+                </div>
             </div>
-            <div className="col-xl-5 mil-mb-60">
-              <div className="mil-project-cover">
+            <div className="col-xl-5 mil-mb-60 bg-light p-3">
+              {/* <div className="mil-project-cover">
                 <Link to="/nexum">
                   <img src="assets/img/nexum.png" alt="Project" />
                 </Link>
                 &nbsp;
-              </div>
+              </div> */}
               <h3 className="mt-3">
                 <span className="mil-accent">
                   <Link to="/nexum">Nexum</Link>
                 </span>
               </h3>
               <p>Tech Stack: React JS, Node JS , MySQL, AWS</p>
+              <div>
+                 <Link to='/nexum'><span className="mil-accent">View Case Study</span></Link> 
+                  <Link to="/nexum" class="mil-link3 link-right">
+                    <i class="fas fa-arrow-right"></i>
+                  </Link>
+                </div>
             </div>
           </div>
 
@@ -389,18 +413,24 @@ const Home = () => {
             className="row justify-content-around align-items-center"
             id="cargo"
           >
-            <div className="col-xl-5 mil-mb-60">
-              <div className="mil-project-cover">
+            <div className="col-xl-5 mil-mb-60 bg-light p-3">
+              {/* <div className="mil-project-cover">
                 <Link to="/abuDhabi">
                   <img src="assets/projects/10.jpg" alt="Project" />
                 </Link>
-              </div>
+              </div> */}
               <h3 className="mt-3">
                 <span className="mil-accent">
                   <Link to="/abuDhabi">Abu Dhabi University</Link>
                 </span>
               </h3>
               <p>Tech Stack: React JS, Node JS, Block-Chain</p>
+              <div>
+                 <Link to='/abuDhabi'><span className="mil-accent">View Case Study</span></Link> 
+                  <Link to="/abuDhabi" class="mil-link3 link-right">
+                    <i class="fas fa-arrow-right"></i>
+                  </Link>
+                </div>
             </div>
           </div>
 

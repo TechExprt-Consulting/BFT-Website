@@ -30,8 +30,9 @@ const Saas = () => {
                    Software as a Service
                     </h2>
                 </div>
-                <div className="col-md-4 text-center">
+                <div className="col-md-4  text-center ">
                     <img src="assets/mockup/saas.png" alt="mus" className="img-fluid" />
+                    {/* <img src="assets/casestudy/DMC.png" alt="mus" className='img-fluid shadow-lg  mb-5 bg-white rounded'/> */}
                 </div>
             </div>
         </div>

@@ -25,7 +25,7 @@ const Client = () => {
               src={`/assets/partner/${imageNumber}.png`}
               alt={`Logo ${imageNumber}`}
               className="logo-image"
-              style={{ opacity: index === 1 ? 1 : 1 }} // Set opacity to create fade effect
+              style={{ opacity: index === 1 ? 1 : 1 ,height:"80%", width:"85%"}} // Set opacity to create fade effect
             />
           </div>
         );

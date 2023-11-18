@@ -9,29 +9,32 @@ const Nexum = () => {
       <Navbar/>
 
       {/* <!-- banner --> */}
-      <div class="mil-banner-sm mil-deep-bg">
-        <img
-          src="assets/deco/map.png"
-          alt="background"
-          class="mil-background-image"
-        />
-        <div
-          class="mil-deco mil-deco-accent"
-          style={{ top: "47%", right: "10%", transform: "rotate(90deg)" }}
-        ></div>
-        <div class="mil-banner-content">
-          <div class="container mil-relative">
-            <Link to="/Case" class="mil-link link-left mil-mb-30">
+      <div className="mil-banner-sm bg-white shadow shadow-bottom shadow-md">
+        <div className="mil-banner-content position-relative">
+          <div className="container ">
+            <div className="d-flex flex-column-reverse flex-md-row col-md-6">
+              <div className="d-flex flex-column mt-3">
+              <Link to="/Case" class="mil-link link-left mil-mb-30">
               <i class="fas fa-arrow-left"></i>
               <span>All Cases</span>
             </Link>
-            <h2 class="mil-uppercase">Nexum Coffee</h2>
+
+                <h2 className="mil-uppercase" style={{ color: "#1B2F5B" }}>
+                Nexum
+                                </h2>
+              </div>
+            </div>
+            <div className="mil-fixed-button-container">
+              <button className="mil-vertical-button text-dark ">
+                <Link to="/contact">Get a Free Quote!</Link>
+              </button>
+            </div>{" "}
+            <img
+              src="assets/casestudy/nexum.png"
+              alt="mus"
+              className="col-md-5  pt-5  mil-banner-image"
+            />
           </div>
-        </div>
-        <div className="mil-fixed-button-container">
-          <button className="mil-vertical-button text-dark ">
-            Get a Free Quote!
-          </button>
         </div>
       </div>
       {/* <!-- banner end --> */}

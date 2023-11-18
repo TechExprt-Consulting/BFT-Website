@@ -84,12 +84,12 @@ const Salesforce = () => {
         </li>
       </ul>
       <div className="d-flex flex-column-reverse flex-md-row">
-        <div className="d-flex flex-column ">
+        <div className="d-flex flex-column col-md-8">
           <h2 className="mil-uppercase mt-2" style={{ color: "#1B2F5B" }}>
             Salesforce Services
           </h2>
 
-          <p className="conten col-md-10">
+          <p className="conten ">
             Are you ready to take your Salesforce experience to the next level?
             As a Salesforce AppExchange Partner, we provide the ultimate
             solution to elevate your business, streamline your processes, and
@@ -426,10 +426,7 @@ const Salesforce = () => {
               unified view of customer information and streamlines business
               operations. Salesforce integration is crucial for optimizing
               workflows, improving productivity, and enhancing the overall
-              efficiency of sales, marketing, and customer service processes. It
-              ensures that teams have access to accurate and up-to-date
-              information, leading to better decision-making and a more cohesive
-              customer experience.
+              efficiency of sales, marketing, and customer service processes.
             </Typography>
             {/* <h6 className="mt-4 mb-4 text-white font-weight-500">
               Services that can help you enhance your digital presence -

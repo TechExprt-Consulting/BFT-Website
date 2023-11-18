@@ -71,16 +71,16 @@ const MobileApp = () => {
         </li>
       </ul>
       <div className="d-flex flex-column-reverse flex-md-row">
-        <div className="d-flex flex-column  ">
+        <div className="d-flex flex-column col-md-8 ">
           <h2 className="mil-uppercase mt-2" style={{ color: "#1B2F5B" }}>
           Mobile App Developement
           </h2>
 
-          <p className="conten col-md-10">
+          <p className="conten">
           Are you searching for a trusted app development company that
                   can turn your groundbreaking app idea into a reality? Look no
                   further! At BytesFarms, we are a dedicated team of experts
-                  with a proven track record in delivering top-notch app
+                  with a proven track record in <br/>delivering top-notch app
                   development services. We believe that successful app
                   development goes beyond just writing code. It's about
                   understanding your vision, your target audience, and the

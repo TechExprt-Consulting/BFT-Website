@@ -75,15 +75,15 @@ const WebApp = () => {
         </li>
       </ul>
       <div className="d-flex flex-column-reverse flex-md-row">
-        <div className="d-flex flex-column ">
+        <div className="d-flex flex-column col-md-8">
           <h2 className="mil-uppercase mt-2" style={{ color: "#1B2F5B" }}>
           Web & App Developement
           </h2>
 
-          <p className="conten col-md-10">
+          <p className="conten">
           Across various sectors, companies are increasingly embracing tailored technological solutions to optimize their business processes and streamline their workflows. Technology has become the driving force behind these essential functions, from marketing and sales to overall operations.
           </p>
-          <p className="col-md-10">In the digital age, this paradigm shift is reshaping how businesses operate, making it essential to harness the power of customized tech solutions. As you explore our website and app service section, you'll discover how our offerings can empower your business in this digital era, providing the tools you need to thrive in a tech-driven world. The transition to a digital-first approach has become the prevailing trend, and the Software as a Service (SaaS) industry has rapidly risen to prominence in the contemporary landscape.</p>
+          <p className="">In the digital age, this paradigm shift is reshaping how businesses operate, making it essential to harness the power of customized tech solutions. As you explore our website and app service section, you'll discover how our offerings can empower your business in this digital era, providing the tools you need to thrive in a tech-driven world. The transition to a digital-first approach has become the prevailing trend, and the Software as a Service (SaaS) industry has rapidly risen to prominence in the contemporary landscape.</p>
 
           <div className="mil-quote-button ">
             <button className="mil-vertical-button text-dark ">
@@ -94,7 +94,7 @@ const WebApp = () => {
         <img
           src="assets/mockup/webdev.png"
           alt="mus"
-          className="col-md-4 mockup"
+          className="col-md-5 mockup"
         />
       </div>
     </div>

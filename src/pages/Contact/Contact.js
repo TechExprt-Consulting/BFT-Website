@@ -5,50 +5,45 @@ import { useState } from "react";
 import Navbar from "../components/Navbar";
 
 const Contact = () => {
-  
-
   const handleSubmit = (event) => {
     event.preventDefault();
   };
 
   return (
     <div className="mil-wrapper">
-      <Navbar/>
+      <Navbar />
       {/* <!-- banner --> */}
-      
-<div className="mil-banner-sm bg-white shadow shadow-bottom shadow-md">
-  <div className="mil-banner-content position-relative">
-    <div className="container ">
-      <div className="d-flex flex-column-reverse flex-md-row col-md-6">
-        <div className="d-flex flex-column mt-3">
-          <ul className="mil-breadcrumbs mil-mb-30">
-            <li>
-              <Link to="/Home">Home</Link>
-            </li>
-            <li>
-              <Link to="">Contact Us</Link>
-            </li>
-          </ul>
-
-          <h2 className="mil-uppercase" style={{ color: "#1B2F5B" }}>
-            Let's discuss your opportunity
-          </h2>
+      <div className="mil-banner-sm mil-deep-bg">
+        <img
+          src="assets/deco/map.png"
+          alt="background"
+          className="mil-background-image"
+        />
+        <div
+          className="mil-deco mil-deco-accent"
+          style={{ top: "47%", right: "10%", transform: "rotate(90deg)" }}
+        ></div>
+        <div className="mil-banner-content">
+          <div className="container mil-relative">
+            <ul className="mil-breadcrumbs mil-mb-30">
+              <li>
+                <Link to="/Home">Home</Link>
+              </li>
+              <li>
+                <Link to="/About">Contact Us</Link>
+              </li>
+            </ul>
+            <h2 className="mil-uppercase"> Let's discuss your opportunity</h2>
+          </div>
+          <div className="mil-fixed-button-container">
+            <button className="mil-vertical-button text-dark ">
+              Get a Free Quote!
+            </button>
+          </div>
         </div>
-
       </div>
-    
 
-  <div className="mil-fixed-button-container">
-    <button className="mil-vertical-button text-dark ">
-      <Link to='/contact'>Get a Free Quote!</Link>
-    </button>
-  </div>        <img src="assets/mockup/contact.png" alt="mus" className="col-md-5  pt-5  mil-banner-image"  />
-
-  </div>
-  </div>
-</div>
-
-{/* <div className="mil-banner-sm bg-white shadow shadow-bottom shadow-md">
+      {/* <div className="mil-banner-sm bg-white shadow shadow-bottom shadow-md">
   <div className="mil-banner-content position-relative">
     <div className="container">
       <div className="d-flex flex-column-reverse flex-md-row">
@@ -83,7 +78,6 @@ const Contact = () => {
   </div>
 </div> */}
 
-
       {/* <!-- banner end --> */}
 
       {/* <!-- contact --> */}
@@ -104,9 +98,9 @@ const Contact = () => {
                 <div className="row">
                   <div className="col-lg-6">
                     <div className="mil-input-frame mil-dark-input mil-mb-30">
-                      <label className="mil-h6 mil-dark">
+                      {/* <label className="mil-h6 mil-dark">
                         <span>First Name</span>
-                      </label>
+                      </label> */}
                       <input
                         type="text"
                         name="first_name"
@@ -117,9 +111,9 @@ const Contact = () => {
                   </div>
                   <div className="col-lg-6">
                     <div className="mil-input-frame mil-dark-input mil-mb-30">
-                      <label className="mil-h6">
+                      {/* <label className="mil-h6">
                         <span>Last Name</span>
-                      </label>
+                      </label> */}
                       <input
                         type="text"
                         name="last_name"
@@ -130,9 +124,9 @@ const Contact = () => {
                   </div>
                   <div className="col-lg-6">
                     <div className="mil-input-frame mil-dark-input mil-mb-30">
-                      <label className="mil-h6">
+                      {/* <label className="mil-h6">
                         <span>Email Address</span>
-                      </label>
+                      </label> */}
                       <input
                         type="email"
                         name="email"
@@ -143,9 +137,9 @@ const Contact = () => {
                   </div>
                   <div className="col-lg-6">
                     <div className="mil-input-frame mil-dark-input mil-mb-30">
-                      <label className="mil-h6">
+                      {/* <label className="mil-h6">
                         <span>Phone</span>
-                      </label>
+                      </label> */}
                       <input
                         type="tel"
                         name="phone"
@@ -155,9 +149,9 @@ const Contact = () => {
                   </div>
                   <div className="col-lg-6">
                     <div className="mil-input-frame mil-dark-input mil-mb-30">
-                      <label className="mil-h6 mil-dark">
+                      {/* <label className="mil-h6 mil-dark">
                         <span>Company</span>
-                      </label>
+                      </label> */}
                       <input
                         type="text"
                         name="company"
@@ -167,9 +161,9 @@ const Contact = () => {
                   </div>
                   <div className="col-lg-6 mil-mb-30">
                     <div className="mil-input-frame mil-dark-input mil-mb-30">
-                      <label className="mil-h6 mil-dark">
+                      {/* <label className="mil-h6 mil-dark">
                         <span>Role</span>
-                      </label>
+                      </label> */}
                       <input type="text" name="role" placeholder="Your role" />
                     </div>
                   </div>
@@ -183,9 +177,9 @@ const Contact = () => {
                 <div className="row">
                   <div className="col-lg-6 mil-mb-30">
                     <div className="mil-input-frame mil-dark-input mil-mb-30">
-                      <label className="mil-h6 mil-dark">
+                      {/* <label className="mil-h6 mil-dark">
                         <span>Project Category</span>
-                      </label>
+                      </label> */}
                       <input
                         type="text"
                         name="category"
@@ -203,11 +197,11 @@ const Contact = () => {
                 <div className="row">
                   <div className="col-lg-12">
                     <div className="mil-input-frame mil-dark-input mil-mb-30">
-                      <label className="mil-h6">
+                      {/* <label className="mil-h6">
                         <span>Project Description</span>
-                      </label>
+                      </label> */}
                       <textarea
-                      type ="text"
+                        type="text"
                         placeholder="Your Message"
                         name="message"
                         className="mil-shortened"
@@ -215,13 +209,12 @@ const Contact = () => {
                     </div>
                   </div>
 
-                  
                   <div className="col-lg-6 mil-mb-30">
                     <div className="mil-input-frame mil-dark-input mil-mb-30">
-                      <label className="mil-h6 mil-dark">
+                      {/* <label className="mil-h6 mil-dark">
                         <span>Project Budget</span>
-                      </label>
-                      <input type="number" name="budget" placeholder="123" />
+                      </label> */}
+                      <input type="number" name="budget" placeholder="Budget" />
                     </div>
                   </div>
 

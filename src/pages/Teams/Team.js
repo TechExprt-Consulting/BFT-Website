@@ -203,8 +203,8 @@ const Team = () => {
               where innovation meets excellence.
               <br />{" "}
             </p>
-            <Link to="/Contact" className="mil-button mil-border mil-light">
-              <span>Book an Appointment</span>
+            <Link to="/Contact" className="mil-button mil-border mil-light mb-3">
+              <span >Book an Appointment</span>
             </Link>
           </div>
         </div>

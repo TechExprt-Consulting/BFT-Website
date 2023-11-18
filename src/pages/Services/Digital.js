@@ -30,12 +30,12 @@ const Digital = () => {
         </li>
       </ul>
       <div className="d-flex flex-column-reverse flex-md-row">
-        <div className="d-flex flex-column ">
+        <div className="d-flex flex-column col-md-8">
           <h2 className="mil-uppercase mt-2" style={{ color: "#1B2F5B" }}>
           Digital Marketing
           </h2>
 
-          <p className="conten col-md-10">
+          <p className="conten ">
           When developing your digital marketing strategies, we dedicate
                   hours to understand your business, market and industry so we
                   can build a plan that aligns with your business objective and

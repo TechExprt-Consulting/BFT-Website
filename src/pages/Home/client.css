@@ -73,7 +73,7 @@
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center;
+            justify-content: space-around;
     margin-bottom: 30px;
     /* -webkit-filter: grayscale(100%); */
             /* filter: grayscale(100%); */
@@ -111,8 +111,10 @@
     position: absolute;
     top: 0;
     left: calc(50% - 15px);
-    -webkit-transform: scale(0);
-            transform: scale(0);
+    display: flex;
+    justify-content: center;
+    /* -webkit-transform: scale(0);
+            transform: scale(0); */
     border-radius: 50%;
     background-color: rgb(245, 124, 0);
     width: 30px;
@@ -122,11 +124,8 @@
   }
   .mil-partners-frame img {
     /* filter: blur(0.5px);  */
-    transition: filter 0.3s ease-in-out;
+    /* transition: filter 0.3s ease-in-out; */
   }
   
-  .mil-partners-frame img:hover {
-    /* filter: blur(0);  */
-    transform: scale(1.3);
-  }
+ 
   

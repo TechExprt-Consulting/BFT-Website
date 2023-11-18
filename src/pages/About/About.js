@@ -29,7 +29,7 @@ const About = () => {
                 <Link to="/About">About us</Link>
               </li>
             </ul>
-            <h2 className="mil-uppercase">Enterprise</h2>
+            <h2 className="mil-uppercase">About us</h2>
           </div>
           <div className="mil-fixed-button-container">
             <button className="mil-vertical-button text-dark ">
@@ -201,7 +201,7 @@ const About = () => {
       {/* <!-- features --> */}
 
 
-      <section className="mt-4">
+      <section className="mt-5">
       {/* <div
         className="mil-deco"
         style={{ bottom: "0", right: "35%", transform: "rotate(180deg)" }}

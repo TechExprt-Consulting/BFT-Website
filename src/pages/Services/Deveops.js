@@ -26,12 +26,12 @@ const Deveops = () => {
         </li>
       </ul>
       <div className="d-flex flex-column-reverse flex-md-row">
-        <div className="d-flex flex-column ">
+        <div className="d-flex flex-column col-md-8">
           <h2 className="mil-uppercase mt-2" style={{ color: "#1B2F5B" }}>
           DevOps Consulting
           </h2>
 
-          <p className="conten col-md-10">
+          <p className="conten ">
           Are you ready to supercharge your business operations and
                   boost your development processes? Look no further than our
                   top-tier DevOps consulting services. At BytesFarms, we

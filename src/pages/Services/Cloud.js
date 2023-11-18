@@ -27,12 +27,12 @@ const Cloud = () => {
         </li>
       </ul>
       <div className="d-flex flex-column-reverse flex-md-row">
-        <div className="d-flex flex-column ">
+        <div className="d-flex flex-column col-md-8">
           <h2 className="mil-uppercase mt-2" style={{ color: "#1B2F5B" }}>
           Cloud Migration
           </h2>
 
-          <p className="conten col-md-10">
+          <p className="conten ">
           Are you ready to elevate your business operations to the next
                   level? Embracing the power of the cloud can be a
                   transformative journey, and our dedicated Cloud Migration

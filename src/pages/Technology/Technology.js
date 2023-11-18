@@ -22,37 +22,35 @@ const Technology = () => {
       <Navbar/>
       {/* <!-- banner --> */}
       
-<div className="mil-banner-sm bg-white shadow shadow-bottom shadow-md pb-5">
-  <div className="mil-banner-content position-relative">
-    <div className="container ">
-      <div className="d-flex flex-column-reverse flex-md-row col-md-6">
-        <div className="d-flex flex-column mt-3">
-          <ul className="mil-breadcrumbs mil-mb-30 ">
-            <li>
-              <Link to="/Home">Home</Link>
-            </li>
-            <li>
-              <Link to="">Technologies</Link>
-            </li>
-          </ul>
-
-          <h2 className="mil-uppercase" style={{ color: "#1B2F5B" }}>
-            Technologies
-          </h2>
+      <div className="mil-banner-sm mil-deep-bg">
+        <img
+          src="assets/deco/map.png"
+          alt="background"
+          className="mil-background-image"
+        />
+        <div
+          className="mil-deco mil-deco-accent"
+          style={{ top: "47%", right: "10%", transform: "rotate(90deg)" }}
+        ></div>
+        <div className="mil-banner-content">
+          <div className="container mil-relative">
+            <ul className="mil-breadcrumbs mil-mb-30">
+              <li>
+                <Link to="/Home">Home</Link>
+              </li>
+              <li>
+                <Link to="/About">Technologies</Link>
+              </li>
+            </ul>
+            <h2 className="mil-uppercase">Technologies</h2>
+          </div>
+          <div className="mil-fixed-button-container">
+            <button className="mil-vertical-button text-dark ">
+              Get a Free Quote!
+            </button>
+          </div>
         </div>
-
       </div>
-    
-
-  <div className="mil-fixed-button-container">
-    <button className="mil-vertical-button text-dark ">
-      <Link to='/contact'>Get a Free Quote!</Link>
-    </button>
-  </div>        <img src="assets/mockup/technology.png" alt="mus" className="col-md-5  w-26   mil-banner-image" style={{paddingTop:"50px",height:"413px"}} />
-
-  </div>
-  </div>
-</div>
       {/* <!-- banner end --> */}
       {/* <div className="mil-p-90-60 logo-carousel container  mil-partners-frame">
       {[...Array(3)].map((_, index) => {
@@ -477,6 +475,7 @@ const Technology = () => {
                   <p>
                    I can create user-friendly and interactive web and mobile app prototypes in Figma, ensuring seamless user experiences and smooth design collaboration.
                   </p>
+                  <br/>
                 </div>
               </div>
               <div class="mil-divider mil-divider-left"></div>

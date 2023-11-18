@@ -32,7 +32,6 @@ import CargoSprint from "./pages/CaseStudy/Cargosprnt";
 import AbuDhabi from "./pages/CaseStudy/Abudhbi";
 import ScrollToTop from './pages/components/ScrollToTop';
 import Consultant from './pages/components/Consultant';
-import Partner from './pages/components/Partner';
 import Testimonial from './pages/components/Testimonial';
 import Client from './pages/Home/Client';
 import ItService from './pages/Home/ItService';
@@ -80,7 +79,6 @@ function App() {
           <Route path='/itservices' element={<ItService/>}/>
           <Route path='/client' element={<Client/>}/>
           <Route path='/test' element={<Testimonial/>}/>
-          <Route path='/partner' element={<Partner/>}/>
           <Route path='/cons' element={<Consultant/>}/>
           <Route path="/Navbar" element={<Navbar />} />
           <Route path="/" element={<Home />} />
