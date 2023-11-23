@@ -184,6 +184,9 @@ const Blog = () => {
                       leading Customer Relationship Management (CRM) platforms
                       in the world […]
                     </p>
+                    <Link to="" class="mil-link2 link-right mil-mb-30">
+                    <i class="fas fa-arrow-right"></i>
+                  </Link>
                   </div>
 
                   <div className="col-md-12 col-lg-6 col-xl-6 mil-mb-60" >
@@ -212,7 +215,10 @@ const Blog = () => {
                     <p>
                       In the ever-evolving landscape of web design, Mobile-First
                       Designs have emerged as a pivotal approach […]
-                    </p>
+                    </p><br/><br/>
+                    <Link to="" class="mil-link2 link-right mil-mb-30">
+                    <i class="fas fa-arrow-right"></i>
+                  </Link>
                   </div>
                 </div>
               </Link>
@@ -243,6 +249,9 @@ const Blog = () => {
                       the internet through various devices, ranging from
                       smartphones and tablets to laptops and desktops. […]
                     </p>
+                    <Link to="" class="mil-link2 link-right mil-mb-30">
+                    <i class="fas fa-arrow-right"></i>
+                  </Link>
                   </div>
 
                   <div className="col-md-12 col-lg-6 col-xl-6 mil-mb-60" >
@@ -272,8 +281,11 @@ const Blog = () => {
                     In today’s fast-paced business world, effective
                       communication and collaboration play a crucial role in an
                       organization’s success. As businesses strive to stay
-                      competitive and adapt to changing market dynamics […]
+                      competitive and adapt to changing […]
                     </p>
+                    <Link to="" class="mil-link2 link-right mil-mb-30">
+                    <i class="fas fa-arrow-right"></i>
+                  </Link>
                   </div>
                 </div>
               </Link>
@@ -303,7 +315,9 @@ const Blog = () => {
                     If you’re in the business world, you’ve probably heard of
                       Salesforce. It’s like the Swiss Army knife of customer
                       relationship management (CRM) software[…]
-                    </p>
+                    </p><Link to="" class="mil-link2 link-right mil-mb-30">
+                    <i class="fas fa-arrow-right"></i>
+                  </Link>
                   </div>
 
                   <div className="col-md-12 col-lg-6 col-xl-6 mil-mb-60" >
@@ -332,9 +346,11 @@ const Blog = () => {
                     <p>
                     Build and Deploy Applications Using Cloud Platforms The
                       advent of cloud computing has revolutionized the way we
-                      build and deploy applications. Cloud platforms provide
-                      scalable, cost-effective, […]
+                      build and deploy[…]
                     </p>
+                    <Link to="" class="mil-link2 link-right mil-mb-30">
+                    <i class="fas fa-arrow-right"></i>
+                  </Link>
                   </div>
                 </div>
               </Link>

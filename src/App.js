@@ -8,6 +8,7 @@ import Team from "./pages/Teams/Team";
 import Careers from "./pages/Career/Careers";
 import Contact from "./pages/Contact/Contact";
 import Blog from "./pages/Blog/Blog";
+import Blog1 from './pages/Blog/Blog1';
 import "bootstrap/dist/css/bootstrap.css";
 import About from "./pages/About/About";
 import Faq from "./pages/FAQ/Faq";
@@ -91,8 +92,11 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/team" element={<Team />} />
           <Route path="/career" element={<Careers />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/contact" element={<Contact />} />\
+
           <Route path="/blog" element={<Blog />} />
+          <Route path='/blog1' element={<Blog1/>}/>
+
           <Route path="/faq" element={<Faq />} />
           <Route path="/salesforce" element={<Salesforce />} />
           <Route path="/digital" element={<Digital />} />

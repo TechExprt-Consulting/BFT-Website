@@ -3,8 +3,99 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+const Submenu = () => (
+  <div className="submenu dropdown-menu bg-white">
+    <li>
+      <Link to="/saas">SAAS Developement</Link>
+    </li>
+    <li>
+      <Link to="/softwareDevelopement">Custom Software Developement</Link>
+    </li>
+    <li>
+      <Link to="/api">API Developement</Link>
+    </li>
+    <li>
+      <Link to="/adminPanel">Custom Admin Panel</Link>
+    </li>
+  </div>
+);
+const Submenu2 = () => (
+  <ul className="submenu dropdown-menu bg-white">
+    <li>
+      <Link to="/salesforceConsulting">Salesforce Consulting Services</Link>
+    </li>
+    <li>
+      <Link to="/salesforceCustomization">Salesforce Customization</Link>
+    </li>
+    <li>
+      <Link to="/salesforceImplementation">Salesforce Implementation</Link>
+    </li>
+    <li>
+      <Link to="/salesforceIntegration">Salesforce Integration</Link>
+    </li>
+    <li>
+      <Link to="/salesforceAppExchange">Salesforce App Exchange</Link>
+    </li>
+    <li>
+      <Link to="/salesforceMigration">Salesforce Migration</Link>
+    </li>
+    <li>
+      <Link to="/salesforceItSupport">Salesforce IT Support</Link>
+    </li>
+  </ul>
+);
+const Submenu3 = () => (
+  <ul className="submenu dropdown-menu bg-white">
+    <li>
+      <Link to="/seo">Search Engine Optimization</Link>
+    </li>
+    <li>
+      <Link to="/socialMedia">Social Media Marketing</Link>
+    </li>
+    <li>
+      <Link to="/ppc">Pay Per Click</Link>
+    </li>
+    <li>
+      <Link to="/contentMarketing">Content Marketing</Link>
+    </li>
+  </ul>
+);
 const Navbar = () => {
-  const [showPopup, setShowPopup] = useState(false);
+  const [isProductMenuOpen, setProductMenuOpen] = useState(false);
+  const [isProduct1SubMenuOpen, setProduct1SubMenuOpen] = useState(false);
+  const [isProduct2SubMenuOpen, setProduct2SubMenuOpen] = useState(false);
+
+  const [isProduct3SubMenuOpen, setProduct3SubMenuOpen] = useState(false);
+
+  const handleProductMenuHover = () => {
+    setProductMenuOpen(true);
+  };
+
+  const handleProductMenuLeave = () => {
+    setProductMenuOpen(false);
+  };
+  const handleProduct1SubMenuHover = () => {
+    setProduct1SubMenuOpen(true);
+  };
+
+  const handleProduct1SubMenuLeave = () => {
+    setProduct1SubMenuOpen(false);
+  };
+  const handleProduct2SubMenuHover = () => {
+    setProduct2SubMenuOpen(true);
+  };
+
+  const handleProduct2SubMenuLeave = () => {
+    setProduct2SubMenuOpen(false);
+  };
+  
+  const handleProduct3SubMenuHover = () => {
+    setProduct3SubMenuOpen(true);
+  };
+
+  const handleProduct3SubMenuLeave = () => {
+    setProduct3SubMenuOpen(false);
+  };
   return (
     <>
       <div className="mil-top-position mil-fixed ">
@@ -18,11 +109,11 @@ const Navbar = () => {
             <div className="mil-navigation">
               <nav>
                 <ul>
-                  <li>
+                  <li className="nav-item">
                     <Link to="/home">Home</Link>
                   </li>
-
-                  <li className="mil-has-children">
+                  
+                  <li className="mil-has-children nav-item">
                     <Link to="/">Enterprise</Link>
                     <ul>
                       <li>
@@ -36,7 +127,7 @@ const Navbar = () => {
                       </li>
                     </ul>
                   </li>
-                  <li className="mil-has-children">
+                  <li className="mil-has-children nav-item">
                     <Link to="/case">Case Studies</Link>
                     <ul>
                       <li>
@@ -56,141 +147,65 @@ const Navbar = () => {
                       </li>
                     </ul>
                   </li>
-                  <li>
-                    <Link to="/tech">Technologies</Link>
-                  </li>
-                  <li className="mil-has-children">
-                    <Link to="/">Services</Link>
-                    <ul>
-                      <li className="mil-has-children2">
-                      <Link to="/webApp">Web Developement</Link>
-                      <ul >
-                              <li>
-                                <Link to="/saas">
-                                  SAAS Developement
-                                </Link>
-                              </li>
-                              <li>
-                                <Link to="/softwareDevelopement">
-                                  Custom Software Developement
-                                </Link>
-                              </li>
-                              <li>
-                                <Link to="/api">API Developement</Link>
-                              </li>
-                              <li>
-                                <Link to="/adminPanel">
-                                  Custom Admin Panel
-                                </Link>
-                              </li>
-                             
-                            </ul>
-                      </li>
-                    
-                      <li className="mil-has-children2" >
-                        <Link to="/salesforce">Salesforce Services</Link>
-                        <ul >
-                              <li>
-                                <Link to="/salesforceConsulting">
-                                  Salesforce Consulting Services
-                                </Link>
-                              </li>
-                              <li>
-                                <Link to="/salesforceCustomization">
-                                  Salesforce Customization
-                                </Link>
-                              </li>
-                              <li>
-                                <Link to="/salesforceImplementation">Salesforce Implementation</Link>
-                              </li>
-                              <li>
-                                <Link to="/salesforceIntegration">
-                                  Salesforce Integration
-                                </Link>
-                              </li>
-                              <li>
-                                <Link to="/salesforceAppExchange">
-                                  Salesforce App Exchange
-                                </Link>
-                              </li>
-                              <li>
-                                <Link to="/salesforceMigration">
-                                  Salesforce Migration
-                                </Link>
-                              </li>
-                              <li>
-                                <Link to="/salesforceItSupport">
-                                  Salesforce IT Support
-                                </Link>
-                              </li>
-                            </ul>
-                      </li>
-                      <li>
-                        <Link to="/deveops">Devops Consulting</Link>
+                  
+                  <li
+                    className="nav-item dropdown mil-has-child"
+                    onMouseEnter={handleProductMenuHover}
+                    onMouseLeave={handleProductMenuLeave}
+                  >
+                   <Link to=''>Services</Link>
+                    <div className="dropdown-menu bg-white ">
+                      
+                     
+                      <li
+                        className="dropdown-submenu"
+                        onMouseEnter={handleProduct1SubMenuHover}
+                        onMouseLeave={handleProduct1SubMenuLeave}
+                      >
+                        <Link to="/webApp">Web Developement &raquo;</Link>
+                        {isProduct1SubMenuOpen && <Submenu />}
                       </li>
                       <li
-                        className="mil-has-children2"
-                        
+                        className="dropdown-submenu"
+                        onMouseEnter={handleProduct2SubMenuHover}
+                        onMouseLeave={handleProduct2SubMenuLeave}
                       >
-                        <Link to="/digital">Digital Marketing</Link>
-                        {/* {showPopup && ( */}
-                          
-                            <ul >
-                              <li>
-                                <Link to="/seo">
-                                  Search Engine Optimization
-                                </Link>
-                              </li>
-                              <li>
-                                <Link to="/socialMedia">
-                                  Social Media Marketing
-                                </Link>
-                              </li>
-                              <li>
-                                <Link to="/ppc">Pay Per Click</Link>
-                              </li>
-                              <li>
-                                <Link to="/contentMarketing">
-                                  Content Marketing
-                                </Link>
-                              </li>
-                              {/* <li>
-                                <Link to="/marketResearch">
-                                  Market Research
-                                </Link>
-                              </li>
-                              <li>
-                                <Link to="/contentWriting">
-                                  Content Writing and copywriting
-                                </Link>
-                              </li> */}
-                            </ul>
-                          
-                         {/* )}  */}
+                        <Link to="/salesforce">Salesforce Services &raquo;</Link>
+                        {isProduct2SubMenuOpen && <Submenu2 />}
                       </li>
-
-                     
-                      <li>
-                        <Link to="/cloud">Cloud Migration</Link>
-                      </li>
-                    
-                     
-                      <li >
-                        <Link to="/mobileApp">Mobile App Developement</Link>
+                      <li
+                        className="dropdown-submenu"
+                        onMouseEnter={handleProduct3SubMenuHover}
+                        onMouseLeave={handleProduct3SubMenuLeave}
+                      >
+                        <Link to="/digital">Digital Marketing &raquo;</Link>
+                        {isProduct3SubMenuOpen && <Submenu3 />}
                       </li>
                       <li>
-                        <Link to="/blockChain">Blockchain Developement</Link>
+                      <Link to="/deveops">Devops Consulting</Link>
                       </li>
-                    </ul>
+                      <li>
+                      <Link to="/cloud">Cloud Migration</Link>
+                      </li>
+                      <li>
+                      <Link to="/mobileApp">Mobile App Developement</Link>
+                      </li>
+                      <li>
+                      <Link to="/blockChain">Blockchain Developement</Link>
+                      </li>
+                    </div>
                   </li>
                   {/* <li>
                     <Link to="/Faq">FAQ</Link>
                   </li> */}
-
-                  <li>
+<li className="nav-item">
+                    <Link to="/tech">Technologies</Link>
+                  </li>
+                  <li className="nav-item">
                     <Link to="/blog">Blog</Link>
                   </li>
-                  <li>
+                 
+                  <li className="nav-item">
                     <Link to="/contact">Contact Us</Link>
                   </li>
                 </ul>

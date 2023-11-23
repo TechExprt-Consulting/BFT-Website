@@ -18,9 +18,10 @@ const Home = () => {
     "BLOCKCHAIN",
     // "ARTIFICIAL INTELLIGENCE",
     "DIGITAL MARKETING",
-    "BRANDING SOLUTIONS",
+    
     "WEB DEVELOPEMENT",
     "APP DEVELOPEMENT",
+    "SALESFORCE"
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -78,7 +79,7 @@ const Home = () => {
                   <div class="mil-item mil-item-2">
                     <div class="mil-plus">
                       <div class="mil-item-hover">
-                        <div class="mil-plus-icon">Let's Talk</div>
+                        <div class="mil-plus-icon"><Link to='/contact'>Let's Talk</Link></div>
                       </div>
                     </div>
                   </div>
@@ -174,7 +175,7 @@ const Home = () => {
                 </div>
                 <div className="mil-service-text">
                   <h5 className="mil-mb-30">
-                    <span className="mil-accent">01</span> Salesforce
+                     Salesforce
                     Developement
                   </h5>
                   <p className="conten">
@@ -196,7 +197,7 @@ const Home = () => {
                 </div>
                 <div className="mil-service-text">
                   <h5 className="mil-mb-30">
-                    <span className="mil-accent">02</span> DevOps
+                     DevOps
                   </h5>
                   <p className="conten">
                     DevOps practices combine development and IT operations,
@@ -217,7 +218,7 @@ const Home = () => {
                 </div>
                 <div className="mil-service-text">
                   <h5 className="mil-mb-30">
-                    <span className="mil-accent">03</span> Cloud Migration
+                   Cloud Migration
                   </h5>
                   <p className="conten">
                     Cloud Migration involves transferring data, applications,
@@ -242,7 +243,7 @@ const Home = () => {
                 </div>
                 <div className="mil-service-text">
                   <h5 className="mil-mb-30">
-                    <span className="mil-accent">04</span> Blockchain Consulting
+                     Blockchain Consulting
                   </h5>
                   <p className="conten">
                     Blockchain technology ensures secure, transparent, and
@@ -264,7 +265,7 @@ const Home = () => {
                 </div>
                 <div className="mil-service-text">
                   <h5 className="mil-mb-30">
-                    <span className="mil-accent">05</span> Digital Marketing
+                   Digital Marketing
                   </h5>
                   <p className="conten">
                     Digital marketing is a multifaceted approach aimed at
@@ -286,7 +287,7 @@ const Home = () => {
                 </div>
                 <div className="mil-service-text">
                   <h5 className="mil-mb-30">
-                    <span className="mil-accent">06</span> Mobile App
+                   Mobile App
                     Developement
                   </h5>
                   <p className="conten">

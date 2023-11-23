@@ -2439,8 +2439,8 @@ illustration
           transform: translateY(-10px) scale(0.98);
   bottom: 75px;
   left: -105px;
-  -webkit-box-shadow: 0px 0px 40px 0px rgba(18, 24, 32, 0.1);
-          box-shadow: 0px 0px 40px 0px rgba(18, 24, 32, 0.1);
+  /* -webkit-box-shadow: 0px 0px 40px 0px rgba(18, 24, 32, 0.1);
+          box-shadow: 0px 0px 40px 0px rgba(18, 24, 32, 0.1); */
   /* background-color: rgb(255, 255, 255); */
   /* background-color: black; */
   border-radius: 5px;
@@ -2525,14 +2525,21 @@ illustration
 }
 .mil-illustration-1 .mil-item .mil-plus .mil-item-hover .mil-plus-icon {
   background-color: rgb(245, 124, 0);
-  -webkit-animation: puls 1s linear infinite;
-          animation: puls 1s linear infinite;
+  -webkit-animation: puls 2s linear infinite;
+          animation: puls 2s linear infinite;
 }
 
 @-webkit-keyframes puls {
   0% {
-    -webkit-box-shadow: 0 0 0 0 rgb(94, 91, 91);
-            box-shadow: 0 0 0 0 rgb(94, 91, 91);
+    /* -webkit-box-shadow: 0 0 0 0 rgb(94, 91, 91);
+            box-shadow: 0 0 0 0 rgb(94, 91, 91); */
+            -webkit-background-color: #f0a150;
+            background-color: #f0a150;
+  } 
+  50%{
+    
+    -webkit-background-color: #f94609;
+            background-color: #f94609;
   }
   100% {
     -webkit-box-shadow: 0 0 0 100px transparent;
@@ -2542,8 +2549,10 @@ illustration
 
 @keyframes puls {
   0% {
-    -webkit-box-shadow: 0 0 0 0 rgb(94, 91, 91);
-            box-shadow: 0 0 0 0 rgb(94, 91, 91);
+    /* -webkit-box-shadow: 0 0 0 0 rgb(94, 91, 91);
+            box-shadow: 0 0 0 0 rgb(94, 91, 91); */
+            -webkit-background-color: #f0a150;
+            background-color: #f0a150;
   }
   100% {
     -webkit-box-shadow: 0 0 0 100px transparent;
@@ -5981,6 +5990,71 @@ textarea[type="text"]::placeholder {
 }
 
 
+.navbar {
+  background-color: white;
+  padding: 10px;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  display: block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.dropdown-menu li {
+  margin: 5px 0;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+}
+
+.nav-item:hover .dropdown-menu,
+.dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
+/* Add this style for the dropdown-submenu */
+.dropdown-submenu {
+  position: relative;
+}
+
+/* Modify the position of the submenu */
+.dropdown-submenu ul {
+  margin-left: -100%; /* Adjust this value as needed */
+  top: 0;
+  display: none;
+  position: absolute;
+}
+
+/* Show the submenu when the parent is hovered */
+.dropdown-submenu:hover ul {
+  display: block;
+}
 
 
 
