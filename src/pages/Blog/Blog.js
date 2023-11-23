@@ -163,7 +163,7 @@ const Blog = () => {
                 <div className="row justify-content-around " id="cargo">
                   <div className="col-md-12 col-lg-6 col-xl-6 mil-mb-60 " >
                     <div className="mil-project-cover">
-                      <Link to="">
+                      <Link to="/blog1">
                         <img src="assets/blog/1.jpg" alt="Project" className="image-fluid"/>
                       </Link>
                       &nbsp;
@@ -184,14 +184,14 @@ const Blog = () => {
                       leading Customer Relationship Management (CRM) platforms
                       in the world […]
                     </p>
-                    <Link to="" class="mil-link2 link-right mil-mb-30">
+                    <Link to="/blog1" class="mil-link2 link-right mil-mb-30">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                   </div>
 
                   <div className="col-md-12 col-lg-6 col-xl-6 mil-mb-60" >
                     <div className="mil-project-cover">
-                      <Link to="">
+                      <Link to="/blog2">
                         {" "}
                         <img
                           src="assets/blog/2.jpg"
@@ -216,7 +216,7 @@ const Blog = () => {
                       In the ever-evolving landscape of web design, Mobile-First
                       Designs have emerged as a pivotal approach […]
                     </p><br/><br/>
-                    <Link to="" class="mil-link2 link-right mil-mb-30">
+                    <Link to="/blog2" class="mil-link2 link-right mil-mb-30">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                   </div>
@@ -227,7 +227,7 @@ const Blog = () => {
               <div className="row justify-content-around " id="cargo">
                   <div className="col-md-12 col-lg-6 col-xl-6 mil-mb-60 " >
                     <div className="mil-project-cover">
-                      <Link to="">
+                      <Link to="/blog3">
                         <img src="assets/blog/7.jpg" alt="Project" className="image-fluid"/>
                       </Link>
                       &nbsp;
@@ -249,14 +249,14 @@ const Blog = () => {
                       the internet through various devices, ranging from
                       smartphones and tablets to laptops and desktops. […]
                     </p>
-                    <Link to="" class="mil-link2 link-right mil-mb-30">
+                    <Link to="/blog3" class="mil-link2 link-right mil-mb-30">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                   </div>
 
                   <div className="col-md-12 col-lg-6 col-xl-6 mil-mb-60" >
                     <div className="mil-project-cover">
-                      <Link to="">
+                      <Link to="/blog4">
                         {" "}
                         <img
                           src="assets/blog/8.jpg"
@@ -283,7 +283,7 @@ const Blog = () => {
                       organization’s success. As businesses strive to stay
                       competitive and adapt to changing […]
                     </p>
-                    <Link to="" class="mil-link2 link-right mil-mb-30">
+                    <Link to="/blog4" class="mil-link2 link-right mil-mb-30">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                   </div>
@@ -294,7 +294,7 @@ const Blog = () => {
               <div className="row justify-content-around " id="cargo">
                   <div className="col-md-12 col-lg-6 col-xl-6 mil-mb-60 " >
                     <div className="mil-project-cover">
-                      <Link to="">
+                      <Link to="/blog5">
                         <img src="assets/blog/10.jpg" alt="Project" className="image-fluid"/>
                       </Link>
                       &nbsp;
@@ -315,14 +315,14 @@ const Blog = () => {
                     If you’re in the business world, you’ve probably heard of
                       Salesforce. It’s like the Swiss Army knife of customer
                       relationship management (CRM) software[…]
-                    </p><Link to="" class="mil-link2 link-right mil-mb-30">
+                    </p><Link to="/blog5" class="mil-link2 link-right mil-mb-30">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                   </div>
 
                   <div className="col-md-12 col-lg-6 col-xl-6 mil-mb-60" >
                     <div className="mil-project-cover">
-                      <Link to="">
+                      <Link to="/blog6">
                         {" "}
                         <img
                           src="assets/blog/9.jpg"
@@ -348,7 +348,7 @@ const Blog = () => {
                       advent of cloud computing has revolutionized the way we
                       build and deploy[…]
                     </p>
-                    <Link to="" class="mil-link2 link-right mil-mb-30">
+                    <Link to="/blog6" class="mil-link2 link-right mil-mb-30">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                   </div>

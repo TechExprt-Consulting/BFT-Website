@@ -51,6 +51,11 @@ import Admin from './pages/Services/Admin';
 import SD from './pages/Services/SD';
 import Managed from './pages/Services/Managed';
 import Nav from './pages/components/Nav';
+import Blog3 from './pages/Blog/Blog3';
+import Blog2 from './pages/Blog/Blog2';
+import Blog4 from './pages/Blog/Blog4';
+import Blog5 from './pages/Blog/Blog5';
+import Blog6 from './pages/Blog/Blog6';
 function App() {
  
   return (
@@ -96,6 +101,11 @@ function App() {
 
           <Route path="/blog" element={<Blog />} />
           <Route path='/blog1' element={<Blog1/>}/>
+          <Route path='/blog2' element={<Blog2/>}/>
+          <Route path='/blog3' element={<Blog3/>}/>
+          <Route path='/blog4' element={<Blog4/>}/>
+          <Route path='/blog5' element={<Blog5/>}/>
+          <Route path='/blog6' element={<Blog6/>}/>
 
           <Route path="/faq" element={<Faq />} />
           <Route path="/salesforce" element={<Salesforce />} />
