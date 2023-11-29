@@ -54,8 +54,8 @@ const Digital = () => {
           </div>
         </div>
         <img
-          src="assets/mockup/digital.png"
-          alt="mus"
+          src="/assets/mockup/digital.png"
+          alt="image"
           className="col-md-4 mockup"
         />
       </div>
@@ -675,7 +675,7 @@ const Digital = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh"> High Quality Niche Backlinks</p>
               </div>
@@ -683,7 +683,7 @@ const Digital = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh">Flawless Onpage SEO</p>
               </div>
@@ -691,7 +691,7 @@ const Digital = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh">Designing Creative Strategies</p>
               </div>
@@ -699,7 +699,7 @@ const Digital = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh">Multi-Channel Distribution</p>
               </div>

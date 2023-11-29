@@ -35,7 +35,7 @@ const Footer = () => {
             <div className="col-md-4 col-lg-3 col-xl-3 mil-mb-30">
               <img
                 src="/assets/logo/logo-2.png"
-                alt="mus"
+                alt="image"
                 className="mil-logo mil-mb-60"
               />
 
@@ -76,26 +76,26 @@ const Footer = () => {
 
                   <ul className="mil-hover-link-list mil-light text-decoration-none">
                     <li>
-                      <Link to="/salesforce">Salesforce</Link>
+                      <Link to="/services/salesforce">Salesforce</Link>
                     </li>
                     
                     <li>
-                      <Link to="/cloud">Cloud</Link>
+                      <Link to="/services/cloudMigration">Cloud</Link>
                     </li>
                     <li>
-                      <Link to="/digital">Digital Marketing</Link>
+                      <Link to="/services/digitalMarketing">Digital Marketing</Link>
                     </li>
                     <li>
-                      <Link to="/deveops">Deveops</Link>
+                      <Link to="/services/devops">DevOps</Link>
                     </li>
                     <li>
-                      <Link to="/blockChain">BlockChain</Link>
+                      <Link to="/services/blockChain">BlockChain</Link>
                     </li>
                     <li>
-                      <Link to="/mobileApp">Mobile Developement</Link>
+                      <Link to="/services/mobileAppDevelopement">Mobile Developement</Link>
                     </li>
                     <li>
-                      <Link to="/webApp">Web Developement</Link>
+                      <Link to="/services/webDevelopement">Web Developement</Link>
                     </li>
                   </ul>
                 </div>

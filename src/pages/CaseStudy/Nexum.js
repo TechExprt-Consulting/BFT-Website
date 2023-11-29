@@ -14,7 +14,7 @@ const Nexum = () => {
           <div className="container ">
             <div className="d-flex flex-column-reverse flex-md-row col-md-6">
               <div className="d-flex flex-column mt-3">
-              <Link to="/Case" class="mil-link link-left mil-mb-30">
+              <Link to="/caseStudy" class="mil-link link-left mil-mb-30">
               <i class="fas fa-arrow-left"></i>
               <span>All Cases</span>
             </Link>
@@ -30,8 +30,8 @@ const Nexum = () => {
               </button>
             </div>{" "}
             <img
-              src="assets/casestudy/nexum.png"
-              alt="mus"
+              src="/assets/casestudy/nexum.png"
+              alt="image"
               className="col-md-5  pt-5  mil-banner-image"
             />
           </div>
@@ -45,7 +45,7 @@ const Nexum = () => {
           <div class="row flex-sm-row-reverse justify-content-between">
             <div class="col-lg-4 col-xl-3">
               <div class="mil-project-info mil-mb-60">
-                <h5 class="mil-list-title mil-mb-30">Project Info</h5>
+                <h5 class="mil-list-title1 mil-mb-30">Project Info</h5>
 
                 <p class="mil-mb-10">Client</p>
                 <h6 class="mil-mb-15">Nexum Coffee</h6>
@@ -80,19 +80,19 @@ const Nexum = () => {
                 <div class="col-xl-6">
                   <ul class="mil-check-icon-list mil-mb-15">
                     <li>
-                    <img src="assets/icon/sm/1.svg" alt="icon" />
+                    <img src="/assets/icon/sm/1.svg" alt="icon" />
                       <span class="mil-dark">
                         Integrating Stripe's Payments API{" "}
                       </span>
                     </li>
                     <li>
-                    <img src="assets/icon/sm/1.svg" alt="icon" />
+                    <img src="/assets/icon/sm/1.svg" alt="icon" />
                       <span class="mil-dark">
                         Managing Product and Lot Relations{" "}
                       </span>
                     </li>
                     <li>
-                    <img src="assets/icon/sm/1.svg" alt="icon" />
+                    <img src="/assets/icon/sm/1.svg" alt="icon" />
                       <span class="mil-dark">
                         Implementing Chat Functionality  
                       </span>
@@ -102,11 +102,11 @@ const Nexum = () => {
                 <div class="col-xl-6 mil-mb-30">
                   <ul class="mil-check-icon-list">
                     <li>
-                    <img src="assets/icon/sm/1.svg" alt="icon" />
+                    <img src="/assets/icon/sm/1.svg" alt="icon" />
                       <span class="mil-dark">User Login Functionality </span>
                     </li>
                     <li>
-                    <img src="assets/icon/sm/1.svg" alt="icon" />
+                    <img src="/assets/icon/sm/1.svg" alt="icon" />
                       <span class="mil-dark">Admin Portal Creation </span>
                     </li>
                   </ul>
@@ -131,13 +131,13 @@ const Nexum = () => {
 
               <div class="mil-icon-box-head mil-long mil-mb-15">
                 <div class="mil-icon-frame mil-icon-frame-sm">
-                  <img src="assets/icon/sm/3.svg" alt="icon" />
+                  <img src="/assets/icon/sm/3.svg" alt="icon" />
                 </div>
                 <p class="mil-dark">Stripe API Integration</p>
               </div>
               <div class="mil-icon-box-head mil-long mil-mb-15">
                 <div class="mil-icon-frame mil-icon-frame-sm">
-                  <img src="assets/icon/sm/2.svg" alt="icon" />
+                  <img src="/assets/icon/sm/2.svg" alt="icon" />
                 </div>
                 <p class="mil-dark">
                   Establish a calculation system to determine product quantity
@@ -146,7 +146,7 @@ const Nexum = () => {
               </div>
               <div class="mil-icon-box-head mil-long mil-mb-15">
                 <div class="mil-icon-frame mil-icon-frame-sm">
-                  <img src="assets/icon/sm/5.svg" alt="icon" />
+                  <img src="/assets/icon/sm/5.svg" alt="icon" />
                 </div>
                 <p class="mil-dark">
                   Develop a messaging component integrated into the farmer
@@ -155,7 +155,7 @@ const Nexum = () => {
               </div>
               <div class="mil-icon-box-head mil-long mil-mb-15">
                 <div class="mil-icon-frame mil-icon-frame-sm">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p class="mil-dark">
                   Implement a secure user login and registration system.{" "}
@@ -163,7 +163,7 @@ const Nexum = () => {
               </div>
               <div class="mil-icon-box-head mil-long mil-mb-15">
                 <div class="mil-icon-frame mil-icon-frame-sm">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p class="mil-dark">Admin Portal Development </p>
               </div>
@@ -171,7 +171,7 @@ const Nexum = () => {
             <div class="col-xl-6 mil-mb-60">
               <div class="mil-project-cover">
                 <img
-                  src="assets/partner/1.png"
+                  src="/assets/partner/1.png"
                   alt="Project"
                   
                 />

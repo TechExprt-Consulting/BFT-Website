@@ -32,7 +32,7 @@ const SocialMedia = () => {
                     </h2>
                 </div>
                 <div className="col-md-4 text-center">
-                    <img src="assets/mockup/socialmedia.png" alt="mus" className="img-fluid" />
+                    <img src="/assets/mockup/socialmedia.png" alt="mus" className="img-fluid" />
                 </div>
             </div>
         </div>
@@ -190,7 +190,7 @@ will serve as a digital touchpoint of the brand for all the visitors and potenti
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh"> Designing Creative Strategies</p>
               </div>
@@ -198,7 +198,7 @@ will serve as a digital touchpoint of the brand for all the visitors and potenti
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh">Building Your Online Presence</p>
               </div>
@@ -206,7 +206,7 @@ will serve as a digital touchpoint of the brand for all the visitors and potenti
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh">Strengthening your customer base</p>
               </div>

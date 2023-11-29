@@ -39,7 +39,7 @@ const DMC = () => {
           <div className="container ">
             <div className="d-flex flex-column-reverse flex-md-row col-md-6">
               <div className="d-flex flex-column mt-3">
-              <Link to="/Case" class="mil-link link-left mil-mb-30">
+              <Link to="/caseStudy" class="mil-link link-left mil-mb-30">
               <i class="fas fa-arrow-left"></i>
               <span>All Cases</span>
             </Link>
@@ -55,8 +55,8 @@ const DMC = () => {
               </button>
             </div>{" "}
             <img
-              src="assets/casestudy/DMC.png"
-              alt="mus"
+              src="/assets/casestudy/DMC.png"
+              alt="image"
               className="col-md-5  pt-5  mil-banner-image"
             />
           </div>
@@ -70,7 +70,7 @@ const DMC = () => {
           <div class="row flex-sm-row-reverse justify-content-between">
             <div class="col-lg-4 col-xl-3">
               <div class="mil-project-info mil-mb-60">
-                <h5 class="mil-list-title mil-mb-30">Project Info</h5>
+                <h5 class="mil-list-title1 mil-mb-30">Project Info</h5>
 
                 <p class="mil-mb-10">Client</p>
                 <h6 class="mil-mb-15">DMC</h6>
@@ -104,17 +104,17 @@ const DMC = () => {
                 <div class="col-xl-6">
                   <ul class="mil-check-icon-list mil-mb-15">
                     <li>
-                    <img src="assets/icon/sm/1.svg" alt="icon" />
+                    <img src="/assets/icon/sm/1.svg" alt="icon" />
                       <span class="mil-dark">
                         Inefficient Work Order Management{" "}
                       </span>
                     </li>
                     <li>
-                    <img src="assets/icon/sm/1.svg" alt="icon" />
+                    <img src="/assets/icon/sm/1.svg" alt="icon" />
                       <span class="mil-dark">Inefficient Work Plan </span>
                     </li>
                     <li>
-                    <img src="assets/icon/sm/1.svg" alt="icon" />
+                    <img src="/assets/icon/sm/1.svg" alt="icon" />
                       <span class="mil-dark">
                         Generating Signed service Reports 
                       </span>
@@ -124,7 +124,7 @@ const DMC = () => {
                 <div class="col-xl-6 mil-mb-30">
                   <ul class="mil-check-icon-list">
                     <li>
-                    <img src="assets/icon/sm/1.svg" alt="icon" />
+                    <img src="/assets/icon/sm/1.svg" alt="icon" />
                       <span class="mil-dark conten">
                         Getting the feedback form filled in without asking their
                         customer for the Salesforce credentials to the Customer.{" "}
@@ -152,7 +152,7 @@ const DMC = () => {
 
               <div class="mil-icon-box-head mil-long mil-mb-15">
                 <div class="mil-icon-frame mil-icon-frame-sm">
-                  <img src="assets/icon/sm/3.svg" alt="icon" />
+                  <img src="/assets/icon/sm/3.svg" alt="icon" />
                 </div>
                 <p class="mil-dark">
                   Introduced Salesforce Field Service Lightning introduced a
@@ -161,7 +161,7 @@ const DMC = () => {
               </div>
               <div class="mil-icon-box-head mil-long mil-mb-15">
                 <div class="mil-icon-frame mil-icon-frame-sm">
-                  <img src="assets/icon/sm/2.svg" alt="icon" />
+                  <img src="/assets/icon/sm/2.svg" alt="icon" />
                 </div>
                 <p class="mil-dark">
                   Created the Work Plans and the Service Reports and with the
@@ -172,7 +172,7 @@ const DMC = () => {
               </div>
               <div class="mil-icon-box-head mil-long mil-mb-15">
                 <div class="mil-icon-frame mil-icon-frame-sm">
-                  <img src="assets/icon/sm/5.svg" alt="icon" />
+                  <img src="/assets/icon/sm/5.svg" alt="icon" />
                 </div>
                 <p class="mil-dark">
                   Altered the configurations for service report templates in the
@@ -181,7 +181,7 @@ const DMC = () => {
               </div>
               <div class="mil-icon-box-head mil-long mil-mb-15">
                 <div class="mil-icon-frame mil-icon-frame-sm">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p class="mil-dark">
                   Enabled customers to get mail on their personal email address,
@@ -193,7 +193,7 @@ const DMC = () => {
             <div class="col-xl-6 mil-mb-60">
               <div class="mil-project-cover">
                 <img
-                  src="assets/casestudy/DMC.png"
+                  src="/assets/casestudy/DMC.png"
                   alt="Project"
                   style={{ width: "500px", height: "250px" }}
                 />
@@ -236,7 +236,7 @@ const DMC = () => {
       <div className="row justify-content-around align-items-center">
         <div className="col-xl-7  mil-mb-60">
           <div className="mil-project-cover">
-            <img src="assets/img/dmc.png" alt="Project" />
+            <img src="/assets/img/dmc.png" alt="Project" />
           </div>
         </div>
       </div>

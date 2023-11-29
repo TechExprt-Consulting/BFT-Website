@@ -13,7 +13,7 @@ const Continuum = () => {
           <div className="container ">
             <div className="d-flex flex-column-reverse flex-md-row col-md-6">
               <div className="d-flex flex-column mt-3">
-              <Link to="/Case" class="mil-link link-left mil-mb-30">
+              <Link to="/caseStudy" class="mil-link link-left mil-mb-30">
               <i class="fas fa-arrow-left"></i>
               <span>All Cases</span>
             </Link>
@@ -29,8 +29,8 @@ const Continuum = () => {
               </button>
             </div>{" "}
             <img
-              src="assets/casestudy/continuum.png"
-              alt="mus"
+              src="/assets/casestudy/continuum.png"
+              alt="image"
               className="col-md-5  pt-5  mil-banner-image"
             />
           </div>
@@ -44,7 +44,7 @@ const Continuum = () => {
           <div class="row flex-sm-row-reverse justify-content-between">
             <div class="col-lg-4 col-xl-3">
               <div class="mil-project-info mil-mb-60">
-                <h5 class="mil-list-title mil-mb-30">Project Info</h5>
+                <h5 class="mil-list-title1 mil-mb-30">Project Info</h5>
 
                 <p class="mil-mb-10">Client</p>
                 <h6 class="mil-mb-15">Continuum</h6>
@@ -81,14 +81,14 @@ const Continuum = () => {
                 <div class="col-xl-6">
                   <ul class="mil-check-icon-list mil-mb-15">
                     <li>
-                    <img src="assets/icon/sm/1.svg" alt="icon" />
+                    <img src="/assets/icon/sm/1.svg" alt="icon" />
                       <span class="mil-dark">
                         Digitalizing a process that has been highly dependent on
                         manual labor for years{" "}
                       </span>
                     </li>
                     <li>
-                    <img src="assets/icon/sm/1.svg" alt="icon" />
+                    <img src="/assets/icon/sm/1.svg" alt="icon" />
                       <span class="mil-dark">
                         Developing an interface that can be easily accessible by
                         the workforce{" "}
@@ -99,14 +99,14 @@ const Continuum = () => {
                 <div class="col-xl-6 mil-mb-30">
                   <ul class="mil-check-icon-list">
                     <li>
-                    <img src="assets/icon/sm/1.svg" alt="icon" />
+                    <img src="/assets/icon/sm/1.svg" alt="icon" />
                       <span class="mil-dark">
                         Mapping and integrating all essential steps, making it a
                         complete solution{" "}
                       </span>
                     </li>
                     <li>
-                    <img src="assets/icon/sm/1.svg" alt="icon" />
+                    <img src="/assets/icon/sm/1.svg" alt="icon" />
                       <span class="mil-dark">Ensure scalability </span>
                     </li>
                   </ul>
@@ -131,19 +131,19 @@ const Continuum = () => {
 
               <div class="mil-icon-box-head mil-long mil-mb-15">
                 <div class="mil-icon-frame mil-icon-frame-sm">
-                  <img src="assets/icon/sm/3.svg" alt="icon" />
+                  <img src="/assets/icon/sm/3.svg" alt="icon" />
                 </div>
                 <p class="mil-dark">Developed REST APIs for order returns.</p>
               </div>
               <div class="mil-icon-box-head mil-long mil-mb-15">
                 <div class="mil-icon-frame mil-icon-frame-sm">
-                  <img src="assets/icon/sm/2.svg" alt="icon" />
+                  <img src="/assets/icon/sm/2.svg" alt="icon" />
                 </div>
                 <p class="mil-dark">Integrated ERP for multiple tenants.</p>
               </div>
               <div class="mil-icon-box-head mil-long mil-mb-15">
                 <div class="mil-icon-frame mil-icon-frame-sm">
-                  <img src="assets/icon/sm/5.svg" alt="icon" />
+                  <img src="/assets/icon/sm/5.svg" alt="icon" />
                 </div>
                 <p class="mil-dark">
                   Single Sign-On (SSO) feature, so users can log in to continuum
@@ -152,7 +152,7 @@ const Continuum = () => {
               </div>
               <div class="mil-icon-box-head mil-long mil-mb-15">
                 <div class="mil-icon-frame mil-icon-frame-sm">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p class="mil-dark">
                   JWT authorization on login, ensuring that only authenticated
@@ -162,7 +162,7 @@ const Continuum = () => {
               </div>
               <div class="mil-icon-box-head mil-long mil-mb-15">
                 <div class="mil-icon-frame mil-icon-frame-sm">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p class="mil-dark">
                   Leveraging Velocity Templates with Java for email
@@ -173,7 +173,7 @@ const Continuum = () => {
             <div class="col-xl-6 mil-mb-60">
               <div class="mil-project-cover">
                 <img
-                  src="assets/partner/2.png"
+                  src="/assets/partner/2.png"
                   alt="Project"
                   
                 />
@@ -216,27 +216,27 @@ const Continuum = () => {
       <div className="row justify-content-around align-items-center">
         <div className="col-xl-7  mil-mb-60">
           <div className="mil-project-cover">
-            <img src="assets/img/continum.png" alt="Project" />
+            <img src="/assets/img/continum.png" alt="Project" />
           </div>
         </div>
         <div className="col-xl-7  mil-mb-60">
           <div className="mil-project-cover">
-            <img src="assets/img/continum2.png" alt="Project" />
+            <img src="/assets/img/continum2.png" alt="Project" />
           </div>
         </div>
         <div className="col-xl-7  mil-mb-60">
           <div className="mil-project-cover">
-            <img src="assets/img/continum3.png" alt="Project" />
+            <img src="/assets/img/continum3.png" alt="Project" />
           </div>
         </div>
         <div className="col-xl-7  mil-mb-60">
           <div className="mil-project-cover ">
-            <img src="assets/img/continum4.png" alt="Project" />
+            <img src="/assets/img/continum4.png" alt="Project" />
           </div>
         </div>
         <div className="col-xl-7  mil-mb-60">
           <div className="mil-project-cover ">
-            <img src="assets/img/continum5.png" alt="Project" />
+            <img src="/assets/img/continum5.png" alt="Project" />
           </div>
         </div>
       </div>

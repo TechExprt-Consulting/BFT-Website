@@ -52,8 +52,8 @@ const BlockChain = () => {
           </div>
         </div>
         <img
-          src="assets/mockup/blockchain.png"
-          alt="mus"
+          src="/assets/mockup/blockchain.png"
+          alt="image"
           className="col-md-4 mockup"
         />
       </div>
@@ -214,7 +214,7 @@ const BlockChain = () => {
               <div className="mil-service-item mil-without-lines mil-mb-60">
                 <div className="mil-service-icon">
                   <div className="mil-icon-frame mil-icon-frame-md">
-                    <img src="assets/icon/1.svg" alt="icon" />
+                    <img src="/assets/icon/1.svg" alt="icon" />
                   </div>
                 </div>
                 <div className="mil-service-text">
@@ -234,7 +234,7 @@ const BlockChain = () => {
               <div className="mil-service-item mil-without-lines mil-mb-60">
                 <div className="mil-service-icon">
                   <div className="mil-icon-frame mil-icon-frame-md">
-                    <img src="assets/icon/2.svg" alt="icon" />
+                    <img src="/assets/icon/2.svg" alt="icon" />
                   </div>
                 </div>
                 <div className="mil-service-text">
@@ -253,7 +253,7 @@ const BlockChain = () => {
               <div className="mil-service-item mil-without-lines mil-mb-60">
                 <div className="mil-service-icon">
                   <div className="mil-icon-frame mil-icon-frame-md">
-                    <img src="assets/icon/3.svg" alt="icon" />
+                    <img src="/assets/icon/3.svg" alt="icon" />
                   </div>
                 </div>
                 <div className="mil-service-text">
@@ -272,7 +272,7 @@ const BlockChain = () => {
               <div className="mil-service-item mil-without-lines mil-mb-60">
                 <div className="mil-service-icon">
                   <div className="mil-icon-frame mil-icon-frame-md">
-                    <img src="assets/icon/4.svg" alt="icon" />
+                    <img src="/assets/icon/4.svg" alt="icon" />
                   </div>
                 </div>
                 <div className="mil-service-text">
@@ -291,7 +291,7 @@ const BlockChain = () => {
               <div className="mil-service-item mil-without-lines mil-mb-60">
                 <div className="mil-service-icon">
                   <div className="mil-icon-frame mil-icon-frame-md">
-                    <img src="assets/icon/5.svg" alt="icon" />
+                    <img src="/assets/icon/5.svg" alt="icon" />
                   </div>
                 </div>
                 <div className="mil-service-text">
@@ -311,7 +311,7 @@ const BlockChain = () => {
               <div className="mil-service-item mil-without-lines mil-mb-60">
                 <div className="mil-service-icon">
                   <div className="mil-icon-frame mil-icon-frame-md">
-                    <img src="assets/icon/6.svg" alt="icon" />
+                    <img src="/assets/icon/6.svg" alt="icon" />
                   </div>
                 </div>
                 <div className="mil-service-text">
@@ -332,7 +332,7 @@ const BlockChain = () => {
               <div className="mil-service-item mil-without-lines mil-mb-60">
                 <div className="mil-service-icon">
                   <div className="mil-icon-frame mil-icon-frame-md">
-                    <img src="assets/icon/23.svg" alt="icon" />
+                    <img src="/assets/icon/23.svg" alt="icon" />
                   </div>
                 </div>
                 <div className="mil-service-text">
@@ -352,7 +352,7 @@ const BlockChain = () => {
               <div className="mil-service-item mil-without-lines mil-mb-60">
                 <div className="mil-service-icon">
                   <div className="mil-icon-frame mil-icon-frame-md">
-                    <img src="assets/icon/21.svg" alt="icon" />
+                    <img src="/assets/icon/21.svg" alt="icon" />
                   </div>
                 </div>
                 <div className="mil-service-text">
@@ -391,24 +391,24 @@ const BlockChain = () => {
           <div class="mil-partners-frame">
             <a href="#.">
               <img
-                src="assets/project/1.png"
+                src="/assets/project/1.png"
                 alt="partner"
                 style={{ width: "130px" }}
               />
             </a>
             <a href="#.">
-              <img src="assets/project/2.png" alt="partner" />
+              <img src="/assets/project/2.png" alt="partner" />
             </a>
             <a href="#.">
               <img
-                src="assets/project/3.png"
+                src="/assets/project/3.png"
                 alt="partner"
                 style={{ height: "100px" }}
               />
             </a>
             <a href="#.">
               <img
-                src="assets/project/4.png"
+                src="/assets/project/4.png"
                 alt="partner"
                 style={{ width: "200px" }}
               />
@@ -444,7 +444,7 @@ const BlockChain = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh">Blockchain Development</p>
               </div>
@@ -452,7 +452,7 @@ const BlockChain = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh">Smart Contract Development</p>
               </div>
@@ -460,7 +460,7 @@ const BlockChain = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh">Tokenization Services</p>
               </div>
@@ -468,7 +468,7 @@ const BlockChain = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh">Blockchain Consulting</p>
               </div>
@@ -477,7 +477,7 @@ const BlockChain = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh">Supply Chain Solutions</p>
               </div>
@@ -485,7 +485,7 @@ const BlockChain = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh">Security Audits and Solutions</p>
               </div>

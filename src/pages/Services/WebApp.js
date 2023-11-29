@@ -92,7 +92,7 @@ const WebApp = () => {
           </div>
         </div>
         <img
-          src="assets/mockup/webdev.png"
+          src="/assets/mockup/webdev.png"
           alt="mus"
           className="col-md-5 mockup"
         />
@@ -430,7 +430,7 @@ const WebApp = () => {
               <div className="mil-service-item mil-without-lines mil-mb-60">
                 <div className="mil-service-icon">
                   <div className="mil-icon-frame mil-icon-frame-md">
-                    <img src="assets/icon/1.svg" alt="icon" />
+                    <img src="/assets/icon/1.svg" alt="icon" />
                   </div>
                 </div>
                 <div className="mil-service-text">
@@ -447,7 +447,7 @@ const WebApp = () => {
               <div className="mil-service-item mil-without-lines mil-mb-60">
                 <div className="mil-service-icon">
                   <div className="mil-icon-frame mil-icon-frame-md">
-                    <img src="assets/icon/2.svg" alt="icon" />
+                    <img src="/assets/icon/2.svg" alt="icon" />
                   </div>
                 </div>
                 <div className="mil-service-text">
@@ -465,7 +465,7 @@ const WebApp = () => {
               <div className="mil-service-item mil-without-lines mil-mb-60">
                 <div className="mil-service-icon">
                   <div className="mil-icon-frame mil-icon-frame-md">
-                    <img src="assets/icon/3.svg" alt="icon" />
+                    <img src="/assets/icon/3.svg" alt="icon" />
                   </div>
                 </div>
                 <div className="mil-service-text">
@@ -482,7 +482,7 @@ const WebApp = () => {
               <div className="mil-service-item mil-without-lines mil-mb-60">
                 <div className="mil-service-icon">
                   <div className="mil-icon-frame mil-icon-frame-md">
-                    <img src="assets/icon/4.svg" alt="icon" />
+                    <img src="/assets/icon/4.svg" alt="icon" />
                   </div>
                 </div>
                 <div className="mil-service-text">
@@ -529,7 +529,7 @@ const WebApp = () => {
               <div className="mil-service-item mil-without-lines mil-mb-60">
                 <div className="mil-service-icon">
                   <div className="mil-icon-frame mil-icon-frame-md">
-                    <img src="assets/icon/5.svg" alt="icon" />
+                    <img src="/assets/icon/5.svg" alt="icon" />
                   </div>
                 </div>
                 <div className="mil-service-text">
@@ -546,7 +546,7 @@ const WebApp = () => {
               <div className="mil-service-item mil-without-lines mil-mb-60">
                 <div className="mil-service-icon">
                   <div className="mil-icon-frame mil-icon-frame-md">
-                    <img src="assets/icon/6.svg" alt="icon" />
+                    <img src="/assets/icon/6.svg" alt="icon" />
                   </div>
                 </div>
                 <div className="mil-service-text">
@@ -564,7 +564,7 @@ const WebApp = () => {
               <div className="mil-service-item mil-without-lines mil-mb-60">
                 <div className="mil-service-icon">
                   <div className="mil-icon-frame mil-icon-frame-md">
-                    <img src="assets/icon/7.svg" alt="icon" />
+                    <img src="/assets/icon/7.svg" alt="icon" />
                   </div>
                 </div>
                 <div className="mil-service-text">
@@ -581,7 +581,7 @@ const WebApp = () => {
               <div className="mil-service-item mil-without-lines mil-mb-60">
                 <div className="mil-service-icon">
                   <div className="mil-icon-frame mil-icon-frame-md">
-                    <img src="assets/icon/8.svg" alt="icon" />
+                    <img src="/assets/icon/8.svg" alt="icon" />
                   </div>
                 </div>
                 <div className="mil-service-text">
@@ -598,7 +598,7 @@ const WebApp = () => {
               <div className="mil-service-item mil-without-lines mil-mb-60">
                 <div className="mil-service-icon">
                   <div className="mil-icon-frame mil-icon-frame-md">
-                    <img src="assets/icon/9.svg" alt="icon" />
+                    <img src="/assets/icon/9.svg" alt="icon" />
                   </div>
                 </div>
                 <div className="mil-service-text">
@@ -633,7 +633,7 @@ const WebApp = () => {
           <div class="mil-partners-frame">
             <a href="#.">
               <img
-                src="assets/project/21.png"
+                src="/assets/project/21.png"
                 alt="partner"
                 style={{ width: "130px" }}
               />
@@ -643,17 +643,17 @@ const WebApp = () => {
             </a> */}
             <a href="#.">
               <img
-                src="assets/project/3.png"
+                src="/assets/project/3.png"
                 alt="partner"
                 style={{ height: "100px" }}
               />
             </a>
             <a href="#.">
-              <img src="assets/project/11.png" alt="partner" />
+              <img src="/assets/project/11.png" alt="partner" />
             </a>
             <a href="#.">
               <img
-                src="assets/project/12.png"
+                src="/assets/project/12.png"
                 alt="partner"
                 style={{ width: "100px" }}
               />
@@ -691,7 +691,7 @@ const WebApp = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh">Custom Website Development</p>
               </div>
@@ -699,7 +699,7 @@ const WebApp = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh">Responsive Design</p>
               </div>
@@ -707,7 +707,7 @@ const WebApp = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh">E-Commerce Solutions</p>
               </div>
@@ -715,7 +715,7 @@ const WebApp = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh">Content Management Systems (CMS)</p>
               </div>
@@ -724,7 +724,7 @@ const WebApp = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh">Web Application Development</p>
               </div>

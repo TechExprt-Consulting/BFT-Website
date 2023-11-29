@@ -183,7 +183,7 @@ const Home = () => {
                     (CRM) platform that helps businesses manage their sales,
                     customer service, and marketing needs efficiently.
                   </p>
-                  <Link to="/salesforce" class="mil-link2 link-right mil-mb-30">
+                  <Link to="/services/salesforce" class="mil-link2 link-right mil-mb-30">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -204,7 +204,7 @@ const Home = () => {
                     emphasizing collaboration and automation, leading to faster
                     software development, continuous integration, and delivery.
                   </p>
-                  <Link to="/deveops" class="mil-link2 link-right mil-mb-30">
+                  <Link to="/services/deveops" class="mil-link2 link-right mil-mb-30">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -226,7 +226,7 @@ const Home = () => {
                     infrastructure, offering scalability, flexibility, and cost
                     efficiency to businesses.
                   </p>
-                  <Link to="/cloud" class="mil-link2 link-right mil-mb-30">
+                  <Link to="/services/cloudMigration" class="mil-link2 link-right mil-mb-30">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -251,7 +251,7 @@ const Home = () => {
                     industries by enabling decentralized transactions and smart
                     contracts.
                   </p>
-                  <Link to="/blockChain" class="mil-link2 link-right mil-mb-30">
+                  <Link to="/services/blockChain" class="mil-link2 link-right mil-mb-30">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -273,7 +273,7 @@ const Home = () => {
                     empowers businesses to establish a robust customer
                     relationship.
                   </p>
-                  <Link to="/digital" class="mil-link2 link-right mil-mb-30">
+                  <Link to="/services/digitalMarketing" class="mil-link2 link-right mil-mb-30">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -296,7 +296,7 @@ const Home = () => {
                     to diverse platforms like iOS and Android, facilitating
                     seamless user experiences and access to services on the go.
                   </p>
-                  <Link to="/mobileApp" class="mil-link2 link-right mil-mb-30">
+                  <Link to="/services/mobileAppDevelopement" class="mil-link2 link-right mil-mb-30">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -329,13 +329,13 @@ const Home = () => {
               </div> */}
               <h3 className="mt-3">
                 <span className="mil-accent">
-                  <Link to="/continuum">Continumm</Link>
+                  <Link to="/caseStudy/continuum">Continumm</Link>
                 </span>
               </h3>
               <p>Tech Stack: React, Java, Springboot</p>
               <div>
-                 <Link to='/continuum'><span className="mil-accent">View Case Study</span></Link> 
-                  <Link to="/continuum" class="mil-link3 link-right">
+                 <Link to='/caseStudy/continuum'><span className="mil-accent">View Case Study</span></Link> 
+                  <Link to="/caseStudy/continuum" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -351,13 +351,13 @@ const Home = () => {
               </div> */}
               <h3 className="mt-3">
                 <span className="mil-accent">
-                  <Link to="/dmc">DMC</Link>
+                  <Link to="/caseStudy/dmc">DMC</Link>
                 </span>
               </h3>
               <p>Tech Stack: Salesfoce, FSL, LWC, Apex</p>
               <div>
-                 <Link to='/dmc'><span className="mil-accent">View Case Study</span></Link> 
-                  <Link to="/dmc" class="mil-link3 link-right">
+                 <Link to='/caseStudy/dmc'><span className="mil-accent">View Case Study</span></Link> 
+                  <Link to="/caseStudy/dmc" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -377,13 +377,13 @@ const Home = () => {
               </div> */}
               <h3 className="mt-3">
                 <span className="mil-accent">
-                  <Link to="/cargosprint">Cargo Sprint</Link>
+                  <Link to="/caseStudy/cargosprint">Cargo Sprint</Link>
                 </span>
               </h3>
               <p>Tech Stack: Apex, Custom REST API, Financial Force, GCP</p>
               <div>
-                 <Link to='/cargosprint'><span className="mil-accent">View Case Study</span></Link> 
-                  <Link to="/cargosprint" class="mil-link3 link-right">
+                 <Link to='/caseStudy/cargosprint'><span className="mil-accent">View Case Study</span></Link> 
+                  <Link to="/caseStudy/cargosprint" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -397,13 +397,13 @@ const Home = () => {
               </div> */}
               <h3 className="mt-3">
                 <span className="mil-accent">
-                  <Link to="/nexum">Nexum</Link>
+                  <Link to="/caseStudy/nexum">Nexum</Link>
                 </span>
               </h3>
               <p>Tech Stack: React JS, Node JS , MySQL, AWS</p>
               <div>
-                 <Link to='/nexum'><span className="mil-accent">View Case Study</span></Link> 
-                  <Link to="/nexum" class="mil-link3 link-right">
+                 <Link to='/caseStudy/nexum'><span className="mil-accent">View Case Study</span></Link> 
+                  <Link to="/caseStudy/nexum" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -422,13 +422,13 @@ const Home = () => {
               </div> */}
               <h3 className="mt-3">
                 <span className="mil-accent">
-                  <Link to="/abuDhabi">Abu Dhabi University</Link>
+                  <Link to="/caseStudy/abuDhabi">Abu Dhabi University</Link>
                 </span>
               </h3>
               <p>Tech Stack: React JS, Node JS, Block-Chain</p>
               <div>
-                 <Link to='/abuDhabi'><span className="mil-accent">View Case Study</span></Link> 
-                  <Link to="/abuDhabi" class="mil-link3 link-right">
+                 <Link to='/caseStudy/abuDhabi'><span className="mil-accent">View Case Study</span></Link> 
+                  <Link to="/caseStudy/abuDhabi" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>

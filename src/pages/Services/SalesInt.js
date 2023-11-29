@@ -33,7 +33,7 @@ const SalesInt = () => {
                     </h2>
                 </div>
                 <div className="col-md-4 text-center">
-                    <img src="assets/mockup/salesforce1.png" alt="mus" className="img-fluid" />
+                    <img src="/assets/mockup/salesforce1.png" alt="mus" className="img-fluid" />
                 </div>
             </div>
         </div>
@@ -110,7 +110,7 @@ const SalesInt = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh "> Industry experts</p>
               </div>
@@ -118,7 +118,7 @@ const SalesInt = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh ">Six decades of combined professional expertise</p>
               </div>
@@ -126,7 +126,7 @@ const SalesInt = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh ">SF Delivery Exp - 6 years</p>
               </div>
@@ -134,7 +134,7 @@ const SalesInt = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh ">7x Certified SF Architect</p>
               </div>
@@ -143,7 +143,7 @@ const SalesInt = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh ">4x Certified SF Dev</p>
               </div>
@@ -152,7 +152,7 @@ const SalesInt = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh ">Salesforce Partner</p>
               </div>

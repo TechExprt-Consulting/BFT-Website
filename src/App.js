@@ -50,7 +50,6 @@ import Api from './pages/Services/Api';
 import Admin from './pages/Services/Admin';
 import SD from './pages/Services/SD';
 import Managed from './pages/Services/Managed';
-import Nav from './pages/components/Nav';
 import Blog3 from './pages/Blog/Blog3';
 import Blog2 from './pages/Blog/Blog2';
 import Blog4 from './pages/Blog/Blog4';
@@ -65,25 +64,23 @@ function App() {
       <ScrollToTop />
         <Routes>
 
-    <Route path ='/nav' element={<Nav/>}/>
+          <Route path='/services/managedService' element={<Managed/>}/>
+          <Route path='/services/webDevelopement/saas' element={<Saas/>}/>
+          <Route path='/services/webDevelopement/apiDevelopement' element={<Api/>}/>
+          <Route path='/services/webDevelopement/adminPanel' element={<Admin/>}/>
+          <Route path='/services/webDevelopement/softwareDevelopement' element={<SD/>}/>
 
-          <Route path='/managedService' element={<Managed/>}/>
-          <Route path='/saas' element={<Saas/>}/>
-          <Route path='/api' element={<Api/>}/>
-          <Route path='/adminPanel' element={<Admin/>}/>
-          <Route path='/softwareDevelopement' element={<SD/>}/>
-
-        <Route path='/salesforceConsulting' element={<SalesCons/>}/>
-        <Route path='/salesforceCustomization' element={<SalesCust/>}/>
-        <Route path='/salesforceAppExchange' element={<SalesExc/>}/>
-        <Route path='/salesforceImplementation' element={<SalesImp/>}/>
-        <Route path='/salesforceIntegration' element={<SalesInt/>}/>
-        <Route path='/salesforceItSupport' element={<SalesIt/>}/>
-        <Route path='/salesforceMigration' element={<SalesMig/>}/>
+        <Route path='/services/salesforce/salesforceConsulting' element={<SalesCons/>}/>
+        <Route path='/services/salesforce/salesforceCustomization' element={<SalesCust/>}/>
+        <Route path='/services/salesforce/salesforceAppExchange' element={<SalesExc/>}/>
+        <Route path='/services/salesforce/salesforceImplementation' element={<SalesImp/>}/>
+        <Route path='/services/salesforce/salesforceIntegration' element={<SalesInt/>}/>
+        <Route path='/services/salesforce/salesforceItSupport' element={<SalesIt/>}/>
+        <Route path='/services/salesforce/salesforceMigration' element={<SalesMig/>}/>
 
 
 
-        <Route path='/tech' element={<Technology/>}/>
+        <Route path='/technologies' element={<Technology/>}/>
 
           <Route path='/itsolution' element={<Itsolution/>}/>
           <Route path='/itservices' element={<ItService/>}/>
@@ -108,26 +105,26 @@ function App() {
           <Route path='/blog6' element={<Blog6/>}/>
 
           <Route path="/faq" element={<Faq />} />
-          <Route path="/salesforce" element={<Salesforce />} />
-          <Route path="/digital" element={<Digital />} />
-          <Route path="/seo" element={<Seo />} />
-          <Route path="/socialMedia" element={<SocialMedia />} />
-          <Route path="/contentMarketing" element={<ContentM />} />
-          <Route path="/marketResearch" element={<MarketResearch />} />
-          <Route path="/contentWriting" element={<ContentW />} />
-          <Route path="/ppc" element={<Ppc />} />
+          <Route path="/services/salesforce" element={<Salesforce />} />
+          <Route path="/services/digitalMarketing" element={<Digital />} />
+          <Route path="/services/digitalMarketing/seo" element={<Seo />} />
+          <Route path="/services/digitalMarketing/socialMedia" element={<SocialMedia />} />
+          <Route path="/services/digitalMarketing/contentMarketing" element={<ContentM />} />
+          {/* <Route path="/digitalMarketing/marketResearch" element={<MarketResearch />} /> */}
+          {/* <Route path="/digitalMarketing/contentWriting" element={<ContentW />} /> */}
+          <Route path="/services/digitalMarketing/ppc" element={<Ppc />} />
 
-          <Route path="/blockChain" element={<BlockChain />} />
-          <Route path="/deveops" element={<Deveops />} />
-          <Route path="/mobileApp" element={<MobileApp />} />
-          <Route path="/webApp" element={<WebApp />} />
-          <Route path="/cloud" element={<Cloud />} />
-          <Route path="/case" element={<CaseStudies />} />
-          <Route path="/dmc" element={<DMC />} />
-          <Route path="/cargosprint" element={<CargoSprint />} />
-          <Route path="/continuum" element={<Continuum />} />
-          <Route path="/nexum" element={<Nexum />} />
-          <Route path="/abuDhabi" element={<AbuDhabi />} />
+          <Route path="/services/blockChain" element={<BlockChain />} />
+          <Route path="/services/devops" element={<Deveops />} />
+          <Route path="/services/mobileAppDevelopement" element={<MobileApp />} />
+          <Route path="/services/webDevelopement" element={<WebApp />} />
+          <Route path="/services/cloudMigration" element={<Cloud />} />
+          <Route path="/caseStudy" element={<CaseStudies />} />
+          <Route path="/caseStudy/dmc" element={<DMC />} />
+          <Route path="/caseStudy/cargosprint" element={<CargoSprint />} />
+          <Route path="/caseStudy/continuum" element={<Continuum />} />
+          <Route path="/caseStudy/nexum" element={<Nexum />} />
+          <Route path="/caseStudy/abuDhabi" element={<AbuDhabi />} />
         </Routes>
         {/* </ScrollToTop> */}
       </Router>

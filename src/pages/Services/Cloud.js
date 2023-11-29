@@ -50,8 +50,8 @@ const Cloud = () => {
           </div>
         </div>
         <img
-          src="assets/mockup/cloud.png"
-          alt="mus"
+          src="/assets/mockup/cloud.png"
+          alt="image"
           className="col-md-4 mockup"
         />
       </div>
@@ -82,7 +82,7 @@ const Cloud = () => {
               <div className="mil-service-item mil-without-lines mil-mb-60">
                 <div className="mil-service-icon">
                   <div className="mil-icon-frame mil-icon-frame-md">
-                    <img src="assets/icon/1.svg" alt="icon" />
+                    <img src="/assets/icon/1.svg" alt="icon" />
                   </div>
                 </div>
                 <div className="mil-service-text">
@@ -102,7 +102,7 @@ const Cloud = () => {
               <div className="mil-service-item mil-without-lines mil-mb-60">
                 <div className="mil-service-icon">
                   <div className="mil-icon-frame mil-icon-frame-md">
-                    <img src="assets/icon/2.svg" alt="icon" />
+                    <img src="/assets/icon/2.svg" alt="icon" />
                   </div>
                 </div>
                 <div className="mil-service-text">
@@ -123,7 +123,7 @@ const Cloud = () => {
               <div className="mil-service-item mil-without-lines mil-mb-60">
                 <div className="mil-service-icon">
                   <div className="mil-icon-frame mil-icon-frame-md">
-                    <img src="assets/icon/3.svg" alt="icon" />
+                    <img src="/assets/icon/3.svg" alt="icon" />
                   </div>
                 </div>
                 <div className="mil-service-text">
@@ -144,7 +144,7 @@ const Cloud = () => {
               <div className="mil-service-item mil-without-lines mil-mb-60">
                 <div className="mil-service-icon">
                   <div className="mil-icon-frame mil-icon-frame-md">
-                    <img src="assets/icon/4.svg" alt="icon" />
+                    <img src="/assets/icon/4.svg" alt="icon" />
                   </div>
                 </div>
                 <div className="mil-service-text">
@@ -179,13 +179,13 @@ const Cloud = () => {
           <div class="mil-partners-frame">
             <a href="#.">
               <img
-                src="assets/project/18.png"
+                src="/assets/project/18.png"
                 alt="partner"
                 style={{ width: "100px", marginTop:"30px" }}
               />
             </a>
             <a href="#.">
-              <img src="assets/project/19.jpg" alt="partner" />
+              <img src="/assets/project/19.jpg" alt="partner" />
             </a>
             {/* <a href="#.">
               <img
@@ -196,7 +196,7 @@ const Cloud = () => {
             </a> */}
             <a href="#.">
               <img
-                src="assets/project/5.png"
+                src="/assets/project/5.png"
                 alt="partner"
                 style={{ width: "200px" }}
               />
@@ -232,7 +232,7 @@ const Cloud = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh"> Expertise</p>
               </div>
@@ -240,7 +240,7 @@ const Cloud = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh">Tailored Solutions</p>
               </div>
@@ -248,7 +248,7 @@ const Cloud = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh">Minimal Disruption</p>
               </div>
@@ -256,7 +256,7 @@ const Cloud = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh">Security First</p>
               </div>
@@ -265,7 +265,7 @@ const Cloud = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh">Cost Efficiency</p>
               </div>

@@ -32,7 +32,7 @@ const SalesExc = () => {
                     </h2>
                 </div>
                 <div className="col-md-4 text-center">
-                    <img src="assets/mockup/salesforce1.png" alt="mus" className="img-fluid" />
+                    <img src="/assets/mockup/salesforce1.png" alt="mus" className="img-fluid" />
                 </div>
             </div>
         </div>
@@ -96,7 +96,7 @@ const SalesExc = () => {
       <div className="col-md-6 col-xl-3">
         <div className="mil-icon-box mil-center mil-mb-60">
           <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-            <img src="assets/icon/5.svg" alt="icon" />
+            <img src="/assets/icon/5.svg" alt="icon" />
           </div>
           <h5 className="mil-mb-20">
             <span className="mil-accent">01.</span>&nbsp;Lightning Web Components 
@@ -107,7 +107,7 @@ const SalesExc = () => {
       <div className="col-md-6 col-xl-3">
         <div className="mil-icon-box mil-center mil-mb-60">
           <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-            <img src="assets/icon/5.svg" alt="icon" />
+            <img src="/assets/icon/5.svg" alt="icon" />
           </div>
           <h5 className="mil-mb-20">
             <span className="mil-accent">02.</span>&nbsp;Apex Code Visual Force
@@ -117,7 +117,7 @@ const SalesExc = () => {
       <div className="col-md-6 col-xl-3">
         <div className="mil-icon-box mil-center mil-mb-60">
           <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-            <img src="assets/icon/5.svg" alt="icon" />
+            <img src="/assets/icon/5.svg" alt="icon" />
           </div>
           <h5 className="mil-mb-20">
             <span className="mil-accent">03.</span>&nbsp;Visual Force 
@@ -128,7 +128,7 @@ const SalesExc = () => {
       <div className="col-md-6 col-xl-3">
         <div className="mil-icon-box mil-center mil-mb-60">
           <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-            <img src="assets/icon/5.svg" alt="icon" />
+            <img src="/assets/icon/5.svg" alt="icon" />
           </div>
           <h5 className="mil-mb-20">
             <span className="mil-accent">04.</span>&nbsp; Customer 360 Platform
@@ -140,7 +140,7 @@ const SalesExc = () => {
       <div className="col-md-6 col-xl-3">
         <div className="mil-icon-box mil-center mil-mb-60">
           <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-            <img src="assets/icon/5.svg" alt="icon" />
+            <img src="/assets/icon/5.svg" alt="icon" />
           </div>
           <h5 className="mil-mb-20">
             <span className="mil-accent">05.</span>&nbsp; Site.com
@@ -151,7 +151,7 @@ const SalesExc = () => {
       <div className="col-md-6 col-xl-3">
         <div className="mil-icon-box mil-center mil-mb-60">
           <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-            <img src="assets/icon/5.svg" alt="icon" />
+            <img src="/assets/icon/5.svg" alt="icon" />
           </div>
           <h5 className="mil-mb-20">
             <span className="mil-accent">06.</span>&nbsp; REST/SOAP API
@@ -161,7 +161,7 @@ const SalesExc = () => {
       <div className="col-md-6 col-xl-3">
         <div className="mil-icon-box mil-center mil-mb-60">
           <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-            <img src="assets/icon/5.svg" alt="icon" />
+            <img src="/assets/icon/5.svg" alt="icon" />
           </div>
           <h5 className="mil-mb-20">
             <span className="mil-accent">07.</span>&nbsp; JavaScript Frameworks
@@ -172,7 +172,7 @@ const SalesExc = () => {
       <div className="col-md-6 col-xl-3">
         <div className="mil-icon-box mil-center mil-mb-60">
           <div className="mil-icon-frame mil-icon-frame-md mil-mb-30">
-            <img src="assets/icon/5.svg" alt="icon" />
+            <img src="/assets/icon/5.svg" alt="icon" />
           </div>
           <h5 className="mil-mb-20">
             <span className="mil-accent">08.</span>&nbsp; Salesforce 1
@@ -213,7 +213,7 @@ const SalesExc = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh "> Industry experts</p>
               </div>
@@ -221,7 +221,7 @@ const SalesExc = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh ">Six decades of combined professional expertise</p>
               </div>
@@ -229,7 +229,7 @@ const SalesExc = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh ">SF Delivery Exp - 6 years</p>
               </div>
@@ -237,7 +237,7 @@ const SalesExc = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh ">7x Certified SF Architect</p>
               </div>
@@ -246,7 +246,7 @@ const SalesExc = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh ">4x Certified SF Dev</p>
               </div>
@@ -255,7 +255,7 @@ const SalesExc = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh ">Salesforce Partner</p>
               </div>

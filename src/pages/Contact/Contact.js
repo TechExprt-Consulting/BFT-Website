@@ -238,7 +238,7 @@ const Contact = () => {
             </div>
             <div className="col-lg-4 col-xl-3 mil-mb-120">
               <div className="mil-mb-60">
-                <h5 className="mil-list-title mil-mb-30">Support Request</h5>
+                <h5 className="mil-list-title1 mil-mb-30">Support Request</h5>
                 <p className="mil-mb-20">
                   Our experts are ready to answer your questions.
                 </p>
@@ -257,7 +257,7 @@ const Contact = () => {
                 <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
                   <img src="assets/icon/8.svg" alt="icon" />
                 </div>
-                <h5 className="mil-list-title mil-mb-30">Need Help?</h5>
+                <h5 className="mil-list-title1 mil-mb-30">Need Help?</h5>
                 <p>
                   For technical questions or billing questions, please contact
                   Customer Care.
@@ -268,7 +268,7 @@ const Contact = () => {
                 <div className="mil-icon-frame mil-icon-frame-md mil-icon-bg mil-mb-30">
                   <img src="assets/icon/9.svg" alt="icon" />
                 </div>
-                <h5 className="mil-list-title mil-mb-30">Needs More Info?</h5>
+                <h5 className="mil-list-title1 mil-mb-30">Needs More Info?</h5>
                 <p>
                   For technical questions or billing questions, please contact
                   Customer Care.

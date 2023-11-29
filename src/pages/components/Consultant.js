@@ -35,7 +35,7 @@ const Consultant = () => {
         <div className="col-md-3 col-lg-2 col-xl-2 mil-mb-301">
           <img
             src="/assets/blog/7.jpg"
-            alt="mus"
+            alt="image"
             className="mil-logo mil-mb-60"
             style={{ width: "500px", height: "400px" }}
           />

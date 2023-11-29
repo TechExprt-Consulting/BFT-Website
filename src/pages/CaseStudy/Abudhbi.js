@@ -13,7 +13,7 @@ const AbuDhabi = () => {
           <div className="container ">
             <div className="d-flex flex-column-reverse flex-md-row col-md-6">
               <div className="d-flex flex-column mt-3">
-              <Link to="/Case" class="mil-link link-left mil-mb-30">
+              <Link to="/caseStudy" class="mil-link link-left mil-mb-30">
               <i class="fas fa-arrow-left"></i>
               <span>All Cases</span>
             </Link>
@@ -29,8 +29,8 @@ const AbuDhabi = () => {
               </button>
             </div>{" "}
             <img
-              src="assets/casestudy/abuDhabi.png"
-              alt="mus"
+              src="/assets/casestudy/abuDhabi.png"
+              alt='image'
               className="col-md-5  pt-5  mil-banner-image"
             />
           </div>
@@ -44,7 +44,7 @@ const AbuDhabi = () => {
           <div class="row flex-sm-row-reverse justify-content-between">
             <div class="col-lg-4 col-xl-3">
               <div class="mil-project-info mil-mb-60">
-                <h5 class="mil-list-title mil-mb-30">Project Info</h5>
+                <h5 class="mil-list-title1 mil-mb-30">Project Info</h5>
 
                 <p class="mil-mb-10">Client</p>
                 <h6 class="mil-mb-15">Abu Dhabi University</h6>
@@ -82,13 +82,13 @@ const AbuDhabi = () => {
                 <div class="col-xl-6">
                   <ul class="mil-check-icon-list mil-mb-15">
                     <li>
-                    <img src="assets/icon/sm/1.svg" alt="icon" />
+                    <img src="/assets/icon/sm/1.svg" alt="icon" />
                       <span class="mil-dark">
                         The system should be able to integrate with the SIS{" "}
                       </span>
                     </li>
                     <li>
-                    <img src="assets/icon/sm/1.svg" alt="icon" />
+                    <img src="/assets/icon/sm/1.svg" alt="icon" />
                       <span class="mil-dark">
                         Handling batch and individual certificate generation.{" "}
                       </span>
@@ -98,7 +98,7 @@ const AbuDhabi = () => {
                 <div class="col-xl-6 mil-mb-30">
                   <ul class="mil-check-icon-list">
                     <li>
-                    <img src="assets/icon/sm/1.svg" alt="icon" />
+                    <img src="/assets/icon/sm/1.svg" alt="icon" />
                       <span class="mil-dark conten">
                         Certificate generation and verification application
                         should be a blockchain-based solution (The system) to be
@@ -127,7 +127,7 @@ const AbuDhabi = () => {
 
               <div class="mil-icon-box-head mil-long mil-mb-15">
                 <div class="mil-icon-frame mil-icon-frame-sm">
-                  <img src="assets/icon/sm/3.svg" alt="icon" />
+                  <img src="/assets/icon/sm/3.svg" alt="icon" />
                 </div>
                 <p class="mil-dark">
                   Created a blockchain system that assigned distinct identities
@@ -138,7 +138,7 @@ const AbuDhabi = () => {
             <div class="col-xl-6 mil-mb-60">
               <div class="mil-project-cover">
                 <img
-                  src="assets/projects/10.jpg"
+                  src="/assets/projects/10.jpg"
                   alt="Project"
                   
                 />

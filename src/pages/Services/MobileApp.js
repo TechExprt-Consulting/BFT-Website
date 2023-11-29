@@ -94,8 +94,8 @@ const MobileApp = () => {
           </div>
         </div>
         <img
-          src="assets/mockup/mobileapp.png"
-          alt="mus"
+          src="/assets/mockup/mobileapp.png"
+          alt="imaGe"
           className="col-md-4 mockup"
         />
       </div>
@@ -246,7 +246,7 @@ const MobileApp = () => {
               <div className="mil-service-item mil-without-lines mil-mb-60">
                 <div className="mil-service-icon">
                   <div className="mil-icon-frame mil-icon-frame-md">
-                    <img src="assets/icon/1.svg" alt="icon" />
+                    <img src="/assets/icon/1.svg" alt="icon" />
                   </div>
                 </div>
                 <div className="mil-service-text">
@@ -264,7 +264,7 @@ const MobileApp = () => {
               <div className="mil-service-item mil-without-lines mil-mb-60">
                 <div className="mil-service-icon">
                   <div className="mil-icon-frame mil-icon-frame-md">
-                    <img src="assets/icon/2.svg" alt="icon" />
+                    <img src="/assets/icon/2.svg" alt="icon" />
                   </div>
                 </div>
                 <div className="mil-service-text">
@@ -297,27 +297,27 @@ const MobileApp = () => {
           <div class="mil-partners-frame">
             <a href="#.">
               <img
-                src="assets/project/1.png"
+                src="/assets/project/1.png"
                 alt="partner"
                 style={{ width: "130px" }}
               />
             </a>
             <a href="#.">
-              <img src="assets/project/2.png" alt="partner" />
+              <img src="/assets/project/2.png" alt="partner" />
             </a>
             <a href="#.">
               <img
-                src="assets/project/3.png"
+                src="/assets/project/3.png"
                 alt="partner"
                 style={{ height: "100px" }}
               />
             </a>
             <a href="#.">
-              <img src="assets/project/15.png" alt="partner" />
+              <img src="/assets/project/15.png" alt="partner" />
             </a>
             <a href="#.">
               <img
-                src="assets/project/13.png"
+                src="/assets/project/13.png"
                 alt="partner"
                 style={{ width: "80px" }}
               />
@@ -353,7 +353,7 @@ const MobileApp = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh">Consultation</p>
               </div>
@@ -361,7 +361,7 @@ const MobileApp = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh">Design</p>
               </div>
@@ -369,7 +369,7 @@ const MobileApp = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh">Development</p>
               </div>
@@ -377,7 +377,7 @@ const MobileApp = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh">Testing</p>
               </div>
@@ -386,7 +386,7 @@ const MobileApp = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh">Launch</p>
               </div>

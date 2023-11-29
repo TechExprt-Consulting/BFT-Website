@@ -111,7 +111,7 @@ const Salesforce = () => {
           </div>
         </div>
         <img
-          src="assets/mockup/salesforce1.png"
+          src="/assets/mockup/salesforce1.png"
           alt="mus"
           className="col-md-4 mockup"
         />
@@ -667,20 +667,20 @@ const Salesforce = () => {
           <div class="mil-partners-frame">
             <a href="#.">
               <img
-                src="assets/project/14.png"
+                src="/assets/project/14.png"
                 alt="partner"
                 style={{ width: "130px" }}
               />
             </a>
             <a href="#.">
               <img
-                src="assets/project/16.png"
+                src="/assets/project/16.png"
                 alt="partner"
                 style={{ height: "90px" }}
               />
             </a>
             <a href="#.">
-              <img src="assets/project/17.png" alt="partner" />
+              <img src="/assets/project/17.png" alt="partner" />
             </a>
             {/* <a href="#.">
               <img src="assets/project/5.png" alt="partner" />
@@ -708,7 +708,7 @@ const Salesforce = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh "> Industry experts</p>
               </div>
@@ -716,7 +716,7 @@ const Salesforce = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh ">Six decades of combined professional expertise</p>
               </div>
@@ -724,7 +724,7 @@ const Salesforce = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh ">SF Delivery Exp - 6 years</p>
               </div>
@@ -732,7 +732,7 @@ const Salesforce = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh ">7x Certified SF Architect</p>
               </div>
@@ -741,7 +741,7 @@ const Salesforce = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh ">4x Certified SF Dev</p>
               </div>
@@ -750,7 +750,7 @@ const Salesforce = () => {
             <div className="col-lg-3">
               <div className="mil-icon-box-head mil-long mil-mob-center mil-mb-60">
                 <div className="mil-icon-frame mil-icon-frame-sm mil-ligh">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p className="mil-ligh ">Salesforce Partner</p>
               </div>

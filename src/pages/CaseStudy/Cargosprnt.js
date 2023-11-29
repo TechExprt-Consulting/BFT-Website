@@ -39,7 +39,7 @@ const CargoSprint = () => {
           <div className="container ">
             <div className="d-flex flex-column-reverse flex-md-row col-md-6">
               <div className="d-flex flex-column mt-3">
-              <Link to="/Case" class="mil-link link-left mil-mb-30">
+              <Link to="/caseStudy" class="mil-link link-left mil-mb-30">
               <i class="fas fa-arrow-left"></i>
               <span>All Cases</span>
             </Link>
@@ -55,8 +55,8 @@ const CargoSprint = () => {
               </button>
             </div>{" "}
             <img
-              src="assets/casestudy/cargosprint.png"
-              alt="mus"
+              src="/assets/casestudy/cargosprint.png"
+              alt="image"
               className="col-md-5  pt-5  mil-banner-image"
             />
           </div>
@@ -70,7 +70,7 @@ const CargoSprint = () => {
           <div class="row flex-sm-row-reverse justify-content-between">
             <div class="col-lg-4 col-xl-3">
               <div class="mil-project-info mil-mb-60">
-                <h5 class="mil-list-title mil-mb-30">Project Info</h5>
+                <h5 class="mil-list-title1 mil-mb-30">Project Info</h5>
 
                 <p class="mil-mb-10">Client</p>
                 <h6 class="mil-mb-15">Cargosprint</h6>
@@ -110,14 +110,14 @@ const CargoSprint = () => {
                 <div class="col-xl-6">
                   <ul class="mil-check-icon-list mil-mb-15">
                     <li>
-                      <img src="assets/icon/sm/1.svg" alt="icon" />
+                      <img src="/assets/icon/sm/1.svg" alt="icon" />
                       <span class="mil-dark conten">
                         Complex and error-prone custom code in Salesforce for
                         Payment data integration.{" "}
                       </span>
                     </li>
                     <li>
-                      <img src="assets/icon/sm/1.svg" alt="icon" />
+                      <img src="/assets/icon/sm/1.svg" alt="icon" />
                       <span class="mil-dark">
                         Inefficient bug handling and optimization due to the
                         custom code.{" "}
@@ -128,7 +128,7 @@ const CargoSprint = () => {
                 <div class="col-xl-6 mil-mb-30">
                   <ul class="mil-check-icon-list">
                     <li>
-                      <img src="assets/icon/sm/1.svg" alt="icon" />
+                      <img src="/assets/icon/sm/1.svg" alt="icon" />
                       <span class="mil-dark conten">
                         The need for standardized Salesforce functionality to
                         facilitate seamless data integration.{" "}
@@ -156,7 +156,7 @@ const CargoSprint = () => {
 
               <div class="mil-icon-box-head mil-long mil-mb-15">
                 <div class="mil-icon-frame mil-icon-frame-sm">
-                  <img src="assets/icon/sm/3.svg" alt="icon" />
+                  <img src="/assets/icon/sm/3.svg" alt="icon" />
                 </div>
                 <p class="mil-dark">
                   Developed a REST API that served as the bridge between Google
@@ -165,7 +165,7 @@ const CargoSprint = () => {
               </div>
               <div class="mil-icon-box-head mil-long mil-mb-15">
                 <div class="mil-icon-frame mil-icon-frame-sm">
-                  <img src="assets/icon/sm/2.svg" alt="icon" />
+                  <img src="/assets/icon/sm/2.svg" alt="icon" />
                 </div>
                 <p class="mil-dark">
                   Implemented OAuth 2.0 authorization using Salesforce Connected
@@ -174,7 +174,7 @@ const CargoSprint = () => {
               </div>
               <div class="mil-icon-box-head mil-long mil-mb-15">
                 <div class="mil-icon-frame mil-icon-frame-sm">
-                  <img src="assets/icon/sm/5.svg" alt="icon" />
+                  <img src="/assets/icon/sm/5.svg" alt="icon" />
                 </div>
                 <p class="mil-dark">
                   Leveraged Salesforce's Queueable interface to process data
@@ -183,14 +183,14 @@ const CargoSprint = () => {
               </div>
               <div class="mil-icon-box-head mil-long mil-mb-15">
                 <div class="mil-icon-frame mil-icon-frame-sm">
-                  <img src="assets/icon/sm/6.svg" alt="icon" />
+                  <img src="/assets/icon/sm/6.svg" alt="icon" />
                 </div>
                 <p class="mil-dark">Prioritized credential security. </p>
               </div>
             </div>
             <div class="col-xl-6 mil-mb-60">
               <div class="mil-project-cover">
-                <img src="assets/partner/3.png" alt="Project" />
+                <img src="/assets/partner/3.png" alt="Project" />
               </div>
             </div>
           </div>
@@ -232,7 +232,7 @@ const CargoSprint = () => {
       <div className="row justify-content-around align-items-center">
         <div className="col-xl-7  mil-mb-60">
           <div className="mil-project-cover">
-            <img src="assets/img/cargo.png" alt="Project" />
+            <img src="/assets/img/cargo.png" alt="Project" />
           </div>
         </div>
       </div>

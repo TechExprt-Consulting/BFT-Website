@@ -6,57 +6,57 @@ import { useState } from "react";
 const Submenu = () => (
   <div className="submenu dropdown-menu bg-white">
     <li>
-      <Link to="/saas">SAAS Developement</Link>
+      <Link to="/services/webDevelopement/saas">SAAS Developement</Link>
     </li>
     <li>
-      <Link to="/softwareDevelopement">Custom Software Developement</Link>
+      <Link to="/services/webDevelopement/softwareDevelopement">Custom Software Developement</Link>
     </li>
     <li>
-      <Link to="/api">API Developement</Link>
+      <Link to="/services/webDevelopement/apiDevelopement">API Developement</Link>
     </li>
     <li>
-      <Link to="/adminPanel">Custom Admin Panel</Link>
+      <Link to="/services/webDevelopement/adminPanel">Custom Admin Panel</Link>
     </li>
   </div>
 );
 const Submenu2 = () => (
   <ul className="submenu dropdown-menu bg-white">
     <li>
-      <Link to="/salesforceConsulting">Salesforce Consulting Services</Link>
+      <Link to="/services/salesforce/salesforceConsulting">Salesforce Consulting Services</Link>
     </li>
     <li>
-      <Link to="/salesforceCustomization">Salesforce Customization</Link>
+      <Link to="/services/salesforce/salesforceCustomization">Salesforce Customization</Link>
     </li>
     <li>
-      <Link to="/salesforceImplementation">Salesforce Implementation</Link>
+      <Link to="/services/salesforce/salesforceImplementation">Salesforce Implementation</Link>
     </li>
     <li>
-      <Link to="/salesforceIntegration">Salesforce Integration</Link>
+      <Link to="/services/salesforce/salesforceIntegration">Salesforce Integration</Link>
     </li>
     <li>
-      <Link to="/salesforceAppExchange">Salesforce App Exchange</Link>
+      <Link to="/services/salesforce/salesforceAppExchange">Salesforce App Exchange</Link>
     </li>
     <li>
-      <Link to="/salesforceMigration">Salesforce Migration</Link>
+      <Link to="/services/salesforce/salesforceMigration">Salesforce Migration</Link>
     </li>
     <li>
-      <Link to="/salesforceItSupport">Salesforce IT Support</Link>
+      <Link to="/services/salesforce/salesforceItSupport">Salesforce IT Support</Link>
     </li>
   </ul>
 );
 const Submenu3 = () => (
   <ul className="submenu dropdown-menu bg-white">
     <li>
-      <Link to="/seo">Search Engine Optimization</Link>
+      <Link to="/services/digitalMarketing/seo">Search Engine Optimization</Link>
     </li>
     <li>
-      <Link to="/socialMedia">Social Media Marketing</Link>
+      <Link to="/services/digitalMarketing/socialMedia">Social Media Marketing</Link>
     </li>
     <li>
-      <Link to="/ppc">Pay Per Click</Link>
+      <Link to="/services/digitalMarketing/ppc">Pay Per Click</Link>
     </li>
     <li>
-      <Link to="/contentMarketing">Content Marketing</Link>
+      <Link to="/services/digitalMarketing/contentMarketing">Content Marketing</Link>
     </li>
   </ul>
 );
@@ -88,7 +88,7 @@ const Navbar = () => {
   const handleProduct2SubMenuLeave = () => {
     setProduct2SubMenuOpen(false);
   };
-  
+
   const handleProduct3SubMenuHover = () => {
     setProduct3SubMenuOpen(true);
   };
@@ -112,7 +112,7 @@ const Navbar = () => {
                   <li className="nav-item">
                     <Link to="/home">Home</Link>
                   </li>
-                  
+
                   <li className="mil-has-children nav-item">
                     <Link to="/">Enterprise</Link>
                     <ul>
@@ -122,47 +122,45 @@ const Navbar = () => {
                       <li>
                         <Link to="/team"> Our Team</Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link to="/career">Careers</Link>
-                      </li>
+                      </li> */}
                     </ul>
                   </li>
                   <li className="mil-has-children nav-item">
-                    <Link to="/case">Case Studies</Link>
+                    <Link to="/caseStudy">Case Studies</Link>
                     <ul>
                       <li>
-                        <Link to="/dmc">DMC</Link>
+                        <Link to="/caseStudy/dmc">DMC</Link>
                       </li>
                       <li>
-                        <Link to="/cargosprint"> CargoSprint</Link>
+                        <Link to="/caseStudy/cargosprint"> CargoSprint</Link>
                       </li>
                       <li>
-                        <Link to="/nexum">Nexum</Link>
+                        <Link to="/caseStudy/nexum">Nexum</Link>
                       </li>
                       <li>
-                        <Link to="/continuum">Continuum</Link>
+                        <Link to="/caseStudy/continuum">Continuum</Link>
                       </li>
                       <li>
-                        <Link to="/abuDhabi">AbuDhabi</Link>
+                        <Link to="/caseStudy/abuDhabi">AbuDhabi</Link>
                       </li>
                     </ul>
                   </li>
-                  
+
                   <li
                     className="nav-item dropdown mil-has-child"
                     onMouseEnter={handleProductMenuHover}
                     onMouseLeave={handleProductMenuLeave}
                   >
-                   <Link to=''>Services</Link>
+                    <Link to="">Services</Link>
                     <div className="dropdown-menu bg-white ">
-                      
-                     
                       <li
                         className="dropdown-submenu"
                         onMouseEnter={handleProduct1SubMenuHover}
                         onMouseLeave={handleProduct1SubMenuLeave}
                       >
-                        <Link to="/webApp">Web Developement &raquo;</Link>
+                        <Link to="/services/webDevelopement">Web Developement &raquo;</Link>
                         {isProduct1SubMenuOpen && <Submenu />}
                       </li>
                       <li
@@ -170,7 +168,9 @@ const Navbar = () => {
                         onMouseEnter={handleProduct2SubMenuHover}
                         onMouseLeave={handleProduct2SubMenuLeave}
                       >
-                        <Link to="/salesforce">Salesforce Services &raquo;</Link>
+                        <Link to="/services/salesforce">
+                          Salesforce Services &raquo;
+                        </Link>
                         {isProduct2SubMenuOpen && <Submenu2 />}
                       </li>
                       <li
@@ -178,33 +178,35 @@ const Navbar = () => {
                         onMouseEnter={handleProduct3SubMenuHover}
                         onMouseLeave={handleProduct3SubMenuLeave}
                       >
-                        <Link to="/digital">Digital Marketing &raquo;</Link>
+                        <Link to="/services/digitalMarketing">Digital Marketing &raquo;</Link>
                         {isProduct3SubMenuOpen && <Submenu3 />}
                       </li>
                       <li>
-                      <Link to="/deveops">Devops Consulting</Link>
+                        <Link to="/services/devops">Devops Consulting</Link>
                       </li>
                       <li>
-                      <Link to="/cloud">Cloud Migration</Link>
+                        <Link to="/services/cloudMigration">Cloud Migration</Link>
                       </li>
                       <li>
-                      <Link to="/mobileApp">Mobile App Developement</Link>
+                        <Link to="/services/mobileAppDevelopement">Mobile App Developement</Link>
                       </li>
                       <li>
-                      <Link to="/blockChain">Blockchain Developement</Link>
+                        <Link to="/services/blockChain">Blockchain Developement</Link>
                       </li>
                     </div>
                   </li>
                   {/* <li>
                     <Link to="/Faq">FAQ</Link>
                   </li> */}
-<li className="nav-item">
-                    <Link to="/tech">Technologies</Link>
-                  </li>
                   <li className="nav-item">
-                    <Link to="/blog">Blog</Link>
+                    <Link to="/technologies">Technologies</Link>
                   </li>
-                 
+                  {/* <li className="nav-item">
+                    <Link to="/blog">Blog</Link>
+                  </li> */}
+                  <li className="nav-item">
+                    <Link to="/career">Careers</Link>
+                  </li>
                   <li className="nav-item">
                     <Link to="/contact">Contact Us</Link>
                   </li>
