@@ -55,6 +55,7 @@ import Blog2 from './pages/Blog/Blog2';
 import Blog4 from './pages/Blog/Blog4';
 import Blog5 from './pages/Blog/Blog5';
 import Blog6 from './pages/Blog/Blog6';
+import ApplyModal from './pages/components/ApplyModal';
 function App() {
  
   return (
@@ -63,7 +64,7 @@ function App() {
       <Router >
       <ScrollToTop />
         <Routes>
-
+<Route path ='/apply' element={<ApplyModal/>}/>
           <Route path='/services/managedService' element={<Managed/>}/>
           <Route path='/services/webDevelopement/saas' element={<Saas/>}/>
           <Route path='/services/webDevelopement/apiDevelopement' element={<Api/>}/>

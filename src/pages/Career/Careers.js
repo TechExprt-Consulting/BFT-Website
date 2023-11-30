@@ -2,7 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-const Careers = () => {
+import ApplyModal from "../components/ApplyModal";
+import { useState } from "react";
+const Careers = ( ) => {
+  
   return (
     <div className="mil-wrapper">
       <Navbar/>
@@ -80,9 +83,10 @@ const Careers = () => {
                 </div>
                 <div className="col-md-12 col-lg-4 col-xl-4 mil-mb-30">
                   <div className="mil-adaptive-right">
-                    <Link to="" className="mil-button mil-border">
-                      <span>Apply Now</span>
-                    </Link>
+                    <div className="mil-button mil-border">
+                      {/* <span>Apply Now</span> */}
+                      <ApplyModal title='UI and Web Developer'/>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -106,9 +110,10 @@ const Careers = () => {
                 </div>
                 <div className="col-md-12 col-lg-4 col-xl-4 mil-mb-30">
                   <div className="mil-adaptive-right">
-                    <Link to="" className="mil-button mil-border">
-                      <span>Apply Now</span>
-                    </Link>
+                    <div className="mil-button mil-border">
+                      {/* <span>Apply Now</span> */}
+                      <ApplyModal title='AI Developer'/>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -131,9 +136,10 @@ const Careers = () => {
                 </div>
                 <div className="col-md-12 col-lg-4 col-xl-4 mil-mb-30">
                   <div className="mil-adaptive-right">
-                    <Link to="" className="mil-button mil-border">
-                      <span>Apply Now</span>
-                    </Link>
+                    <div  className="mil-button mil-border">
+                      {/* <span>Apply Now</span> */}
+                      <ApplyModal title='Salesforce Developer'/>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -156,9 +162,10 @@ const Careers = () => {
                 </div>
                 <div className="col-md-12 col-lg-4 col-xl-4 mil-mb-30">
                   <div className="mil-adaptive-right">
-                    <Link to="" className="mil-button mil-border">
-                      <span>Apply Now</span>
-                    </Link>
+                    <div  className="mil-button mil-border">
+                      {/* <span>Apply Now</span> */}
+                      <ApplyModal title='DevOps '/>
+                    </div>
                   </div>
                 </div>
               </div>

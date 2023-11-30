@@ -1,12 +1,65 @@
-import React from "react";
+import React, { useRef } from "react";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import Navbar from "../components/Navbar";
-
+import emailjs from "emailjs-com";
 const Contact = () => {
-  const handleSubmit = (event) => {
-    event.preventDefault();
+  const form = useRef();
+
+  const [formData, setFormData] = useState({
+    first_name: "",
+    last_name: "",
+    email: "",
+    phone: "",
+    company: "",
+    role: "",
+    category: "",
+    message: "",
+    budget: "",
+  });
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_zocqpui",
+        "template_g13uw2j",
+        form.current,
+        "20UFju62he0ixUwo6"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log("message sent");
+
+          setFormData({
+            first_name: "",
+            last_name: "",
+            email: "",
+            phone: "",
+            company: "",
+            role: "",
+            category: "",
+            message: "",
+            budget: "",
+          });
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
+  const handleFileChange = (e) => {
+    const file = e.target.files[0];
+    // setPdfFile(file);
   };
 
   return (
@@ -43,41 +96,6 @@ const Contact = () => {
         </div>
       </div>
 
-      {/* <div className="mil-banner-sm bg-white shadow shadow-bottom shadow-md">
-  <div className="mil-banner-content position-relative">
-    <div className="container">
-      <div className="d-flex flex-column-reverse flex-md-row">
-        <div className="d-flex flex-column mt-3">
-          <ul className="mil-breadcrumbs mil-mb-30">
-            <li>
-              <Link to="/Home">Home</Link>
-            </li>
-            <li>
-              <Link to="">Contact Us</Link>
-            </li>
-          </ul>
-
-          <h2 className="mil-uppercase" style={{ color: "#1B2F5B" }}>
-            Let's discuss your opportunity
-          </h2>
-        </div>
-      </div>
-
-      <div className="mil-fixed-button-container">
-        <button className="mil-vertical-button text-dark">
-          Get a Free Quote!
-        </button>
-      </div>
-
-      <img
-        src="assets/mockup/contact.png"
-        alt="mus"
-        className="mil-banner-image"
-      />
-    </div>
-  </div>
-</div> */}
-
       {/* <!-- banner end --> */}
 
       {/* <!-- contact --> */}
@@ -85,11 +103,7 @@ const Contact = () => {
         <div className="container">
           <div className="row justify-content-between">
             <div className="col-lg-8 col-xl-8 mil-mb-120">
-              <form
-                id="formContact"
-                method="post"
-                enctype="multipart/form-data"
-              >
+              <form ref={form} onSubmit={sendEmail}>
                 <h3 className="mil-mb-60 mil-uppercase">Contact Us</h3>
                 <h4 className="mil-mb-60">
                   <span className="mil-accent">01.</span> Tell Us About Yourself
@@ -105,6 +119,8 @@ const Contact = () => {
                         type="text"
                         name="first_name"
                         required
+                        value={formData.first_name}
+                        onChange={handleChange}
                         placeholder="First Name"
                       />
                     </div>
@@ -118,6 +134,8 @@ const Contact = () => {
                         type="text"
                         name="last_name"
                         required
+                        value={formData.last_name}
+                        onChange={handleChange}
                         placeholder="Last Name"
                       />
                     </div>
@@ -131,6 +149,8 @@ const Contact = () => {
                         type="email"
                         name="email"
                         required
+                        value={formData.email}
+                        onChange={handleChange}
                         placeholder="youremail@gmail.com"
                       />
                     </div>
@@ -143,6 +163,8 @@ const Contact = () => {
                       <input
                         type="tel"
                         name="phone"
+                        value={formData.phone}
+                        onChange={handleChange}
                         placeholder="Enter your phone number"
                       />
                     </div>
@@ -155,6 +177,8 @@ const Contact = () => {
                       <input
                         type="text"
                         name="company"
+                        value={formData.company}
+                        onChange={handleChange}
                         placeholder="Your company name"
                       />
                     </div>
@@ -164,7 +188,8 @@ const Contact = () => {
                       {/* <label className="mil-h6 mil-dark">
                         <span>Role</span>
                       </label> */}
-                      <input type="text" name="role" placeholder="Your role" />
+                      <input type="text" name="role"  value={formData.role}
+                        onChange={handleChange} placeholder="Your role" />
                     </div>
                   </div>
                 </div>
@@ -183,6 +208,8 @@ const Contact = () => {
                       <input
                         type="text"
                         name="category"
+                        value={formData.category}
+                        onChange={handleChange}
                         placeholder="Product Design"
                       />
                     </div>
@@ -202,6 +229,8 @@ const Contact = () => {
                       </label> */}
                       <textarea
                         type="text"
+                        value={formData.message}
+                        onChange={handleChange}
                         placeholder="Your Message"
                         name="message"
                         className="mil-shortened"
@@ -214,10 +243,21 @@ const Contact = () => {
                       {/* <label className="mil-h6 mil-dark">
                         <span>Project Budget</span>
                       </label> */}
-                      <input type="number" name="budget" placeholder="Budget" />
+                      <input type="number" name="budget"  value={formData.budget}
+                        onChange={handleChange} placeholder="Budget" />
                     </div>
                   </div>
-
+                  <label className="text-secondary mt-4 ">
+              <span>Upload CV</span>
+            </label>
+            <input
+              type="file"
+              id="pdfInput"
+              name='resume'
+              accept=".pdf"
+              // value={pdfFile}
+              onChange={handleFileChange}
+            />
                   <div className="col-lg-12">
                     <button
                       type="submit"
