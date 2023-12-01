@@ -4,7 +4,9 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import Navbar from "../components/Navbar";
 import emailjs from "emailjs-com";
+import ReCAPTCHA from "react-google-recaptcha";
 const Contact = () => {
+  const [verified, setVerified] = useState(false);
   const form = useRef();
 
   const [formData, setFormData] = useState({
@@ -45,6 +47,7 @@ const Contact = () => {
             message: "",
             budget: "",
           });
+          setVerified(false);
         },
         (error) => {
           console.log(error.text);
@@ -57,11 +60,13 @@ const Contact = () => {
       [e.target.name]: e.target.value,
     });
   };
-  const handleFileChange = (e) => {
-    const file = e.target.files[0];
-    // setPdfFile(file);
-  };
-
+  function onChange(value) {
+    console.log("Captcha value:", value);
+    setVerified(true);
+  }
+ function handleSubmit(){
+  setVerified(false);
+ }
   return (
     <div className="mil-wrapper">
       <Navbar />
@@ -188,8 +193,13 @@ const Contact = () => {
                       {/* <label className="mil-h6 mil-dark">
                         <span>Role</span>
                       </label> */}
-                      <input type="text" name="role"  value={formData.role}
-                        onChange={handleChange} placeholder="Your role" />
+                      <input
+                        type="text"
+                        name="role"
+                        value={formData.role}
+                        onChange={handleChange}
+                        placeholder="Your role"
+                      />
                     </div>
                   </div>
                 </div>
@@ -243,25 +253,26 @@ const Contact = () => {
                       {/* <label className="mil-h6 mil-dark">
                         <span>Project Budget</span>
                       </label> */}
-                      <input type="number" name="budget"  value={formData.budget}
-                        onChange={handleChange} placeholder="Budget" />
+                      <input
+                        type="number"
+                        name="budget"
+                        value={formData.budget}
+                        onChange={handleChange}
+                        placeholder="Budget"
+                      />
                     </div>
                   </div>
-                  <label className="text-secondary mt-4 ">
-              <span>Upload CV</span>
-            </label>
-            <input
-              type="file"
-              id="pdfInput"
-              name='resume'
-              accept=".pdf"
-              // value={pdfFile}
-              onChange={handleFileChange}
-            />
+                  
+                  <ReCAPTCHA
+                    sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
+                    onChange={onChange}
+                  />
                   <div className="col-lg-12">
                     <button
                       type="submit"
-                      className="mil-button mil-border mil-fw"
+                      className="mil-button mil-border mil-fw mt-4"
+                      disabled={!verified}
+                      
                     >
                       <span>Submit Now</span>
                     </button>
