@@ -23,7 +23,10 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+    if (!verified) {
+      alert("Please complete the reCAPTCHA before submitting.");
+      return;
+    }
     emailjs
       .sendForm(
         "service_zocqpui",
@@ -248,7 +251,7 @@ const Contact = () => {
                     </div>
                   </div>
 
-                  <div className="col-lg-6 mil-mb-30">
+                  <div className="col-lg-12 mil-mb-30">
                     <div className="mil-input-frame mil-dark-input mil-mb-30">
                       {/* <label className="mil-h6 mil-dark">
                         <span>Project Budget</span>
@@ -262,11 +265,13 @@ const Contact = () => {
                       />
                     </div>
                   </div>
-                  
+                  {/* <div className="border border-danger col-lg-4 p-0" > */}
                   <ReCAPTCHA
                     sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
                     onChange={onChange}
+                    
                   />
+                  {/* </div> */}
                   <div className="col-lg-12">
                     <button
                       type="submit"
@@ -274,7 +279,7 @@ const Contact = () => {
                       disabled={!verified}
                       
                     >
-                      <span>Submit Now</span>
+                      Submit Now
                     </button>
                   </div>
                 </div>

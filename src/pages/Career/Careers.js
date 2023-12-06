@@ -34,7 +34,7 @@ const Careers = ( ) => {
           </div>
           <div className="mil-fixed-button-container">
             <button className="mil-vertical-button text-dark ">
-              Get a Free Quote!
+            <Link to="/contact"> Get a Free Quote!</Link>
             </button>
           </div>
         </div>
@@ -202,7 +202,7 @@ const Careers = ( ) => {
             <div className="col-xl-6">
               <div className="mil-about-illustration-2">
                 <div className="mil-image-frame">
-                  <img src="assets/photo/8.jpg" alt="Office" />
+                  <img src="/assets/photo/8.jpg" alt="Office" />
                 </div>
                 {/* <Link to="/" className="mil-play-button"><i className="fas fa-play"></i></Link> */}
               </div>
