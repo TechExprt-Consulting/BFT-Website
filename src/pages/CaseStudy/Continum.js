@@ -29,7 +29,7 @@ const Continuum = () => {
               </button>
             </div>{" "}
             <img
-              src="/assets/casestudy/continuum.png"
+              src="/assets/casestudy/Continuum.png"
               alt="image"
               className="col-md-5  pt-5  mil-banner-image"
             />

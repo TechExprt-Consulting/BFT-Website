@@ -75,6 +75,7 @@ const Home = () => {
                 </h1>
               </div>
               <div class="col-xl-4">
+                <Link to='/contact'>
                 <div class="mil-illustration-1">
                   <div class="mil-item mil-item-2">
                     <div class="mil-plus">
@@ -83,7 +84,7 @@ const Home = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div></Link>
               </div>
             </div>
           </div>

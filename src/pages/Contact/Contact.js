@@ -267,7 +267,8 @@ const Contact = () => {
                   </div>
                   {/* <div className="border border-danger col-lg-4 p-0" > */}
                   <ReCAPTCHA
-                    sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
+                    // sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
+                    sitekey="6LfvBCgpAAAAANELCXHqfBHhfPB_YWUjZmP78A-K"
                     onChange={onChange}
                     
                   />

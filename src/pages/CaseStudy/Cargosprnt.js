@@ -55,7 +55,7 @@ const CargoSprint = () => {
               </button>
             </div>{" "}
             <img
-              src="/assets/casestudy/cargosprint.png"
+              src="/assets/casestudy/Cargosprint.png"
               alt="image"
               className="col-md-5  pt-5  mil-banner-image"
             />

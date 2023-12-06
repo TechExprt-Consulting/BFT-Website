@@ -2405,7 +2405,9 @@ illustration
 ------------------------------------------- */
 .mil-illustration-1 {
   position: relative;
-  height: 450px;
+  /* height: 450px; */
+  height:300px;
+  width:500px;
 }
 @media screen and (max-width: 1200px) {
   .mil-illustration-1 {
@@ -2493,13 +2495,16 @@ illustration
   background-color: rgba(255, 255, 255, 0.1);
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
-  width: 110px;
+  /* width: 110px; */
+  width:180px;
   margin-right: 150px;
   
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size:33px;
   font-weight: 300;
   color: rgb(255, 255, 255);
-  height: 110px;
+  /* height: 110px; */
+  height: 180px;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
