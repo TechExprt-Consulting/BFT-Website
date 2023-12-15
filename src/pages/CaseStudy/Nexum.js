@@ -14,7 +14,7 @@ const Nexum = () => {
           <div className="container ">
             <div className="d-flex flex-column-reverse flex-md-row col-md-6">
               <div className="d-flex flex-column mt-3">
-              <Link to="/caseStudy" class="mil-link link-left mil-mb-30">
+              <Link to="/case-study" class="mil-link link-left mil-mb-30">
               <i class="fas fa-arrow-left"></i>
               <span>All Cases</span>
             </Link>

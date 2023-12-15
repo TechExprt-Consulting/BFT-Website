@@ -65,13 +65,13 @@ const WebApp = () => {
     <div className="container mil-relative">
       <ul className="mil-breadcrumbs mil-mb-30">
         <li>
-          <Link to="/Home">Home</Link>
+          <Link to="/home">Home</Link>
         </li>
         <li>
           <Link to="">Service</Link>
         </li>
         <li>
-          <Link to="/Salesforce">Web Application</Link>
+          <Link to="/salesforce">Web Application</Link>
         </li>
       </ul>
       <div className="d-flex flex-column-reverse flex-md-row">
@@ -155,19 +155,19 @@ const WebApp = () => {
               <div className="col-md-7">
                 <div>
                 Front-end Development: HTML/CSS, JavaScript, React, Angular, Vue.js, Bootstrap or Material-UI.
-                  <Link to="/tech" class="mil-link3 link-right">
+                  <Link to="/technologies" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>{" "}
                 <div>
                 Back-end Development: Node.js, Ruby on Rails, Python (Django or Flask), PHP.
-                  <Link to="/tech" class="mil-link3 link-right">
+                  <Link to="/technologies" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
                 <div>
                 Database Management: MySQL, PostgreSQL, SQLite, MongoDB or Firebase.
-                  <Link to="/tech" class="mil-link3 link-right">
+                  <Link to="/technologies" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -175,7 +175,7 @@ const WebApp = () => {
               <div className="col-md-4">
                 <div>
                 Continuous Integration/Continuous Deployment (CI/CD)
-                  <Link to="/tech" class="mil-link3 link-right">
+                  <Link to="/technologies" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -211,13 +211,13 @@ const WebApp = () => {
               <div className="col-md-7">
                 <div>
                 Mobile App Development
-                  <Link to="/mobileApp" class="mil-link3 link-right">
+                  <Link to="/services/mobile-app-developement" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>{" "}
                 <div>
                 Web App Development
-                  <Link to="/webApp" class="mil-link3 link-right">
+                  <Link to="/services/web-developement" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -279,7 +279,7 @@ const WebApp = () => {
               <div className="col-md-7">
                 <div>
                 Front-End Development
-                  <Link to="/tech" class="mil-link3 link-right">
+                  <Link to="/technologies" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>{" "}
@@ -305,19 +305,19 @@ const WebApp = () => {
                <div className="col-md-4">
                 <div>
                 Database Design and Management
-                  <Link to="/tech" class="mil-link3 link-right">
+                  <Link to="/technologies" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
                 <div>
                 UI/UX Design
-                  <Link to="/tech" class="mil-link3 link-right">
+                  <Link to="/technologies" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
                 <div>
                 Back-End Development
-                  <Link to="/tech" class="mil-link3 link-right">
+                  <Link to="/technologies" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>

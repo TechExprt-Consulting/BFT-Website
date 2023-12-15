@@ -42,7 +42,7 @@ const ItService = () => {
             <div className="col-md-7">
             <div>
               Strategy
-              <Link to="/deveops" class="mil-link3 link-right">
+              <Link to="/devops" class="mil-link3 link-right">
                 <i class="fas fa-arrow-right"></i>
               </Link>
             </div>{" "}
@@ -50,13 +50,13 @@ const ItService = () => {
            
             <div>
               Stra
-              <Link to="/deveops" class="mil-link3 link-right">
+              <Link to="/devops" class="mil-link3 link-right">
                 <i class="fas fa-arrow-right"></i>
               </Link>
             </div>
             <div>
               Stra
-              <Link to="/deveops" class="mil-link3 link-right">
+              <Link to="/devops" class="mil-link3 link-right">
                 <i class="fas fa-arrow-right"></i>
               </Link>
             </div>
@@ -64,13 +64,13 @@ const ItService = () => {
             <div className="col-md-4">
             <div>
               Stra
-              <Link to="/deveops" class="mil-link3 link-right">
+              <Link to="/devops" class="mil-link3 link-right">
                 <i class="fas fa-arrow-right"></i>
               </Link>
             </div>
             <div>
               Stra
-              <Link to="/deveops" class="mil-link3 link-right">
+              <Link to="/devops" class="mil-link3 link-right">
                 <i class="fas fa-arrow-right"></i>
               </Link>
             </div>

@@ -36,10 +36,10 @@ const Technology = () => {
           <div className="container mil-relative">
             <ul className="mil-breadcrumbs mil-mb-30">
               <li>
-                <Link to="/Home">Home</Link>
+                <Link to="/home">Home</Link>
               </li>
               <li>
-                <Link to="/About">Technologies</Link>
+                <Link to="/about">Technologies</Link>
               </li>
             </ul>
             <h2 className="mil-uppercase">Technologies</h2>

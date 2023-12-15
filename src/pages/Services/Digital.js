@@ -20,13 +20,13 @@ const Digital = () => {
     <div className="container mil-relative">
       <ul className="mil-breadcrumbs mil-mb-30">
         <li>
-          <Link to="/Home">Home</Link>
+          <Link to="/home">Home</Link>
         </li>
         <li>
           <Link to="">Service</Link>
         </li>
         <li>
-          <Link to="/Salesforce">Digital Marketing</Link>
+          <Link to="/salesforce">Digital Marketing</Link>
         </li>
       </ul>
       <div className="d-flex flex-column-reverse flex-md-row">
@@ -118,7 +118,7 @@ const Digital = () => {
               <div className="col-md-7">
                 <div>
                   Social Media Marketing
-                  <Link to="/socialMedia" class="mil-link3 link-right">
+                  <Link to="/social-media" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>{" "}
@@ -138,7 +138,7 @@ const Digital = () => {
               <div className="col-md-4">
                 <div>
                   Web and App Development
-                  <Link to="/web" class="mil-link3 link-right">
+                  <Link to="/services/web-developement" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -298,7 +298,7 @@ const Digital = () => {
                 </div>
                 <div>
                   Website Development
-                  <Link to="/webApp" class="mil-link3 link-right">
+                  <Link to="/services/web-developement" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -341,13 +341,13 @@ const Digital = () => {
               <div className="col-md-7">
                 <div>
                   PPC Campaigns
-                  <Link to="/ppc" class="mil-link3 link-right">
+                  <Link to="/services/digital-marketing/ppc" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>{" "}
                 <div>
                   Social Media Marketing
-                  <Link to="/socialMedia" class="mil-link3 link-right">
+                  <Link to="/services/digital-marketing/social-media" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -401,7 +401,7 @@ const Digital = () => {
               <div className="col-md-7">
                 <div>
                   Content Marketing
-                  <Link to="/contentMarketing" class="mil-link3 link-right">
+                  <Link to="/services/digital-marketing/content-marketing" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>{" "}
@@ -413,7 +413,7 @@ const Digital = () => {
                 </div>
                 <div>
                   SEO
-                  <Link to="/seo" class="mil-link3 link-right">
+                  <Link to="/services/digital-marketing/seo" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -466,7 +466,7 @@ const Digital = () => {
                   game changer for many. <br />
                   But don’t worry, our team of experts has got you all covered.
                 </p>
-                <Link to="/seo" class="mil-link2 link-right mil-mb-30">
+                <Link to="/services/digital-marketing/seo" class="mil-link2 link-right mil-mb-30">
                   <i class="fas fa-arrow-right"></i>
                 </Link>
               </div>
@@ -484,7 +484,7 @@ const Digital = () => {
                 </p>
                 <br />
                 <br />
-                <Link to="/socialMedia" class="mil-link2 link-right mil-mb-30">
+                <Link to="/services/digital-marketing/social-media" class="mil-link2 link-right mil-mb-30">
                   <i class="fas fa-arrow-right"></i>
                 </Link>
               </div>
@@ -502,7 +502,7 @@ const Digital = () => {
                 </p>
                 <br />
                 <br />
-                <Link to="/ppc" class="mil-link2 link-right mil-mb-30">
+                <Link to="/services/digital-marketing/ppc" class="mil-link2 link-right mil-mb-30">
                   <i class="fas fa-arrow-right"></i>
                 </Link>
               </div>
@@ -520,7 +520,7 @@ const Digital = () => {
                   connects with your audience.
                 </p>
                 <Link
-                  to="/contentMarketing"
+                  to="/services/digital-marketing/content-marketing"
                   class="mil-link2 link-right mil-mb-30"
                 >
                   <i class="fas fa-arrow-right"></i>

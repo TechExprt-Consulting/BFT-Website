@@ -15,13 +15,13 @@ const Seo = () => {
                 <div className="col-md-8">
                     <ul className="mil-breadcrumbs mil-mb-30 ">
                         <li>
-                            <Link to="/Home">Home</Link>
+                            <Link to="/home">Home</Link>
                         </li>
                         <li>
                             <Link to="">Service</Link>
                         </li>
                         <li>
-                            <Link to="/Salesforce">SEO</Link>
+                            <Link to="/salesforce">SEO</Link>
                         </li>
                         {/* <li>
                             <Link to="/Salesforce">SEO</Link>

@@ -23,10 +23,10 @@ const CaseStudies = () => {
           <div className="container mil-relative">
             <ul className="mil-breadcrumbs mil-mb-30">
               <li>
-                <Link to="/Home">Home</Link>
+                <Link to="/home">Home</Link>
               </li>
               <li>
-                <Link to="/case">Works</Link>
+                <Link to="/case-study">Works</Link>
               </li>
             </ul>
             <h2 className="mil-uppercase">Case Studies</h2>
@@ -190,7 +190,7 @@ const CaseStudies = () => {
           <div className="row justify-content-between align-items-center">
             <div className="col-xl-6 mil-mb-60">
               <div className="mil-project-cover">
-                <Link to='/abuDhabi'><img src="assets/projects/10.jpg" alt="Project" id="abu" /></Link>
+                <Link to='/abudhabi'><img src="assets/projects/10.jpg" alt="Project" id="abu" /></Link>
               </div>
             </div>
 
@@ -207,7 +207,7 @@ const CaseStudies = () => {
                 Created a blockchain system that assigned distinct identities to
                 each document or degree, effectively preventing fraud.{" "}
               </p>
-              <Link to="/abuDhabi" className="mil-button-with-label">
+              <Link to="/abudhabi" className="mil-button-with-label">
                 <div className="mil-button mil-border mil-icon-button">
                   <span>
                     {" "}

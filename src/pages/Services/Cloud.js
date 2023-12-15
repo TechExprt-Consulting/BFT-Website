@@ -17,13 +17,13 @@ const Cloud = () => {
     <div className="container mil-relative">
       <ul className="mil-breadcrumbs mil-mb-30">
         <li>
-          <Link to="/Home">Home</Link>
+          <Link to="/home">Home</Link>
         </li>
         <li>
           <Link to="">Service</Link>
         </li>
         <li>
-          <Link to="/Salesforce">Cloud Migration</Link>
+          <Link to="/salesforce">Cloud Migration</Link>
         </li>
       </ul>
       <div className="d-flex flex-column-reverse flex-md-row">

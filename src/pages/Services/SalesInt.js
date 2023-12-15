@@ -16,13 +16,13 @@ const SalesInt = () => {
                 <div className="col-md-8">
                     <ul className="mil-breadcrumbs mil-mb-30 ">
                         <li>
-                            <Link to="/Home">Home</Link>
+                            <Link to="/home">Home</Link>
                         </li>
                         <li>
                             <Link to="">Service</Link>
                         </li>
                         <li>
-                            <Link to="/Salesforce">Salesforce</Link>
+                            <Link to="/salesforce">Salesforce</Link>
                         </li>
                         {/* <li>
                             <Link to="/Salesforce">Salesforce Integration</Link>

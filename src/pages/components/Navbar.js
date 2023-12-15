@@ -6,57 +6,57 @@ import { useState } from "react";
 const Submenu = () => (
   <div className="submenu dropdown-menu bg-white">
     <li>
-      <Link to="/services/webDevelopement/saas">SAAS Developement</Link>
+      <Link to="/services/web-developement/saas">SAAS Developement</Link>
     </li>
     <li>
-      <Link to="/services/webDevelopement/softwareDevelopement">Custom Software Developement</Link>
+      <Link to="/services/web-developement/software-developement">Custom Software Developement</Link>
     </li>
     <li>
-      <Link to="/services/webDevelopement/apiDevelopement">API Developement</Link>
+      <Link to="/services/web-developement/api-developement">API Developement</Link>
     </li>
     <li>
-      <Link to="/services/webDevelopement/adminPanel">Custom Admin Panel</Link>
+      <Link to="/services/web-developement/admin-panel">Custom Admin Panel</Link>
     </li>
   </div>
 );
 const Submenu2 = () => (
   <ul className="submenu dropdown-menu bg-white">
     <li>
-      <Link to="/services/salesforce/salesforceConsulting">Salesforce Consulting Services</Link>
+      <Link to="/services/salesforce/salesforce-consulting">Salesforce Consulting Services</Link>
     </li>
     <li>
-      <Link to="/services/salesforce/salesforceCustomization">Salesforce Customization</Link>
+      <Link to="/services/salesforce/salesforce-customization">Salesforce Customization</Link>
     </li>
     <li>
-      <Link to="/services/salesforce/salesforceImplementation">Salesforce Implementation</Link>
+      <Link to="/services/salesforce/salesforce-implementation">Salesforce Implementation</Link>
     </li>
     <li>
-      <Link to="/services/salesforce/salesforceIntegration">Salesforce Integration</Link>
+      <Link to="/services/salesforce/salesforce-integration">Salesforce Integration</Link>
     </li>
     <li>
-      <Link to="/services/salesforce/salesforceAppExchange">Salesforce App Exchange</Link>
+      <Link to="/services/salesforce/salesforce-app-exchange">Salesforce App Exchange</Link>
     </li>
     <li>
-      <Link to="/services/salesforce/salesforceMigration">Salesforce Migration</Link>
+      <Link to="/services/salesforce/salesforce-migration">Salesforce Migration</Link>
     </li>
     <li>
-      <Link to="/services/salesforce/salesforceItSupport">Salesforce IT Support</Link>
+      <Link to="/services/salesforce/salesforce-it-support">Salesforce IT Support</Link>
     </li>
   </ul>
 );
 const Submenu3 = () => (
   <ul className="submenu dropdown-menu bg-white">
     <li>
-      <Link to="/services/digitalMarketing/seo">Search Engine Optimization</Link>
+      <Link to="/services/digital-marketing/seo">Search Engine Optimization</Link>
     </li>
     <li>
-      <Link to="/services/digitalMarketing/socialMedia">Social Media Marketing</Link>
+      <Link to="/services/digital-marketing/social-media">Social Media Marketing</Link>
     </li>
     <li>
-      <Link to="/services/digitalMarketing/ppc">Pay Per Click</Link>
+      <Link to="/services/digital-marketing/ppc">Pay Per Click</Link>
     </li>
     <li>
-      <Link to="/services/digitalMarketing/contentMarketing">Content Marketing</Link>
+      <Link to="/services/digital-marketing/content-marketing">Content Marketing</Link>
     </li>
   </ul>
 );
@@ -128,22 +128,22 @@ const Navbar = () => {
                     </ul>
                   </li>
                   <li className="mil-has-children nav-item">
-                    <Link to="/caseStudy">Case Studies</Link>
+                    <Link to="/case-study">Case Studies</Link>
                     <ul>
                       <li>
-                        <Link to="/caseStudy/dmc">DMC</Link>
+                        <Link to="/case-study/dmc">DMC</Link>
                       </li>
                       <li>
-                        <Link to="/caseStudy/cargosprint"> CargoSprint</Link>
+                        <Link to="/case-study/cargosprint"> CargoSprint</Link>
                       </li>
                       <li>
-                        <Link to="/caseStudy/nexum">Nexum</Link>
+                        <Link to="/case-study/nexum">Nexum</Link>
                       </li>
                       <li>
-                        <Link to="/caseStudy/continuum">Continuum</Link>
+                        <Link to="/case-study/continuum">Continuum</Link>
                       </li>
                       <li>
-                        <Link to="/caseStudy/abuDhabi">AbuDhabi</Link>
+                        <Link to="/case-study/abudhabi">AbuDhabi</Link>
                       </li>
                     </ul>
                   </li>
@@ -160,7 +160,7 @@ const Navbar = () => {
                         onMouseEnter={handleProduct1SubMenuHover}
                         onMouseLeave={handleProduct1SubMenuLeave}
                       >
-                        <Link to="/services/webDevelopement">Web Developement &raquo;</Link>
+                        <Link to="/services/web-developement">Web Developement &raquo;</Link>
                         {isProduct1SubMenuOpen && <Submenu />}
                       </li>
                       <li
@@ -178,20 +178,20 @@ const Navbar = () => {
                         onMouseEnter={handleProduct3SubMenuHover}
                         onMouseLeave={handleProduct3SubMenuLeave}
                       >
-                        <Link to="/services/digitalMarketing">Digital Marketing &raquo;</Link>
+                        <Link to="/services/digital-marketing">Digital Marketing &raquo;</Link>
                         {isProduct3SubMenuOpen && <Submenu3 />}
                       </li>
                       <li>
                         <Link to="/services/devops">Devops Consulting</Link>
                       </li>
                       <li>
-                        <Link to="/services/cloudMigration">Cloud Migration</Link>
+                        <Link to="/services/cloud-migration">Cloud Migration</Link>
                       </li>
                       <li>
-                        <Link to="/services/mobileAppDevelopement">Mobile App Developement</Link>
+                        <Link to="/services/mobile-app-developement">Mobile App Developement</Link>
                       </li>
                       <li>
-                        <Link to="/services/blockChain">Blockchain Developement</Link>
+                        <Link to="/services/block-chain">Blockchain Developement</Link>
                       </li>
                     </div>
                   </li>

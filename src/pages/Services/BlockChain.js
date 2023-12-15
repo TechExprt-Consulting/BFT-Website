@@ -17,13 +17,13 @@ const BlockChain = () => {
     <div className="container mil-relative">
       <ul className="mil-breadcrumbs mil-mb-30">
         <li>
-          <Link to="/Home">Home</Link>
+          <Link to="/home">Home</Link>
         </li>
         <li>
           <Link to="">Service</Link>
         </li>
         <li>
-          <Link to="/Salesforce">BlockChain</Link>
+          <Link to="/salesforce">BlockChain</Link>
         </li>
       </ul>
       <div className="d-flex flex-column-reverse flex-md-row">
@@ -493,7 +493,7 @@ const BlockChain = () => {
           </div>
           <div className="mil-text-center">
             <Link
-              to="/Contact"
+              to="/contact"
               className="mil-button mil-border mil-ligh mil-mb-30"
             >
               <span>Talk To Our BlockChain Experts</span>

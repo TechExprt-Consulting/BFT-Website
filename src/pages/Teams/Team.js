@@ -22,10 +22,10 @@ const Team = () => {
           <div className="container mil-relative">
             <ul className="mil-breadcrumbs mil-mb-30">
               <li>
-                <Link to="/Home">Home</Link>
+                <Link to="/home">Home</Link>
               </li>
               <li>
-                <Link to="/Team">Team</Link>
+                <Link to="/team">Team</Link>
               </li>
             </ul>
             <h2 className="mil-uppercase">Leadership Team</h2>
@@ -48,7 +48,7 @@ const Team = () => {
           </h3>
           <div className="row">
             <div className="col-sm-5 col-lg-3">
-              <Link to="/Team" className="mil-team-card mil-mb-60">
+              <Link to="/team" className="mil-team-card mil-mb-60">
                 <div className="mil-image-frame mil-mb-30">
                   <img src="assets/faces/1.jpg" alt="Team member" />
                   <div className="mil-team-circle"></div>
@@ -58,7 +58,7 @@ const Team = () => {
               </Link>
             </div>
             <div className="col-sm-5 col-lg-3">
-              <Link to="/Team" className="mil-team-card mil-mb-60">
+              <Link to="/team" className="mil-team-card mil-mb-60">
                 <div className="mil-image-frame mil-mb-30">
                   <img src="assets/faces/2.jpg" alt="Team member" />
                   <div className="mil-team-circle"></div>
@@ -68,7 +68,7 @@ const Team = () => {
               </Link>
             </div>
             <div className="col-sm-5 col-lg-3">
-              <Link to="/Team" className="mil-team-card mil-mb-60 mil-mb-30">
+              <Link to="/team" className="mil-team-card mil-mb-60 mil-mb-30">
                 <div className="mil-image-frame mil-mb-30">
                   <img src="assets/faces/3.jpg" alt="Team member" />
                   <div className="mil-team-circle"></div>
@@ -81,7 +81,7 @@ const Team = () => {
               </Link>
             </div>
             <div className="col-sm-5 col-lg-3">
-              <Link to="/Team" className="mil-team-card mil-mb-60">
+              <Link to="/team" className="mil-team-card mil-mb-60">
                 <div className="mil-image-frame mil-mb-30">
                   <img src="assets/faces/4.jpg" alt="Team member" />
                   <div className="mil-team-circle"></div>
@@ -203,7 +203,7 @@ const Team = () => {
               where innovation meets excellence.
               <br />{" "}
             </p>
-            <Link to="/Contact" className="mil-button mil-border mil-light mb-3">
+            <Link to="/contact" className="mil-button mil-border mil-light mb-3">
               <span >Book an Appointment</span>
             </Link>
           </div>

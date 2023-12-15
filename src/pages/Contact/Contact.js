@@ -88,10 +88,10 @@ const Contact = () => {
           <div className="container mil-relative">
             <ul className="mil-breadcrumbs mil-mb-30">
               <li>
-                <Link to="/Home">Home</Link>
+                <Link to="/home">Home</Link>
               </li>
               <li>
-                <Link to="/About">Contact Us</Link>
+                <Link to="/about">Contact Us</Link>
               </li>
             </ul>
             <h2 className="mil-uppercase"> Let's discuss your opportunity</h2>

@@ -14,13 +14,13 @@ const Saas = () => {
                 <div className="col-md-8">
                     <ul className="mil-breadcrumbs mil-mb-30 ">
                         <li>
-                            <Link to="/Home">Home</Link>
+                            <Link to="/home">Home</Link>
                         </li>
                         <li>
                             <Link to="">Service</Link>
                         </li>
                         <li>
-                            <Link to="/Salesforce">SAAS</Link>
+                            <Link to="/salesforce">SAAS</Link>
                         </li>
                         {/* <li>
                             <Link to="/Salesforce">SEO</Link>

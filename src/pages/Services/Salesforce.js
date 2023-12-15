@@ -74,13 +74,13 @@ const Salesforce = () => {
     <div className="container mil-relative">
       <ul className="mil-breadcrumbs mil-mb-30">
         <li>
-          <Link to="/Home">Home</Link>
+          <Link to="/home">Home</Link>
         </li>
         <li>
           <Link to="">Service</Link>
         </li>
         <li>
-          <Link to="/Salesforce">Salesforce</Link>
+          <Link to="/salesforce">Salesforce</Link>
         </li>
       </ul>
       <div className="d-flex flex-column-reverse flex-md-row">
@@ -171,19 +171,19 @@ const Salesforce = () => {
               <div className="col-md-7">
                 <div>
                   Salesforce Implementation
-                  <Link to="/salesforceImplementation" class="mil-link3 link-right">
+                  <Link to="/services/salesforce/salesforce-implementation" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>{" "}
                 <div>
                   Salesforce Customization
-                  <Link to="/salesforceCustomization" class="mil-link3 link-right">
+                  <Link to="/services/salesforce/salesforce-customization" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
                 <div>
                   Salesforce Integration
-                  <Link to="/salesforceIntegration" class="mil-link3 link-right">
+                  <Link to="/services/salesforce/salesforce-integration" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -191,13 +191,13 @@ const Salesforce = () => {
               <div className="col-md-4">
                 <div>
                   Salesforce Migration
-                  <Link to="/salesforceMigration" class="mil-link3 link-right">
+                  <Link to="/services/salesforce/salesforce-migration" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
                 <div>
                   Salesforce App Exchange
-                  <Link to="/salesforceAppExchange" class="mil-link3 link-right">
+                  <Link to="/services/salesforce/salesforce-app-exchange" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -239,19 +239,19 @@ const Salesforce = () => {
               <div className="col-md-7">
                 <div>
                   Salesforce Implementation
-                  <Link to="/salesforceImplementation" class="mil-link3 link-right">
+                  <Link to="/services/salesforce/salesforce-implementation" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>{" "}
                 <div>
                   Salesforce Customization
-                  <Link to="/salesforceCustomization" class="mil-link3 link-right">
+                  <Link to="/services/salesforce/salesforce-customization" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
                 <div>
                   Salesforce Integration
-                  <Link to="/salesforceIntegration" class="mil-link3 link-right">
+                  <Link to="/services/salesforce/salesforce-integration" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -513,7 +513,7 @@ const Salesforce = () => {
                   Discover the advantages of partnering with us and become a
                   driving force in the Salesforce AppExchange community.
                 </p>
-                <Link to="/salesforceAppExchange" class="mil-link2 link-right mil-mb-30">
+                <Link to="/services/salesforce/salesforce-app-exchange" class="mil-link2 link-right mil-mb-30">
                   <i class="fas fa-arrow-right"></i>
                 </Link>
               </div>
@@ -534,7 +534,7 @@ const Salesforce = () => {
                   closely with clients to analyze their requirements, design
                   customized solutions.
                 </p>
-                <Link to="/salesforceConsulting" class="mil-link2 link-right mil-mb-30">
+                <Link to="/services/salesforce/salesforce-consulting" class="mil-link2 link-right mil-mb-30">
                   <i class="fas fa-arrow-right"></i>
                 </Link>
               </div>
@@ -555,7 +555,7 @@ const Salesforce = () => {
                   Salesforce customization empowers organizations to align the
                   CRM system seamlessly with their operations.
                 </p>
-                <Link to="/salesforceCustomization" class="mil-link2 link-right mil-mb-30">
+                <Link to="/services/salesforce/salesforce-customization" class="mil-link2 link-right mil-mb-30">
                   <i class="fas fa-arrow-right"></i>
                 </Link>
               </div>
@@ -575,7 +575,7 @@ const Salesforce = () => {
                   requirement analysis to configuration, data migration and user
                   training.
                 </p>
-                <Link to="/salesforceImplementation" class="mil-link2 link-right mil-mb-30">
+                <Link to="/services/salesforce/salesforce-implementation" class="mil-link2 link-right mil-mb-30">
                   <i class="fas fa-arrow-right"></i>
                 </Link>
               </div>
@@ -595,7 +595,7 @@ const Salesforce = () => {
                   different software solutions.
                 </p>
                 <br />
-                <Link to="/salesforceIntegration" class="mil-link2 link-right mil-mb-30">
+                <Link to="/services/salesforce/salesforce-integration" class="mil-link2 link-right mil-mb-30">
                   <i class="fas fa-arrow-right"></i>
                 </Link>
               </div>
@@ -615,7 +615,7 @@ const Salesforce = () => {
                   to ensure that the migration is carried out efficiently and
                   without disrupting the day-to-day operations.
                 </p>
-                <Link to="/salesforceMigration" class="mil-link2 link-right mil-mb-30">
+                <Link to="/services/salesforce/salesforce-migration" class="mil-link2 link-right mil-mb-30">
                   <i class="fas fa-arrow-right"></i>
                 </Link>
               </div>
@@ -636,7 +636,7 @@ const Salesforce = () => {
                 </p>
                 <br />
                 <br />
-                <Link to="/seo" class="mil-link2 link-right mil-mb-30">
+                <Link to="/services/digital-marketing/seo" class="mil-link2 link-right mil-mb-30">
                   <i class="fas fa-arrow-right"></i>
                 </Link>
               </div>

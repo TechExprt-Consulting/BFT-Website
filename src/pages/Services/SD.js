@@ -15,13 +15,13 @@ const SD = () => {
                 <div className="col-md-8">
                     <ul className="mil-breadcrumbs mil-mb-30 ">
                         <li>
-                            <Link to="/Home">Home</Link>
+                            <Link to="/home">Home</Link>
                         </li>
                         <li>
                             <Link to="">Service</Link>
                         </li>
                         <li>
-                            <Link to="/Salesforce">Software Developement</Link>
+                            <Link to="/salesforce">Software Developement</Link>
                         </li>
                         {/* <li>
                             <Link to="/Salesforce">SEO</Link>

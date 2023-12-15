@@ -23,10 +23,10 @@ const About = () => {
           <div className="container mil-relative">
             <ul className="mil-breadcrumbs mil-mb-30">
               <li>
-                <Link to="/Home">Home</Link>
+                <Link to="/home">Home</Link>
               </li>
               <li>
-                <Link to="/About">About us</Link>
+                <Link to="/about">About us</Link>
               </li>
             </ul>
             <h2 className="mil-uppercase">About us</h2>

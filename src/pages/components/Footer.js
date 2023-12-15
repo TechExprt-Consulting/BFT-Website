@@ -80,22 +80,22 @@ const Footer = () => {
                     </li>
                     
                     <li>
-                      <Link to="/services/cloudMigration">Cloud</Link>
+                      <Link to="/services/cloud-migration">Cloud</Link>
                     </li>
                     <li>
-                      <Link to="/services/digitalMarketing">Digital Marketing</Link>
+                      <Link to="/services/digital-marketing">Digital Marketing</Link>
                     </li>
                     <li>
                       <Link to="/services/devops">DevOps</Link>
                     </li>
                     <li>
-                      <Link to="/services/blockChain">BlockChain</Link>
+                      <Link to="/services/block-chain">BlockChain</Link>
                     </li>
                     <li>
-                      <Link to="/services/mobileAppDevelopement">Mobile Developement</Link>
+                      <Link to="/services/mobile-app-developement">Mobile Developement</Link>
                     </li>
                     <li>
-                      <Link to="/services/webDevelopement">Web Developement</Link>
+                      <Link to="/services/web-developement">Web Developement</Link>
                     </li>
                   </ul>
                 </div>

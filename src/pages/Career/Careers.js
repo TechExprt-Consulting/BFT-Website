@@ -24,10 +24,10 @@ const Careers = ( ) => {
           <div className="container mil-relative">
             <ul className="mil-breadcrumbs mil-mb-30">
               <li>
-                <Link to="/Home">Home</Link>
+                <Link to="/home">Home</Link>
               </li>
               <li>
-                <Link to="/Career">Careers</Link>
+                <Link to="/career">Careers</Link>
               </li>
             </ul>
             <h2 className="mil-uppercase">Careers</h2>

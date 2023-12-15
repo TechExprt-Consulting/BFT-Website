@@ -205,7 +205,7 @@ const Home = () => {
                     emphasizing collaboration and automation, leading to faster
                     software development, continuous integration, and delivery.
                   </p>
-                  <Link to="/services/deveops" class="mil-link2 link-right mil-mb-30">
+                  <Link to="/services/devops" class="mil-link2 link-right mil-mb-30">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -227,7 +227,7 @@ const Home = () => {
                     infrastructure, offering scalability, flexibility, and cost
                     efficiency to businesses.
                   </p>
-                  <Link to="/services/cloudMigration" class="mil-link2 link-right mil-mb-30">
+                  <Link to="/services/cloud-migration" class="mil-link2 link-right mil-mb-30">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -252,7 +252,7 @@ const Home = () => {
                     industries by enabling decentralized transactions and smart
                     contracts.
                   </p>
-                  <Link to="/services/blockChain" class="mil-link2 link-right mil-mb-30">
+                  <Link to="/services/block-chain" class="mil-link2 link-right mil-mb-30">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -274,7 +274,7 @@ const Home = () => {
                     empowers businesses to establish a robust customer
                     relationship.
                   </p>
-                  <Link to="/services/digitalMarketing" class="mil-link2 link-right mil-mb-30">
+                  <Link to="/services/digital-marketing" class="mil-link2 link-right mil-mb-30">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -297,7 +297,7 @@ const Home = () => {
                     to diverse platforms like iOS and Android, facilitating
                     seamless user experiences and access to services on the go.
                   </p>
-                  <Link to="/services/mobileAppDevelopement" class="mil-link2 link-right mil-mb-30">
+                  <Link to="/services/mobile-app-developement" class="mil-link2 link-right mil-mb-30">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -330,13 +330,13 @@ const Home = () => {
               </div> */}
               <h3 className="mt-3">
                 <span className="mil-accent">
-                  <Link to="/caseStudy/continuum">Continumm</Link>
+                  <Link to="/case-study/continuum">Continumm</Link>
                 </span>
               </h3>
               <p>Tech Stack: React, Java, Springboot</p>
               <div>
-                 <Link to='/caseStudy/continuum'><span className="mil-accent">View Case Study</span></Link> 
-                  <Link to="/caseStudy/continuum" class="mil-link3 link-right">
+                 <Link to='/case-study/continuum'><span className="mil-accent">View Case Study</span></Link> 
+                  <Link to="/case-study/continuum" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -352,13 +352,13 @@ const Home = () => {
               </div> */}
               <h3 className="mt-3">
                 <span className="mil-accent">
-                  <Link to="/caseStudy/dmc">DMC</Link>
+                  <Link to="/case-study/dmc">DMC</Link>
                 </span>
               </h3>
               <p>Tech Stack: Salesfoce, FSL, LWC, Apex</p>
               <div>
-                 <Link to='/caseStudy/dmc'><span className="mil-accent">View Case Study</span></Link> 
-                  <Link to="/caseStudy/dmc" class="mil-link3 link-right">
+                 <Link to='/case-study/dmc'><span className="mil-accent">View Case Study</span></Link> 
+                  <Link to="/case-study/dmc" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -378,13 +378,13 @@ const Home = () => {
               </div> */}
               <h3 className="mt-3">
                 <span className="mil-accent">
-                  <Link to="/caseStudy/cargosprint">Cargo Sprint</Link>
+                  <Link to="/case-study/cargosprint">Cargo Sprint</Link>
                 </span>
               </h3>
               <p>Tech Stack: Apex, Custom REST API, Financial Force, GCP</p>
               <div>
-                 <Link to='/caseStudy/cargosprint'><span className="mil-accent">View Case Study</span></Link> 
-                  <Link to="/caseStudy/cargosprint" class="mil-link3 link-right">
+                 <Link to='/case-study/cargosprint'><span className="mil-accent">View Case Study</span></Link> 
+                  <Link to="/case-study/cargosprint" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -398,13 +398,13 @@ const Home = () => {
               </div> */}
               <h3 className="mt-3">
                 <span className="mil-accent">
-                  <Link to="/caseStudy/nexum">Nexum</Link>
+                  <Link to="/case-study/nexum">Nexum</Link>
                 </span>
               </h3>
               <p>Tech Stack: React JS, Node JS , MySQL, AWS</p>
               <div>
-                 <Link to='/caseStudy/nexum'><span className="mil-accent">View Case Study</span></Link> 
-                  <Link to="/caseStudy/nexum" class="mil-link3 link-right">
+                 <Link to='/case-study/nexum'><span className="mil-accent">View Case Study</span></Link> 
+                  <Link to="/case-study/nexum" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -423,13 +423,13 @@ const Home = () => {
               </div> */}
               <h3 className="mt-3">
                 <span className="mil-accent">
-                  <Link to="/caseStudy/abuDhabi">Abu Dhabi University</Link>
+                  <Link to="/case-study/abudhabi">Abu Dhabi University</Link>
                 </span>
               </h3>
               <p>Tech Stack: React JS, Node JS, Block-Chain</p>
               <div>
-                 <Link to='/caseStudy/abuDhabi'><span className="mil-accent">View Case Study</span></Link> 
-                  <Link to="/caseStudy/abuDhabi" class="mil-link3 link-right">
+                 <Link to='/case-study/abudhabi'><span className="mil-accent">View Case Study</span></Link> 
+                  <Link to="/case-study/abudhabi" class="mil-link3 link-right">
                     <i class="fas fa-arrow-right"></i>
                   </Link>
                 </div>
